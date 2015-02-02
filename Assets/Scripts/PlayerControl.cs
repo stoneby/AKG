@@ -52,7 +52,8 @@ public class PlayerControl : MonoBehaviour
 		// The Speed animator parameter is set to the absolute value of the horizontal input.
 		anim.SetFloat("Speed", Mathf.Abs(h));
 
-		rigidbody2D.velocity = new Vector2(horizontalSpeed * ((h > 0) ? 1 : (h < 0) ?  -1 : 0), rigidbody2D.velocity.y);
+		h = Mathf.Clamp(h, -1, 1);
+		rigidbody2D.velocity = new Vector2(horizontalSpeed * h, rigidbody2D.velocity.y);
 
 		// If the input is moving the player right and the player is facing left...
 		if(h > 0 && !facingRight)
