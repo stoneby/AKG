@@ -10,6 +10,17 @@ public class PlayerControl : MonoBehaviour
 	[HideInInspector]
 	public bool fire = false;
 	
+	public float h { get; set; }
+
+	public enum InputDevice
+	{
+		HUD,
+		Keyboard,
+	};
+
+	public InputDevice inputDevice;
+	public AbstractInput inputManager;
+
 	public float horizontalSpeed = 5f;		// The fastest the player can travel in the x axis.
 	public float verticalSpeed = 5f;
 	public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
@@ -23,6 +34,15 @@ public class PlayerControl : MonoBehaviour
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
+
+		if(inputDevice == InputDevice.HUD)
+		{
+			inputManager = GetComponent<HUDInput>();
+		}
+		else
+		{
+			inputManager = GetComponent<VirtualInput>();
+		}
 	}
 
 	void Update()
@@ -31,12 +51,12 @@ public class PlayerControl : MonoBehaviour
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));  
 
 		// If the jump button is pressed and the player is grounded then the player should jump.
-		if(Input.GetButtonDown("Jump") && grounded)
+		if(inputManager.DoesJump() && grounded)
 		{
 			jump = true;
 		}
 
-		if(Input.GetButtonDown("Fire1") && grounded)
+		if(inputManager.DoesFire() && grounded)
 		{
 			fire = true;
 		}
@@ -46,7 +66,8 @@ public class PlayerControl : MonoBehaviour
 	void FixedUpdate ()
 	{
 		// Cache the horizontal input.
-		float h = Input.GetAxis("Horizontal");
+		h = inputManager.GetHorizontal();
+
 
 		// The Speed animator parameter is set to the absolute value of the horizontal input.
 		anim.SetFloat("Speed", Mathf.Abs(h));
