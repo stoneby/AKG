@@ -2,7 +2,6 @@
 using System.Collections;
 using System;
 
-[Serializable]
 public class HUDInput : AbstractInput
 {
 	public float Horizontal {get;set;}

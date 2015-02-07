@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Run.png (512 x 512)
+# $TexturePacker:SmartUpdate:6227c55c8a7530ddfac15579da0694bd:2c7edd50ea29228be8a6f9e5f6a25c65:07217b1cd750ca5da492bab1d1dd1a7a$
+#
+
+10000;2;378;164;132;0.5;0
+10001;168;378;164;132;0.5;0
+10002;334;378;164;132;0.5;0
+10003;2;244;164;132;0.5;0
+10004;168;244;164;132;0.5;0
+10005;334;244;164;132;0.5;0
+10006;2;110;164;132;0.5;0
+10007;168;110;164;132;0.5;0
