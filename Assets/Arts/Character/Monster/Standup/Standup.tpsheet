@@ -1,0 +1,13 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Standup.png (256 x 256)
+# $TexturePacker:SmartUpdate:01f3d296e8de5b5655ae14a23f97e94d:4bd51b02e4d6c5bfbc835b9de6be69a2:fb46643c94bb6770507edd95c323bc96$
+#
+
+10000;2;140;114;114;0.5;0
+10001;118;140;114;114;0.5;0
+10002;2;24;114;114;0.5;0

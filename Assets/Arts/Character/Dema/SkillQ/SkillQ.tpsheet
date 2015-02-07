@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: SkillQ.png (1024 x 2048)
+# $TexturePacker:SmartUpdate:f53a1ed1e8fd4fcd7b77a36e1139785a:eef92d1c2176affbce4b6395f2085be7:a0067f445c09afb26916d7d5223fe928$
+#
+
+10000;2;1842;352;204;0.5;0
+10001;356;1842;352;204;0.5;0
+10002;2;1636;352;204;0.5;0
+10003;356;1636;352;204;0.5;0
+10004;2;1430;352;204;0.5;0
+10005;356;1430;352;204;0.5;0
+10006;2;1224;352;204;0.5;0
+10007;356;1224;352;204;0.5;0
+10008;2;1018;352;204;0.5;0
+10009;356;1018;352;204;0.5;0
+10010;2;812;352;204;0.5;0
+10011;356;812;352;204;0.5;0

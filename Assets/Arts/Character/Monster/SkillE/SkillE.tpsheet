@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: SkillE.png (512 x 512)
+# $TexturePacker:SmartUpdate:3e783b6a7e441a65bd816d6536eaadb4:bdfb812ac3b496d58898bf30d614d293:abe3554704afb752628b279758eb2d63$
+#
+
+10000;2;412;132;98;0.5;0
+10001;136;412;132;98;0.5;0
+10002;270;412;132;98;0.5;0
+10003;2;312;132;98;0.5;0
+10004;136;312;132;98;0.5;0
+10005;270;312;132;98;0.5;0
+10006;2;212;132;98;0.5;0
+10007;136;212;132;98;0.5;0

@@ -1,0 +1,17 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Attack4.png (1024 x 512)
+# $TexturePacker:SmartUpdate:f6c5d7f5f3bdc6e8ecacdf0f7d1ddcba:44a49db6fd8114b9277fe2ce1b58fa4d:06853e8c2a0d5e171f790ef745a141ac$
+#
+
+10000;2;353;306;157;0.5;0
+10001;310;353;306;157;0.5;0
+10002;618;353;306;157;0.5;0
+10003;2;194;306;157;0.5;0
+10004;310;194;306;157;0.5;0
+10005;618;194;306;157;0.5;0
+10006;2;35;306;157;0.5;0
