@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: d9f2dd135d3f644c9984976ac9747aaa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 10000
+    21300002: 10001
+    21300004: 10002
+    21300006: 10003
+    21300008: 10004
+    21300010: 10005
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 10000
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 166
+        height: 132
+      alignment: 9
+      pivot: {x: .789156616, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 10001
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 137
+        height: 138
+      alignment: 9
+      pivot: {x: .693430662, y: .115942031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 10002
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 4
+        width: 180
+        height: 138
+      alignment: 9
+      pivot: {x: .266666681, y: .101449274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 10003
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 12
+        width: 88
+        height: 130
+      alignment: 9
+      pivot: {x: .454545468, y: .0923076943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 10004
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 15
+        width: 226
+        height: 127
+      alignment: 9
+      pivot: {x: .769911528, y: .102362208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 10005
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 10
+        width: 207
+        height: 132
+      alignment: 9
+      pivot: {x: .772946835, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
