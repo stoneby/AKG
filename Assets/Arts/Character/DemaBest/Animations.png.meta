@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: d75ae23064ed4bb4bb300f400b118be0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attack1-attack1_01
+    21300002: Attack1-attack1_02
+    21300004: Attack1-attack1_03
+    21300006: Attack1-attack1_04
+    21300008: Attack1-attack1_05
+    21300010: Attack1-attack1_06
+    21300012: Attack1-attack1_07
+    21300014: Attack1-attack1_08
+    21300016: Attack1-attack1_09
+    21300018: Attack2-attack2_01
+    21300020: Attack2-attack2_02
+    21300022: Attack2-attack2_03
+    21300024: Attack2-attack2_04
+    21300026: Attack2-attack2_05
+    21300028: Attack2-attack2_06
+    21300030: Attack3-attack3_01
+    21300032: Attack3-attack3_02
+    21300034: Attack3-attack3_03
+    21300036: Attack3-attack3_04
+    21300038: Attack3-attack3_05
+    21300040: Attack3-attack3_06
+    21300042: Attack4-attack4_01
+    21300044: Attack4-attack4_02
+    21300046: Attack4-attack4_03
+    21300048: Attack4-attack4_04
+    21300050: Attack4-attack4_05
+    21300052: Attack4-attack4_06
+    21300054: Attack4-attack4_07
+    21300056: Die-Die-01
+    21300058: Die-Die-02
+    21300060: Die-Die-03
+    21300062: Die-Die-04
+    21300064: Idle-Idle-01
+    21300066: Idle-Idle-02
+    21300068: Idle-Idle-03
+    21300070: Idle-Idle-04
+    21300072: Idle-Idle-05
+    21300074: Idle-Idle-06
+    21300076: Idle-Idle-07
+    21300078: Idle-Idle-08
+    21300080: Jump-Jump-01
+    21300082: Jump-Jump-02
+    21300084: Jump-Jump-03
+    21300086: Jump-Jump-04
+    21300088: Jump-Jump-05
+    21300090: Jump-Jump-06
+    21300092: Jump-Jump-07
+    21300094: Jump-Jump-08
+    21300096: Run-Run-01
+    21300098: Run-Run-02
+    21300100: Run-Run-03
+    21300102: Run-Run-04
+    21300104: Run-Run-05
+    21300106: Run-Run-06
+    21300108: Run-Run-07
+    21300110: Run-Run-08
+    21300112: SkillE-SkillE-01
+    21300114: SkillE-SkillE-02
+    21300116: SkillE-SkillE-03
+    21300118: SkillE-SkillE-04
+    21300120: SkillE-SkillE-05
+    21300122: SkillE-SkillE-06
+    21300124: SkillE-SkillE-07
+    21300126: SkillE-SkillE-08
+    21300128: SkillQ-SkillQ-01
+    21300130: SkillQ-SkillQ-02
+    21300132: SkillQ-SkillQ-03
+    21300134: SkillQ-SkillQ-04
+    21300136: SkillQ-SkillQ-05
+    21300138: SkillQ-SkillQ-06
+    21300140: SkillQ-SkillQ-07
+    21300142: SkillQ-SkillQ-08
+    21300144: SkillQ-SkillQ-09
+    21300146: SkillQ-SkillQ-10
+    21300148: SkillQ-SkillQ-11
+    21300150: SkillQ-SkillQ-12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Attack1-attack1_01
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 597
+        width: 103
+        height: 149
+      alignment: 9
+      pivot: {x: .456310689, y: .140939593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_02
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 187
+        width: 102
+        height: 225
+      alignment: 9
+      pivot: {x: .715686262, y: .0755555555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_03
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 15
+        width: 141
+        height: 171
+      alignment: 9
+      pivot: {x: .758865237, y: .134502918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 414
+        width: 176
+        height: 166
+      alignment: 9
+      pivot: {x: .806818187, y: .0722891539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_05
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 99
+        height: 233
+      alignment: 9
+      pivot: {x: .464646459, y: .0515021458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_06
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 862
+        width: 216
+        height: 144
+      alignment: 9
+      pivot: {x: .217592597, y: .173611104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_07
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 491
+        width: 189
+        height: 121
+      alignment: 9
+      pivot: {x: .777777791, y: .0991735533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_08
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 607
+        width: 176
+        height: 122
+      alignment: 9
+      pivot: {x: .784090936, y: .0901639313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-attack1_09
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 730
+        width: 177
+        height: 138
+      alignment: 9
+      pivot: {x: .819209039, y: .166666672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-attack2_01
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 414
+        width: 166
+        height: 132
+      alignment: 9
+      pivot: {x: .789156616, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-attack2_02
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 478
+        width: 137
+        height: 138
+      alignment: 9
+      pivot: {x: .693430662, y: .115942031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-attack2_03
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 608
+        width: 180
+        height: 138
+      alignment: 9
+      pivot: {x: .266666681, y: .101449274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-attack2_04
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 6
+        width: 88
+        height: 130
+      alignment: 9
+      pivot: {x: .454545468, y: .0923076943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-attack2_05
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 879
+        width: 226
+        height: 127
+      alignment: 9
+      pivot: {x: .769911528, y: .102362208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-attack2_06
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 874
+        width: 207
+        height: 132
+      alignment: 9
+      pivot: {x: .772946835, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-attack3_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 582
+        width: 206
+        height: 138
+      alignment: 9
+      pivot: {x: .786407769, y: .0869565234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-attack3_02
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 614
+        width: 191
+        height: 132
+      alignment: 9
+      pivot: {x: .790575922, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-attack3_03
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 618
+        width: 146
+        height: 139
+      alignment: 9
+      pivot: {x: .691780806, y: .0935251787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-attack3_04
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 336
+        width: 147
+        height: 140
+      alignment: 9
+      pivot: {x: .299319714, y: .0857142881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-attack3_05
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 21
+        width: 103
+        height: 167
+      alignment: 9
+      pivot: {x: .446601927, y: .0658682659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-attack3_06
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 461
+        width: 173
+        height: 143
+      alignment: 9
+      pivot: {x: .734104037, y: .118881121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_01
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 129
+        width: 148
+        height: 135
+      alignment: 9
+      pivot: {x: .445945948, y: .088888891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_02
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 870
+        width: 203
+        height: 136
+      alignment: 9
+      pivot: {x: .177339897, y: .0882352963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_03
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 138
+        width: 120
+        height: 135
+      alignment: 9
+      pivot: {x: .291666657, y: .125925928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_04
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 759
+        width: 180
+        height: 119
+      alignment: 9
+      pivot: {x: .616666675, y: .100840338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_05
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 748
+        width: 198
+        height: 123
+      alignment: 9
+      pivot: {x: .702020228, y: .097560972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_06
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 452
+        width: 159
+        height: 131
+      alignment: 9
+      pivot: {x: .735849082, y: .0992366448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack4-attack4_07
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 26
+        width: 87
+        height: 157
+      alignment: 9
+      pivot: {x: .632183909, y: .210191086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-01
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 478
+        width: 183
+        height: 128
+      alignment: 9
+      pivot: {x: .142076507, y: -.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 5
+        width: 135
+        height: 180
+      alignment: 9
+      pivot: {x: .762962937, y: -.088888891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-03
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 895
+        width: 211
+        height: 111
+      alignment: 9
+      pivot: {x: .48815167, y: .252252251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-04
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 827
+        width: 238
+        height: 62
+      alignment: 9
+      pivot: {x: .445378155, y: .709677398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-01
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 190
+        width: 93
+        height: 144
+      alignment: 9
+      pivot: {x: .430107534, y: .111111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-02
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 713
+        width: 91
+        height: 145
+      alignment: 9
+      pivot: {x: .439560443, y: .117241383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-03
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 266
+        width: 90
+        height: 146
+      alignment: 9
+      pivot: {x: .444444448, y: .12328767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-04
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 209
+        width: 90
+        height: 146
+      alignment: 9
+      pivot: {x: .444444448, y: .130136982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-05
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 722
+        width: 89
+        height: 146
+      alignment: 9
+      pivot: {x: .438202262, y: .130136982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-06
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 860
+        width: 91
+        height: 146
+      alignment: 9
+      pivot: {x: .428571433, y: .130136982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-07
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 428
+        width: 92
+        height: 145
+      alignment: 9
+      pivot: {x: .423913032, y: .124137931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-Idle-08
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 575
+        width: 93
+        height: 145
+      alignment: 9
+      pivot: {x: .419354826, y: .117241383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-01
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 275
+        width: 156
+        height: 137
+      alignment: 9
+      pivot: {x: .448717952, y: .109489053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-02
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 185
+        width: 159
+        height: 138
+      alignment: 9
+      pivot: {x: .402515709, y: .108695649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-03
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 731
+        width: 178
+        height: 141
+      alignment: 9
+      pivot: {x: .679775298, y: .0851063803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-04
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 40
+        width: 170
+        height: 143
+      alignment: 9
+      pivot: {x: .729411781, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-05
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 190
+        width: 176
+        height: 144
+      alignment: 9
+      pivot: {x: .721590936, y: .0972222239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-06
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 689
+        width: 178
+        height: 136
+      alignment: 9
+      pivot: {x: .713483155, y: .095588237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-07
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 336
+        width: 179
+        height: 140
+      alignment: 9
+      pivot: {x: .670391083, y: .0928571448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-Jump-08
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 606
+        width: 176
+        height: 122
+      alignment: 9
+      pivot: {x: .613636374, y: .0983606577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-01
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 622
+        width: 161
+        height: 127
+      alignment: 9
+      pivot: {x: .565217376, y: .0866141766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-02
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 494
+        width: 161
+        height: 126
+      alignment: 9
+      pivot: {x: .565217376, y: .095238097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-03
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 585
+        width: 161
+        height: 126
+      alignment: 9
+      pivot: {x: .559006214, y: .095238097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-04
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 4
+        width: 158
+        height: 123
+      alignment: 9
+      pivot: {x: .550632894, y: .032520324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-05
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 62
+        width: 157
+        height: 131
+      alignment: 9
+      pivot: {x: .541401267, y: .0839694664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-06
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 323
+        width: 159
+        height: 127
+      alignment: 9
+      pivot: {x: .547169805, y: .0866141766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-07
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 195
+        width: 161
+        height: 126
+      alignment: 9
+      pivot: {x: .559006214, y: .095238097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-08
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 339
+        width: 161
+        height: 121
+      alignment: 9
+      pivot: {x: .565217376, y: .0413223132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-01
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 190
+        width: 93
+        height: 144
+      alignment: 9
+      pivot: {x: .430107534, y: .111111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-02
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 548
+        width: 176
+        height: 139
+      alignment: 9
+      pivot: {x: .789772749, y: .0863309354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-03
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 185
+        width: 171
+        height: 138
+      alignment: 9
+      pivot: {x: .789473712, y: .0869565234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-04
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 357
+        width: 154
+        height: 135
+      alignment: 9
+      pivot: {x: .376623362, y: .0814814791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-05
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 751
+        width: 190
+        height: 142
+      alignment: 9
+      pivot: {x: .268421054, y: .0845070407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-06
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 722
+        width: 214
+        height: 138
+      alignment: 9
+      pivot: {x: .724299073, y: .0797101483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-07
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 339
+        width: 88
+        height: 137
+      alignment: 9
+      pivot: {x: .556818187, y: .0875912383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-SkillE-08
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 349
+        width: 188
+        height: 140
+      alignment: 9
+      pivot: {x: .25, y: .0857142881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 142
+        height: 172
+      alignment: 9
+      pivot: {x: .711267591, y: .0755813941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-02
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 19
+        width: 158
+        height: 169
+      alignment: 9
+      pivot: {x: .740506351, y: .082840234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-03
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 29
+        width: 167
+        height: 154
+      alignment: 9
+      pivot: {x: .694610775, y: .0844155848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-04
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 188
+        width: 163
+        height: 159
+      alignment: 9
+      pivot: {x: .674846649, y: .0880503133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-05
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 21
+        width: 158
+        height: 167
+      alignment: 9
+      pivot: {x: .677215219, y: .0778443143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-06
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 462
+        width: 176
+        height: 143
+      alignment: 9
+      pivot: {x: .767045438, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-07
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 748
+        width: 189
+        height: 129
+      alignment: 9
+      pivot: {x: .851851881, y: .100775197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-08
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 325
+        width: 174
+        height: 134
+      alignment: 9
+      pivot: {x: .839080453, y: .216417909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-09
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 190
+        width: 172
+        height: 147
+      alignment: 9
+      pivot: {x: .837209284, y: .333333343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-10
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 880
+        width: 216
+        height: 126
+      alignment: 9
+      pivot: {x: .134259254, y: .126984134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-11
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 891
+        width: 217
+        height: 115
+      alignment: 9
+      pivot: {x: .152073726, y: .156521738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-SkillQ-12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 873
+        width: 221
+        height: 133
+      alignment: 9
+      pivot: {x: .135746613, y: .233082712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
