@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 467b0935976544706bb38feafba9f139
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Die-Die-01
+    21300002: Die-Die-02
+    21300004: Die-Die-03
+    21300006: Die-Die-04
+    21300008: Run-Run-01
+    21300010: Run-Run-02
+    21300012: Run-Run-03
+    21300014: Run-Run-04
+    21300016: Run-Run-05
+    21300018: Run-Run-06
+    21300020: Run-Run-07
+    21300022: Run-Run-08
+    21300024: Skill-Skill-01
+    21300026: Skill-Skill-02
+    21300028: Skill-Skill-03
+    21300030: Skill-Skill-04
+    21300032: Skill-Skill-05
+    21300034: Skill-Skill-06
+    21300036: Skill-Skill-07
+    21300038: Skill-Skill-08
+    21300040: Standup-Standup-01
+    21300042: Standup-Standup-02
+    21300044: Standup-Standup-03
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Die-Die-01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 386
+        width: 53
+        height: 96
+      alignment: 9
+      pivot: {x: .754716992, y: .375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 394
+        width: 80
+        height: 88
+      alignment: 9
+      pivot: {x: .887499988, y: .113636367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-03
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 396
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: .703703701, y: .441860467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-Die-04
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 431
+        width: 143
+        height: 51
+      alignment: 9
+      pivot: {x: .727272749, y: .882352948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-01
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 392
+        width: 81
+        height: 90
+      alignment: 9
+      pivot: {x: .530864179, y: .333333343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 296
+        width: 92
+        height: 88
+      alignment: 9
+      pivot: {x: .456521749, y: .340909094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 297
+        width: 97
+        height: 87
+      alignment: 9
+      pivot: {x: .422680408, y: .344827592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-04
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 296
+        width: 94
+        height: 88
+      alignment: 9
+      pivot: {x: .425531924, y: .340909094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-05
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 295
+        width: 91
+        height: 89
+      alignment: 9
+      pivot: {x: .439560443, y: .337078661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 295
+        width: 91
+        height: 89
+      alignment: 9
+      pivot: {x: .439560443, y: .337078661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-07
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 93
+        height: 89
+      alignment: 9
+      pivot: {x: .430107534, y: .337078661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-Run-08
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 204
+        width: 92
+        height: 89
+      alignment: 9
+      pivot: {x: .445652187, y: .325842708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-01
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 90
+        height: 93
+      alignment: 9
+      pivot: {x: .433333337, y: .322580636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-02
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 198
+        width: 86
+        height: 95
+      alignment: 9
+      pivot: {x: .488372087, y: .32631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-03
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 195
+        width: 78
+        height: 98
+      alignment: 9
+      pivot: {x: .589743614, y: .326530606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-04
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 83
+        height: 95
+      alignment: 9
+      pivot: {x: .626506031, y: .33684212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-05
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 113
+        width: 126
+        height: 80
+      alignment: 9
+      pivot: {x: .380952388, y: .387499988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-06
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 113
+        width: 125
+        height: 80
+      alignment: 9
+      pivot: {x: .375999987, y: .387499988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-07
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 112
+        width: 127
+        height: 81
+      alignment: 9
+      pivot: {x: .370078743, y: .38271606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-Skill-08
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 109
+        height: 84
+      alignment: 9
+      pivot: {x: .412844032, y: .357142866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Standup-Standup-01
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 93
+        height: 94
+      alignment: 9
+      pivot: {x: .559139788, y: .329787225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Standup-Standup-02
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 90
+        height: 80
+      alignment: 9
+      pivot: {x: .811111093, y: .5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Standup-Standup-03
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4
+        width: 95
+        height: 92
+      alignment: 9
+      pivot: {x: .673684239, y: .543478251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
