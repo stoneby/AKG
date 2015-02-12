@@ -22,6 +22,9 @@ public class PlayerControl : MonoBehaviour
 
     public float horizontalSpeed = 5f;		// The fastest the player can travel in the x axis.
     public float verticalSpeed = 5f;
+
+    public float fireStopTime;              // Continue firing util not any fire key pressed during the time.
+
     public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
 
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
@@ -60,17 +63,19 @@ public class PlayerControl : MonoBehaviour
         //collider2D.isTrigger = !(grounded);
 
         // If the jump button is pressed and the player is grounded then the player should jump.
-        if (inputManager.DoesJump() && grounded)
+        if (inputManager.DoesJump() && grounded && !fire)
         {
             jump = true;
         }
-
+         
         if (inputManager.DoesFire() && grounded)
         {
             fire = true;
+            
+            CancelInvoke("StopFiring");
+            Invoke("StopFiring", fireStopTime);
         }
     }
-
 
     void FixedUpdate()
     {
@@ -108,11 +113,7 @@ public class PlayerControl : MonoBehaviour
             jump = false;
         }
 
-        if (fire)
-        {
-            anim.SetTrigger("Attack");
-            fire = false;
-        }
+        anim.SetBool("Attack", fire);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -154,6 +155,11 @@ public class PlayerControl : MonoBehaviour
         {
             bordered = false;
         }
+    }
+
+    void StopFiring()
+    {
+        fire = false;
     }
 
     void Flip()
