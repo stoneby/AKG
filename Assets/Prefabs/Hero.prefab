@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21200000}
   m_Layer: 0
   m_Name: Hero
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: -1203168336, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ GameObject:
   - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 120240766, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,8 +190,9 @@ MonoBehaviour:
   inputDevice: 1
   inputManager: {fileID: 0}
   horizontalSpeed: 4
+  horizontalSpeedAttack: .800000012
   verticalSpeed: 9
-  fireStopTime: .100000001
+  fireStopTime: .333330005
   jumpClips: []
 --- !u!114 &11400004
 MonoBehaviour:

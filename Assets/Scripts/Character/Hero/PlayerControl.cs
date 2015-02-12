@@ -20,7 +20,8 @@ public class PlayerControl : MonoBehaviour
     public InputDevice inputDevice;
     public AbstractInput inputManager;
 
-    public float horizontalSpeed = 5f;		// The fastest the player can travel in the x axis.
+    public float horizontalSpeed = 5f;		// The fastest the player can travel in the x axis when running.
+    public float horizontalSpeedAttack;     // The fastest the player can travel in the x axis when attacking.
     public float verticalSpeed = 5f;
 
     public float fireStopTime;              // Continue firing util not any fire key pressed during the time.
@@ -86,7 +87,8 @@ public class PlayerControl : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(h));
 
         h = Mathf.Clamp(h, -1, 1);
-        rigidbody2D.velocity = new Vector2(horizontalSpeed * h, rigidbody2D.velocity.y);
+        var x = (fire) ? horizontalSpeedAttack : horizontalSpeed;
+        rigidbody2D.velocity = new Vector2(x * h, rigidbody2D.velocity.y);
 
         // If the input is moving the player right and the player is facing left...
         if (h > 0 && !facingRight)
