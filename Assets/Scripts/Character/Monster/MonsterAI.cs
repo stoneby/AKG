@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class MonsterMovement : MonoBehaviour
+public class MonsterAI : MonoBehaviour
 {
     public Transform LeftRange;
     public Transform RightRange;
