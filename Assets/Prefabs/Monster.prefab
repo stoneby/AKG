@@ -12,6 +12,8 @@ GameObject:
   - 95: {fileID: 9500000}
   - 50: {fileID: 5000000}
   - 61: {fileID: 6100000}
+  - 114: {fileID: 11400002}
+  - 58: {fileID: 5800000}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -45,6 +47,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 212: {fileID: 21200004}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -105,6 +108,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!58 &5800000
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 3
+  m_Center: {x: -.025000006, y: 0}
 --- !u!61 &6100000
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -112,7 +126,7 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Material: {fileID: 6200000, guid: 6990c1fa9f6f343039d390ae331995d6, type: 2}
+  m_Material: {fileID: 6200000, guid: 86511a31bf2cc24439410bfe1fa87a45, type: 2}
   m_IsTrigger: 0
   m_Size: {x: .520059466, y: .879713535}
   m_Center: {x: .0388727188, y: .13800168}
@@ -131,6 +145,49 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4630b0ee7c5584151ba4f77c5ba2d8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 9500000}
+  stateBehaviours:
+  - state: Idle
+    layer: Base Layer
+    behaviours:
+    - {fileID: 0}
+  - state: Hurt
+    layer: Base Layer
+    behaviours:
+    - {fileID: 0}
+  - state: Attack
+    layer: Base Layer
+    behaviours:
+    - {fileID: 0}
+  - state: Die
+    layer: Base Layer
+    behaviours:
+    - {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb3bfa0e4b0ce7409d80e90726a6031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftRange: {fileID: 0}
+  RightRange: {fileID: 0}
+  Speed: 2
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1

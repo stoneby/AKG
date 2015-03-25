@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/MonsterBest/DemaAnimations.png</filename>
+        <filename>../../Assets/Arts/Character/DemaBest/Animations.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/MonsterBest/DemaAnimations.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/DemaBest/Animations.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -188,7 +188,16 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Monster800600</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Attack1</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Attack2</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Attack3</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Attack4</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Die</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Idle</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Jump</filename>
+            <filename>../Fine Arts/Dema800600加刀光/Run</filename>
+            <filename>../Fine Arts/Dema800600加刀光/SkillE</filename>
+            <filename>../Fine Arts/Dema800600加刀光/SkillQ</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
