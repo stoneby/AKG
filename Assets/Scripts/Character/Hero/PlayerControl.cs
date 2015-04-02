@@ -52,7 +52,8 @@ public class PlayerControl : MonoBehaviour
     void Update()
     {
         // The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
-        var lastgrounded = Physics2D.Linecast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
+        var hit = Physics2D.Linecast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
+        var lastgrounded = (hit.collider != null);
 
         if (lastgrounded != grounded)
         {
