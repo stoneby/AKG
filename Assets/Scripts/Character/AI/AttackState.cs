@@ -5,6 +5,11 @@ public class AttackState : MonoBehaviour
     private MonsterControll monster;
     private PlayerControl player;
 
+    void OnEnable()
+    {
+        player.Hurt();
+    }
+
     void FixedUpdate()
     {
         rigidbody2D.velocity = Vector2.zero;

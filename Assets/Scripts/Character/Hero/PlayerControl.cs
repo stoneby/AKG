@@ -26,6 +26,10 @@ public class PlayerControl : MonoBehaviour
 
     public float fireStopTime;              // Continue firing util not any fire key pressed during the time.
 
+    public int HurtHealth;
+
+    public GameObject HurtPrefab;
+
     public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
 
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
@@ -33,11 +37,20 @@ public class PlayerControl : MonoBehaviour
     private Animator anim;					// Reference to the player's animator component.
     private bool bordered;                  // Whether or not the player is in bordered.
 
+    private CharacterHealth health;
+    private Transform hurtLocation;
+    private GameObject hurtObject;
+
     void Awake()
     {
         // Setting up references.
         groundCheck = transform.Find("groundCheck");
         anim = GetComponent<Animator>();
+        health = GetComponent<CharacterHealth>();
+
+        hurtLocation = transform.Find("HurtIcon");
+        hurtObject = Instantiate(HurtPrefab, hurtLocation.position, hurtLocation.rotation) as GameObject;
+        hurtObject.transform.parent = hurtLocation.transform;
 
         if (inputDevice == InputDevice.HUD)
         {
@@ -198,5 +211,11 @@ public class PlayerControl : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    public void Hurt()
+    {
+        health.HurtHealth = HurtHealth;
+        health.Hurt();
     }
 }

@@ -2,7 +2,12 @@
 
 public class MonsterControll : MonoBehaviour
 {
+    public GameObject HurtPrefab;
+
     private Animator animator;
+
+    private Transform hurtLocation;
+    private GameObject hurtObject;
 
     public bool FacingRight = true;
 
@@ -32,5 +37,19 @@ public class MonsterControll : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
+
+        hurtLocation = transform.Find("HurtIcon");
+        hurtObject = Instantiate(HurtPrefab, hurtLocation.position, hurtLocation.rotation) as GameObject;
+        hurtObject.transform.parent = hurtLocation.transform;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("On trigger enter: " + other.name);
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("On trigger exit: " + other.name);
     }
 }

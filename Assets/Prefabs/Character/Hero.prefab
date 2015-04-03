@@ -63,10 +63,26 @@ GameObject:
   - 61: {fileID: 6100000}
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11456122}
   m_Layer: 0
   m_Name: Body
   m_TagString: Player
   m_Icon: {fileID: 120240766, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &156122
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 456122}
+  m_Layer: 0
+  m_Name: HurtIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: -1077886335, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -119,8 +135,21 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
+  - {fileID: 456122}
   m_Father: {fileID: 400000}
   m_RootOrder: 0
+--- !u!4 &456122
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0599994659, y: 1.48000002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400006}
+  m_RootOrder: 1
 --- !u!50 &5000000
 Rigidbody2D:
   m_ObjectHideFlags: 1
@@ -193,6 +222,8 @@ MonoBehaviour:
   horizontalSpeedAttack: .800000012
   verticalSpeed: 9
   fireStopTime: .333330005
+  HurtHealth: 10
+  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
   jumpClips: []
 --- !u!114 &11400004
 MonoBehaviour:
@@ -216,6 +247,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64bd9c53fd8ae473ba7d6aa3da29bb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11456122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHealth: 200
+  HurtHealth: 10
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

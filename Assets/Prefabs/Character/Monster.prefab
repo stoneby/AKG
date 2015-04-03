@@ -19,6 +19,8 @@ GameObject:
   - 114: {fileID: 11413950}
   - 114: {fileID: 11413948}
   - 114: {fileID: 11427770}
+  - 114: {fileID: 11408316}
+  - 114: {fileID: 11408318}
   m_Layer: 0
   m_Name: Body
   m_TagString: Monster
@@ -56,6 +58,21 @@ GameObject:
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &104612
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 404612}
+  m_Layer: 0
+  m_Name: HurtIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: -1077886335, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -133,6 +150,7 @@ Transform:
   m_Children:
   - {fileID: 423642}
   - {fileID: 456982}
+  - {fileID: 404612}
   m_Father: {fileID: 400006}
   m_RootOrder: 0
 --- !u!4 &400002
@@ -161,6 +179,18 @@ Transform:
   - {fileID: 400002}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &404612
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .710000038, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 2
 --- !u!4 &423642
 Transform:
   m_ObjectHideFlags: 1
@@ -235,7 +265,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Radius: 5
+  m_Radius: 4
   m_Center: {x: 0, y: 0}
 --- !u!58 &5828292
 CircleCollider2D:
@@ -246,7 +276,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Radius: 4
+  m_Radius: 1
   m_Center: {x: 0, y: 0}
 --- !u!61 &6100000
 BoxCollider2D:
@@ -285,13 +315,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0607da02b8ec64d5f8886856b48e0849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11413948
+--- !u!114 &11408316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953f7bb6755f6e0408af84c681a25ab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11408318
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHealth: 50
+  HurtHealth: 10
+--- !u!114 &11413948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33b8af304446b453f867d3982fc7d924, type: 3}
   m_Name: 
@@ -302,7 +356,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c59987abdbdc4aa9922a7b9f8526d46, type: 3}
   m_Name: 
@@ -313,7 +367,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 996d322d6e84b48698f2ba07bf57ecfa, type: 3}
   m_Name: 
@@ -324,7 +378,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa832cec1a91648c1be5502015cc9c84, type: 3}
   m_Name: 
@@ -379,6 +433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907c986d7e23d384ca58587d1dcd016f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
+  FacingRight: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
