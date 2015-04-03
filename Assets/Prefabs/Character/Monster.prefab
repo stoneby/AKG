@@ -21,6 +21,8 @@ GameObject:
   - 114: {fileID: 11427770}
   - 114: {fileID: 11408316}
   - 114: {fileID: 11408318}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Body
   m_TagString: Monster
@@ -172,7 +174,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.73999977, y: 1.19000006, z: 0}
+  m_LocalPosition: {x: -8.65799999, y: 2.19899988, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -304,6 +306,32 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b6dc85102f545b4bbeab9cb45eaecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
+  ShowTime: .5
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d739f698d271a4d33bde9fd1c089837f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FacingRight: 1
+  HurtHealth: 10
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -383,8 +411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa832cec1a91648c1be5502015cc9c84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Left: {fileID: 0}
-  Right: {fileID: 0}
+  Left: {fileID: 400000}
+  Right: {fileID: 400000}
   Speed: 1
 --- !u!114 &11413956
 MonoBehaviour:
@@ -433,8 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907c986d7e23d384ca58587d1dcd016f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
-  FacingRight: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

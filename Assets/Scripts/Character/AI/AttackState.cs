@@ -4,30 +4,37 @@ public class AttackState : MonoBehaviour
 {
     private MonsterControll monster;
     private PlayerControl player;
+	private CharacterInformation monsterInfor;
+	private CharacterCommon monsterCommon;
+	private CharacterCommon playerCommon;
 
     void OnEnable()
     {
-        player.Hurt();
+		playerCommon.Hurt();
+		monsterInfor.Show(true);
     }
 
     void FixedUpdate()
     {
         rigidbody2D.velocity = Vector2.zero;
 
-        if (monster.FacingRight && player.transform.position.x < monster.transform.position.x)
+		if (monsterCommon.FacingRight && player.transform.position.x < monster.transform.position.x)
         {
-            monster.Flip();
+			monsterCommon.Flip();
         }
 
-        if (!monster.FacingRight && player.transform.position.x > monster.transform.position.x)
+		if (!monsterCommon.FacingRight && player.transform.position.x > monster.transform.position.x)
         {
-            monster.Flip();
+			monsterCommon.Flip();
         }
     }
 
     void Awake()
     {
-        monster = GetComponent<MonsterControll>();
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+		playerCommon = player.GetComponent<CharacterCommon>();
+		monster = GetComponent<MonsterControll>();
+		monsterCommon = GetComponent<CharacterCommon>();
+		monsterInfor = GetComponent<CharacterInformation>();
     }
 }

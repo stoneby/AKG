@@ -64,6 +64,9 @@ GameObject:
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400004}
   - 114: {fileID: 11456122}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400012}
   m_Layer: 0
   m_Name: Body
   m_TagString: Player
@@ -213,7 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65b1399cfe544bc298e7ad639d97dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  facingRight: 1
   jump: 0
   fire: 0
   inputDevice: 1
@@ -222,8 +224,6 @@ MonoBehaviour:
   horizontalSpeedAttack: .800000012
   verticalSpeed: 9
   fireStopTime: .333330005
-  HurtHealth: 10
-  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
   jumpClips: []
 --- !u!114 &11400004
 MonoBehaviour:
@@ -247,6 +247,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64bd9c53fd8ae473ba7d6aa3da29bb58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHealth: 200
+  HurtHealth: 10
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b6dc85102f545b4bbeab9cb45eaecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
+  ShowTime: .5
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d739f698d271a4d33bde9fd1c089837f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FacingRight: 1
+  HurtHealth: 10
 --- !u!114 &11456122
 MonoBehaviour:
   m_ObjectHideFlags: 1

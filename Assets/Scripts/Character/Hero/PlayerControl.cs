@@ -3,8 +3,6 @@
 public class PlayerControl : MonoBehaviour
 {
     [HideInInspector]
-    public bool facingRight = true;			// For determining which way the player is currently facing.
-    [HideInInspector]
     public bool jump = false;				// Condition for whether the player should jump.
     [HideInInspector]
     public bool fire = false;
@@ -25,11 +23,7 @@ public class PlayerControl : MonoBehaviour
     public float verticalSpeed = 5f;
 
     public float fireStopTime;              // Continue firing util not any fire key pressed during the time.
-
-    public int HurtHealth;
-
-    public GameObject HurtPrefab;
-
+	
     public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
 
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
@@ -37,20 +31,14 @@ public class PlayerControl : MonoBehaviour
     private Animator anim;					// Reference to the player's animator component.
     private bool bordered;                  // Whether or not the player is in bordered.
 
-    private CharacterHealth health;
-    private Transform hurtLocation;
-    private GameObject hurtObject;
+	private CharacterCommon characterCommon;
 
     void Awake()
     {
         // Setting up references.
         groundCheck = transform.Find("groundCheck");
         anim = GetComponent<Animator>();
-        health = GetComponent<CharacterHealth>();
-
-        hurtLocation = transform.Find("HurtIcon");
-        hurtObject = Instantiate(HurtPrefab, hurtLocation.position, hurtLocation.rotation) as GameObject;
-        hurtObject.transform.parent = hurtLocation.transform;
+		characterCommon = GetComponent<CharacterCommon>();
 
         if (inputDevice == InputDevice.HUD)
         {
@@ -105,13 +93,17 @@ public class PlayerControl : MonoBehaviour
         rigidbody2D.velocity = new Vector2(x * h, rigidbody2D.velocity.y);
 
         // If the input is moving the player right and the player is facing left...
-        if (h > 0 && !facingRight)
+		if (h > 0 && !characterCommon.FacingRight)
+		{
             // ... flip the player.
-            Flip();
-        // Otherwise if the input is moving the player left and the player is facing right...
-        else if (h < 0 && facingRight)
+			characterCommon.Flip();
+		}
+		// Otherwise if the input is moving the player left and the player is facing right...
+		else if (h < 0 && characterCommon.FacingRight)
+		{
             // ... flip the player.
-            Flip();
+			characterCommon.Flip();
+		}
 
         // If the player should jump...
         if (jump)
@@ -200,22 +192,5 @@ public class PlayerControl : MonoBehaviour
     void StopFiring()
     {
         fire = false;
-    }
-
-    void Flip()
-    {
-        // Switch the way the player is labelled as facing.
-        facingRight = !facingRight;
-
-        // Multiply the player's x local scale by -1.
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
-    }
-
-    public void Hurt()
-    {
-        health.HurtHealth = HurtHealth;
-        health.Hurt();
     }
 }
