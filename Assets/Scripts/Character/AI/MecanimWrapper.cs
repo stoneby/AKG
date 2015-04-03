@@ -1,27 +1,27 @@
-﻿using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class MecanimWrapper : MonoBehaviour
 {
     public Animator animator;
     public StateBehaviour[] stateBehaviours;
-    static int CURRENT_STATE_TIME = Animator.StringToHash("currentStateTime");
+
+    static readonly int CurrentStateTimeHash = Animator.StringToHash("currentStateTime");
     Dictionary<int, Behaviour[]> behaviourCache;
     int currentState;
-    float _currentStateTime;
+    float currentStateTime;
 
-    float currentStateTime
+    float CurrentStateTime
     {
         get
         {
-            return _currentStateTime;
+            return currentStateTime;
         }
         set
         {
-            _currentStateTime = value;
-            animator.SetFloat(CURRENT_STATE_TIME, _currentStateTime);
+            currentStateTime = value;
+            animator.SetFloat(CurrentStateTimeHash, currentStateTime);
         }
     }
 
@@ -41,7 +41,7 @@ public class MecanimWrapper : MonoBehaviour
 
     void Update()
     {
-        currentStateTime += Time.deltaTime;
+        CurrentStateTime += Time.deltaTime;
         int state = animator.GetCurrentAnimatorStateInfo(0).nameHash;
         if (state != currentState)
         {
@@ -60,14 +60,14 @@ public class MecanimWrapper : MonoBehaviour
             SetBehavioursEnabled(behaviourCache[toState], true);
         }
         currentState = toState;
-        currentStateTime = 0f;
+        CurrentStateTime = 0f;
     }
 
-    void SetBehavioursEnabled(Behaviour[] behaviours, bool enabled)
+    void SetBehavioursEnabled(Behaviour[] behaviours, bool enable)
     {
         foreach (Behaviour behaviour in behaviours)
         {
-            behaviour.enabled = enabled;
+            behaviour.enabled = enable;
         }
     }
 
