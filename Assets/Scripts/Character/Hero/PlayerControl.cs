@@ -128,6 +128,18 @@ public class PlayerControl : MonoBehaviour
             bordered = true;
             collider2D.isTrigger = false;
         }
+
+        if (other.tag.Equals("AttackSensor"))
+        {
+            var monster = other.attachedRigidbody.GetComponent<MonsterControll>();
+            monster.Attack(true);
+        }
+
+        if (other.tag.Equals("WarningSensor"))
+        {
+            var monster = other.attachedRigidbody.GetComponent<MonsterControll>();
+            monster.LookAround(true);
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -137,6 +149,18 @@ public class PlayerControl : MonoBehaviour
         if (other.tag.Equals("Borders"))
         {
             bordered = false;
+        }
+
+        if (other.tag.Equals("AttackSensor"))
+        {
+            var monster = other.attachedRigidbody.GetComponent<MonsterControll>();
+            monster.Attack(false);
+        }
+
+        if (other.tag.Equals("WarningSensor"))
+        {
+            var monster = other.attachedRigidbody.GetComponent<MonsterControll>();
+            monster.LookAround(false);
         }
     }
 

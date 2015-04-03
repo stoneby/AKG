@@ -7,7 +7,7 @@ public class IdleState : MonoBehaviour
 
     public float Speed;
 
-    private bool facingRight = true;
+    private MonsterControll monsterControll;
 
     void FixedUpdate()
     {
@@ -18,27 +18,24 @@ public class IdleState : MonoBehaviour
 
     private void Tuning()
     {
-        if (facingRight && Right.position.x < transform.position.x)
+        if (monsterControll.FacingRight && Right.position.x < transform.position.x)
         {
-            Flip();
+            monsterControll.Flip();
         }
 
-        if (!facingRight && Left.position.x > transform.position.x)
+        if (!monsterControll.FacingRight && Left.position.x > transform.position.x)
         {
-            Flip();
+            monsterControll.Flip();
         }
     }
 
     private void Moving()
     {
-        rigidbody2D.velocity = new Vector2(Speed * (facingRight ? 1 : -1), 0);
+        rigidbody2D.velocity = new Vector2(Speed * (monsterControll.FacingRight ? 1 : -1), 0);
     }
 
-    private void Flip()
+    void Awake()
     {
-        facingRight = !facingRight;
-        var scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        monsterControll = GetComponent<MonsterControll>();
     }
 }

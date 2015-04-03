@@ -4,6 +4,10 @@
 TagManager:
   tags:
   - Player
+  - Monster
+  - WarningSensor
+  - AttackSensor
+  - 
   - Borders
   - 
   Builtin Layer 0: Default

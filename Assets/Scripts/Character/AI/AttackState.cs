@@ -1,15 +1,28 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class AttackState : MonoBehaviour {
+public class AttackState : MonoBehaviour
+{
+    private MonsterControll monster;
+    private PlayerControl player;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void FixedUpdate()
+    {
+        rigidbody2D.velocity = Vector2.zero;
+
+        if (monster.FacingRight && player.transform.position.x < monster.transform.position.x)
+        {
+            monster.Flip();
+        }
+
+        if (!monster.FacingRight && player.transform.position.x > monster.transform.position.x)
+        {
+            monster.Flip();
+        }
+    }
+
+    void Awake()
+    {
+        monster = GetComponent<MonsterControll>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+    }
 }
