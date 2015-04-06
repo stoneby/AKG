@@ -18,7 +18,7 @@ GameObject:
   - 114: {fileID: 11400012}
   - 114: {fileID: 11400008}
   - 114: {fileID: 11400014}
-  - 114: {fileID: 11400016}
+  - 114: {fileID: 11400018}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FacingRight: 1
   HurtHealth: 10
---- !u!114 &11400016
+--- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
