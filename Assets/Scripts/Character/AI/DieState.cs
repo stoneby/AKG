@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DieState : MonoBehaviour {
+public class DieState : MonoBehaviour 
+{
+	public float DisappearTime;
 
-	// Use this for initialization
-	void Start () {
-	
+	private MonsterControll monster;
+
+	void OnEnable()
+	{
+		rigidbody2D.velocity = Vector2.zero;
+
+		Destroy(gameObject, DisappearTime);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Awake()
+	{
+		monster = GetComponent<MonsterControll>();
 	}
 }

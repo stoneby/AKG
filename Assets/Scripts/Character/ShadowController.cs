@@ -4,14 +4,12 @@ using System.Collections;
 public class ShadowController : MonoBehaviour
 {
 	private Transform hero;
-
-	// Use this for initialization
+	
 	void Start ()
 	{
-		hero = transform.parent.Find("Body");
+		hero = transform.parent;
 	}
-	
-	// Update is called once per frame
+
 	void Update ()
 	{
 		var hitList = Physics2D.RaycastAll(hero.position, -Vector2.up, Mathf.Infinity, LayerMask.GetMask("Ground"));

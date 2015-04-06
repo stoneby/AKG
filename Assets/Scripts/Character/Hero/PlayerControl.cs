@@ -26,6 +26,8 @@ public class PlayerControl : MonoBehaviour
 	
     public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
 
+	public PlayerUIController PlayerUI;
+
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
     private bool grounded;			        // Whether or not the player is grounded.
     private Animator anim;					// Reference to the player's animator component.
@@ -193,4 +195,9 @@ public class PlayerControl : MonoBehaviour
     {
         fire = false;
     }
+
+	void UpdateHealth(float value)
+	{
+		PlayerUI.UpdateSlider(value);
+	}
 }
