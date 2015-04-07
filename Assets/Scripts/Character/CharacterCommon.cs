@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class CharacterCommon : MonoBehaviour 
 {
@@ -8,8 +8,9 @@ public class CharacterCommon : MonoBehaviour
 
 	public int HurtHealth;
 
+    public List<GameObject> AniFlippingList;
+
 	private CharacterHealth health;
-	private CharacterInformation infor;
 
 	public void Flip()
 	{
@@ -21,9 +22,12 @@ public class CharacterCommon : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 
-		var inforScale = infor.HurtLocation.transform.localScale;
-		inforScale.x *= -1;
-		infor.HurtLocation.transform.localScale = inforScale;
+        AniFlippingList.ForEach(item =>
+        {
+            var inforScale = item.transform.localScale;
+            inforScale.x *= -1;
+            item.transform.localScale = inforScale;
+        });
 	}
 	
 	public void Hurt()
@@ -35,6 +39,5 @@ public class CharacterCommon : MonoBehaviour
 	void Awake()
 	{
 		health = GetComponent<CharacterHealth>();
-		infor = GetComponent<CharacterInformation>();
 	}
 }

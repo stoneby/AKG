@@ -58,13 +58,16 @@ public class PlayerAttackController : MonoBehaviour
 
     void HurtMonster(Collider2D other)
     {
-        var monsterHealth = other.GetComponent<CharacterHealth>();
-		monsterHealth.Hurt();
-
+        // health update.
         var monster = other.GetComponent<MonsterControll>();
 		monster.Hurt();
 
-		var playerInfor = player.GetComponent<CharacterInformation>();
+        // monster ui update.
+        var monsterHealth = other.GetComponent<CharacterHealth>();
+        monsterHealth.Hurt();
+        
+        // player ui update.
+        var playerInfor = player.GetComponent<CharacterInformation>();
 		playerInfor.Show(true);
 	}
 

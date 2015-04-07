@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class HurtState : MonoBehaviour {
+public class HurtState : MonoBehaviour
+{
+    private MonsterHUDController hudController;
+    private CharacterHealth health;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void OnEnable()
+    {
+        hudController.HpValue = health.NormalizedHealth;
+        hudController.Show(true);
+    }
+
+    void Awake()
+    {
+        hudController = GetComponent<MonsterHUDController>();
+        health = GetComponent<CharacterHealth>();
+    }
 }

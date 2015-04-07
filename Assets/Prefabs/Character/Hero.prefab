@@ -357,6 +357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FacingRight: 1
   HurtHealth: 10
+  AniFlippingList:
+  - {fileID: 156122}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
