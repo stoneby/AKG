@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerAttackController : MonoBehaviour 
 {
@@ -11,19 +11,13 @@ public class PlayerAttackController : MonoBehaviour
 
 	private bool monsterInRange;
 
-	private MonsterControll monster;
-
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if(other.tag.Equals("Monster"))
+        Debug.LogWarning("PlayerAttackController OnTriggerEnter2D: " + other.name);
+        
+        if (other.tag.Equals("Monster"))
 		{
-			var facingRight = (other.transform.position.x > player.transform.position.x);
-			if (characterCommon.FacingRight && facingRight)
-			{
-				monsterInRange = true;
-
-				StartCoroutine("CheckAttack", other);
-			}
+            StartCoroutine("CheckAttack", other);
 		}
 	}
 	
@@ -33,13 +27,7 @@ public class PlayerAttackController : MonoBehaviour
 
 		if(other.tag.Equals("Monster"))
 		{
-			var facingRight = (other.transform.position.x > player.transform.position.x);
-			if (characterCommon.FacingRight && facingRight)
-			{
-				monsterInRange = false;
-
-				StopCoroutine("CheckAttack");
-			}
+            StopCoroutine("CheckAttack");
 		}
 	}
 
@@ -55,22 +43,25 @@ public class PlayerAttackController : MonoBehaviour
 				break;
 			}
 
-			monster = other.GetComponent<MonsterControll>();
+            var facingRight = (other.transform.position.x > player.transform.position.x);
+		    if (characterCommon.FacingRight == facingRight)
+		    {
+                if (player.fire)
+                {
+                    HurtMonster(other);
 
-			if (player.fire)
-			{
-				HurtMonster();
-
-				yield return new WaitForSeconds(AttackInterval);
-			}
+                    yield return new WaitForSeconds(AttackInterval);
+                }
+            }
 		}
 	}
-	
-	void HurtMonster()
-	{
-		var monsterHealth = monster.GetComponent<CharacterHealth>();
+
+    void HurtMonster(Collider2D other)
+    {
+        var monsterHealth = other.GetComponent<CharacterHealth>();
 		monsterHealth.Hurt();
 
+        var monster = other.GetComponent<MonsterControll>();
 		monster.Hurt();
 
 		var playerInfor = player.GetComponent<CharacterInformation>();
