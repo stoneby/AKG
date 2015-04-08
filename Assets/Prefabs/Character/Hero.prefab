@@ -18,7 +18,6 @@ GameObject:
   - 114: {fileID: 11400012}
   - 114: {fileID: 11400008}
   - 114: {fileID: 11400014}
-  - 114: {fileID: 11400018}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -360,18 +359,6 @@ MonoBehaviour:
   HurtHealth: 10
   AniFlippingList:
   - {fileID: 156122}
---- !u!114 &11400018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5089a86a2f504b07aadf4e95bed9be0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelController: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

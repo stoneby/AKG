@@ -44,7 +44,8 @@ public class PlayerAttackController : MonoBehaviour
 			}
 
             var facingRight = (other.transform.position.x > player.transform.position.x);
-		    if (characterCommon.FacingRight == facingRight)
+            var monsterCommon = other.GetComponent<CharacterCommon>();
+            if (characterCommon.FacingRight == facingRight && !monsterCommon.IsDead)
 		    {
                 if (player.fire)
                 {

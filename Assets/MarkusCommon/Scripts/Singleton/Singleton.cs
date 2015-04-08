@@ -17,9 +17,7 @@ public class Singleton<T> : MonoBehaviour
             if (!editMode && applicationIsQuitting)
             {
                 Logger.LogWarning("[Singleton] Instance '" + typeof(T) +
-                    "' already destroyed on application quit." +
-                    " Won't create again - returning null.");
-                return null;
+                    "' already destroyed on application quit.");
             }
 
             if (instance == null)

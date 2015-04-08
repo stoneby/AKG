@@ -7,8 +7,8 @@ public class HurtState : MonoBehaviour
 
     void OnEnable()
     {
-        hudController.HpValue = health.NormalizedHealth;
-        hudController.Show(true);
+        //hudController.HpValue = health.NormalizedHealth;
+        //hudController.Show(true);
     }
 
     void Awake()

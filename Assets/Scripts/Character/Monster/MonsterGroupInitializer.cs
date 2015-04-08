@@ -7,6 +7,8 @@ public class MonsterGroupInitializer : MonoBehaviour
     public List<Transform> IdleLeftRange;
     public List<Transform> IdleRightRange;
 
+    public List<CharacterHealth> HealthList; 
+
     private List<IdleState> idleStateList;
 
     void Awake()
@@ -17,10 +19,11 @@ public class MonsterGroupInitializer : MonoBehaviour
     void Start()
     {
         idleStateList = GetComponentsInChildren<IdleState>().ToList();
+        HealthList = idleStateList.Select(item => item.GetComponent<CharacterHealth>()).ToList();
 
-        if (IdleLeftRange.Count != IdleRightRange.Count || IdleLeftRange.Count != idleStateList.Count)
+        if (IdleLeftRange.Count != IdleRightRange.Count || IdleLeftRange.Count != idleStateList.Count || IdleLeftRange.Count != GameData.Instance.MonsterCount)
         {
-            Debug.LogError("Make sure the counting are equals among left range, right range, and state list.");
+            Debug.LogError("Make sure the counting are equals among left range, right range, and state list, and monster count.");
         }
 
         for (var i = 0; i < idleStateList.Count; ++i)
@@ -28,6 +31,8 @@ public class MonsterGroupInitializer : MonoBehaviour
             idleStateList[i].Left = IdleLeftRange[i];
             idleStateList[i].Right = IdleRightRange[i];
         }
+
+        HealthList.ForEach(item => item.MessageListener = LevelInit.Instance.gameObject);
     }
 
     private void GetIdleRange()

@@ -1,15 +1,30 @@
 ﻿using UnityEngine;
 
-public class LevelInit : MonoBehaviour
+public class LevelInit : Singleton<LevelInit>
 {
-	public ResultPanelController panelController;
+	public ResultPanelController PanelController;
+
+    private int deadMonsterCount;
 
 	void Dead(GameObject go)
 	{
-		var victory = !go.tag.Equals("Player");
+		var monsterDead = !go.tag.Equals("Player");
+	    if (monsterDead)
+	    {
+	        ++deadMonsterCount;
+	    }
 
-		panelController.gameObject.SetActive(true);
+	    if (!monsterDead || deadMonsterCount == GameData.Instance.MonsterCount)
+	    {
+            PanelController.gameObject.SetActive(true);
 
-		panelController.Victory = victory;
+            var victory = (monsterDead) && (deadMonsterCount == GameData.Instance.MonsterCount);
+            PanelController.Victory = victory;
+        }
 	}
+
+    public void Reset()
+    {
+        deadMonsterCount = 0;
+    }
 }

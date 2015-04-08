@@ -426,6 +426,7 @@ MonoBehaviour:
   TotalHealth: 50
   CurrentHealth: 50
   HurtHealth: 10
+  MessageListener: {fileID: 0}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
