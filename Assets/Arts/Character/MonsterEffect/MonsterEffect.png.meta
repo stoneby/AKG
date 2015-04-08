@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 5a26a3b295b1df744b526a0f0b929736
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 1710-1
+    21300002: 1710-2
+    21300004: 1710-3
+    21300006: 1710-4
+    21300008: 1710-5
+    21300010: 1713-1
+    21300012: 1713-2
+    21300014: 1713-3
+    21300016: 1713-4
+    21300018: 1713-5
+    21300020: 1713-6
+    21300022: 1713-7
+    21300024: 1713-8
+    21300026: Attack-1000-1
+    21300028: Attack-1000-2
+    21300030: Attack-1000-3
+    21300032: Hit-1
+    21300034: Hit-2
+    21300036: Hit-3
+    21300038: Hit-4
+    21300040: Hit-5
+    21300042: Hit-6
+    21300044: Hit-7
+    21300046: Hit-8
+    21300048: Attack-Attack-1
+    21300050: Attack-Attack-2
+    21300052: Attack-Attack-3
+    21300054: Attack1-Attack1-1
+    21300056: Attack1-Attack1-2
+    21300058: Attack1-Attack1-3
+    21300060: Attack1-Attack1-4
+    21300062: Attack1-Attack1-5
+    21300064: Attack2-Attack2-1
+    21300066: Attack2-Attack2-2
+    21300068: Attack2-Attack2-3
+    21300070: Attack2-Attack2-4
+    21300072: Attack2-Attack2-5
+    21300074: Attack2-Attack2-6
+    21300076: Attack2-Attack2-7
+    21300078: Attack2-Attack2-8
+    21300080: Hit-Hit-1
+    21300082: Hit-Hit-2
+    21300084: Hit-Hit-3
+    21300086: Hit-Hit-4
+    21300088: Hit-Hit-5
+    21300090: Hit-Hit-6
+    21300092: Hit-Hit-7
+    21300094: Hit-Hit-8
+    21300096: Attack-1
+    21300098: Attack-2
+    21300100: Attack-3
+    21300102: Attack1-1
+    21300104: Attack1-2
+    21300106: Attack1-3
+    21300108: Attack1-4
+    21300110: Attack1-5
+    21300112: Attack2-1
+    21300114: Attack2-2
+    21300116: Attack2-3
+    21300118: Attack2-4
+    21300120: Attack2-5
+    21300122: Attack2-6
+    21300124: Attack2-7
+    21300126: Attack2-8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Attack-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 299
+        width: 309
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack-2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 381
+        width: 329
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack-3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 399
+        width: 362
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 412
+        width: 163
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-2
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 408
+        width: 162
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-3
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 358
+        width: 223
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-4
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 321
+        width: 319
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 216
+        width: 278
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 272
+        width: 163
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 272
+        width: 163
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 272
+        width: 163
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 158
+        width: 338
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-5
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 152
+        width: 344
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-6
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 146
+        width: 447
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 9
+        width: 396
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4
+        width: 211
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 122
+        width: 103
+        height: 22
+      alignment: 9
+      pivot: {x: .509708762, y: .795454562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-2
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 102
+        width: 134
+        height: 42
+      alignment: 9
+      pivot: {x: .49626866, y: .773809552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 45
+        width: 96
+        height: 99
+      alignment: 9
+      pivot: {x: .526041687, y: .681818187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 34
+        width: 126
+        height: 110
+      alignment: 9
+      pivot: {x: .511904776, y: .613636374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 67
+        width: 85
+        height: 77
+      alignment: 9
+      pivot: {x: .47647059, y: .512987018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-6
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 51
+        width: 108
+        height: 93
+      alignment: 9
+      pivot: {x: .504629612, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-7
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 37
+        width: 113
+        height: 107
+      alignment: 9
+      pivot: {x: .482300878, y: .50934577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit-8
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 30
+        width: 110
+        height: 114
+      alignment: 9
+      pivot: {x: .459090918, y: .513157904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

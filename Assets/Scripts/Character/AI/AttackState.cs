@@ -29,6 +29,11 @@ public class AttackState : MonoBehaviour
         }
     }
 
+    public void AttackRightPlace()
+    {
+        
+    }
+
     void Awake()
     {
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();

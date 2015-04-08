@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: DemaEffect.png (468 x 224)
+# $TexturePacker:SmartUpdate:7a8082c5c5520e72358edc784706e0ad:d31006fd3784aea3ab80007ec38051f8:2cebb377bcbcb7aea1280d4e0a355c80$
+#
+
+Hit/1;2;136;134;86;0.5;0.5
+Hit/2;138;136;147;86;0.5;0.5
+Hit/3;287;144;164;78;0.5;0.5
+Hit/4;2;55;176;79;0.5;0.5
+Hit/5;180;58;184;76;0.5;0.5
+Run/1;2;13;108;40;0.5092592592592593;0.525
+Run/2;112;7;113;46;0.5132743362831859;0.4782608695652174
+Run/3;227;7;116;46;0.5086206896551724;0.5
+Run/4;345;3;118;50;0.5;0.5
