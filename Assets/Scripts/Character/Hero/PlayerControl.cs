@@ -147,6 +147,14 @@ public class PlayerControl : MonoBehaviour
             var monster = other.attachedRigidbody.GetComponent<MonsterControll>();
             monster.LookAround(true);
         }
+
+        if (other.tag.Equals("MonsterBullet"))
+        {
+            var attackEffectController = other.attachedRigidbody.GetComponent<AttackEffectController>();
+            attackEffectController.Hit();
+
+            characterCommon.Hurt();
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)

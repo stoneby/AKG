@@ -147,7 +147,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 428292}
-  - 58: {fileID: 5828292}
+  - 61: {fileID: 6184810}
   m_Layer: 0
   m_Name: Attack
   m_TagString: AttackSensor
@@ -325,17 +325,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_Radius: 4
   m_Center: {x: 0, y: 0}
---- !u!58 &5828292
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 128292}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Radius: 1
-  m_Center: {x: 0, y: 0}
 --- !u!61 &6100000
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -347,6 +336,17 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .520059466, y: .879713535}
   m_Center: {x: .0388727188, y: .13800168}
+--- !u!61 &6184810
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128292}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 8.68518257, y: 1}
+  m_Center: {x: .0582904816, y: 0}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -418,6 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c59987abdbdc4aa9922a7b9f8526d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AttackPrefab: {fileID: 170402, guid: 1100c6fa46aeb9a4792270388760bc2f, type: 2}
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1

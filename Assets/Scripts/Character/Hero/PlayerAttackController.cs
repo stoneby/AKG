@@ -13,7 +13,7 @@ public class PlayerAttackController : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-        Debug.LogWarning("PlayerAttackController OnTriggerEnter2D: " + other.name);
+        Debug.LogWarning("PlayerAttackController OnTriggerEnter2D: " + other.name + ", parent: " + ((other.transform.parent == null) ? "root" : other.transform.parent.name));
         
         if (other.tag.Equals("Monster"))
 		{

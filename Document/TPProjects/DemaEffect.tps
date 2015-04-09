@@ -188,8 +188,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Ffect/DemaRunChentu</filename>
-            <filename>../Fine Arts/Ffect/Dema-jidi</filename>
+            <filename>../Fine Arts/Ffect/Dema</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
