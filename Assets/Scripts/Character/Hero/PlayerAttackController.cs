@@ -45,7 +45,7 @@ public class PlayerAttackController : MonoBehaviour
 
             // monster is dead but not destroyed.
             var monsterCommon = other.GetComponent<CharacterCommon>();
-            if (monsterCommon.IsDead)
+            if (monsterCommon.Dead)
             {
                 break;
             }

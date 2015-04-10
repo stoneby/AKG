@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class HeroAttack4State : MonoBehaviour {
+public class HeroAttack4State : MonoBehaviour
+{
+    private PlayerControl player;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void OnEnable()
+    {
+        player.BoomFight = true;
+    }
+
+    void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+    }
 }

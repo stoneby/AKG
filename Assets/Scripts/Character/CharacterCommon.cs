@@ -10,7 +10,7 @@ public class CharacterCommon : MonoBehaviour
 
     public List<GameObject> AniFlippingList;
 
-    public bool IsDead { get { return health.CurrentHealth <= 0; } }
+    public bool Dead { get { return health.Dead; } }
 
 	private CharacterHealth health;
 

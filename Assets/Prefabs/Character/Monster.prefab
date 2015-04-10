@@ -35,8 +35,9 @@ GameObject:
   - 114: {fileID: 11400010}
   - 114: {fileID: 11400008}
   - 114: {fileID: 11400004}
-  - 114: {fileID: 11400002}
+  - 114: {fileID: 11491468}
   - 114: {fileID: 11400018}
+  - 114: {fileID: 11400002}
   - 114: {fileID: 11400016}
   - 114: {fileID: 11400020}
   - 114: {fileID: 11400022}
@@ -466,6 +467,9 @@ MonoBehaviour:
   - state: Attack
     layer: Base Layer
     behaviours: []
+  - state: Duang
+    layer: Base Layer
+    behaviours: []
   - state: Die
     layer: Base Layer
     behaviours: []
@@ -480,8 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalHealth: 50
-  CurrentHealth: 50
+  TotalHealth: 100
+  CurrentHealth: 100
   HurtHealth: 10
   MessageListener: {fileID: 0}
 --- !u!114 &11400018
@@ -539,6 +543,18 @@ MonoBehaviour:
   HUDLocation: {fileID: 424104}
   HUDPrefab: {fileID: 160078, guid: 0f14e54f3ebd5cf45acaf1c66e85a46f, type: 2}
   HideTime: 2
+--- !u!114 &11491468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a72f100df8208647b9a0792e25b8fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DuangSpeed: 2
 --- !u!212 &21200002
 SpriteRenderer:
   m_ObjectHideFlags: 1

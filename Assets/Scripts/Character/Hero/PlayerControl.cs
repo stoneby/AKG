@@ -28,6 +28,11 @@ public class PlayerControl : MonoBehaviour
 
 	public PlayerUIController PlayerUI;
 
+    /// <summary>
+    /// Flag indicates whether this attack is booming.
+    /// </summary>
+    public bool BoomFight { get; set; }
+
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
     private bool grounded;			        // Whether or not the player is grounded.
     private Animator anim;					// Reference to the player's animator component.
@@ -76,7 +81,8 @@ public class PlayerControl : MonoBehaviour
         if (inputManager.DoesFire() && grounded)
         {
             fire = true;
-            
+            BoomFight = false;
+
             CancelInvoke("StopFiring");
             Invoke("StopFiring", fireStopTime);
         }

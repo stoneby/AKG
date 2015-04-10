@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class AttackStayState : MonoBehaviour {
+public class StayState : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

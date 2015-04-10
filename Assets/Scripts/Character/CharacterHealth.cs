@@ -9,6 +9,7 @@ public class CharacterHealth : MonoBehaviour
     public GameObject MessageListener;
 
     public float NormalizedHealth { get { return 1f * CurrentHealth / TotalHealth; } }
+    public bool Dead { get { return CurrentHealth <= 0; } }
 
     private Animator animator;
 
@@ -21,7 +22,7 @@ public class CharacterHealth : MonoBehaviour
 
         if (CurrentHealth <= 0)
         {
-            animator.SetTrigger("Die");
+            animator.SetTrigger("Duang");
             MessageListener.SendMessage("Dead", gameObject, SendMessageOptions.DontRequireReceiver);
         }
     }

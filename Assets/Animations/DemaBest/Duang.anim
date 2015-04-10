@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Hurt
+  m_Name: Duang
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -18,11 +18,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300040, guid: 467b0935976544706bb38feafba9f139, type: 3}
+      value: {fileID: 21300154, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
+    - time: .100000001
+      value: {fileID: 21300156, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
     - time: .200000003
-      value: {fileID: 21300042, guid: 467b0935976544706bb38feafba9f139, type: 3}
-    - time: .400000006
-      value: {fileID: 21300044, guid: 467b0935976544706bb38feafba9f139, type: 3}
+      value: {fileID: 21300158, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
+    - time: .300000012
+      value: {fileID: 21300160, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -41,17 +43,18 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300040, guid: 467b0935976544706bb38feafba9f139, type: 3}
-    - {fileID: 21300042, guid: 467b0935976544706bb38feafba9f139, type: 3}
-    - {fileID: 21300044, guid: 467b0935976544706bb38feafba9f139, type: 3}
+    - {fileID: 21300154, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
+    - {fileID: 21300156, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
+    - {fileID: 21300158, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
+    - {fileID: 21300160, guid: d75ae23064ed4bb4bb300f400b118be0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .5
+    m_StopTime: .400000006
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -63,11 +66,4 @@ AnimationClip:
     m_Mirror: 0
   m_EditorCurves: []
   m_EulerEditorCurves: []
-  m_Events:
-  - time: .300000012
-    functionName: OnDecision
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
