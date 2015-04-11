@@ -33,6 +33,8 @@ public class PlayerControl : MonoBehaviour
     /// </summary>
     public bool BoomFight { get; set; }
 
+	public bool Running { get { return h > 0f; } }
+
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
     private bool grounded;			        // Whether or not the player is grounded.
     private Animator anim;					// Reference to the player's animator component.

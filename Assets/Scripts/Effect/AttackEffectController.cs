@@ -6,6 +6,12 @@ public class AttackEffectController : MonoBehaviour
     public float Speed;
     public bool FacingRight;
 
+	public GameObject BoomEffectPrefab;
+
+	private Transform boomLocation;
+	private OneShotEffectController effectController;
+	private GameObject boomEffect;
+	
     private Animator animator;
     private Rigidbody2D rigid;
 
@@ -23,12 +29,25 @@ public class AttackEffectController : MonoBehaviour
 
     public void Hit()
     {
+		GenerateEffect();
+		effectController.Play();
+
         Destroy(gameObject);
     }
+
+	private void GenerateEffect()
+	{
+		boomEffect = Instantiate(BoomEffectPrefab, boomLocation.position, boomLocation.rotation) as GameObject;
+		//boomEffect.transform.parent = boomLocation;
+		
+		effectController = boomEffect.GetComponent<OneShotEffectController>();
+	}
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
+
+		boomLocation = transform.Find("BoomLocation");
     }
 }

@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Attack
+  m_Name: ShortHurt
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -18,11 +18,15 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300096, guid: 5a26a3b295b1df744b526a0f0b929736, type: 3}
+      value: {fileID: 21300060, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
     - time: .0500000007
-      value: {fileID: 21300098, guid: 5a26a3b295b1df744b526a0f0b929736, type: 3}
+      value: {fileID: 21300062, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
     - time: .100000001
-      value: {fileID: 21300100, guid: 5a26a3b295b1df744b526a0f0b929736, type: 3}
+      value: {fileID: 21300064, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
+    - time: .150000006
+      value: {fileID: 21300066, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
+    - time: .200000003
+      value: {fileID: 21300068, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -41,13 +45,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300096, guid: 5a26a3b295b1df744b526a0f0b929736, type: 3}
-    - {fileID: 21300098, guid: 5a26a3b295b1df744b526a0f0b929736, type: 3}
-    - {fileID: 21300100, guid: 5a26a3b295b1df744b526a0f0b929736, type: 3}
+    - {fileID: 21300060, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
+    - {fileID: 21300062, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
+    - {fileID: 21300064, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
+    - {fileID: 21300066, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
+    - {fileID: 21300068, guid: 51fe60fae4bea854090d243f14f1f067, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .150000006
+    m_StopTime: .25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -64,8 +70,8 @@ AnimationClip:
   m_EditorCurves: []
   m_EulerEditorCurves: []
   m_Events:
-  - time: .100000001
-    functionName: Flying
+  - time: .200000003
+    functionName: OnPlayEnd
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

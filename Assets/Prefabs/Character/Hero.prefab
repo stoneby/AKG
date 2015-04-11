@@ -23,11 +23,11 @@ GameObject:
   - 114: {fileID: 11475604}
   - 114: {fileID: 11475606}
   - 114: {fileID: 11475608}
-  - 114: {fileID: 11475610}
   - 114: {fileID: 11475612}
   - 114: {fileID: 11475614}
   - 114: {fileID: 11475616}
   - 114: {fileID: 11475618}
+  - 114: {fileID: 11400016}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -481,6 +481,19 @@ MonoBehaviour:
   HurtHealth: 10
   AniFlippingList:
   - {fileID: 156122}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f543687febc4aa09cd2f7557b63f49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HurtEffectPrefab: {fileID: 158326, guid: abdaca5ae1cbf402e9bd091d8274027a, type: 2}
+  Speed: .5
 --- !u!114 &11475600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -519,6 +532,9 @@ MonoBehaviour:
     layer: Base Layer
     behaviours: []
   - state: Jump
+    layer: Base Layer
+    behaviours: []
+  - state: Short
     layer: Base Layer
     behaviours: []
 --- !u!114 &11475602
@@ -567,17 +583,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HurtEffectPrefab: {fileID: 158326, guid: e6084e253954145bea11fddd04c5883c, type: 2}
---- !u!114 &11475610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fd2bda153b23243adcf75b5914deac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11475612
 MonoBehaviour:
   m_ObjectHideFlags: 1

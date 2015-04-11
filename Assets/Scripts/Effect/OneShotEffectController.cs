@@ -2,11 +2,13 @@
 
 public class OneShotEffectController : MonoBehaviour
 {
+	public string StateName;
+
     private Animator hitAnimator;
 
     public void Play()
     {
-        hitAnimator.Play("Hurt");
+        hitAnimator.Play(StateName);
     }
 
     public void OnPlayEnd()
