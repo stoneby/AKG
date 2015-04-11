@@ -2,7 +2,7 @@
 
 public class HeroHurtState : MonoBehaviour
 {
-    public GameObject HitEffectPrefab;
+    public GameObject HurtEffectPrefab;
 
     private Transform hitLocation;
     private OneShotEffectController effectController;
@@ -19,12 +19,12 @@ public class HeroHurtState : MonoBehaviour
 
     void Awake()
     {
-        hitLocation = transform.Find("Effect/HitLocation");
+        hitLocation = transform.Find("Effect/HurtLocation");
     }
 
     private void GenerateEffect()
     {
-        hitEffect = Instantiate(HitEffectPrefab, hitLocation.position, hitLocation.rotation) as GameObject;
+        hitEffect = Instantiate(HurtEffectPrefab, hitLocation.position, hitLocation.rotation) as GameObject;
         hitEffect.transform.parent = hitLocation;
 
         effectController = hitEffect.GetComponent<OneShotEffectController>();

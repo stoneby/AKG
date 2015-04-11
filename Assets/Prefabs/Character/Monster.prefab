@@ -484,8 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalHealth: 100
-  CurrentHealth: 100
+  TotalHealth: 1000
+  CurrentHealth: 1000
   HurtHealth: 10
   MessageListener: {fileID: 0}
 --- !u!114 &11400018
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a72f100df8208647b9a0792e25b8fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DuangSpeed: 2
+  DuangSpeed: 3
 --- !u!212 &21200002
 SpriteRenderer:
   m_ObjectHideFlags: 1

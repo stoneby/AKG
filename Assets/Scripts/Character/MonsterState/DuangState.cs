@@ -27,7 +27,7 @@ public class DuangState : MonoBehaviour
     /// </summary>
     public void OnTheGround()
     {
-        onTheGround = true;
+		onTheGround = true;
 
         if (monsterHealth.Dead)
         {

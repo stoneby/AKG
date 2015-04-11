@@ -6,7 +6,7 @@ public class OneShotEffectController : MonoBehaviour
 
     public void Play()
     {
-        hitAnimator.Play("Hit");
+        hitAnimator.Play("Hurt");
     }
 
     public void OnPlayEnd()

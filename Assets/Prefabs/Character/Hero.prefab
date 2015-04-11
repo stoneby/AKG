@@ -67,6 +67,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  m_Layer: 0
+  m_Name: HurtLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &100008
 GameObject:
   m_ObjectHideFlags: 1
@@ -201,6 +216,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 3
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .202000007, y: .360000014, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 430904}
+  m_RootOrder: 2
 --- !u!4 &400008
 Transform:
   m_ObjectHideFlags: 1
@@ -250,6 +277,7 @@ Transform:
   m_Children:
   - {fileID: 426076}
   - {fileID: 430906}
+  - {fileID: 400006}
   m_Father: {fileID: 400000}
   m_RootOrder: 4
 --- !u!4 &430906
@@ -259,7 +287,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.319999993, y: -.0900000036, z: 0}
+  m_LocalPosition: {x: -.42899999, y: .0890000015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 430904}
@@ -434,8 +462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalHealth: 300
-  CurrentHealth: 300
+  TotalHealth: 3000
+  CurrentHealth: 3000
   HurtHealth: 10
   MessageListener: {fileID: 0}
 --- !u!114 &11400014
@@ -538,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ba71d3a5a5bf04599faf308efd820f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HitEffectPrefab: {fileID: 158326, guid: 1b836a3f15a054242a1d85b275999c9d, type: 2}
+  HurtEffectPrefab: {fileID: 158326, guid: e6084e253954145bea11fddd04c5883c, type: 2}
 --- !u!114 &11475610
 MonoBehaviour:
   m_ObjectHideFlags: 1

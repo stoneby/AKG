@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.6.0</string>
+        <string>3.7.1</string>
         <key>fileName</key>
         <string>/Users/cuixiaoliang/Desktop/GitHub/AKG/Document/TPProjects/MonsterAnimations.tps</string>
         <key>autoSDSettings</key>
@@ -188,16 +188,11 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Dema800600加刀光/Attack1</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Attack2</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Attack3</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Attack4</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Die</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Idle</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Jump</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Run</filename>
-            <filename>../Fine Arts/Dema800600加刀光/SkillE</filename>
-            <filename>../Fine Arts/Dema800600加刀光/SkillQ</filename>
+            <filename>../Fine Arts/Monster800600/Die</filename>
+            <filename>../Fine Arts/Monster800600/Duang</filename>
+            <filename>../Fine Arts/Monster800600/Run</filename>
+            <filename>../Fine Arts/Monster800600/Skill</filename>
+            <filename>../Fine Arts/Monster800600/Standup</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
@@ -209,5 +204,15 @@
         <uint>1</uint>
         <key>commonDivisorY</key>
         <uint>1</uint>
+        <key>packNormalMaps</key>
+        <false/>
+        <key>autodetectNormalMaps</key>
+        <true/>
+        <key>normalMapFilter</key>
+        <string></string>
+        <key>normalMapSuffix</key>
+        <string></string>
+        <key>normalMapSheetFileName</key>
+        <filename></filename>
     </struct>
 </data>

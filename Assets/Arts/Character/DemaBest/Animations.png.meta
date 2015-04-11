@@ -164,6 +164,7 @@ TextureImporter:
     21300318: Hurt_06
     21300320: Hurt_07
     21300322: Hurt_08
+    21300324: attack3_07
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -914,6 +915,16 @@ TextureImporter:
         height: 143
       alignment: 9
       pivot: {x: .734104037, y: .118881121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack3_07
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 201
+        width: 148
+        height: 135
+      alignment: 9
+      pivot: {x: .445945948, y: .088888891}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: attack4_01
       rect:

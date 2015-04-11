@@ -29,6 +29,14 @@ TextureImporter:
     21300048: Run-2
     21300050: Run-3
     21300052: Run-4
+    21300054: Hurt-1
+    21300056: Hurt-2
+    21300058: Hurt-3
+    21300060: Hurt-4
+    21300062: Hurt-5
+    21300064: Hurt-6
+    21300066: Hurt-7
+    21300068: Hurt-8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,7 +82,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 136
+        y: 796
         width: 134
         height: 86
       alignment: 0
@@ -83,8 +91,8 @@ TextureImporter:
     - name: Hit-2
       rect:
         serializedVersion: 2
-        x: 138
-        y: 136
+        x: 2
+        y: 708
         width: 147
         height: 86
       alignment: 0
@@ -93,8 +101,8 @@ TextureImporter:
     - name: Hit-3
       rect:
         serializedVersion: 2
-        x: 287
-        y: 144
+        x: 2
+        y: 628
         width: 164
         height: 78
       alignment: 0
@@ -104,7 +112,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 55
+        y: 547
         width: 176
         height: 79
       alignment: 0
@@ -113,18 +121,98 @@ TextureImporter:
     - name: Hit-5
       rect:
         serializedVersion: 2
-        x: 180
-        y: 58
+        x: 2
+        y: 469
         width: 184
         height: 76
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 445
+        width: 103
+        height: 22
+      alignment: 9
+      pivot: {x: .509708762, y: .795454562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 425
+        width: 134
+        height: 42
+      alignment: 9
+      pivot: {x: .49626866, y: .773809552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 324
+        width: 96
+        height: 99
+      alignment: 9
+      pivot: {x: .526041687, y: .681818187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 313
+        width: 126
+        height: 110
+      alignment: 9
+      pivot: {x: .511904776, y: .613636374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 234
+        width: 85
+        height: 77
+      alignment: 9
+      pivot: {x: .47647059, y: .512987018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 218
+        width: 108
+        height: 93
+      alignment: 9
+      pivot: {x: .504629612, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 109
+        width: 113
+        height: 107
+      alignment: 9
+      pivot: {x: .482300878, y: .50934577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 102
+        width: 110
+        height: 114
+      alignment: 9
+      pivot: {x: .459090918, y: .513157904}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run-1
       rect:
         serializedVersion: 2
         x: 2
-        y: 13
+        y: 60
         width: 108
         height: 40
       alignment: 9
@@ -134,7 +222,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 7
+        y: 54
         width: 113
         height: 46
       alignment: 9
@@ -143,8 +231,8 @@ TextureImporter:
     - name: Run-3
       rect:
         serializedVersion: 2
-        x: 227
-        y: 7
+        x: 2
+        y: 6
         width: 116
         height: 46
       alignment: 9
@@ -153,8 +241,8 @@ TextureImporter:
     - name: Run-4
       rect:
         serializedVersion: 2
-        x: 345
-        y: 3
+        x: 120
+        y: 2
         width: 118
         height: 50
       alignment: 0
