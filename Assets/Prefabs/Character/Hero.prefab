@@ -492,8 +492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalHealth: 3000
-  CurrentHealth: 3000
+  TotalHealth: 300
+  CurrentHealth: 300
   HurtHealth: 10
   MessageListener: {fileID: 0}
 --- !u!114 &11400014
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPrefab: {fileID: 100000, guid: b29e012f8a9d141f2bc79b3f9b407b44, type: 2}
   Parented: 1
-  GenerateInAwake: 1
+  GenerateInAwake: 0
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPrefab: {fileID: 100000, guid: 69f6ea763c35944eabd87d80c7bc1463, type: 2}
   Parented: 1
-  GenerateInAwake: 1
+  GenerateInAwake: 0
 --- !u!114 &11475600
 MonoBehaviour:
   m_ObjectHideFlags: 1
