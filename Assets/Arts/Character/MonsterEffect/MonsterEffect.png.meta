@@ -111,7 +111,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 299
+        y: 3
         width: 309
         height: 167
       alignment: 0
@@ -121,7 +121,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 313
-        y: 381
+        y: 85
         width: 329
         height: 85
       alignment: 0
@@ -131,147 +131,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 644
-        y: 399
+        y: 103
         width: 362
         height: 67
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack1-1
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 412
-        width: 163
-        height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack1-2
-      rect:
-        serializedVersion: 2
-        x: 1173
-        y: 408
-        width: 162
-        height: 58
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack1-3
-      rect:
-        serializedVersion: 2
-        x: 1337
-        y: 358
-        width: 223
-        height: 108
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack1-4
-      rect:
-        serializedVersion: 2
-        x: 1562
-        y: 321
-        width: 319
-        height: 145
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack1-5
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 216
-        width: 278
-        height: 81
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-1
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 272
-        width: 163
-        height: 25
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-2
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 272
-        width: 163
-        height: 25
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-3
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 272
-        width: 163
-        height: 25
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-4
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 158
-        width: 338
-        height: 139
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-5
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 152
-        width: 344
-        height: 145
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-6
-      rect:
-        serializedVersion: 2
-        x: 1133
-        y: 146
-        width: 447
-        height: 151
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-7
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 9
-        width: 396
-        height: 135
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-8
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 4
-        width: 211
-        height: 140
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hit-1
       rect:
         serializedVersion: 2
-        x: 613
-        y: 122
+        x: 1008
+        y: 148
         width: 103
         height: 22
       alignment: 9
@@ -280,8 +150,8 @@ TextureImporter:
     - name: Hit-2
       rect:
         serializedVersion: 2
-        x: 718
-        y: 102
+        x: 1113
+        y: 128
         width: 134
         height: 42
       alignment: 9
@@ -290,8 +160,8 @@ TextureImporter:
     - name: Hit-3
       rect:
         serializedVersion: 2
-        x: 854
-        y: 45
+        x: 1249
+        y: 71
         width: 96
         height: 99
       alignment: 9
@@ -300,8 +170,8 @@ TextureImporter:
     - name: Hit-4
       rect:
         serializedVersion: 2
-        x: 952
-        y: 34
+        x: 1347
+        y: 60
         width: 126
         height: 110
       alignment: 9
@@ -310,8 +180,8 @@ TextureImporter:
     - name: Hit-5
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 67
+        x: 1475
+        y: 93
         width: 85
         height: 77
       alignment: 9
@@ -320,8 +190,8 @@ TextureImporter:
     - name: Hit-6
       rect:
         serializedVersion: 2
-        x: 1167
-        y: 51
+        x: 1562
+        y: 77
         width: 108
         height: 93
       alignment: 9
@@ -330,8 +200,8 @@ TextureImporter:
     - name: Hit-7
       rect:
         serializedVersion: 2
-        x: 1277
-        y: 37
+        x: 1672
+        y: 63
         width: 113
         height: 107
       alignment: 9
@@ -340,8 +210,8 @@ TextureImporter:
     - name: Hit-8
       rect:
         serializedVersion: 2
-        x: 1392
-        y: 30
+        x: 1787
+        y: 56
         width: 110
         height: 114
       alignment: 9
