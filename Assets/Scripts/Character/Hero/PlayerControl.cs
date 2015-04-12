@@ -7,6 +7,10 @@ public class PlayerControl : MonoBehaviour
     [HideInInspector]
     public bool fire = false;
 
+	public bool SkillQ;
+	public bool SkillW;
+	public bool SkillE;
+
     public float h { get; set; }
 
     public enum InputDevice
@@ -99,6 +103,21 @@ public class PlayerControl : MonoBehaviour
             CancelInvoke("StopFiring");
             Invoke("StopFiring", fireStopTime);
         }
+
+		if (inputManager.DoesSkillE() && grounded)
+		{
+			SkillE = true;
+		}
+
+		if (inputManager.DoesSkillQ() && grounded)
+		{
+			SkillQ = true;
+		}
+
+		if (inputManager.DoesSkillW() && grounded)
+		{
+			SkillW = true;
+		}
     }
 
     void FixedUpdate()
@@ -141,6 +160,24 @@ public class PlayerControl : MonoBehaviour
             // Make sure the player can't jump again until the jump conditions from Update are satisfied.
             jump = false;
         }
+
+		if (SkillE)
+		{
+			anim.SetTrigger("SkillE");
+			SkillE = false;
+		}
+
+		if (SkillQ)
+		{
+			anim.SetTrigger("SkillQ");
+			SkillQ = false;
+		}
+
+		if (SkillW)
+		{
+			anim.SetTrigger("SkillW");
+			SkillW = false;
+		}
 
         anim.SetBool("Attack", fire);
     }

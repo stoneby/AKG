@@ -8,6 +8,9 @@ public class HUDInput : AbstractInput
 	public float Vertical {get;set;}
 	public bool Jump {get;set;}
 	public bool Fire {get;set;}
+	public bool SkillQ {get;set;}
+	public bool SkillW {get;set;}
+	public bool SkillE {get;set;}
 
 	public override float GetHorizontal ()
 	{
@@ -27,5 +30,20 @@ public class HUDInput : AbstractInput
 	public override bool DoesFire ()
 	{
 		return Fire;
+	}
+
+	public override bool DoesSkillQ()
+	{
+		return SkillQ;
+	}
+	
+	public override bool DoesSkillW()
+	{
+		return SkillW;
+	}
+	
+	public override bool DoesSkillE()
+	{
+		return SkillE;
 	}
 }
