@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.6.0</string>
+        <string>3.7.1</string>
         <key>fileName</key>
-        <string>D:/Code/AKG/Document/TPProjects/DemaAnimations.tps</string>
+        <string>/Users/cuixiaoliang/Desktop/GitHub/AKG/Document/TPProjects/DemaAnimations.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/DemaBest/Animations.png</filename>
+        <filename>../../Assets/Arts/Character/DemaBest/DemaAnimations.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -86,9 +86,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>2048</int>
+            <int>4096</int>
             <key>height</key>
-            <int>2048</int>
+            <int>4096</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/DemaBest/Animations.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/DemaBest/DemaAnimations.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -188,17 +188,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Dema800600加刀光/Attack1</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Attack2</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Attack3</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Attack4</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Die</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Idle</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Jump</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Run</filename>
-            <filename>../Fine Arts/Dema800600加刀光/SkillE</filename>
-            <filename>../Fine Arts/Dema800600加刀光/SkillQ</filename>
-            <filename>../Fine Arts/Dema800600加刀光/Hurt</filename>
+            <filename>../Fine Arts/Dema800600</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
@@ -210,5 +200,15 @@
         <uint>1</uint>
         <key>commonDivisorY</key>
         <uint>1</uint>
+        <key>packNormalMaps</key>
+        <false/>
+        <key>autodetectNormalMaps</key>
+        <true/>
+        <key>normalMapFilter</key>
+        <string></string>
+        <key>normalMapSuffix</key>
+        <string></string>
+        <key>normalMapSheetFileName</key>
+        <filename></filename>
     </struct>
 </data>
