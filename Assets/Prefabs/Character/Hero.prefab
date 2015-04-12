@@ -75,8 +75,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400006}
+  - 114: {fileID: 11400018}
   m_Layer: 0
-  m_Name: HurtLocation
+  m_Name: HurtFrontLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,6 +111,22 @@ GameObject:
   - 4: {fileID: 400010}
   m_Layer: 0
   m_Name: Sensors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: HurtBackLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,6 +270,18 @@ Transform:
   - {fileID: 400008}
   m_Father: {fileID: 400000}
   m_RootOrder: 1
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.25, y: .531000018, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 430904}
+  m_RootOrder: 3
 --- !u!4 &426076
 Transform:
   m_ObjectHideFlags: 1
@@ -278,6 +307,7 @@ Transform:
   - {fileID: 426076}
   - {fileID: 430906}
   - {fileID: 400006}
+  - {fileID: 400012}
   m_Father: {fileID: 400000}
   m_RootOrder: 4
 --- !u!4 &430906
@@ -493,6 +523,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: .5
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1016923c87844762aa617ba7c21d18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPrefab: {fileID: 100000, guid: b29e012f8a9d141f2bc79b3f9b407b44, type: 2}
+  Parented: 1
+  GenerateInAwake: 1
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1016923c87844762aa617ba7c21d18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPrefab: {fileID: 100000, guid: 69f6ea763c35944eabd87d80c7bc1463, type: 2}
+  Parented: 1
+  GenerateInAwake: 1
 --- !u!114 &11475600
 MonoBehaviour:
   m_ObjectHideFlags: 1

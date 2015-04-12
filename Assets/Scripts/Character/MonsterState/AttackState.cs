@@ -62,6 +62,7 @@ public class AttackState : MonoBehaviour
     {
         var attackObject = Instantiate(AttackPrefab, attackLocation.position, attackLocation.rotation) as GameObject;
         attackEffectController = attackObject.GetComponent<AttackEffectController>();
+		attackEffectController.Owner = gameObject;
 
         //attackObject.transform.parent = attackLocation;
         attackObject.transform.localScale =

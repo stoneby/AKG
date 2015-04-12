@@ -6,11 +6,15 @@ public class AttackEffectController : MonoBehaviour
     public float Speed;
     public bool FacingRight;
 
-	public GameObject BoomEffectPrefab;
+	/// <summary>
+	/// Owner game object that send attack effect.
+	/// </summary>
+	/// <value>The owner.</value>
+	public GameObject Owner { get; set; }
 
-	private Transform boomLocation;
+	private DynamicSpawner spawner;
+	
 	private OneShotEffectController effectController;
-	private GameObject boomEffect;
 	
     private Animator animator;
     private Rigidbody2D rigid;
@@ -29,25 +33,19 @@ public class AttackEffectController : MonoBehaviour
 
     public void Hit()
     {
-		GenerateEffect();
+		spawner.Generate();
+
+		effectController = spawner.SpawnInstance.GetComponent<OneShotEffectController>();
 		effectController.Play();
 
         Destroy(gameObject);
     }
-
-	private void GenerateEffect()
-	{
-		boomEffect = Instantiate(BoomEffectPrefab, boomLocation.position, boomLocation.rotation) as GameObject;
-		//boomEffect.transform.parent = boomLocation;
-		
-		effectController = boomEffect.GetComponent<OneShotEffectController>();
-	}
 
     void Awake()
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
 
-		boomLocation = transform.Find("BoomLocation");
+		spawner = transform.Find("BoomLocation").GetComponent<DynamicSpawner>();
     }
 }

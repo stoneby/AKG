@@ -41,6 +41,12 @@ public class PlayerControl : MonoBehaviour
 
 	public bool Running { get { return h > 0f; } }
 
+	/// <summary>
+	/// Flag indicates if player is hurt front or back.
+	/// </summary>
+	/// <value><c>true</c> if hurt front; otherwise, <c>false</c>.</value>
+	public bool HurtFront { get; set; }
+
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
     private bool grounded;			        // Whether or not the player is grounded.
     private Animator anim;					// Reference to the player's animator component.
@@ -167,6 +173,9 @@ public class PlayerControl : MonoBehaviour
             attackEffectController.Hit();
 
             characterCommon.Hurt();
+
+			var monsterCommon = attackEffectController.Owner.GetComponent<CharacterCommon>();
+			HurtFront = (characterCommon.FacingRight != monsterCommon.FacingRight);
         }
     }
 
