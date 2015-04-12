@@ -9,13 +9,13 @@ public class HeroRunState : MonoBehaviour
 
     void OnEnable()
     {
-        runAnimator.gameObject.SetActive(true);
-        runAnimator.Play("Run");
+        //runAnimator.gameObject.SetActive(true);
+        //runAnimator.Play("Run");
     }
 
     void OnDisable()
     {
-        runAnimator.gameObject.SetActive(false);
+        //runAnimator.gameObject.SetActive(false);
     }
 
     void Awake()
