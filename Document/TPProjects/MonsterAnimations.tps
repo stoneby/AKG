@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/DemaBest/Animations.png</filename>
+        <filename>../../Assets/Arts/Character/MonsterBest/MonsterAnimations.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/DemaBest/Animations.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/MonsterBest/MonsterAnimations.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -188,11 +188,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Monster800600/Die</filename>
-            <filename>../Fine Arts/Monster800600/Duang</filename>
-            <filename>../Fine Arts/Monster800600/Run</filename>
-            <filename>../Fine Arts/Monster800600/Skill</filename>
-            <filename>../Fine Arts/Monster800600/Standup</filename>
+            <filename>../Fine Arts/Monster800600</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
