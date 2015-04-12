@@ -33,6 +33,12 @@ public class PlayerControl : MonoBehaviour
     /// </summary>
     public bool BoomFight { get; set; }
 
+	/// <summary>
+	/// Flag indicates if the attack is final attack, eg, attack4.
+	/// </summary>
+	/// <value><c>true</c> if last attack; otherwise, <c>false</c>.</value>
+	public bool LastAttack { get; set; }
+
 	public bool Running { get { return h > 0f; } }
 
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
@@ -83,7 +89,6 @@ public class PlayerControl : MonoBehaviour
         if (inputManager.DoesFire() && grounded)
         {
             fire = true;
-            BoomFight = false;
 
             CancelInvoke("StopFiring");
             Invoke("StopFiring", fireStopTime);

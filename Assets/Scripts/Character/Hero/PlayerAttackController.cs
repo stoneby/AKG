@@ -65,10 +65,13 @@ public class PlayerAttackController : MonoBehaviour
                 continue;
             }
 
+			player.BoomFight = true;
             // right place to hurt monster.
             HurtMonster(other);
             yield return new WaitForSeconds(AttackInterval);
         }
+
+		player.BoomFight = false;
     }
 
     void HurtMonster(Collider2D other)

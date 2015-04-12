@@ -6,8 +6,13 @@ public class HeroAttack4State : MonoBehaviour
 
     void OnEnable()
     {
-        player.BoomFight = true;
+        player.LastAttack = true;
     }
+
+	void OnDisable()
+	{
+		player.LastAttack = false;
+	}
 
     void Awake()
     {

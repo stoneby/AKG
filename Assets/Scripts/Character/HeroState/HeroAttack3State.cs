@@ -6,7 +6,7 @@ public class HeroAttack3State : MonoBehaviour
 
     void OnEnable()
     {
-        player.BoomFight = true;
+        //player.BoomFight = true;
     }
 
     void Awake()

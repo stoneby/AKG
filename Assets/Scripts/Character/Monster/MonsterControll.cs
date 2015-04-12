@@ -27,19 +27,4 @@ public class MonsterControll : MonoBehaviour
 		characterInfor = GetComponent<CharacterInformation>();
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log("Monster On trigger enter: " + other.name);
-
-		if (other.tag.Equals("Player"))
-		{
-
-		}
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        Debug.Log("Monster On trigger exit: " + other.name);
-    }
 }
