@@ -88,8 +88,6 @@ public class PlayerControl : MonoBehaviour
             collider2D.isTrigger = !grounded && !bordered;
         }
 
-        //collider2D.isTrigger = !(grounded);
-
         // If the jump button is pressed and the player is grounded then the player should jump.
         if (inputManager.DoesJump() && grounded && !fire)
         {
