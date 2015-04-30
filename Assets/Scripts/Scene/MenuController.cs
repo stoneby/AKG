@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-public class MenuController : MonoBehaviour
+public class MenuController : SSController
 {
     public void Play()
     {
-        Application.LoadLevelAsync("DemoBattle");
+        SSSceneManager.Instance.Screen("DemoBattle");
     }
 
     public void Exit()
