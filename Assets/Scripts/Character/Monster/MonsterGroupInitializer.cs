@@ -32,7 +32,7 @@ public class MonsterGroupInitializer : MonoBehaviour
             idleStateList[i].Right = IdleRightRange[i];
         }
 
-        HealthList.ForEach(item => item.MessageListener = LevelInit.Instance.gameObject);
+        HealthList.ForEach(item => item.MessageListener = PresentData.Instance.LevelEndChecker.gameObject);
     }
 
     private void GetIdleRange()

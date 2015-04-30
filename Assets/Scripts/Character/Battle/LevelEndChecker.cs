@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class LevelInit : Singleton<LevelInit>
+public class LevelEndChecker : MonoBehaviour
 {
 	public ResultPanelController PanelController;
 
