@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
 
     public void Init()
     {
-        CurrentIndex = 0;
+        CurrentIndex = -1;
     }
 
     public void Next()

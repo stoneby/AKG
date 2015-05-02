@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419132}
+  m_Layer: 8
+  m_Name: heroBorn
+  m_TagString: HeroBornLocation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &134292
 GameObject:
   m_ObjectHideFlags: 1
@@ -78,7 +93,7 @@ GameObject:
   - 61: {fileID: 6157662}
   m_Layer: 8
   m_Name: collider_cave_right
-  m_TagString: Untagged
+  m_TagString: CaveEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -298,6 +313,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!4 &419132
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 457668}
+  m_RootOrder: 0
 --- !u!4 &434292
 Transform:
   m_ObjectHideFlags: 1
@@ -427,7 +454,7 @@ Transform:
   - {fileID: 457658}
   - {fileID: 457652}
   m_Father: {fileID: 457668}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!4 &457662
 Transform:
   m_ObjectHideFlags: 1
@@ -474,6 +501,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 419132}
   - {fileID: 457676}
   - {fileID: 457672}
   - {fileID: 457660}
@@ -505,7 +533,7 @@ Transform:
   - {fileID: 438524}
   - {fileID: 457674}
   m_Father: {fileID: 457668}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &457674
 Transform:
   m_ObjectHideFlags: 1
@@ -530,7 +558,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 457668}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!61 &6134292
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -561,7 +589,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 157650}
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 7f3a4054a9e658a478fcd058e40dea68, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: 1.23236227, y: 4.3214426}
   m_Center: {x: -.168469429, y: .069008112}
 --- !u!61 &6157664
