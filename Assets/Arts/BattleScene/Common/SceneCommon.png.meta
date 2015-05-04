@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 0a783690682555947b05f62f23b2842f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (43)"
+    21300002: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (44)"
+    21300004: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (45)"
+    21300006: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (55)"
+    21300008: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (56)"
+    21300010: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (57)"
+    21300012: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (58)"
+    21300014: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (59)"
+    21300016: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (60)"
+    21300018: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (1)"
+    21300020: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (2)"
+    21300022: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (3)"
+    21300024: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (67)"
+    21300026: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (68)"
+    21300028: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (69)"
+    21300030: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (70)"
+    21300032: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (71)"
+    21300034: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (72)"
+    21300036: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (61)"
+    21300038: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (62)"
+    21300040: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (63)"
+    21300042: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (64)"
+    21300044: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (65)"
+    21300046: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (66)"
+    21300048: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (52)"
+    21300050: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (53)"
+    21300052: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (54)"
+    21300054: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (46)"
+    21300056: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (47)"
+    21300058: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (48)"
+    21300060: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (49)"
+    21300062: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (50)"
+    21300064: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (51)"
+    21300066: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (7)"
+    21300068: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (8)"
+    21300070: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (9)"
+    21300072: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (4)"
+    21300074: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (5)"
+    21300076: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (6)"
+    21300078: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (10)"
+    21300080: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (11)"
+    21300082: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (12)"
+    21300084: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (40)"
+    21300086: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (41)"
+    21300088: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (42)"
+    21300090: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (13)"
+    21300092: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (14)"
+    21300094: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (15)"
+    21300096: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (37)"
+    21300098: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (38)"
+    21300100: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (39)"
+    21300102: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (34)"
+    21300104: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (35)"
+    21300106: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (36)"
+    21300108: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (16)"
+    21300110: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (17)"
+    21300112: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (18)"
+    21300114: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (19)"
+    21300116: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (20)"
+    21300118: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (21)"
+    21300120: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (22)"
+    21300122: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (23)"
+    21300124: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (24)"
+    21300126: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (25)"
+    21300128: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (26)"
+    21300130: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (27)"
+    21300132: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (31)"
+    21300134: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (32)"
+    21300136: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (33)"
+    21300138: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (28)"
+    21300140: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (29)"
+    21300142: "\uFFFD\uFFFD\uFFFD\uFFFD-hudie (30)"
+    21300144: Bufferfly-19
+    21300146: Bufferfly-15
+    21300148: Bufferfly-20
+    21300150: Bufferfly-1
+    21300152: Bufferfly-21
+    21300154: Bufferfly-22
+    21300156: Bufferfly-23
+    21300158: Bufferfly-24
+    21300160: Bufferfly-18
+    21300162: Bufferfly-16
+    21300164: Bufferfly-17
+    21300166: Bufferfly-3
+    21300168: Bufferfly-2
+    21300170: Bufferfly-4
+    21300172: Bufferfly-14
+    21300174: Bufferfly-5
+    21300176: Bufferfly-13
+    21300178: Bufferfly-12
+    21300180: Bufferfly-6
+    21300182: Bufferfly-7
+    21300184: Bufferfly-8
+    21300186: Bufferfly-9
+    21300188: Bufferfly-11
+    21300190: Bufferfly-10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bufferfly-19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 431
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: .131578952, y: 4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 431
+        width: 36
+        height: 15
+      alignment: 9
+      pivot: {x: 2.15277767, y: 4.13333321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 429
+        width: 31
+        height: 17
+      alignment: 9
+      pivot: {x: -.0161290318, y: 2.82352948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 408
+        width: 48
+        height: 19
+      alignment: 9
+      pivot: {x: .010416667, y: 1.73684216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 408
+        width: 48
+        height: 19
+      alignment: 9
+      pivot: {x: .03125, y: 1.84210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 408
+        width: 48
+        height: 19
+      alignment: 9
+      pivot: {x: .03125, y: 1.84210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 387
+        width: 48
+        height: 19
+      alignment: 9
+      pivot: {x: .03125, y: 1.84210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 387
+        width: 48
+        height: 19
+      alignment: 9
+      pivot: {x: .03125, y: 1.84210527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 386
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: .706896544, y: 3.5999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 385
+        width: 39
+        height: 21
+      alignment: 9
+      pivot: {x: 1.52564108, y: 3.57142854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 35
+        height: 21
+      alignment: 9
+      pivot: {x: 1.15714288, y: 3.61904764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 360
+        width: 17
+        height: 23
+      alignment: 9
+      pivot: {x: -1.91176474, y: .130434781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 360
+        width: 38
+        height: 23
+      alignment: 9
+      pivot: {x: -.355263144, y: .782608688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 332
+        width: 50
+        height: 26
+      alignment: 9
+      pivot: {x: -.389999986, y: -.269230783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 331
+        width: 43
+        height: 27
+      alignment: 9
+      pivot: {x: 2.10465121, y: 1.77777779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 84
+        height: 32
+      alignment: 9
+      pivot: {x: -.065476194, y: -.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 259
+        width: 48
+        height: 36
+      alignment: 9
+      pivot: {x: 1.90625, y: .833333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 252
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 1.71000004, y: .279069781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 206
+        width: 100
+        height: 44
+      alignment: 9
+      pivot: {x: .0850000009, y: -.477272719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 92
+        height: 45
+      alignment: 9
+      pivot: {x: .255434781, y: -.622222245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 83
+        height: 46
+      alignment: 9
+      pivot: {x: .4759036, y: -.652173936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 60
+        width: 74
+        height: 49
+      alignment: 9
+      pivot: {x: .75, y: -.551020384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 53
+        height: 51
+      alignment: 9
+      pivot: {x: 1.48113203, y: -.0980392173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bufferfly-10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5
+        width: 63
+        height: 53
+      alignment: 9
+      pivot: {x: 1.10317457, y: -.339622647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
