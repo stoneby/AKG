@@ -1,15 +1,47 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class LevelInitializer : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class LevelInitializer : MonoBehaviour 
+{
+	public BattleSegmentController BattleLoader;
 	
+	public GameObject HeroPrefab;
+
+	public delegate void LoadComplete();
+	public LoadComplete OnLoadComplete;
+
+	private GameObject hero;
+	private Vector3 heroBornLocation;
+	private Vector3 heroHideLocation = new Vector3(-15, 0, 0);
+
+	public void Load()
+	{
+		var levelManager = GameData.Instance.LevelManager;
+		levelManager.Next();
+		BattleLoader.Load(levelManager.CurrentIndex);
+
+		hero.transform.position = heroHideLocation;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	private void OnBattleLoadComplete()
+	{
+		heroBornLocation = GameObject.FindGameObjectWithTag("HeroBornLocation").transform.position;
+
+		hero.transform.position = heroBornLocation;
+		hero.rigidbody2D.isKinematic = false;
+
+		if (OnLoadComplete != null)
+		{
+			OnLoadComplete();
+		}
+	}
+
+	void Start()
+	{
+		hero = GameObject.FindGameObjectWithTag("Player");
+		Load();
+
+		BattleLoader.OnLoadComplete += OnBattleLoadComplete;
 	}
 }

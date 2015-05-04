@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SSSystem/Scenes/SSEmpty.unity
+  - enabled: 1
     path: Assets/Scenes/DemoSceneManager.unity
   - enabled: 1
     path: Assets/Scenes/Menu.unity
@@ -13,7 +15,3 @@ EditorBuildSettings:
     path: Assets/Scenes/DemoLoading.unity
   - enabled: 1
     path: Assets/Scenes/DemoBattle.unity
-  - enabled: 1
-    path: Assets/SSSystem/Scenes/SSEmpty.unity
-  - enabled: 1
-    path: Assets/SSSystem/Demos/Scenes/uGUI/DemoPopup.unity

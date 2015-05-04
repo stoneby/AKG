@@ -212,6 +212,16 @@ public class PlayerControl : MonoBehaviour
 			var monsterCommon = attackEffectController.Owner.GetComponent<CharacterCommon>();
 			HurtFront = (characterCommon.FacingRight != monsterCommon.FacingRight);
         }
+
+		if (other.tag.Equals("CaveEnd"))
+		{
+			var levelManager = GameData.Instance.LevelManager;
+			var levelInit = PresentData.Instance.LevelInit;
+			if (!levelManager.IsLastLevel)
+			{
+				levelInit.Load();
+			}
+		}
     }
 
     void OnTriggerExit2D(Collider2D other)

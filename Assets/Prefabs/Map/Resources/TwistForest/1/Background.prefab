@@ -46,7 +46,7 @@ GameObject:
   - 61: {fileID: 6157662}
   m_Layer: 8
   m_Name: collider_cave_right
-  m_TagString: Untagged
+  m_TagString: CaveEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -266,6 +266,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &181916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481916}
+  m_Layer: 8
+  m_Name: heroBorn
+  m_TagString: HeroBornLocation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &434292
 Transform:
   m_ObjectHideFlags: 1
@@ -370,7 +385,7 @@ Transform:
   - {fileID: 457658}
   - {fileID: 457652}
   m_Father: {fileID: 457668}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!4 &457662
 Transform:
   m_ObjectHideFlags: 1
@@ -417,6 +432,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 481916}
   - {fileID: 457676}
   - {fileID: 457672}
   - {fileID: 457660}
@@ -447,7 +463,7 @@ Transform:
   m_Children:
   - {fileID: 457674}
   m_Father: {fileID: 457668}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &457674
 Transform:
   m_ObjectHideFlags: 1
@@ -469,6 +485,18 @@ Transform:
   m_GameObject: {fileID: 157676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 457668}
+  m_RootOrder: 1
+--- !u!4 &481916
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.1999998, y: 1.78999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 457668}
@@ -503,7 +531,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 157650}
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 7f3a4054a9e658a478fcd058e40dea68, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: .974068761, y: 3.44622064}
   m_Center: {x: -.0393228531, y: -.18754518}
 --- !u!61 &6157664
