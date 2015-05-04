@@ -44,6 +44,9 @@ public class BattleSegmentController : MonoBehaviour
 			UnLoad(oldList);
 		}
 
+		// for destroy done.
+		yield return null;
+
         if (OnLoadComplete != null)
         {
             OnLoadComplete();

@@ -87,6 +87,87 @@ TextureImporter:
     21300164: Upgrade-ShengJi (21)
     21300166: Upgrade-ShengJi (22)
     21300168: Upgrade-ShengJi (23)
+    21300170: ShuRu-SR (1)
+    21300172: ShuRu-SR (3)
+    21300174: ShuRu-SR (2)
+    21300176: ChuanSong-cs2 (9)
+    21300178: ChuanSong-cs2 (3)
+    21300180: ChuanSong-cs2 (7)
+    21300182: ChuanSong-cs2 (8)
+    21300184: ChuanSong-cs2 (6)
+    21300186: ChuanSong-cs2 (2)
+    21300188: ChuanSong-cs2 (4)
+    21300190: ChuanSong-cs2 (1)
+    21300192: ChuanSong-cs2 (5)
+    21300194: ShuRu-SR (4)
+    21300196: ShuRu-SR (5)
+    21300198: ShuRu-SR (6)
+    21300200: ShuRu-SR (7)
+    21300202: ShuRu-SR (8)
+    21300204: Exp-06
+    21300206: Exp-05
+    21300208: Exp-04
+    21300210: ChangTai-01
+    21300212: ChangTai-02
+    21300214: ChangTai-03
+    21300216: ChangTai-09
+    21300218: ChangTai-04
+    21300220: Exp-03
+    21300222: ChangTai-05
+    21300224: ChangTai-06
+    21300226: ChangTai-08
+    21300228: ChangTai-07
+    21300230: Exp-01
+    21300232: Exp-02
+    21300234: Upgrade-04
+    21300236: Upgrade-05
+    21300238: Upgrade-01
+    21300240: Upgrade-06
+    21300242: Upgrade-07
+    21300244: Upgrade-10
+    21300246: Upgrade-02
+    21300248: Upgrade-08
+    21300250: Upgrade-11
+    21300252: Upgrade-09
+    21300254: Upgrade-12
+    21300256: Upgrade-03
+    21300258: Upgrade-13
+    21300260: Upgrade-14
+    21300262: Upgrade-15
+    21300264: ShuRu-01
+    21300266: Upgrade-16
+    21300268: Upgrade-17
+    21300270: Upgrade-18
+    21300272: Upgrade-19
+    21300274: Upgrade-20
+    21300276: Upgrade-21
+    21300278: ShuRu-03
+    21300280: ShuRu-02
+    21300282: Upgrade-22
+    21300284: Upgrade-23
+    21300286: ChuanSong-09
+    21300288: ChuanSong-02
+    21300290: ChuanSong-06
+    21300292: ChuanSong-08
+    21300294: ChuanSong-04
+    21300296: ChuanSong-07
+    21300298: ChuanSong-03
+    21300300: ChuanSong-01
+    21300302: ChuanSong-05
+    21300304: ShuRu-04
+    21300306: ShuRu-05
+    21300308: ShuRu-06
+    21300310: ShuRu-07
+    21300312: ShuRu-08
+    21300314: Born-09
+    21300316: Born-03
+    21300318: Born-02
+    21300320: Born-06
+    21300322: Born-04
+    21300324: Born-08
+    21300326: Born-07
+    21300328: Born-01
+    21300330: Born-05
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -128,11 +209,11 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Exp-Image 8
+    - name: Exp-06
       rect:
         serializedVersion: 2
         x: 2
-        y: 872
+        y: 1968
         width: 40
         height: 38
       alignment: 9
@@ -142,7 +223,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 44
-        y: 870
+        y: 1966
         width: 108
         height: 40
       alignment: 9
@@ -152,7 +233,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 154
-        y: 864
+        y: 1960
         width: 116
         height: 46
       alignment: 9
@@ -162,7 +243,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 864
+        y: 1960
         width: 113
         height: 46
       alignment: 9
@@ -172,17 +253,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 387
-        y: 860
+        y: 1956
         width: 118
         height: 50
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Exp-Image 7
+    - name: Exp-05
       rect:
         serializedVersion: 2
         x: 507
-        y: 855
+        y: 1951
         width: 56
         height: 55
       alignment: 9
@@ -192,7 +273,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 565
-        y: 836
+        y: 1932
         width: 109
         height: 74
       alignment: 0
@@ -202,7 +283,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 676
-        y: 834
+        y: 1930
         width: 184
         height: 76
       alignment: 0
@@ -212,7 +293,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 862
-        y: 832
+        y: 1928
         width: 164
         height: 78
       alignment: 0
@@ -222,37 +303,37 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1028
-        y: 831
+        y: 1927
         width: 176
         height: 79
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Hit-1
-      rect:
-        serializedVersion: 2
-        x: 1206
-        y: 824
-        width: 134
-        height: 86
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hit-2
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 824
+        x: 2
+        y: 1839
         width: 147
         height: 86
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Exp-Image 6
+    - name: Hit-1
       rect:
         serializedVersion: 2
-        x: 1491
-        y: 820
+        x: 151
+        y: 1839
+        width: 134
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exp-04
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1835
         width: 93
         height: 90
       alignment: 9
@@ -261,29 +342,29 @@ TextureImporter:
     - name: HurtFront-06
       rect:
         serializedVersion: 2
-        x: 2
-        y: 726
+        x: 382
+        y: 1833
         width: 154
         height: 92
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: HurtFront-02
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 721
-        width: 157
-        height: 97
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: HurtFront-05
       rect:
         serializedVersion: 2
-        x: 317
-        y: 721
+        x: 538
+        y: 1828
         width: 164
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtFront-02
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1828
+        width: 157
         height: 97
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -291,8 +372,8 @@ TextureImporter:
     - name: HurtFront-04
       rect:
         serializedVersion: 2
-        x: 483
-        y: 709
+        x: 863
+        y: 1816
         width: 177
         height: 109
       alignment: 0
@@ -301,8 +382,8 @@ TextureImporter:
     - name: HurtFront-03
       rect:
         serializedVersion: 2
-        x: 662
-        y: 702
+        x: 1042
+        y: 1809
         width: 184
         height: 116
       alignment: 0
@@ -311,128 +392,128 @@ TextureImporter:
     - name: HurtBack-01
       rect:
         serializedVersion: 2
-        x: 848
-        y: 696
+        x: 1228
+        y: 1803
         width: 74
         height: 122
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0001
+    - name: ChangTai-02
       rect:
         serializedVersion: 2
-        x: 924
-        y: 685
-        width: 160
-        height: 133
-      alignment: 9
-      pivot: {x: .493750006, y: .406015038}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0002
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 685
+        x: 2
+        y: 1668
         width: 164
         height: 133
       alignment: 9
       pivot: {x: .506097555, y: .406015038}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0009
+    - name: ChangTai-01
       rect:
         serializedVersion: 2
-        x: 1252
-        y: 684
+        x: 168
+        y: 1668
+        width: 160
+        height: 133
+      alignment: 9
+      pivot: {x: .493750006, y: .406015038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChangTai-09
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1667
         width: 160
         height: 134
       alignment: 9
       pivot: {x: .493750006, y: .402985066}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0003
+    - name: ChangTai-03
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 684
+        x: 492
+        y: 1667
         width: 160
         height: 134
       alignment: 9
       pivot: {x: .493750006, y: .402985066}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0004
+    - name: ChangTai-04
       rect:
         serializedVersion: 2
-        x: 2
-        y: 547
+        x: 654
+        y: 1666
         width: 160
         height: 135
       alignment: 9
       pivot: {x: .493750006, y: .4148148}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Exp-Image 5
+    - name: Exp-03
       rect:
         serializedVersion: 2
-        x: 164
-        y: 547
+        x: 816
+        y: 1666
         width: 139
         height: 135
       alignment: 9
       pivot: {x: .50359714, y: .48888889}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0005
+    - name: ChangTai-05
       rect:
         serializedVersion: 2
-        x: 305
-        y: 545
+        x: 957
+        y: 1664
         width: 160
         height: 137
       alignment: 9
       pivot: {x: .493750006, y: .423357666}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0006
+    - name: ChangTai-06
       rect:
         serializedVersion: 2
-        x: 467
-        y: 544
+        x: 1119
+        y: 1663
         width: 168
         height: 138
       alignment: 9
       pivot: {x: .494047612, y: .427536219}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0008
+    - name: ChangTai-08
       rect:
         serializedVersion: 2
-        x: 637
-        y: 542
+        x: 2
+        y: 1521
         width: 174
         height: 140
       alignment: 9
       pivot: {x: .494252861, y: .435714275}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-wx_ptqt002_wzfm00_0_wait_0007
+    - name: ChangTai-07
       rect:
         serializedVersion: 2
-        x: 813
-        y: 541
+        x: 178
+        y: 1520
         width: 174
         height: 141
       alignment: 9
       pivot: {x: .494252861, y: .439716309}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Exp-Image 3
+    - name: Exp-01
       rect:
         serializedVersion: 2
-        x: 989
-        y: 539
+        x: 354
+        y: 1518
         width: 139
         height: 143
       alignment: 9
       pivot: {x: .50359714, y: .510489523}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Exp-Image 4
+    - name: Exp-02
       rect:
         serializedVersion: 2
-        x: 1130
-        y: 535
+        x: 495
+        y: 1514
         width: 158
         height: 147
       alignment: 9
@@ -441,8 +522,8 @@ TextureImporter:
     - name: HurtBack-06
       rect:
         serializedVersion: 2
-        x: 1290
-        y: 522
+        x: 655
+        y: 1501
         width: 92
         height: 160
       alignment: 0
@@ -451,18 +532,18 @@ TextureImporter:
     - name: HurtBack-02
       rect:
         serializedVersion: 2
-        x: 1384
-        y: 515
+        x: 749
+        y: 1494
         width: 89
         height: 167
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (4)
+    - name: Upgrade-04
       rect:
         serializedVersion: 2
-        x: 1475
-        y: 513
+        x: 840
+        y: 1492
         width: 120
         height: 169
       alignment: 9
@@ -471,68 +552,68 @@ TextureImporter:
     - name: HurtBack-05
       rect:
         serializedVersion: 2
-        x: 1597
-        y: 511
+        x: 962
+        y: 1490
         width: 92
         height: 171
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (5)
+    - name: Upgrade-05
       rect:
         serializedVersion: 2
-        x: 2
-        y: 331
+        x: 1056
+        y: 1483
         width: 122
         height: 178
       alignment: 9
       pivot: {x: .467213124, y: .730337083}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (1)
+    - name: Upgrade-01
       rect:
         serializedVersion: 2
-        x: 126
-        y: 328
+        x: 1180
+        y: 1480
         width: 113
         height: 181
       alignment: 9
       pivot: {x: .469026536, y: .701657474}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: HurtBack-04
+    - name: Upgrade-06
       rect:
         serializedVersion: 2
-        x: 241
-        y: 324
-        width: 93
-        height: 185
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (6)
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 324
+        x: 2
+        y: 1293
         width: 122
         height: 185
       alignment: 9
       pivot: {x: .467213124, y: .708108127}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (7)
+    - name: HurtBack-04
       rect:
         serializedVersion: 2
-        x: 460
-        y: 316
+        x: 126
+        y: 1293
+        width: 93
+        height: 185
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Upgrade-07
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1285
         width: 127
         height: 193
       alignment: 9
       pivot: {x: .456692904, y: .683937848}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (10)
+    - name: Upgrade-10
       rect:
         serializedVersion: 2
-        x: 589
-        y: 315
+        x: 350
+        y: 1284
         width: 134
         height: 194
       alignment: 9
@@ -541,182 +622,352 @@ TextureImporter:
     - name: HurtBack-03
       rect:
         serializedVersion: 2
-        x: 725
-        y: 312
+        x: 486
+        y: 1281
         width: 105
         height: 197
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (2)
+    - name: Upgrade-02
       rect:
         serializedVersion: 2
-        x: 832
-        y: 310
+        x: 593
+        y: 1279
         width: 115
         height: 199
       alignment: 9
       pivot: {x: .460869551, y: .643216074}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (8)
+    - name: Upgrade-08
       rect:
         serializedVersion: 2
-        x: 949
-        y: 309
+        x: 710
+        y: 1278
         width: 131
         height: 200
       alignment: 9
       pivot: {x: .458015263, y: .660000026}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (11)
+    - name: Upgrade-11
       rect:
         serializedVersion: 2
-        x: 1082
-        y: 306
+        x: 843
+        y: 1275
         width: 136
         height: 203
       alignment: 9
       pivot: {x: .463235289, y: .665024638}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (9)
+    - name: Upgrade-09
       rect:
         serializedVersion: 2
-        x: 1220
-        y: 301
+        x: 981
+        y: 1270
         width: 132
         height: 208
       alignment: 9
       pivot: {x: .454545468, y: .639423072}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (12)
+    - name: Upgrade-12
       rect:
         serializedVersion: 2
-        x: 1354
-        y: 298
+        x: 1115
+        y: 1267
         width: 138
         height: 211
       alignment: 9
       pivot: {x: .463768125, y: .644549787}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (3)
+    - name: Upgrade-03
       rect:
         serializedVersion: 2
-        x: 1494
-        y: 295
+        x: 2
+        y: 1051
         width: 118
         height: 214
       alignment: 9
       pivot: {x: .466101706, y: .598130822}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (13)
+    - name: Upgrade-13
       rect:
         serializedVersion: 2
-        x: 2
-        y: 75
+        x: 122
+        y: 1047
         width: 141
         height: 218
       alignment: 9
       pivot: {x: .460992903, y: .62844038}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (14)
+    - name: Upgrade-14
       rect:
         serializedVersion: 2
-        x: 145
-        y: 67
+        x: 265
+        y: 1039
         width: 142
         height: 226
       alignment: 9
       pivot: {x: .464788735, y: .610619485}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (15)
+    - name: Upgrade-15
       rect:
         serializedVersion: 2
-        x: 289
-        y: 59
+        x: 409
+        y: 1031
         width: 146
         height: 234
       alignment: 9
       pivot: {x: .465753436, y: .594017088}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (16)
+    - name: ShuRu-01
       rect:
         serializedVersion: 2
-        x: 437
-        y: 52
+        x: 557
+        y: 1031
+        width: 109
+        height: 234
+      alignment: 9
+      pivot: {x: .504587173, y: .290598303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Upgrade-16
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1024
         width: 147
         height: 241
       alignment: 9
       pivot: {x: .462585032, y: .580912888}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (17)
+    - name: Upgrade-17
       rect:
         serializedVersion: 2
-        x: 586
-        y: 45
+        x: 817
+        y: 1017
         width: 149
         height: 248
       alignment: 9
       pivot: {x: .463087261, y: .564516127}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (18)
+    - name: Upgrade-18
       rect:
         serializedVersion: 2
-        x: 737
-        y: 39
+        x: 968
+        y: 1011
         width: 151
         height: 254
       alignment: 9
       pivot: {x: .470198661, y: .551181078}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (19)
+    - name: Upgrade-19
       rect:
         serializedVersion: 2
-        x: 890
-        y: 30
+        x: 1121
+        y: 1002
         width: 152
         height: 263
       alignment: 9
       pivot: {x: .467105269, y: .543726265}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (20)
+    - name: Upgrade-20
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 25
+        x: 2
+        y: 732
         width: 154
         height: 268
       alignment: 9
       pivot: {x: .467532456, y: .529850721}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (21)
+    - name: Upgrade-21
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 20
+        x: 158
+        y: 727
         width: 164
         height: 273
       alignment: 9
       pivot: {x: .493902445, y: .520146549}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (22)
+    - name: ShuRu-03
       rect:
         serializedVersion: 2
-        x: 1366
-        y: 11
+        x: 324
+        y: 720
+        width: 126
+        height: 280
+      alignment: 9
+      pivot: {x: .43650794, y: .303571433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShuRu-02
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 719
+        width: 123
+        height: 281
+      alignment: 9
+      pivot: {x: .455284566, y: .306049824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Upgrade-22
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 718
         width: 167
         height: 282
       alignment: 9
       pivot: {x: .491017967, y: .507092178}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Upgrade-ShengJi (23)
+    - name: Upgrade-23
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 5
+        x: 746
+        y: 712
         width: 166
         height: 288
       alignment: 9
       pivot: {x: .512048185, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-09
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 701
+        width: 161
+        height: 299
+      alignment: 9
+      pivot: {x: .490683228, y: .337792635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-03
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 698
+        width: 236
+        height: 302
+      alignment: 9
+      pivot: {x: .478813559, y: .331125826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 394
+        width: 226
+        height: 302
+      alignment: 9
+      pivot: {x: .477876097, y: .331125826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-06
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 394
+        width: 250
+        height: 302
+      alignment: 9
+      pivot: {x: .483999997, y: .331125826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-04
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 394
+        width: 247
+        height: 302
+      alignment: 9
+      pivot: {x: .481781363, y: .331125826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-08
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 394
+        width: 251
+        height: 302
+      alignment: 9
+      pivot: {x: .482071728, y: .331125826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-07
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 394
+        width: 260
+        height: 302
+      alignment: 9
+      pivot: {x: .484615386, y: .331125826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 89
+        width: 217
+        height: 303
+      alignment: 9
+      pivot: {x: .474654377, y: .333333343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Born-05
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 86
+        width: 257
+        height: 306
+      alignment: 9
+      pivot: {x: .482490271, y: .326797396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShuRu-04
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 83
+        width: 125
+        height: 309
+      alignment: 9
+      pivot: {x: .416000009, y: .271844655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShuRu-05
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 53
+        width: 127
+        height: 339
+      alignment: 9
+      pivot: {x: .409448832, y: .241887912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShuRu-06
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 52
+        width: 158
+        height: 340
+      alignment: 9
+      pivot: {x: .518987358, y: .238235295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShuRu-07
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 36
+        width: 183
+        height: 356
+      alignment: 9
+      pivot: {x: .584699452, y: .224719107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShuRu-08
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 5
+        width: 127
+        height: 387
+      alignment: 9
+      pivot: {x: .40157479, y: .20413436}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

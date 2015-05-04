@@ -11,7 +11,7 @@ public class LevelInitializer : MonoBehaviour
 
 	private GameObject hero;
 	private Vector3 heroBornLocation;
-	private Vector3 heroHideLocation = new Vector3(-15, 0, 0);
+	private Vector3 heroHideLocation = new Vector3(-15, 15, 0);
 
 	public void Load()
 	{

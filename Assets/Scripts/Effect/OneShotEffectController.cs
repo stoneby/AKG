@@ -4,11 +4,11 @@ public class OneShotEffectController : MonoBehaviour
 {
 	public string StateName;
 
-    private Animator hitAnimator;
+    private Animator anim;
 
     public void Play()
     {
-        hitAnimator.Play(StateName);
+        anim.Play(StateName);
     }
 
     public void OnPlayEnd()
@@ -18,7 +18,6 @@ public class OneShotEffectController : MonoBehaviour
 
     void Awake()
     {
-        hitAnimator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
-
 }
