@@ -21,7 +21,7 @@ public class MonsterGroupInitializer : MonoBehaviour
         idleStateList = GetComponentsInChildren<IdleState>().ToList();
         HealthList = idleStateList.Select(item => item.GetComponent<CharacterHealth>()).ToList();
 
-        if (IdleLeftRange.Count != IdleRightRange.Count || IdleLeftRange.Count != idleStateList.Count || IdleLeftRange.Count != GameData.Instance.MonsterCount)
+        if (IdleLeftRange.Count != IdleRightRange.Count || IdleLeftRange.Count != idleStateList.Count)
         {
             Debug.LogError("Make sure the counting are equals among left range, right range, and state list, and monster count.");
         }

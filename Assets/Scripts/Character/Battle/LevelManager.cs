@@ -7,6 +7,10 @@ public class LevelManager : MonoBehaviour
 
     public bool IsLastLevel { get { return CurrentIndex == TotalCount - 1; } }
 
+    public delegate void LevelUpdate();
+
+    public LevelUpdate OnLevelUpdate;
+
     public void Init()
     {
         CurrentIndex = -1;
@@ -15,6 +19,11 @@ public class LevelManager : MonoBehaviour
     public void Next()
     {
         ++CurrentIndex;
+
+        if (OnLevelUpdate != null)
+        {
+            OnLevelUpdate();
+        }
     }
 
     void Awake()

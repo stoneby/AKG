@@ -27,4 +27,9 @@ public class LevelEndChecker : MonoBehaviour
     {
         deadMonsterCount = 0;
     }
+
+    void Awake()
+    {
+        enabled = false;
+    }
 }
