@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.7.1</string>
+        <string>3.6.0</string>
         <key>fileName</key>
-        <string>/Users/cuixiaoliang/Desktop/GitHub/AKG/Document/TPProjects/DemaAnimations.tps</string>
+        <string>D:/Code/AKG/Document/TPProjects/DemaAnimations.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -119,7 +119,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -200,15 +200,5 @@
         <uint>1</uint>
         <key>commonDivisorY</key>
         <uint>1</uint>
-        <key>packNormalMaps</key>
-        <false/>
-        <key>autodetectNormalMaps</key>
-        <true/>
-        <key>normalMapFilter</key>
-        <string></string>
-        <key>normalMapSuffix</key>
-        <string></string>
-        <key>normalMapSheetFileName</key>
-        <filename></filename>
     </struct>
 </data>
