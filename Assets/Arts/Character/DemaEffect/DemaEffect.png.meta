@@ -213,7 +213,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 1968
+        y: 1728
         width: 40
         height: 38
       alignment: 9
@@ -223,37 +223,37 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 44
-        y: 1966
+        y: 1726
         width: 108
         height: 40
       alignment: 9
       pivot: {x: .509259284, y: .524999976}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run-3
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 1960
-        width: 116
-        height: 46
-      alignment: 9
-      pivot: {x: .508620679, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run-2
       rect:
         serializedVersion: 2
-        x: 272
-        y: 1960
+        x: 154
+        y: 1720
         width: 113
         height: 46
       alignment: 9
       pivot: {x: .513274312, y: .478260875}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1720
+        width: 116
+        height: 46
+      alignment: 9
+      pivot: {x: .508620679, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run-4
       rect:
         serializedVersion: 2
         x: 387
-        y: 1956
+        y: 1716
         width: 118
         height: 50
       alignment: 0
@@ -263,7 +263,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 507
-        y: 1951
+        y: 1711
         width: 56
         height: 55
       alignment: 9
@@ -273,7 +273,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 565
-        y: 1932
+        y: 1692
         width: 109
         height: 74
       alignment: 0
@@ -283,7 +283,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 676
-        y: 1930
+        y: 1690
         width: 184
         height: 76
       alignment: 0
@@ -293,7 +293,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 862
-        y: 1928
+        y: 1688
         width: 164
         height: 78
       alignment: 0
@@ -303,7 +303,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1028
-        y: 1927
+        y: 1687
         width: 176
         height: 79
       alignment: 0
@@ -312,8 +312,8 @@ TextureImporter:
     - name: Hit-2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1839
+        x: 1206
+        y: 1680
         width: 147
         height: 86
       alignment: 0
@@ -322,8 +322,8 @@ TextureImporter:
     - name: Hit-1
       rect:
         serializedVersion: 2
-        x: 151
-        y: 1839
+        x: 1355
+        y: 1680
         width: 134
         height: 86
       alignment: 0
@@ -332,8 +332,8 @@ TextureImporter:
     - name: Exp-04
       rect:
         serializedVersion: 2
-        x: 287
-        y: 1835
+        x: 2
+        y: 1588
         width: 93
         height: 90
       alignment: 9
@@ -342,8 +342,8 @@ TextureImporter:
     - name: HurtFront-06
       rect:
         serializedVersion: 2
-        x: 382
-        y: 1833
+        x: 97
+        y: 1586
         width: 154
         height: 92
       alignment: 0
@@ -352,8 +352,8 @@ TextureImporter:
     - name: HurtFront-05
       rect:
         serializedVersion: 2
-        x: 538
-        y: 1828
+        x: 253
+        y: 1581
         width: 164
         height: 97
       alignment: 0
@@ -362,8 +362,8 @@ TextureImporter:
     - name: HurtFront-02
       rect:
         serializedVersion: 2
-        x: 704
-        y: 1828
+        x: 419
+        y: 1581
         width: 157
         height: 97
       alignment: 0
@@ -372,8 +372,8 @@ TextureImporter:
     - name: HurtFront-04
       rect:
         serializedVersion: 2
-        x: 863
-        y: 1816
+        x: 578
+        y: 1569
         width: 177
         height: 109
       alignment: 0
@@ -382,8 +382,8 @@ TextureImporter:
     - name: HurtFront-03
       rect:
         serializedVersion: 2
-        x: 1042
-        y: 1809
+        x: 757
+        y: 1562
         width: 184
         height: 116
       alignment: 0
@@ -392,118 +392,118 @@ TextureImporter:
     - name: HurtBack-01
       rect:
         serializedVersion: 2
-        x: 1228
-        y: 1803
+        x: 943
+        y: 1556
         width: 74
         height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChangTai-01
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1550
+        width: 228
+        height: 128
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ChangTai-02
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1668
-        width: 164
-        height: 133
-      alignment: 9
-      pivot: {x: .506097555, y: .406015038}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-01
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 1668
-        width: 160
-        height: 133
-      alignment: 9
-      pivot: {x: .493750006, y: .406015038}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-09
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1667
-        width: 160
-        height: 134
-      alignment: 9
-      pivot: {x: .493750006, y: .402985066}
+        x: 1249
+        y: 1550
+        width: 234
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ChangTai-03
       rect:
         serializedVersion: 2
-        x: 492
-        y: 1667
-        width: 160
-        height: 134
-      alignment: 9
-      pivot: {x: .493750006, y: .402985066}
+        x: 2
+        y: 1419
+        width: 228
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChangTai-09
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1419
+        width: 228
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ChangTai-04
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1666
-        width: 160
+        x: 462
+        y: 1418
+        width: 228
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChangTai-05
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1416
+        width: 228
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChangTai-06
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1415
+        width: 240
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChangTai-08
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1413
+        width: 248
         height: 135
-      alignment: 9
-      pivot: {x: .493750006, y: .4148148}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Exp-03
       rect:
         serializedVersion: 2
-        x: 816
-        y: 1666
+        x: 1414
+        y: 1413
         width: 139
         height: 135
       alignment: 9
       pivot: {x: .50359714, y: .48888889}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-05
-      rect:
-        serializedVersion: 2
-        x: 957
-        y: 1664
-        width: 160
-        height: 137
-      alignment: 9
-      pivot: {x: .493750006, y: .423357666}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-06
-      rect:
-        serializedVersion: 2
-        x: 1119
-        y: 1663
-        width: 168
-        height: 138
-      alignment: 9
-      pivot: {x: .494047612, y: .427536219}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChangTai-08
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1521
-        width: 174
-        height: 140
-      alignment: 9
-      pivot: {x: .494252861, y: .435714275}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: ChangTai-07
       rect:
         serializedVersion: 2
-        x: 178
-        y: 1520
-        width: 174
-        height: 141
-      alignment: 9
-      pivot: {x: .494252861, y: .439716309}
+        x: 2
+        y: 1275
+        width: 248
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Exp-01
       rect:
         serializedVersion: 2
-        x: 354
-        y: 1518
+        x: 252
+        y: 1268
         width: 139
         height: 143
       alignment: 9
@@ -512,8 +512,8 @@ TextureImporter:
     - name: Exp-02
       rect:
         serializedVersion: 2
-        x: 495
-        y: 1514
+        x: 393
+        y: 1264
         width: 158
         height: 147
       alignment: 9
@@ -522,8 +522,8 @@ TextureImporter:
     - name: HurtBack-06
       rect:
         serializedVersion: 2
-        x: 655
-        y: 1501
+        x: 553
+        y: 1251
         width: 92
         height: 160
       alignment: 0
@@ -532,8 +532,8 @@ TextureImporter:
     - name: HurtBack-02
       rect:
         serializedVersion: 2
-        x: 749
-        y: 1494
+        x: 647
+        y: 1244
         width: 89
         height: 167
       alignment: 0
@@ -542,8 +542,8 @@ TextureImporter:
     - name: Upgrade-04
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1492
+        x: 738
+        y: 1242
         width: 120
         height: 169
       alignment: 9
@@ -552,8 +552,8 @@ TextureImporter:
     - name: HurtBack-05
       rect:
         serializedVersion: 2
-        x: 962
-        y: 1490
+        x: 860
+        y: 1240
         width: 92
         height: 171
       alignment: 0
@@ -562,8 +562,8 @@ TextureImporter:
     - name: Upgrade-05
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1483
+        x: 954
+        y: 1233
         width: 122
         height: 178
       alignment: 9
@@ -572,8 +572,8 @@ TextureImporter:
     - name: Upgrade-01
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 1480
+        x: 1078
+        y: 1230
         width: 113
         height: 181
       alignment: 9
@@ -582,8 +582,8 @@ TextureImporter:
     - name: Upgrade-06
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1293
+        x: 1193
+        y: 1226
         width: 122
         height: 185
       alignment: 9
@@ -592,8 +592,8 @@ TextureImporter:
     - name: HurtBack-04
       rect:
         serializedVersion: 2
-        x: 126
-        y: 1293
+        x: 1317
+        y: 1226
         width: 93
         height: 185
       alignment: 0
@@ -602,8 +602,8 @@ TextureImporter:
     - name: Upgrade-07
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1285
+        x: 1412
+        y: 1218
         width: 127
         height: 193
       alignment: 9
@@ -612,8 +612,8 @@ TextureImporter:
     - name: Upgrade-10
       rect:
         serializedVersion: 2
-        x: 350
-        y: 1284
+        x: 2
+        y: 1022
         width: 134
         height: 194
       alignment: 9
@@ -622,8 +622,8 @@ TextureImporter:
     - name: HurtBack-03
       rect:
         serializedVersion: 2
-        x: 486
-        y: 1281
+        x: 138
+        y: 1019
         width: 105
         height: 197
       alignment: 0
@@ -632,8 +632,8 @@ TextureImporter:
     - name: Upgrade-02
       rect:
         serializedVersion: 2
-        x: 593
-        y: 1279
+        x: 245
+        y: 1017
         width: 115
         height: 199
       alignment: 9
@@ -642,8 +642,8 @@ TextureImporter:
     - name: Upgrade-08
       rect:
         serializedVersion: 2
-        x: 710
-        y: 1278
+        x: 362
+        y: 1016
         width: 131
         height: 200
       alignment: 9
@@ -652,8 +652,8 @@ TextureImporter:
     - name: Upgrade-11
       rect:
         serializedVersion: 2
-        x: 843
-        y: 1275
+        x: 495
+        y: 1013
         width: 136
         height: 203
       alignment: 9
@@ -662,8 +662,8 @@ TextureImporter:
     - name: Upgrade-09
       rect:
         serializedVersion: 2
-        x: 981
-        y: 1270
+        x: 633
+        y: 1008
         width: 132
         height: 208
       alignment: 9
@@ -672,8 +672,8 @@ TextureImporter:
     - name: Upgrade-12
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 1267
+        x: 767
+        y: 1005
         width: 138
         height: 211
       alignment: 9
@@ -682,8 +682,8 @@ TextureImporter:
     - name: Upgrade-03
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1051
+        x: 907
+        y: 1002
         width: 118
         height: 214
       alignment: 9
@@ -692,8 +692,8 @@ TextureImporter:
     - name: Upgrade-13
       rect:
         serializedVersion: 2
-        x: 122
-        y: 1047
+        x: 1027
+        y: 998
         width: 141
         height: 218
       alignment: 9
@@ -702,8 +702,8 @@ TextureImporter:
     - name: Upgrade-14
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1039
+        x: 1170
+        y: 990
         width: 142
         height: 226
       alignment: 9
@@ -712,8 +712,8 @@ TextureImporter:
     - name: Upgrade-15
       rect:
         serializedVersion: 2
-        x: 409
-        y: 1031
+        x: 1314
+        y: 982
         width: 146
         height: 234
       alignment: 9
@@ -722,8 +722,8 @@ TextureImporter:
     - name: ShuRu-01
       rect:
         serializedVersion: 2
-        x: 557
-        y: 1031
+        x: 2
+        y: 746
         width: 109
         height: 234
       alignment: 9
@@ -732,8 +732,8 @@ TextureImporter:
     - name: Upgrade-16
       rect:
         serializedVersion: 2
-        x: 668
-        y: 1024
+        x: 113
+        y: 739
         width: 147
         height: 241
       alignment: 9
@@ -742,8 +742,8 @@ TextureImporter:
     - name: Upgrade-17
       rect:
         serializedVersion: 2
-        x: 817
-        y: 1017
+        x: 262
+        y: 732
         width: 149
         height: 248
       alignment: 9
@@ -752,8 +752,8 @@ TextureImporter:
     - name: Upgrade-18
       rect:
         serializedVersion: 2
-        x: 968
-        y: 1011
+        x: 413
+        y: 726
         width: 151
         height: 254
       alignment: 9
@@ -762,8 +762,8 @@ TextureImporter:
     - name: Upgrade-19
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 1002
+        x: 566
+        y: 717
         width: 152
         height: 263
       alignment: 9
@@ -772,8 +772,8 @@ TextureImporter:
     - name: Upgrade-20
       rect:
         serializedVersion: 2
-        x: 2
-        y: 732
+        x: 720
+        y: 712
         width: 154
         height: 268
       alignment: 9
@@ -782,8 +782,8 @@ TextureImporter:
     - name: Upgrade-21
       rect:
         serializedVersion: 2
-        x: 158
-        y: 727
+        x: 876
+        y: 707
         width: 164
         height: 273
       alignment: 9
@@ -792,8 +792,8 @@ TextureImporter:
     - name: ShuRu-03
       rect:
         serializedVersion: 2
-        x: 324
-        y: 720
+        x: 1042
+        y: 700
         width: 126
         height: 280
       alignment: 9
@@ -802,8 +802,8 @@ TextureImporter:
     - name: ShuRu-02
       rect:
         serializedVersion: 2
-        x: 452
-        y: 719
+        x: 1170
+        y: 699
         width: 123
         height: 281
       alignment: 9
@@ -812,8 +812,8 @@ TextureImporter:
     - name: Upgrade-22
       rect:
         serializedVersion: 2
-        x: 577
-        y: 718
+        x: 1295
+        y: 698
         width: 167
         height: 282
       alignment: 9
@@ -822,8 +822,8 @@ TextureImporter:
     - name: Upgrade-23
       rect:
         serializedVersion: 2
-        x: 746
-        y: 712
+        x: 2
+        y: 408
         width: 166
         height: 288
       alignment: 9
@@ -832,8 +832,8 @@ TextureImporter:
     - name: Born-09
       rect:
         serializedVersion: 2
-        x: 914
-        y: 701
+        x: 170
+        y: 397
         width: 161
         height: 299
       alignment: 9
@@ -842,8 +842,8 @@ TextureImporter:
     - name: Born-03
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 698
+        x: 333
+        y: 394
         width: 236
         height: 302
       alignment: 9
@@ -852,7 +852,7 @@ TextureImporter:
     - name: Born-02
       rect:
         serializedVersion: 2
-        x: 2
+        x: 571
         y: 394
         width: 226
         height: 302
@@ -862,7 +862,7 @@ TextureImporter:
     - name: Born-06
       rect:
         serializedVersion: 2
-        x: 230
+        x: 799
         y: 394
         width: 250
         height: 302
@@ -872,7 +872,7 @@ TextureImporter:
     - name: Born-04
       rect:
         serializedVersion: 2
-        x: 482
+        x: 1051
         y: 394
         width: 247
         height: 302
@@ -882,7 +882,7 @@ TextureImporter:
     - name: Born-08
       rect:
         serializedVersion: 2
-        x: 731
+        x: 1300
         y: 394
         width: 251
         height: 302
@@ -892,8 +892,8 @@ TextureImporter:
     - name: Born-07
       rect:
         serializedVersion: 2
-        x: 984
-        y: 394
+        x: 2
+        y: 90
         width: 260
         height: 302
       alignment: 9
@@ -902,7 +902,7 @@ TextureImporter:
     - name: Born-01
       rect:
         serializedVersion: 2
-        x: 2
+        x: 264
         y: 89
         width: 217
         height: 303
@@ -912,7 +912,7 @@ TextureImporter:
     - name: Born-05
       rect:
         serializedVersion: 2
-        x: 221
+        x: 483
         y: 86
         width: 257
         height: 306
@@ -922,7 +922,7 @@ TextureImporter:
     - name: ShuRu-04
       rect:
         serializedVersion: 2
-        x: 480
+        x: 742
         y: 83
         width: 125
         height: 309
@@ -932,7 +932,7 @@ TextureImporter:
     - name: ShuRu-05
       rect:
         serializedVersion: 2
-        x: 607
+        x: 869
         y: 53
         width: 127
         height: 339
@@ -942,7 +942,7 @@ TextureImporter:
     - name: ShuRu-06
       rect:
         serializedVersion: 2
-        x: 736
+        x: 998
         y: 52
         width: 158
         height: 340
@@ -952,7 +952,7 @@ TextureImporter:
     - name: ShuRu-07
       rect:
         serializedVersion: 2
-        x: 896
+        x: 1158
         y: 36
         width: 183
         height: 356
@@ -962,7 +962,7 @@ TextureImporter:
     - name: ShuRu-08
       rect:
         serializedVersion: 2
-        x: 1081
+        x: 1343
         y: 5
         width: 127
         height: 387

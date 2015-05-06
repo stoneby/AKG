@@ -3180,6 +3180,7 @@ GameObject:
   - 124: {fileID: 1204045205}
   - 81: {fileID: 1204045204}
   - 114: {fileID: 1204045209}
+  - 111: {fileID: 1204045210}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3269,6 +3270,21 @@ MonoBehaviour:
   ySmooth: 2
   maxXAndY: {x: 6, y: 0}
   minXAndY: {x: -6, y: 0}
+--- !u!111 &1204045210
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204045203}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2b4e21f25c440b2468470ae18850f09f, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2b4e21f25c440b2468470ae18850f09f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1207906111
 GameObject:
   m_ObjectHideFlags: 0

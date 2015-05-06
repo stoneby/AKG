@@ -32,7 +32,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &114118
 GameObject:
   m_ObjectHideFlags: 1
@@ -60,6 +60,7 @@ GameObject:
   - 212: {fileID: 21214118}
   - 95: {fileID: 9514116}
   - 114: {fileID: 11414116}
+  - 114: {fileID: 11473062}
   m_Layer: 0
   m_Name: Born
   m_TagString: Untagged
@@ -369,7 +370,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.0780001, y: -1.31900001, z: 0}
+  m_LocalPosition: {x: -10.0799999, y: -1.15999997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414114}
@@ -787,7 +788,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StateName: ChangTai
-  AutoPlay: 0
 --- !u!114 &11414116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -800,7 +800,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StateName: Born
-  AutoPlay: 1
+--- !u!114 &11473062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784d64ceb6e8bf345a6c4a5eeff424bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalEffect: {fileID: 11414114}
 --- !u!212 &21214114
 SpriteRenderer:
   m_ObjectHideFlags: 1

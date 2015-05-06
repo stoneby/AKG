@@ -3,7 +3,6 @@
 public class OneShotEffectController : MonoBehaviour
 {
 	public string StateName;
-    public bool AutoPlay;
 
     private Animator anim;
 
@@ -20,10 +19,5 @@ public class OneShotEffectController : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
-
-        if (AutoPlay)
-        {
-            Play();
-        }
     }
 }
