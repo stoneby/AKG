@@ -51,10 +51,6 @@ public class PlayerControl : MonoBehaviour
 	/// <value><c>true</c> if hurt front; otherwise, <c>false</c>.</value>
 	public bool HurtFront { get; set; }
 
-	public GameObject BornPrefab;
-	
-	private OneShotEffectController effectController;
-
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
     private bool grounded;			        // Whether or not the player is grounded.
     private Animator anim;					// Reference to the player's animator component.
@@ -70,10 +66,6 @@ public class PlayerControl : MonoBehaviour
 		anim.enabled = false;
 
 		characterCommon = GetComponent<CharacterCommon>();
-
-		effectController = (Instantiate(BornPrefab) as GameObject).GetComponent<OneShotEffectController>();
-		effectController.transform.parent = transform;
-		effectController.transform.localPosition = Vector3.zero;
 
         if (inputDevice == InputDevice.HUD)
         {
@@ -95,7 +87,6 @@ public class PlayerControl : MonoBehaviour
 		PresentData.Instance.LevelInit.OnLoadComplete -= OnLoadComplete;
 
 		anim.enabled = true;
-		effectController.Play();
 	}
 
     void Update()
