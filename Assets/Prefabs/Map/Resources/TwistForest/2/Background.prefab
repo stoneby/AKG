@@ -390,7 +390,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.33000004, y: -.119999997, z: 0}
+  m_LocalPosition: {x: -1.33000004, y: -.25999999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 444340}
@@ -403,7 +403,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.180000007, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 444342}
@@ -639,8 +639,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 3.33251882, y: .869728088}
-  m_Center: {x: -.0148113631, y: -.433785677}
+  m_Size: {x: 3.41248059, y: .923035622}
+  m_Center: {x: .0251695253, y: -.460439444}
 --- !u!61 &6144338
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -775,7 +775,7 @@ Animator:
   m_GameObject: {fileID: 157670}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d7031980ee0204ad384b04b6ce9cbbcc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0a20f9ea2803246d797d6d50504cd9eb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
