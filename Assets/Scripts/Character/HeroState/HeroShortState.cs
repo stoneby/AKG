@@ -15,7 +15,7 @@ public class HeroShortState : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		playerRigid2D.velocity = new Vector2(Speed, 0);
+		playerRigid2D.velocity = Speed * playerRigid2D.velocity;
 	}
 	
 	void Awake()

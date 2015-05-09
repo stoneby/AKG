@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &3738169
 GameObject:
@@ -690,6 +691,10 @@ Prefab:
       propertyPath: PlayerUI
       value: 
       objectReference: {fileID: 62563955}
+    - target: {fileID: 11400016, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
+      propertyPath: Speed
+      value: .200000003
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
   m_RootGameObject: {fileID: 1264956877}
@@ -1020,8 +1025,8 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreReversedGraphics: 1
-  blockingObjects: 0
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3392,7 +3397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28f543687febc4aa09cd2f7557b63f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: .5
+  Speed: .200000003
 --- !u!114 &1264956880
 MonoBehaviour:
   m_ObjectHideFlags: 0

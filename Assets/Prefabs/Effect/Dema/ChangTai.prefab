@@ -57,7 +57,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StateName: ChangTai
-  OneShot: 0
 --- !u!212 &21258326
 SpriteRenderer:
   m_ObjectHideFlags: 1
