@@ -3832,7 +3832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15aca764212ff64c85ccf9a938a9c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonsterCount: 6
+  MonsterCount: 12
   LevelManager: {fileID: 1395930490}
 --- !u!4 &1395930489
 Transform:
