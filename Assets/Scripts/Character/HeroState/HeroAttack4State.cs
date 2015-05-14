@@ -2,17 +2,12 @@
 
 public class HeroAttack4State : MonoBehaviour
 {
-	[Range(0, 10f)]
-	public float SpeedRatio;
+	public HeroAttackMove AttackMove;
 
-    private PlayerControl player;
-	private CharacterCommon characterCommon;
-
-	private bool stopped;
+	private PlayerControl player;
 
     void OnEnable()
     {
-		stopped = false;
         player.LastAttack = true;
 	}
 
@@ -23,24 +18,21 @@ public class HeroAttack4State : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		if (stopped)
-		{
-			player.rigidbody2D.velocity = Vector2.zero;
-		}
-		else
-		{
-			player.rigidbody2D.velocity = new Vector2(SpeedRatio * player.horizontalSpeed * (characterCommon.FacingRight ? 1 : -1), player.rigidbody2D.velocity.y);
-		}
+		AttackMove.MoveUpdate();
 	}
 
-	public void OnStop()
+	public void OnAttack4Start()
 	{
-		stopped = true;
+		AttackMove.MoveStart();
 	}
 
-    void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
-		characterCommon = player.GetComponent<CharacterCommon>();
-    }
+	public void OnAttack4Stop()
+	{
+		AttackMove.MoveStop();
+	}
+
+	void Awake()
+	{
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+	}
 }
