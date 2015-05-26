@@ -230,13 +230,14 @@ public class PlayerControl : MonoBehaviour
 		if (other.tag.Equals("CaveEnd"))
 		{
 			var levelManager = GameData.Instance.LevelManager;
-			var levelInit = PresentData.Instance.LevelInit;
-			if (!levelManager.IsLastLevel)
+            if (levelManager.IsLastLevel)
 			{
-				rigidbody2D.isKinematic = true;
-				levelInit.Load();
-			}
-		}
+                levelManager.Reset();
+            }
+            rigidbody2D.isKinematic = true;
+            var levelInit = PresentData.Instance.LevelInit;
+            levelInit.Load();
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)

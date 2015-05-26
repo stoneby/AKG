@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
 
     public LevelUpdate OnLevelUpdate;
 
-    public void Init()
+    public void Reset()
     {
         CurrentIndex = -1;
     }
@@ -28,6 +28,6 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
-        Init();
+        Reset();
     }
 }
