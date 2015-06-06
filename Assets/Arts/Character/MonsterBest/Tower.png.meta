@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 5048c88905c744589bb041fa42ecbc5a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Destroy-01
+    21300002: Destroy-02
+    21300004: Destroy-03
+    21300006: Destroy-04
+    21300008: Die-10001
+    21300010: Die-10002
+    21300012: Die-10003
+    21300014: Die-10004
+    21300016: Die-10005
+    21300018: Die-10006
+    21300020: Die-10007
+    21300022: Die-10008
+    21300024: Die-10009
+    21300026: Floor
+    21300028: Middle
+    21300030: Power-1
+    21300032: Power-10
+    21300034: Power-2
+    21300036: Power-3
+    21300038: Power-4
+    21300040: Power-5
+    21300042: Power-6
+    21300044: Power-7
+    21300046: Power-8
+    21300048: Power-9
+    21300050: Sparkle-1
+    21300052: Sparkle-10
+    21300054: Sparkle-2
+    21300056: Sparkle-3
+    21300058: Sparkle-4
+    21300060: Sparkle-5
+    21300062: Sparkle-6
+    21300064: Sparkle-7
+    21300066: Sparkle-8
+    21300068: Sparkle-9
+    21300070: Top-1
+    21300072: Top-10
+    21300074: Top-11
+    21300076: Top-12
+    21300078: Top-13
+    21300080: Top-14
+    21300082: Top-2
+    21300084: Top-3
+    21300086: Top-4
+    21300088: Top-5
+    21300090: Top-6
+    21300092: Top-7
+    21300094: Top-8
+    21300096: Top-9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Destroy-01
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 466
+        width: 99
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Destroy-02
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 3
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Destroy-03
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 520
+        width: 119
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Destroy-04
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 273
+        width: 131
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10001
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 74
+        width: 63
+        height: 74
+      alignment: 9
+      pivot: {x: .492063493, y: -.486486495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10002
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 3
+        width: 111
+        height: 115
+      alignment: 9
+      pivot: {x: .477477491, y: -.165217385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10003
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 48
+        width: 178
+        height: 181
+      alignment: 9
+      pivot: {x: .477528095, y: .0386740342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10004
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 24
+        width: 245
+        height: 244
+      alignment: 9
+      pivot: {x: .465306133, y: .143442616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10005
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 4
+        width: 250
+        height: 232
+      alignment: 9
+      pivot: {x: .460000008, y: .159482762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10006
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 238
+        width: 250
+        height: 360
+      alignment: 9
+      pivot: {x: .460000008, y: .233333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10007
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 231
+        width: 151
+        height: 367
+      alignment: 9
+      pivot: {x: .430463582, y: .128065392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10008
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 270
+        width: 154
+        height: 328
+      alignment: 9
+      pivot: {x: .448051959, y: .024390243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10009
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 324
+        width: 131
+        height: 274
+      alignment: 9
+      pivot: {x: .541984737, y: -.167883217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Floor
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 135
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Middle
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 205
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-1
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 463
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-10
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 463
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-2
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 148
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-3
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 148
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-4
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 148
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-5
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 150
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-6
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 150
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 150
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-8
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 157
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-9
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 17
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-1
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 5
+        width: 85
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 5
+        width: 83
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 13
+        width: 85
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2
+        width: 83
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-4
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 205
+        width: 81
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-5
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 207
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-6
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 214
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-7
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 214
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-8
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 55
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sparkle-9
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 207
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-1
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2
+        width: 248
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-10
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 448
+        width: 267
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 113
+        width: 280
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-12
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 440
+        width: 280
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-13
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 296
+        width: 267
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-14
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 302
+        width: 255
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-2
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 454
+        width: 255
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-3
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 144
+        width: 267
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-4
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 280
+        width: 280
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-5
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 120
+        width: 280
+        height: 158
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-6
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 448
+        width: 267
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-7
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 302
+        width: 255
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-8
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 2
+        width: 248
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Top-9
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 302
+        width: 255
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
