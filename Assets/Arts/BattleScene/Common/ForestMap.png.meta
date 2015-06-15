@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 20cccee0fb8bfd8498f588e5b7db61d9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: A
+    21300002: A00
+    21300004: A01
+    21300006: A02
+    21300008: A03
+    21300010: B00
+    21300012: B01
+    21300014: B02
+    21300016: B03
+    21300018: FS01
+    21300020: FS02
+    21300022: FS03
+    21300024: QJ01
+    21300026: QJ02
+    21300028: QJ03
+    21300030: QJ04
+    21300032: QJ05
+    21300034: QJ06
+    21300036: QJ07
+    21300038: QJ08
+    21300040: QJ09
+    21300042: QJ10
+    21300044: QJ11
+    21300046: QJ12
+    21300048: QJ13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: A
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1453
+        width: 608
+        height: 593
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A00
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 261
+        width: 319
+        height: 326
+      alignment: 9
+      pivot: {x: -.172413796, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 307
+        height: 347
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A02
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 589
+        width: 307
+        height: 337
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A03
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1212
+        width: 337
+        height: 337
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B00
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1557
+        width: 311
+        height: 489
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B01
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 436
+        width: 310
+        height: 490
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B02
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1551
+        width: 308
+        height: 495
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B03
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 435
+        width: 310
+        height: 491
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FS01
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 94
+        width: 269
+        height: 165
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FS02
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 25
+        width: 424
+        height: 234
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FS03
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 270
+        width: 202
+        height: 164
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ01
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 19
+        width: 123
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ02
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1454
+        width: 134
+        height: 95
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ03
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1415
+        width: 156
+        height: 140
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ04
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 28
+        width: 132
+        height: 99
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ05
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 274
+        width: 314
+        height: 163
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ06
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1305
+        width: 155
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ07
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 129
+        width: 263
+        height: 143
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ08
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 4
+        width: 256
+        height: 88
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ09
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 933
+        width: 425
+        height: 277
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ10
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 682
+        width: 302
+        height: 249
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ11
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 439
+        width: 323
+        height: 241
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1075
+        width: 764
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: QJ13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 928
+        width: 800
+        height: 145
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
