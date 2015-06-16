@@ -24,7 +24,7 @@ public class LevelInitializer : MonoBehaviour
 
 	private void OnBattleLoadComplete()
 	{
-		heroBornLocation = GameObject.FindGameObjectWithTag("HeroBornLocation").transform.position;
+		heroBornLocation = transform.Find("HeroBornLocation").transform.position;
 
 		hero.transform.position = heroBornLocation;
 		hero.rigidbody2D.isKinematic = false;

@@ -838,7 +838,7 @@ GameObject:
   - 4: {fileID: 458916}
   - 114: {fileID: 11458908}
   m_Layer: 0
-  m_Name: MonsterSpawner01
+  m_Name: MonsterSpawner1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

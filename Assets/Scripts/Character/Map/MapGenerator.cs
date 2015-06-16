@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour
 {
+	public TextAsset TileText;
+
     public List<string> TileList;
 
     public List<Sprite> TileUnitSpriteList;
@@ -14,6 +16,10 @@ public class MapGenerator : MonoBehaviour
     [ContextMenu("Execute")]
     public void Generate()
     {
+		var tiles = TileText.text.Trim().Split(new [] {' '}, System.StringSplitOptions.RemoveEmptyEntries);
+		TileList.Clear();
+		TileList.AddRange(tiles);
+
         foreach (var tileName in TileList)
         {
             var sprite = TileUnitSpriteList.Find(tile => tile.name.Equals(tileName));
@@ -22,6 +28,7 @@ public class MapGenerator : MonoBehaviour
                 var go = new GameObject {name = tileName};
                 var render = go.AddComponent<SpriteRenderer>();
                 render.sprite = sprite;
+				render.sortingLayerName = "Background";
 
                 if (lastSpriteGO == null)
                 {
@@ -34,6 +41,7 @@ public class MapGenerator : MonoBehaviour
                 lastSpriteGO = go;
                 lastSprite = sprite;
                 go.transform.parent = transform;
+				go.layer = LayerMask.NameToLayer("Ground");
 
                 tileGOList.Add(go);
             }
