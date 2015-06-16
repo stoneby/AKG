@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 424664}
+  - 114: {fileID: 11424664}
+  m_Layer: 0
+  m_Name: DynamicMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &424664
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.3999996, y: -3.5999999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11424664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9b725c0473b3e4aaca3761093895e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileList:
+  - A
+  - A01
+  - A01
+  - A02
+  - A01
+  - A01
+  - A01
+  - B00
+  - B01
+  - B02
+  - A01
+  - A03
+  - A00
+  - A01
+  - A02
+  - B01
+  - B01
+  - B01
+  - B03
+  - A02
+  - A03
+  - B00
+  - B02
+  - A03
+  - A00
+  - A02
+  - A02
+  - A03
+  - B00
+  - B03
+  TileUnitSpriteList:
+  - {fileID: 21300000, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300002, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300004, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300006, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300008, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300010, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300012, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300014, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300016, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300018, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300020, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300022, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300024, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300026, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300028, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300030, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300032, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300034, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300036, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300038, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300040, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300042, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300044, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300046, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+  - {fileID: 21300048, guid: 20cccee0fb8bfd8498f588e5b7db61d9, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124664}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

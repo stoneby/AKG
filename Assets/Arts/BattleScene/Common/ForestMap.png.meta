@@ -72,7 +72,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 1453
+        y: 749
         width: 608
         height: 593
       alignment: 6
@@ -81,18 +81,18 @@ TextureImporter:
     - name: A00
       rect:
         serializedVersion: 2
-        x: 626
-        y: 261
-        width: 319
-        height: 326
-      alignment: 9
-      pivot: {x: -.172413796, y: 0}
+        x: 1667
+        y: 435
+        width: 374
+        height: 382
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: A01
       rect:
         serializedVersion: 2
-        x: 2
-        y: 86
+        x: 1220
+        y: 5
         width: 307
         height: 347
       alignment: 6
@@ -101,68 +101,68 @@ TextureImporter:
     - name: A02
       rect:
         serializedVersion: 2
-        x: 626
-        y: 589
+        x: 1529
+        y: 20
         width: 307
-        height: 337
+        height: 347
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: A03
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1212
+        x: 924
+        y: 848
         width: 337
-        height: 337
+        height: 347
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B00
       rect:
         serializedVersion: 2
-        x: 922
-        y: 1557
+        x: 2
+        y: 228
         width: 311
-        height: 489
+        height: 519
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B01
       rect:
         serializedVersion: 2
-        x: 314
-        y: 436
+        x: 315
+        y: 228
         width: 310
-        height: 490
+        height: 519
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B02
       rect:
         serializedVersion: 2
-        x: 612
-        y: 1551
+        x: 627
+        y: 302
         width: 308
-        height: 495
+        height: 519
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B03
       rect:
         serializedVersion: 2
-        x: 2
-        y: 435
+        x: 612
+        y: 823
         width: 310
-        height: 491
+        height: 519
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: FS01
       rect:
         serializedVersion: 2
-        x: 737
-        y: 94
+        x: 2
+        y: 61
         width: 269
         height: 165
       alignment: 6
@@ -171,8 +171,8 @@ TextureImporter:
     - name: FS02
       rect:
         serializedVersion: 2
-        x: 311
-        y: 25
+        x: 1241
+        y: 369
         width: 424
         height: 234
       alignment: 6
@@ -181,8 +181,8 @@ TextureImporter:
     - name: FS03
       rect:
         serializedVersion: 2
-        x: 314
-        y: 270
+        x: 273
+        y: 62
         width: 202
         height: 164
       alignment: 6
@@ -191,8 +191,8 @@ TextureImporter:
     - name: QJ01
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 19
+        x: 1262
+        y: 709
         width: 123
         height: 108
       alignment: 6
@@ -201,8 +201,8 @@ TextureImporter:
     - name: QJ02
       rect:
         serializedVersion: 2
-        x: 612
-        y: 1454
+        x: 1838
+        y: 86
         width: 134
         height: 95
       alignment: 6
@@ -211,8 +211,8 @@ TextureImporter:
     - name: QJ03
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 1415
+        x: 1838
+        y: 293
         width: 156
         height: 140
       alignment: 6
@@ -221,8 +221,8 @@ TextureImporter:
     - name: QJ04
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 28
+        x: 1262
+        y: 608
         width: 132
         height: 99
       alignment: 6
@@ -231,8 +231,8 @@ TextureImporter:
     - name: QJ05
       rect:
         serializedVersion: 2
-        x: 947
-        y: 274
+        x: 477
+        y: 63
         width: 314
         height: 163
       alignment: 6
@@ -241,8 +241,8 @@ TextureImporter:
     - name: QJ06
       rect:
         serializedVersion: 2
-        x: 1107
-        y: 1305
+        x: 1838
+        y: 183
         width: 155
         height: 108
       alignment: 6
@@ -251,8 +251,8 @@ TextureImporter:
     - name: QJ07
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 129
+        x: 937
+        y: 1199
         width: 263
         height: 143
       alignment: 6
@@ -261,8 +261,8 @@ TextureImporter:
     - name: QJ08
       rect:
         serializedVersion: 2
-        x: 737
-        y: 4
+        x: 1396
+        y: 729
         width: 256
         height: 88
       alignment: 6
@@ -271,8 +271,8 @@ TextureImporter:
     - name: QJ09
       rect:
         serializedVersion: 2
-        x: 804
-        y: 933
+        x: 793
+        y: 23
         width: 425
         height: 277
       alignment: 6
@@ -281,8 +281,8 @@ TextureImporter:
     - name: QJ10
       rect:
         serializedVersion: 2
-        x: 935
-        y: 682
+        x: 937
+        y: 354
         width: 302
         height: 249
       alignment: 6
@@ -291,8 +291,8 @@ TextureImporter:
     - name: QJ11
       rect:
         serializedVersion: 2
-        x: 947
-        y: 439
+        x: 937
+        y: 605
         width: 323
         height: 241
       alignment: 6
@@ -301,8 +301,8 @@ TextureImporter:
     - name: QJ12
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1075
+        x: 1263
+        y: 819
         width: 764
         height: 376
       alignment: 6
@@ -311,8 +311,8 @@ TextureImporter:
     - name: QJ13
       rect:
         serializedVersion: 2
-        x: 2
-        y: 928
+        x: 1220
+        y: 1197
         width: 800
         height: 145
       alignment: 6

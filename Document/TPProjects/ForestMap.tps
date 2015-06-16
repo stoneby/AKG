@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/BattleScene/Common/SceneCommon.png</filename>
+        <filename>../../Assets/Arts/BattleScene/Common/ForestMap.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -102,7 +102,7 @@
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
-            <enum type="AlgorithmSettings::AlgorithmId">Basic</enum>
+            <enum type="AlgorithmSettings::AlgorithmId">MaxRects</enum>
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/BattleScene/Common/SceneCommon.tpsheet</filename>
+                <filename>../../Assets/Arts/BattleScene/Common/ForestMap.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -188,7 +188,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/场景资源/SceneAnimation</filename>
+            <filename>../Fine Arts/场景资源/MapComponent</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
