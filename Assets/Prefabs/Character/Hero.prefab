@@ -582,8 +582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalHealth: 300
-  CurrentHealth: 300
+  TotalHealth: 3000
+  CurrentHealth: 3000
   HurtHealth: 10
   MessageListener: {fileID: 0}
 --- !u!114 &11400014

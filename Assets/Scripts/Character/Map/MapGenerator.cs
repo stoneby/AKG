@@ -13,12 +13,12 @@ public class MapGenerator : MonoBehaviour
     private GameObject lastSpriteGO;
     private Sprite lastSprite;
 
+	private Transform tileRootTrans;
+
     [ContextMenu("Execute")]
     public void Generate()
     {
-		var tiles = TileText.text.Trim().Split(new [] {' '}, System.StringSplitOptions.RemoveEmptyEntries);
-		TileList.Clear();
-		TileList.AddRange(tiles);
+		Initialize();
 
         foreach (var tileName in TileList)
         {
@@ -40,7 +40,7 @@ public class MapGenerator : MonoBehaviour
                 }
                 lastSpriteGO = go;
                 lastSprite = sprite;
-                go.transform.parent = transform;
+                go.transform.parent = tileRootTrans;
 				go.layer = LayerMask.NameToLayer("Ground");
 
                 tileGOList.Add(go);
@@ -58,6 +58,18 @@ public class MapGenerator : MonoBehaviour
         tileGOList.ForEach(DestroyImmediate);
         tileGOList.Clear();
     }
+
+	private void Initialize()
+	{
+		if (tileRootTrans == null)
+		{
+			tileRootTrans = transform.Find("Tile");
+		}
+
+		var tiles = TileText.text.Trim().Split(new [] {' '}, System.StringSplitOptions.RemoveEmptyEntries);
+		TileList.Clear();
+		TileList.AddRange(tiles);
+	}
 
     void Awake()
     {
