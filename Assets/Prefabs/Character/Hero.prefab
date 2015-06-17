@@ -545,6 +545,8 @@ MonoBehaviour:
   fireStopTime: .200000003
   jumpClips: []
   PlayerUI: {fileID: 0}
+  DownSpeed: -.5
+  UpSpeed: .5
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1

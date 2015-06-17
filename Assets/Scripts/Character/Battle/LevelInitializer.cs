@@ -27,7 +27,7 @@ public class LevelInitializer : MonoBehaviour
 		heroBornLocation = transform.Find("HeroBornLocation").transform.position;
 
 		hero.transform.position = heroBornLocation;
-		hero.rigidbody2D.isKinematic = false;
+		//hero.rigidbody2D.isKinematic = false;
 
 		if (OnLoadComplete != null)
 		{

@@ -32,6 +32,9 @@ public class PlayerControl : MonoBehaviour
 
 	public PlayerUIController PlayerUI;
 
+    public float DownSpeed;
+    public float UpSpeed;
+
     /// <summary>
     /// Flag indicates whether this attack is booming.
     /// </summary>
@@ -99,7 +102,7 @@ public class PlayerControl : MonoBehaviour
         {
             grounded = lastgrounded;
 
-            collider2D.isTrigger = !grounded && !bordered;
+            //collider2D.isTrigger = !grounded && !bordered;
         }
 
         // If the jump button is pressed and the player is grounded then the player should jump.
@@ -144,6 +147,8 @@ public class PlayerControl : MonoBehaviour
         var x = (fire) ? horizontalSpeedAttack : horizontalSpeed;
         rigidbody2D.velocity = new Vector2(x * h, rigidbody2D.velocity.y);
 
+        //rigidbody2D.AddForce(new Vector2(x *h, 0));
+
         // If the input is moving the player right and the player is facing left...
 		if (h > 0 && !characterCommon.FacingRight)
 		{
@@ -156,6 +161,15 @@ public class PlayerControl : MonoBehaviour
             // ... flip the player.
 			characterCommon.Flip();
 		}
+
+        if (!grounded)
+        {
+            rigidbody2D.velocity += new Vector2(0, DownSpeed);
+        }
+        else
+        {
+            rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
+        }
 
         // If the player should jump...
         if (jump)
