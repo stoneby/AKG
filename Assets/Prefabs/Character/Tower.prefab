@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 432136}
   - 212: {fileID: 21232136}
-  - 95: {fileID: 9532136}
   m_Layer: 0
   m_Name: Sparkle
   m_TagString: Untagged
@@ -60,6 +59,7 @@ GameObject:
   - 212: {fileID: 21232142}
   - 95: {fileID: 9532138}
   - 61: {fileID: 6139258}
+  - 114: {fileID: 11448130}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -189,7 +189,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.92999983, y: 3.03999996, z: 0}
+  m_LocalPosition: {x: -5.61000013, y: .790000021, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 432140}
@@ -283,21 +283,6 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 8, y: 3.26193237}
   m_Center: {x: 0, y: 1.13096607}
---- !u!95 &9532136
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132136}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 91d21fb49609c4a1e9200e25b648acd2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &9532138
 Animator:
   serializedVersion: 3
@@ -328,6 +313,31 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11448130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4630b0ee7c5584151ba4f77c5ba2d8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  stateBehaviours:
+  - state: Idle
+    layer: Base Layer
+    behaviours: []
+  - state: Attack
+    layer: Base Layer
+    behaviours: []
+  - state: Hurt
+    layer: Base Layer
+    behaviours: []
+  - state: Die
+    layer: Base Layer
+    behaviours: []
 --- !u!212 &21232136
 SpriteRenderer:
   m_ObjectHideFlags: 1

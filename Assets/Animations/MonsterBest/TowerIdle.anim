@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: TowerTop
+  m_Name: TowerIdle
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -27,10 +27,8 @@ AnimationClip:
       value: {fileID: 21300086, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - time: .266666681
       value: {fileID: 21300088, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
-    - time: .333333343
-      value: {fileID: 21300090, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - time: .400000006
-      value: {fileID: 21300092, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+      value: {fileID: 21300090, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - time: .466666669
       value: {fileID: 21300094, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - time: .533333361
@@ -49,6 +47,31 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: -0
+      value: {fileID: 21300050, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .0666666701
+      value: {fileID: 21300054, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .200000003
+      value: {fileID: 21300056, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .266666681
+      value: {fileID: 21300058, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .400000006
+      value: {fileID: 21300060, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .466666669
+      value: {fileID: 21300062, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .600000024
+      value: {fileID: 21300064, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .666666687
+      value: {fileID: 21300066, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .800000012
+      value: {fileID: 21300068, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - time: .866666675
+      value: {fileID: 21300052, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    attribute: m_Sprite
+    path: Middle/Sparkle
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 15
   m_WrapMode: 0
   m_Bounds:
@@ -62,6 +85,12 @@ AnimationClip:
       classID: 212
       customType: 23
       isPPtrCurve: 1
+    - path: 1423413573
+      attribute: 0
+      script: {fileID: 0}
+      classID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300070, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300082, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
@@ -69,7 +98,6 @@ AnimationClip:
     - {fileID: 21300086, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300088, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300090, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
-    - {fileID: 21300092, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300094, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300096, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300072, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
@@ -77,6 +105,16 @@ AnimationClip:
     - {fileID: 21300076, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300078, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
     - {fileID: 21300080, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300050, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300054, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300056, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300058, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300060, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300062, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300064, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300066, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300068, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
+    - {fileID: 21300052, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
