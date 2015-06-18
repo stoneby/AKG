@@ -54,17 +54,16 @@ public class PlayerControl : MonoBehaviour
 	/// <value><c>true</c> if hurt front; otherwise, <c>false</c>.</value>
 	public bool HurtFront { get; set; }
 
-    private Transform groundCheck;			// A position marking where to check if the player is grounded.
-    private bool grounded;			        // Whether or not the player is grounded.
+    private Transform groundChecker;			// A position marking where to check if the player is grounded.
     private Animator anim;					// Reference to the player's animator component.
-    private bool bordered;                  // Whether or not the player is in bordered.
 
-	private CharacterCommon characterCommon;
+    private CharacterCommon characterCommon;
 
     void Awake()
     {
         // Setting up references.
-        groundCheck = transform.Find("groundCheck");
+        groundChecker = transform.Find("Checkers/Ground");
+
         anim = GetComponent<Animator>();
 		anim.enabled = false;
 
@@ -88,22 +87,13 @@ public class PlayerControl : MonoBehaviour
 	private void OnLoadComplete()
 	{
 		PresentData.Instance.LevelInit.OnLoadComplete -= OnLoadComplete;
-
 		anim.enabled = true;
 	}
 
     void Update()
     {
         // The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
-        var hit = Physics2D.Linecast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
-        var lastgrounded = (hit.collider != null);
-
-        if (lastgrounded != grounded)
-        {
-            grounded = lastgrounded;
-
-            //collider2D.isTrigger = !grounded && !bordered;
-        }
+        var grounded = Physics2D.Linecast(transform.position, groundChecker.position, LayerMask.GetMask("Ground"));
 
         // If the jump button is pressed and the player is grounded then the player should jump.
         if (inputManager.DoesJump() && grounded && !fire)
@@ -162,15 +152,6 @@ public class PlayerControl : MonoBehaviour
 			characterCommon.Flip();
 		}
 
-        if (!grounded)
-        {
-            rigidbody2D.velocity += new Vector2(0, DownSpeed);
-        }
-        else
-        {
-            rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
-        }
-
         // If the player should jump...
         if (jump)
         {
@@ -211,12 +192,6 @@ public class PlayerControl : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.LogWarning("On trigger enter." + other.name);
-
-        if (other.tag.Equals("Borders"))
-        {
-            bordered = true;
-            collider2D.isTrigger = false;
-        }
 
         if (other.tag.Equals("AttackSensor"))
         {
@@ -260,7 +235,6 @@ public class PlayerControl : MonoBehaviour
 
         if (other.tag.Equals("Borders"))
         {
-            bordered = false;
         }
 
         if (other.tag.Equals("AttackSensor"))
@@ -282,7 +256,6 @@ public class PlayerControl : MonoBehaviour
 
         if (other.collider.tag.Equals("Borders"))
         {
-            bordered = true;
         }
     }
 
@@ -292,7 +265,6 @@ public class PlayerControl : MonoBehaviour
 
         if (other.collider.tag.Equals("Borders"))
         {
-            bordered = false;
         }
     }
 
