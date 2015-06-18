@@ -60,6 +60,10 @@ GameObject:
   - 95: {fileID: 9532138}
   - 61: {fileID: 6139258}
   - 114: {fileID: 11448130}
+  - 114: {fileID: 11495006}
+  - 114: {fileID: 11495008}
+  - 114: {fileID: 11495010}
+  - 114: {fileID: 11495012}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -338,6 +342,55 @@ MonoBehaviour:
   - state: Die
     layer: Base Layer
     behaviours: []
+--- !u!114 &11495006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57e24eb7c0fd2d41a61202e1dd15dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackPrefab: {fileID: 0}
+--- !u!114 &11495008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57e24eb7c0fd2d41a61202e1dd15dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackPrefab: {fileID: 0}
+--- !u!114 &11495010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653f640e01524ec44b2d6bd32f364c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11495012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0293fbe89d81f0a47a457631ff55f204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Left: {fileID: 0}
+  Right: {fileID: 0}
+  Speed: 0
 --- !u!212 &21232136
 SpriteRenderer:
   m_ObjectHideFlags: 1
