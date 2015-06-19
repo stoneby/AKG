@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class CharacterCommon : MonoBehaviour 
 {
-	[HideInInspector]
 	public bool FacingRight = true;			// For determining which way the player is currently facing.
 
 	public int HurtHealth;

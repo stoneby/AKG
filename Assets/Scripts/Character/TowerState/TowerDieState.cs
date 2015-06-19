@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class TowerDieState : MonoBehaviour 
 {
@@ -9,8 +8,6 @@ public class TowerDieState : MonoBehaviour
 
 	void OnEnable()
 	{
-		rigidbody2D.velocity = Vector2.zero;
-
 		Destroy(gameObject, DisappearTime);
 	}
 
