@@ -20,7 +20,6 @@ public class MecanimWrapper : MonoBehaviour
         }
         set
         {
-            Debug.LogWarning(animator.gameObject.name);
             currentStateTime = value;
             animator.SetFloat(CurrentStateTimeHash, currentStateTime);
         }

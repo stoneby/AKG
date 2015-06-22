@@ -11,15 +11,21 @@ public class MonsterGroupInitializer : MonoBehaviour
 
     private List<IdleState> idleStateList;
 
+	private Transform monsterBornTrans;
+	private Transform towerBornTrans;
+
     void Awake()
     {
+		monsterBornTrans = transform.Find("Monster");
+		towerBornTrans = transform.Find("Tower");
+
         GetIdleRange();
     }
 
     void Start()
     {
-        idleStateList = GetComponentsInChildren<IdleState>().ToList();
-        HealthList = idleStateList.Select(item => item.GetComponent<CharacterHealth>()).ToList();
+        idleStateList = monsterBornTrans.GetComponentsInChildren<IdleState>().ToList();
+        var monsterHealthList = idleStateList.Select(item => item.GetComponent<CharacterHealth>()).ToList();
 
         if (IdleLeftRange.Count != IdleRightRange.Count || IdleLeftRange.Count != idleStateList.Count)
         {
@@ -32,6 +38,10 @@ public class MonsterGroupInitializer : MonoBehaviour
             idleStateList[i].Right = IdleRightRange[i];
         }
 
+		var towerHealthList = towerBornTrans.GetComponentsInChildren<CharacterHealth>();
+
+		HealthList.AddRange(monsterHealthList);
+		HealthList.AddRange(towerHealthList);
         HealthList.ForEach(item => item.MessageListener = PresentData.Instance.LevelEndChecker.gameObject);
     }
 
@@ -39,10 +49,10 @@ public class MonsterGroupInitializer : MonoBehaviour
     {
         if (IdleLeftRange.Count == 0 && IdleRightRange.Count == 0)
         {
-            for (var i = 0; i < transform.childCount; ++i)
+			for (var i = 0; i < monsterBornTrans.childCount; ++i)
             {
-                IdleLeftRange.Add(transform.GetChild(i).GetChild(0));
-                IdleRightRange.Add(transform.GetChild(i).GetChild(1));
+				IdleLeftRange.Add(monsterBornTrans.GetChild(i).GetChild(0));
+				IdleRightRange.Add(monsterBornTrans.GetChild(i).GetChild(1));
             }
         }
     }

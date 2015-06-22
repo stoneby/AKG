@@ -2,13 +2,11 @@
 
 public class TowerDieState : MonoBehaviour 
 {
-	public float DisappearTime;
-
 	private MonsterControll monster;
 
-	void OnEnable()
+	public void OnDie()
 	{
-		Destroy(gameObject, DisappearTime);
+		Destroy(gameObject);
 	}
 
 	void Awake()

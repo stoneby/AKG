@@ -487,6 +487,7 @@ MonoBehaviour:
   TotalHealth: 100
   CurrentHealth: 100
   HurtHealth: 10
+  TriggerState: Duang
   MessageListener: {fileID: 0}
 --- !u!114 &11400018
 MonoBehaviour:

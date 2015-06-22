@@ -72,7 +72,7 @@ GameObject:
   - 50: {fileID: 5043150}
   m_Layer: 0
   m_Name: Tower
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,8 +192,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 487982}
   - 212: {fileID: 21287982}
-  - 95: {fileID: 9587982}
   - 114: {fileID: 11487984}
+  - 111: {fileID: 11160302}
   m_Layer: 0
   m_Name: Power
   m_TagString: Untagged
@@ -260,7 +260,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.40999997, y: .699999988, z: 0}
+  m_LocalPosition: {x: -3.57999992, y: .699999988, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 432140}
@@ -408,8 +408,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .862395287, y: 1.20476222}
-  m_Center: {x: -.0265536308, y: -.772057414}
+  m_Size: {x: .862395287, y: 1.11427999}
+  m_Center: {x: -.0265536308, y: -.726816297}
 --- !u!61 &6139260
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -436,21 +436,21 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &9587982
-Animator:
-  serializedVersion: 3
+--- !u!111 &11160302
+Animation:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187982}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4988fd876aed445f4954aa6615793bda, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: cc0e004997ff74989abfd68485764926, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: cc0e004997ff74989abfd68485764926, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &11439674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -490,6 +490,7 @@ MonoBehaviour:
   TotalHealth: 100
   CurrentHealth: 100
   HurtHealth: 10
+  TriggerState: Die
   MessageListener: {fileID: 0}
 --- !u!114 &11447484
 MonoBehaviour:
@@ -543,7 +544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c9761c6a84f9c428c6233b0e20a520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisappearTime: 1.5
 --- !u!114 &11487984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -712,7 +712,7 @@ SpriteRenderer:
   m_SortingLayerID: 3515710187
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300030, guid: 5048c88905c744589bb041fa42ecbc5a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -252,20 +252,10 @@ public class PlayerControl : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.LogWarning("On collision enter." + other.transform.name);
-
-        if (other.collider.tag.Equals("Borders"))
-        {
-        }
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        Debug.LogWarning("On collision exit." + other.transform.name);
-
-        if (other.collider.tag.Equals("Borders"))
-        {
-        }
     }
 
     void StopFiring()
