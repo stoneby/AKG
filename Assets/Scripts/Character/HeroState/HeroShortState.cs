@@ -3,11 +3,8 @@
 public class HeroShortState : MonoBehaviour
 {
 	public float Speed;
-	
-	private Animator playerAnimator;
-	private PlayerControl player;
-	
-	private Rigidbody2D playerRigid2D;
+
+    private Rigidbody2D playerRigid2D;
 	
 	void OnEnable()
 	{
@@ -20,8 +17,8 @@ public class HeroShortState : MonoBehaviour
 	
 	void Awake()
 	{
-		playerAnimator = GetComponent<Animator>();
-		player = GetComponent<PlayerControl>();
+		GetComponent<Animator>();
+		GetComponent<PlayerControl>();
 		playerRigid2D = GetComponent<Rigidbody2D>();
 	}
 }

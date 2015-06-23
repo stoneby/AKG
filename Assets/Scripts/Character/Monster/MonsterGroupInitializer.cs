@@ -43,6 +43,7 @@ public class MonsterGroupInitializer : MonoBehaviour
 		HealthList.AddRange(monsterHealthList);
 		HealthList.AddRange(towerHealthList);
         HealthList.ForEach(item => item.MessageListener = PresentData.Instance.LevelEndChecker.gameObject);
+        GameData.Instance.MonsterCount = HealthList.Count;
     }
 
     private void GetIdleRange()
