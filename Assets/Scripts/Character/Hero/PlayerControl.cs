@@ -191,7 +191,7 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.LogWarning("On trigger enter." + other.name);
+        //Debug.LogWarning("On trigger enter." + other.name);
 
         if (other.tag.Equals("AttackSensor"))
         {
@@ -231,7 +231,7 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.LogWarning("On trigger exit." + other.name);
+        //Debug.LogWarning("On trigger exit." + other.name);
 
         if (other.tag.Equals("Borders"))
         {
