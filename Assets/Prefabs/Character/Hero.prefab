@@ -28,6 +28,8 @@ GameObject:
   - 114: {fileID: 11475616}
   - 114: {fileID: 11475618}
   - 114: {fileID: 11400016}
+  - 114: {fileID: 11416858}
+  - 114: {fileID: 11481716}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -621,7 +623,7 @@ MonoBehaviour:
   SkillQ: 0
   SkillW: 0
   SkillE: 0
-  inputDevice: 0
+  inputDevice: 1
   inputManager: {fileID: 0}
   horizontalSpeed: 4
   horizontalSpeedAttack: .800000012
@@ -742,6 +744,18 @@ MonoBehaviour:
   SpawnPrefab: {fileID: 100000, guid: d1c3a9d89a5ed4382ac9edad97edf5c0, type: 2}
   Parented: 1
   GenerateInAwake: 0
+--- !u!114 &11416858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a72f100df8208647b9a0792e25b8fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DuangSpeed: 3
 --- !u!114 &11453702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -807,6 +821,9 @@ MonoBehaviour:
     layer: Base Layer
     behaviours: []
   - state: Short
+    layer: Base Layer
+    behaviours: []
+  - state: Duang
     layer: Base Layer
     behaviours: []
 --- !u!114 &11475602
@@ -900,6 +917,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cda6de4dde98ea459759e4e0a75558b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11481716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b8af304446b453f867d3982fc7d924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisappearTime: 2
+  Destory: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

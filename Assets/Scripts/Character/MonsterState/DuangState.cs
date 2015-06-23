@@ -4,8 +4,8 @@ public class DuangState : MonoBehaviour
 {
     public float DuangSpeed;
 
-    private CharacterHealth monsterHealth;
-    private Animator monsterAnimator;
+    private CharacterHealth health;
+    private Animator animator;
     private Rigidbody2D rigid2D;
 
     private CharacterCommon playerCommon;
@@ -19,7 +19,7 @@ public class DuangState : MonoBehaviour
 
     void FixedUpdate()
     {
-        rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(playerCommon.FacingRight ? DuangSpeed : -DuangSpeed, 0);
+        //rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(playerCommon.FacingRight ? DuangSpeed : -DuangSpeed, 0);
     }
 
     /// <summary>
@@ -29,16 +29,16 @@ public class DuangState : MonoBehaviour
     {
 		onTheGround = true;
 
-        if (monsterHealth.Dead)
+        if (health.Dead)
         {
-            monsterAnimator.SetTrigger("Die");
+            animator.SetTrigger("Die");
         }
     }
 
     void Awake()
     {
-        monsterHealth = GetComponent<CharacterHealth>();
-        monsterAnimator = GetComponent<Animator>();
+        health = GetComponent<CharacterHealth>();
+        animator = GetComponent<Animator>();
         rigid2D = GetComponent<Rigidbody2D>();
 
         playerCommon = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterCommon>();
