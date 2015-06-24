@@ -9,11 +9,12 @@ public class MapGenerator : MonoBehaviour
 
     public List<Sprite> TileUnitSpriteList;
 
-    private List<GameObject> tileGOList = new List<GameObject>();
-    private GameObject lastSpriteGO;
+    private readonly List<GameObject> tileGoList = new List<GameObject>();
+    private GameObject lastSpriteGo;
     private Sprite lastSprite;
 
 	private Transform tileRootTrans;
+    private const float TuneOffset = -0.01f;
 
     [ContextMenu("Execute")]
     public void Generate()
@@ -30,20 +31,20 @@ public class MapGenerator : MonoBehaviour
                 render.sprite = sprite;
 				render.sortingLayerName = "Background";
 
-                if (lastSpriteGO == null)
+                if (lastSpriteGo == null)
                 {
                     go.transform.position = transform.position;
                 }
                 else
                 {
-                    go.transform.position = lastSpriteGO.transform.position + new Vector3(lastSprite.bounds.size.x, 0);
+                    go.transform.position = lastSpriteGo.transform.position + new Vector3(lastSprite.bounds.size.x + TuneOffset, 0);
                 }
-                lastSpriteGO = go;
+                lastSpriteGo = go;
                 lastSprite = sprite;
                 go.transform.parent = tileRootTrans;
 				go.layer = LayerMask.NameToLayer("Ground");
 
-                tileGOList.Add(go);
+                tileGoList.Add(go);
             }
             else
             {
@@ -55,8 +56,8 @@ public class MapGenerator : MonoBehaviour
     [ContextMenu("Cleanup")]
     public void Cleanup()
     {
-        tileGOList.ForEach(DestroyImmediate);
-        tileGOList.Clear();
+        tileGoList.ForEach(DestroyImmediate);
+        tileGoList.Clear();
     }
 
 	private void Initialize()
