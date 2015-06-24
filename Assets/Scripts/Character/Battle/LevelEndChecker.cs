@@ -11,6 +11,7 @@ public class LevelEndChecker : MonoBehaviour
 		var monsterDead = !go.tag.Equals("Player");
 	    if (monsterDead)
 	    {
+			Debug.LogWarning("Monster dead. +++++");
 	        ++deadMonsterCount;
 	    }
 

@@ -5,10 +5,11 @@ public class HeroAttack3State : MonoBehaviour
 	public HeroAttackMove AttackMove;
 
     private PlayerControl player;
+	private PlayerAttackChecker checker;
 
     void OnEnable()
     {
-        //player.BoomFight = true;
+		checker.Check();
     }
 
 	void FixedUpdate()
@@ -28,6 +29,7 @@ public class HeroAttack3State : MonoBehaviour
 
     void Awake()
     {
+		checker = GetComponent<PlayerAttackChecker>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
     }
 }

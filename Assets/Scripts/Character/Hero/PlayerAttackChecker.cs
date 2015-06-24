@@ -13,21 +13,30 @@ public class PlayerAttackChecker : MonoBehaviour
         var hits = Physics2D.RaycastAll(player.transform.position,
             characterCommon.FacingRight ? Vector2.right : -Vector2.right, CheckerDistance,
             LayerMask.GetMask("Monster"));
+
         if (hits != null && hits.Count() != 0)
         {
-            Debug.LogWarning("------------------------- i am hitting sth." + hits[0].transform.name);
+			foreach (var hit in hits)
+			{
+				HurtMonster(hit.collider);
+			}
         }
     }
 
     void HurtMonster(Collider2D other)
     {
-        // health update.
-        var monster = other.GetComponent<MonsterControll>();
-        monster.Hurt();
+		var monsterHealth = other.GetComponent<CharacterHealth>();
+		if (monsterHealth.Dead)
+		{
+			return;
+		}
+
+		// health update.
+		monsterHealth.Hurt();
 
         // monster ui update.
-        var monsterHealth = other.GetComponent<CharacterHealth>();
-        monsterHealth.Hurt();
+		var monster = other.GetComponent<MonsterControll>();
+		monster.Hurt();
 
         // player ui update.
         var playerInfor = player.GetComponent<CharacterInformation>();

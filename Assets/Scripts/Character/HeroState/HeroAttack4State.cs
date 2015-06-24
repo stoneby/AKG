@@ -5,10 +5,13 @@ public class HeroAttack4State : MonoBehaviour
 	public HeroAttackMove AttackMove;
 
 	private PlayerControl player;
+	private PlayerAttackChecker checker;
 
     void OnEnable()
     {
         player.LastAttack = true;
+
+		checker.Check();
 	}
 
 	void OnDisable()
@@ -30,9 +33,10 @@ public class HeroAttack4State : MonoBehaviour
 	{
 		AttackMove.MoveStop();
 	}
-
+	
 	void Awake()
 	{
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+		checker = GetComponent<PlayerAttackChecker>();
 	}
 }

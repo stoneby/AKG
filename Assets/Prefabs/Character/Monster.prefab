@@ -149,7 +149,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 428292}
   - 61: {fileID: 6184810}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Attack
   m_TagString: AttackSensor
   m_Icon: {fileID: 0}

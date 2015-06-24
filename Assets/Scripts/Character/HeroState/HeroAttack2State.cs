@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HeroAttack2State : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class HeroAttack2State : MonoBehaviour 
+{
+	private PlayerAttackChecker checker;
 	
+	void OnEnable()
+	{
+		checker.Check();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void Awake()
+	{
+		checker = GetComponent<PlayerAttackChecker>();
 	}
 }
