@@ -3,16 +3,34 @@ using UnityEngine;
 
 public class PlayerAttackChecker : MonoBehaviour
 {
+	public enum SideMode
+	{
+		OneSide,
+		Both,
+	};
+
     public float CheckerDistance;
+	public SideMode Side;
 
     private PlayerControl player;
     private CharacterCommon characterCommon;
 
     public void Check()
     {
-        var hits = Physics2D.RaycastAll(player.transform.position,
-            characterCommon.FacingRight ? Vector2.right : -Vector2.right, CheckerDistance,
-            LayerMask.GetMask("Monster"));
+		RaycastHit2D[] hits;
+
+		if (Side == SideMode.OneSide)
+		{
+        	hits = Physics2D.RaycastAll(player.transform.position,
+            							characterCommon.FacingRight ? Vector2.right : -Vector2.right, 
+			                            CheckerDistance,
+			                            LayerMask.GetMask("Monster"));
+		}
+		else
+		{
+			hits = Physics2D.RaycastAll(player.transform.position - new Vector3(CheckerDistance, 0, 0),
+			                            Vector2.right, CheckerDistance * 2, LayerMask.GetMask("Monster"));
+		}
 
         if (hits != null && hits.Count() != 0)
         {
@@ -45,7 +63,7 @@ public class PlayerAttackChecker : MonoBehaviour
 
     void Awake()
     {
-        player = transform.GetComponent<PlayerControl>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
         characterCommon = player.GetComponent<CharacterCommon>();
     }
 }

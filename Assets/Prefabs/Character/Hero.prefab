@@ -30,7 +30,9 @@ GameObject:
   - 114: {fileID: 11400016}
   - 114: {fileID: 11416858}
   - 114: {fileID: 11481716}
-  - 114: {fileID: 11456510}
+  - 114: {fileID: 11489010}
+  - 114: {fileID: 11467696}
+  - 114: {fileID: 11443916}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -98,7 +100,7 @@ GameObject:
   - 50: {fileID: 5000002}
   - 114: {fileID: 11400010}
   m_Layer: 0
-  m_Name: Attack
+  m_Name: Attack_Deprecated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +147,7 @@ GameObject:
   - 4: {fileID: 400014}
   - 114: {fileID: 11400022}
   m_Layer: 0
-  m_Name: SkillWLocation
+  m_Name: HeatLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,6 +163,22 @@ GameObject:
   - 4: {fileID: 426076}
   m_Layer: 0
   m_Name: HitLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &130052
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 430052}
+  - 114: {fileID: 11430052}
+  m_Layer: 0
+  m_Name: SkillQAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,6 +258,38 @@ GameObject:
   m_Name: HurtIcon
   m_TagString: Untagged
   m_Icon: {fileID: -1077886335, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189012
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489012}
+  - 114: {fileID: 11489012}
+  m_Layer: 0
+  m_Name: NormalAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189014
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489014}
+  - 114: {fileID: 11489014}
+  m_Layer: 0
+  m_Name: SkillEAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -366,6 +416,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400008}
+  - {fileID: 489012}
+  - {fileID: 430052}
+  - {fileID: 489014}
   m_Father: {fileID: 400000}
   m_RootOrder: 2
 --- !u!4 &400012
@@ -404,6 +457,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 430904}
   m_RootOrder: 0
+--- !u!4 &430052
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 2
 --- !u!4 &430904
 Transform:
   m_ObjectHideFlags: 1
@@ -468,6 +533,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
+  m_RootOrder: 3
+--- !u!4 &489012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 1
+--- !u!4 &489014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
   m_RootOrder: 3
 --- !u!4 &497382
 Transform:
@@ -742,7 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1016923c87844762aa617ba7c21d18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPrefab: {fileID: 100000, guid: d1c3a9d89a5ed4382ac9edad97edf5c0, type: 2}
+  SpawnPrefab: {fileID: 167484, guid: ecebdcf244c47405da499017c38d9d52, type: 2}
   Parented: 1
   GenerateInAwake: 0
 --- !u!114 &11416858
@@ -751,12 +840,36 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a72f100df8208647b9a0792e25b8fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DuangSpeed: 3
+--- !u!114 &11430052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckerDistance: 1.70000005
+  Side: 0
+--- !u!114 &11443916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065c1a71c82184111bae5b5de08069bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11453702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -781,18 +894,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedRatio: 3
---- !u!114 &11456510
+--- !u!114 &11467696
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c6ad034852ca4a0ab37630423e6a71e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CheckerDistance: 1.70000005
 --- !u!114 &11475600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -837,6 +949,15 @@ MonoBehaviour:
     layer: Base Layer
     behaviours: []
   - state: Duang
+    layer: Base Layer
+    behaviours: []
+  - state: SkillQ
+    layer: Base Layer
+    behaviours: []
+  - state: SkillE
+    layer: Base Layer
+    behaviours: []
+  - state: SkillW
     layer: Base Layer
     behaviours: []
 --- !u!114 &11475602
@@ -943,6 +1064,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisappearTime: 2
   Destory: 0
+--- !u!114 &11489010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28834d2594ac44a51a7fd8acf250719f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11489012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckerDistance: 1.70000005
+  Side: 0
+--- !u!114 &11489014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckerDistance: 1.70000005
+  Side: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

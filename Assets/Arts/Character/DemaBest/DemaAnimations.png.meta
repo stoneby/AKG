@@ -228,7 +228,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 1872
+        y: 1916
         width: 238
         height: 62
       alignment: 9
@@ -238,7 +238,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 242
-        y: 1823
+        y: 1867
         width: 211
         height: 111
       alignment: 9
@@ -248,7 +248,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 455
-        y: 1816
+        y: 1860
         width: 210
         height: 118
       alignment: 9
@@ -258,7 +258,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 667
-        y: 1815
+        y: 1859
         width: 297
         height: 119
       alignment: 9
@@ -268,7 +268,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 966
-        y: 1813
+        y: 1857
         width: 293
         height: 121
       alignment: 9
@@ -278,17 +278,27 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1261
-        y: 1812
+        y: 1856
         width: 176
         height: 122
       alignment: 9
       pivot: {x: .613636374, y: .0983606577}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run-03
+    - name: Run-02
       rect:
         serializedVersion: 2
         x: 1439
-        y: 1808
+        y: 1852
+        width: 172
+        height: 126
+      alignment: 9
+      pivot: {x: .587209284, y: .103174604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-03
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1852
         width: 174
         height: 126
       alignment: 9
@@ -297,48 +307,38 @@ TextureImporter:
     - name: Run-07
       rect:
         serializedVersion: 2
-        x: 1615
-        y: 1808
+        x: 1789
+        y: 1852
         width: 174
         height: 126
       alignment: 9
       pivot: {x: .586206913, y: .103174604}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run-02
-      rect:
-        serializedVersion: 2
-        x: 1791
-        y: 1808
-        width: 172
-        height: 126
-      alignment: 9
-      pivot: {x: .587209284, y: .103174604}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run-06
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1679
-        width: 174
-        height: 127
-      alignment: 9
-      pivot: {x: .580459774, y: .0944881886}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run-01
       rect:
         serializedVersion: 2
-        x: 178
-        y: 1679
+        x: 2
+        y: 1723
         width: 169
         height: 127
       alignment: 9
       pivot: {x: .579881668, y: .0944881886}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-06
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1723
+        width: 174
+        height: 127
+      alignment: 9
+      pivot: {x: .580459774, y: .0944881886}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack2-03
       rect:
         serializedVersion: 2
         x: 349
-        y: 1679
+        y: 1723
         width: 356
         height: 127
       alignment: 9
@@ -348,7 +348,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 707
-        y: 1678
+        y: 1722
         width: 173
         height: 128
       alignment: 9
@@ -358,57 +358,57 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 882
-        y: 1678
+        y: 1722
         width: 183
         height: 128
       alignment: 9
       pivot: {x: .142076507, y: -.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Run-05
-      rect:
-        serializedVersion: 2
-        x: 1067
-        y: 1675
-        width: 171
-        height: 131
-      alignment: 9
-      pivot: {x: .573099434, y: .0916030556}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run-04
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 1675
+        x: 1067
+        y: 1719
         width: 174
         height: 131
       alignment: 9
       pivot: {x: .586206913, y: .0992366448}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack2-04
+    - name: Run-05
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 1674
-        width: 207
-        height: 132
+        x: 1243
+        y: 1719
+        width: 171
+        height: 131
       alignment: 9
-      pivot: {x: .772946835, y: .0909090936}
+      pivot: {x: .573099434, y: .0916030556}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack3-02
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 1674
+        x: 1416
+        y: 1718
         width: 191
         height: 132
       alignment: 9
       pivot: {x: .790575922, y: .0909090936}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-04
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1718
+        width: 207
+        height: 132
+      alignment: 9
+      pivot: {x: .772946835, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hurt-03
       rect:
         serializedVersion: 2
         x: 1818
-        y: 1673
+        y: 1717
         width: 195
         height: 133
       alignment: 9
@@ -418,7 +418,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 1536
+        y: 1580
         width: 148
         height: 135
       alignment: 9
@@ -428,17 +428,27 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 1536
+        y: 1580
         width: 148
         height: 135
       alignment: 9
       pivot: {x: .445945948, y: .088888891}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ChuSheng-01
+    - name: Attack4-04
       rect:
         serializedVersion: 2
         x: 152
-        y: 1535
+        y: 1579
+        width: 312
+        height: 136
+      alignment: 9
+      pivot: {x: .429487169, y: .095588237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChuSheng-01
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1579
         width: 178
         height: 136
       alignment: 9
@@ -447,28 +457,18 @@ TextureImporter:
     - name: Jump-06
       rect:
         serializedVersion: 2
-        x: 152
-        y: 1535
+        x: 466
+        y: 1579
         width: 178
         height: 136
       alignment: 9
       pivot: {x: .713483155, y: .095588237}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack4-04
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 1535
-        width: 312
-        height: 136
-      alignment: 9
-      pivot: {x: .429487169, y: .095588237}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: ChuSheng-04
       rect:
         serializedVersion: 2
         x: 646
-        y: 1534
+        y: 1578
         width: 156
         height: 137
       alignment: 9
@@ -478,27 +478,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 646
-        y: 1534
+        y: 1578
         width: 156
         height: 137
       alignment: 9
       pivot: {x: .448717952, y: .109489053}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Hurt-04
-      rect:
-        serializedVersion: 2
-        x: 804
-        y: 1533
-        width: 187
-        height: 138
-      alignment: 9
-      pivot: {x: .28342247, y: .0942028984}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: ChuSheng-03
       rect:
         serializedVersion: 2
-        x: 993
-        y: 1533
+        x: 804
+        y: 1577
         width: 159
         height: 138
       alignment: 9
@@ -507,18 +497,38 @@ TextureImporter:
     - name: Jump-02
       rect:
         serializedVersion: 2
-        x: 993
-        y: 1533
+        x: 804
+        y: 1577
         width: 159
         height: 138
       alignment: 9
       pivot: {x: .402515709, y: .108695649}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-03
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1577
+        width: 171
+        height: 138
+      alignment: 9
+      pivot: {x: .789473712, y: .0869565234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-04
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1577
+        width: 187
+        height: 138
+      alignment: 9
+      pivot: {x: .28342247, y: .0942028984}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack2-01
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 1533
+        x: 1327
+        y: 1577
         width: 137
         height: 138
       alignment: 9
@@ -527,28 +537,18 @@ TextureImporter:
     - name: Attack2-02
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 1533
+        x: 1466
+        y: 1577
         width: 227
         height: 138
       alignment: 9
       pivot: {x: .409691632, y: .108695649}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillE-03
-      rect:
-        serializedVersion: 2
-        x: 1522
-        y: 1533
-        width: 171
-        height: 138
-      alignment: 9
-      pivot: {x: .789473712, y: .0869565234}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack3-01
       rect:
         serializedVersion: 2
         x: 1695
-        y: 1533
+        y: 1577
         width: 206
         height: 138
       alignment: 9
@@ -557,68 +557,68 @@ TextureImporter:
     - name: Attack1-06
       rect:
         serializedVersion: 2
-        x: 1903
-        y: 1533
+        x: 2
+        y: 1437
         width: 177
         height: 138
       alignment: 9
       pivot: {x: .819209039, y: .166666672}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillE-02
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1392
-        width: 176
-        height: 139
-      alignment: 9
-      pivot: {x: .789772749, y: .0863309354}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Hurt-01
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 1392
-        width: 123
-        height: 139
-      alignment: 9
-      pivot: {x: .341463417, y: .0935251787}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack3-03
       rect:
         serializedVersion: 2
-        x: 305
-        y: 1392
+        x: 181
+        y: 1436
         width: 146
         height: 139
       alignment: 9
       pivot: {x: .691780806, y: .0935251787}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Hurt-07
+    - name: Hurt-01
       rect:
         serializedVersion: 2
-        x: 453
-        y: 1391
-        width: 168
-        height: 140
+        x: 329
+        y: 1436
+        width: 123
+        height: 139
       alignment: 9
-      pivot: {x: .315476179, y: .0928571448}
+      pivot: {x: .341463417, y: .0935251787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-02
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1436
+        width: 176
+        height: 139
+      alignment: 9
+      pivot: {x: .789772749, y: .0863309354}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hurt-06
       rect:
         serializedVersion: 2
-        x: 623
-        y: 1391
+        x: 632
+        y: 1435
         width: 178
         height: 140
       alignment: 9
       pivot: {x: .30898875, y: .0857142881}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-07
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1435
+        width: 168
+        height: 140
+      alignment: 9
+      pivot: {x: .315476179, y: .0928571448}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hurt-08
       rect:
         serializedVersion: 2
-        x: 803
-        y: 1391
+        x: 982
+        y: 1435
         width: 152
         height: 140
       alignment: 9
@@ -627,8 +627,8 @@ TextureImporter:
     - name: Attack3-04
       rect:
         serializedVersion: 2
-        x: 957
-        y: 1391
+        x: 1136
+        y: 1435
         width: 305
         height: 140
       alignment: 9
@@ -637,8 +637,8 @@ TextureImporter:
     - name: ChuSheng-02
       rect:
         serializedVersion: 2
-        x: 1264
-        y: 1391
+        x: 1443
+        y: 1435
         width: 179
         height: 140
       alignment: 9
@@ -647,238 +647,168 @@ TextureImporter:
     - name: Jump-07
       rect:
         serializedVersion: 2
-        x: 1264
-        y: 1391
+        x: 1443
+        y: 1435
         width: 179
         height: 140
       alignment: 9
       pivot: {x: .670391083, y: .0928571448}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Jump-03
-      rect:
-        serializedVersion: 2
-        x: 1445
-        y: 1390
-        width: 178
-        height: 141
-      alignment: 9
-      pivot: {x: .679775298, y: .0851063803}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hurt-05
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 1390
+        x: 1624
+        y: 1434
         width: 184
         height: 141
       alignment: 9
       pivot: {x: .271739125, y: .0921985805}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-03
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1434
+        width: 178
+        height: 141
+      alignment: 9
+      pivot: {x: .679775298, y: .0851063803}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump-04
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 1388
+        x: 2
+        y: 1289
         width: 170
         height: 143
       alignment: 9
       pivot: {x: .729411781, y: .0909090936}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-01
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1288
+        width: 93
+        height: 144
+      alignment: 9
+      pivot: {x: .430107534, y: .111111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-01
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1288
+        width: 93
+        height: 144
+      alignment: 9
+      pivot: {x: .430107534, y: .111111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump-05
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1242
+        x: 364
+        y: 1288
         width: 176
         height: 144
       alignment: 9
       pivot: {x: .721590936, y: .0972222239}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillE-01
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 1242
-        width: 93
-        height: 144
-      alignment: 9
-      pivot: {x: .430107534, y: .111111112}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle-01
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 1242
-        width: 93
-        height: 144
-      alignment: 9
-      pivot: {x: .430107534, y: .111111112}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle-07
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 1241
-        width: 92
-        height: 145
-      alignment: 9
-      pivot: {x: .423913032, y: .124137931}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle-08
       rect:
         serializedVersion: 2
-        x: 464
-        y: 1241
+        x: 542
+        y: 1287
         width: 93
         height: 145
       alignment: 9
       pivot: {x: .419354826, y: .117241383}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-07
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1287
+        width: 92
+        height: 145
+      alignment: 9
+      pivot: {x: .423913032, y: .124137931}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle-02
       rect:
         serializedVersion: 2
-        x: 559
-        y: 1241
+        x: 731
+        y: 1287
         width: 91
         height: 145
       alignment: 9
       pivot: {x: .439560443, y: .117241383}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle-03
-      rect:
-        serializedVersion: 2
-        x: 652
-        y: 1240
-        width: 90
-        height: 146
-      alignment: 9
-      pivot: {x: .444444448, y: .12328767}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle-06
       rect:
         serializedVersion: 2
-        x: 744
-        y: 1240
+        x: 824
+        y: 1286
         width: 91
         height: 146
       alignment: 9
       pivot: {x: .428571433, y: .130136982}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle-05
-      rect:
-        serializedVersion: 2
-        x: 837
-        y: 1240
-        width: 89
-        height: 146
-      alignment: 9
-      pivot: {x: .438202262, y: .130136982}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle-04
       rect:
         serializedVersion: 2
-        x: 928
-        y: 1240
+        x: 917
+        y: 1286
         width: 90
         height: 146
       alignment: 9
       pivot: {x: .444444448, y: .130136982}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-07
+    - name: Idle-03
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 1237
-        width: 142
-        height: 149
+        x: 1009
+        y: 1286
+        width: 90
+        height: 146
       alignment: 9
-      pivot: {x: .503521144, y: .506711423}
+      pivot: {x: .444444448, y: .12328767}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-03
+    - name: Idle-05
       rect:
         serializedVersion: 2
-        x: 1164
-        y: 1237
-        width: 129
-        height: 149
+        x: 1101
+        y: 1286
+        width: 89
+        height: 146
       alignment: 9
-      pivot: {x: .507751942, y: .5}
+      pivot: {x: .438202262, y: .130136982}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack1-01
       rect:
         serializedVersion: 2
-        x: 1295
-        y: 1237
+        x: 1192
+        y: 1283
         width: 103
         height: 149
       alignment: 9
       pivot: {x: .456310689, y: .140939593}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-02
-      rect:
-        serializedVersion: 2
-        x: 1400
-        y: 1233
-        width: 129
-        height: 153
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-01
-      rect:
-        serializedVersion: 2
-        x: 1531
-        y: 1232
-        width: 129
-        height: 154
-      alignment: 9
-      pivot: {x: .484496117, y: .496753246}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-06
-      rect:
-        serializedVersion: 2
-        x: 1662
-        y: 1231
-        width: 145
-        height: 155
-      alignment: 9
-      pivot: {x: .5, y: .506451607}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack4-08
       rect:
         serializedVersion: 2
-        x: 1809
-        y: 1229
+        x: 1297
+        y: 1275
         width: 300
         height: 157
       alignment: 9
       pivot: {x: .183333337, y: .210191086}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-04
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 1070
-        width: 138
-        height: 157
-      alignment: 9
-      pivot: {x: .503623188, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-05
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 1070
-        width: 147
-        height: 157
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack4-07
       rect:
         serializedVersion: 2
-        x: 291
-        y: 1069
+        x: 1599
+        y: 1274
         width: 343
         height: 158
       alignment: 9
@@ -887,48 +817,18 @@ TextureImporter:
     - name: Attack4-06
       rect:
         serializedVersion: 2
-        x: 636
-        y: 1069
+        x: 2
+        y: 1114
         width: 308
         height: 158
       alignment: 9
       pivot: {x: .379870117, y: .151898727}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-10
-      rect:
-        serializedVersion: 2
-        x: 946
-        y: 1068
-        width: 139
-        height: 159
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-09
-      rect:
-        serializedVersion: 2
-        x: 1087
-        y: 1065
-        width: 139
-        height: 162
-      alignment: 9
-      pivot: {x: .5, y: .503086448}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillW-08
-      rect:
-        serializedVersion: 2
-        x: 1228
-        y: 1064
-        width: 140
-        height: 163
-      alignment: 9
-      pivot: {x: .517857134, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Attack1-03
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 1056
+        x: 312
+        y: 1101
         width: 141
         height: 171
       alignment: 9
@@ -937,8 +837,8 @@ TextureImporter:
     - name: Attack3-05
       rect:
         serializedVersion: 2
-        x: 1513
-        y: 1055
+        x: 455
+        y: 1100
         width: 261
         height: 172
       alignment: 9
@@ -947,8 +847,8 @@ TextureImporter:
     - name: Die-02
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 1047
+        x: 718
+        y: 1092
         width: 135
         height: 180
       alignment: 9
@@ -957,8 +857,8 @@ TextureImporter:
     - name: Attack4-02
       rect:
         serializedVersion: 2
-        x: 2
-        y: 840
+        x: 855
+        y: 1067
         width: 240
         height: 205
       alignment: 9
@@ -967,8 +867,8 @@ TextureImporter:
     - name: Attack4-03
       rect:
         serializedVersion: 2
-        x: 244
-        y: 832
+        x: 1097
+        y: 1059
         width: 221
         height: 213
       alignment: 9
@@ -977,48 +877,48 @@ TextureImporter:
     - name: SkillQ-09
       rect:
         serializedVersion: 2
-        x: 467
-        y: 832
+        x: 1320
+        y: 1059
         width: 314
         height: 213
       alignment: 9
       pivot: {x: .75796181, y: .239436626}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack3-06
-      rect:
-        serializedVersion: 2
-        x: 783
-        y: 830
-        width: 329
-        height: 215
-      alignment: 9
-      pivot: {x: .386018246, y: .111627907}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillQ-02
-      rect:
-        serializedVersion: 2
-        x: 1114
-        y: 830
-        width: 330
-        height: 215
-      alignment: 9
-      pivot: {x: .75757575, y: .237209305}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkillQ-08
       rect:
         serializedVersion: 2
-        x: 1446
-        y: 830
+        x: 1636
+        y: 1057
         width: 325
         height: 215
       alignment: 9
       pivot: {x: .763076901, y: .237209305}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 840
+        width: 330
+        height: 215
+      alignment: 9
+      pivot: {x: .75757575, y: .237209305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack3-06
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 840
+        width: 329
+        height: 215
+      alignment: 9
+      pivot: {x: .386018246, y: .111627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkillQ-05
       rect:
         serializedVersion: 2
-        x: 1773
-        y: 829
+        x: 665
+        y: 839
         width: 330
         height: 216
       alignment: 9
@@ -1027,8 +927,8 @@ TextureImporter:
     - name: SkillQ-01
       rect:
         serializedVersion: 2
-        x: 2
-        y: 610
+        x: 997
+        y: 838
         width: 330
         height: 217
       alignment: 9
@@ -1037,8 +937,8 @@ TextureImporter:
     - name: SkillQ-03
       rect:
         serializedVersion: 2
-        x: 334
-        y: 610
+        x: 1329
+        y: 838
         width: 330
         height: 217
       alignment: 9
@@ -1047,8 +947,8 @@ TextureImporter:
     - name: SkillQ-04
       rect:
         serializedVersion: 2
-        x: 666
-        y: 610
+        x: 1661
+        y: 838
         width: 330
         height: 217
       alignment: 9
@@ -1057,8 +957,8 @@ TextureImporter:
     - name: Attack1-04
       rect:
         serializedVersion: 2
-        x: 998
-        y: 610
+        x: 2
+        y: 619
         width: 304
         height: 217
       alignment: 9
@@ -1067,8 +967,8 @@ TextureImporter:
     - name: SkillQ-06
       rect:
         serializedVersion: 2
-        x: 1304
-        y: 610
+        x: 308
+        y: 619
         width: 330
         height: 217
       alignment: 9
@@ -1077,48 +977,48 @@ TextureImporter:
     - name: SkillQ-07
       rect:
         serializedVersion: 2
-        x: 1636
-        y: 609
+        x: 640
+        y: 618
         width: 329
         height: 218
       alignment: 9
       pivot: {x: .756838918, y: .238532111}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Attack1-02
-      rect:
-        serializedVersion: 2
-        x: 1967
-        y: 602
-        width: 102
-        height: 225
-      alignment: 9
-      pivot: {x: .715686262, y: .0755555555}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SkillQ-12
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 375
-        width: 495
-        height: 225
-      alignment: 9
-      pivot: {x: .345454544, y: .351111114}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkillQ-11
       rect:
         serializedVersion: 2
-        x: 499
-        y: 375
+        x: 971
+        y: 611
         width: 506
         height: 225
       alignment: 9
       pivot: {x: .387351781, y: .351111114}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-12
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 611
+        width: 495
+        height: 225
+      alignment: 9
+      pivot: {x: .345454544, y: .351111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 384
+        width: 102
+        height: 225
+      alignment: 9
+      pivot: {x: .715686262, y: .0755555555}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SkillE-07
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 363
+        x: 106
+        y: 372
         width: 482
         height: 237
       alignment: 9
@@ -1127,8 +1027,8 @@ TextureImporter:
     - name: SkillE-08
       rect:
         serializedVersion: 2
-        x: 1491
-        y: 329
+        x: 590
+        y: 338
         width: 489
         height: 271
       alignment: 9
@@ -1137,8 +1037,8 @@ TextureImporter:
     - name: SkillE-05
       rect:
         serializedVersion: 2
-        x: 2
-        y: 50
+        x: 1081
+        y: 332
         width: 500
         height: 277
       alignment: 9
@@ -1147,8 +1047,8 @@ TextureImporter:
     - name: SkillE-06
       rect:
         serializedVersion: 2
-        x: 504
-        y: 44
+        x: 2
+        y: 47
         width: 516
         height: 283
       alignment: 9
@@ -1157,8 +1057,8 @@ TextureImporter:
     - name: SkillQ-10
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 5
+        x: 520
+        y: 8
         width: 518
         height: 322
       alignment: 9
@@ -1167,8 +1067,8 @@ TextureImporter:
     - name: SkillE-04
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 2
+        x: 1040
+        y: 5
         width: 521
         height: 325
       alignment: 9
