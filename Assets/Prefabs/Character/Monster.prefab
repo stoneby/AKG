@@ -485,8 +485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd59deadce42084398c88601b24dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalHealth: 100
-  CurrentHealth: 100
+  TotalHealth: 20
+  CurrentHealth: 20
   HurtHealth: 10
   TriggerState: Duang
   MessageListener: {fileID: 0}
