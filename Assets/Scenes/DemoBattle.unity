@@ -3791,7 +3791,7 @@ MonoBehaviour:
   SkillQ: 0
   SkillW: 0
   SkillE: 0
-  inputDevice: 0
+  inputDevice: 1
   inputManager: {fileID: 0}
   horizontalSpeed: 4
   horizontalSpeedAttack: .800000012
@@ -5624,6 +5624,10 @@ Prefab:
       propertyPath: PlayerUI
       value: 
       objectReference: {fileID: 62563955}
+    - target: {fileID: 11400006, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
+      propertyPath: inputDevice
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
   m_RootGameObject: {fileID: 1264956877}
