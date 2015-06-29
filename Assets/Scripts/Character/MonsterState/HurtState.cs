@@ -13,6 +13,11 @@ public class HurtState : MonoBehaviour
         //hudController.HpValue = health.NormalizedHealth;
         //hudController.Show(true);
     }
+
+	void FixedUpdate()
+	{
+
+	}
    
     /// <summary>
     /// Decision point.

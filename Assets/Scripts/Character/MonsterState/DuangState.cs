@@ -19,7 +19,7 @@ public class DuangState : MonoBehaviour
 
     void FixedUpdate()
     {
-        //rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(playerCommon.FacingRight ? DuangSpeed : -DuangSpeed, 0);
+        rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(playerCommon.FacingRight ? DuangSpeed : -DuangSpeed, 0);
     }
 
     /// <summary>
