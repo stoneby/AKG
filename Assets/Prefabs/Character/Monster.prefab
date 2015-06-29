@@ -171,6 +171,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &176352
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476352}
+  - 114: {fileID: 11476352}
+  m_Layer: 0
+  m_Name: Hurt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
@@ -212,6 +228,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 404098}
+  - {fileID: 476352}
   m_Father: {fileID: 400006}
   m_RootOrder: 5
 --- !u!4 &404098
@@ -300,6 +317,18 @@ Transform:
   - {fileID: 428290}
   m_Father: {fileID: 400006}
   m_RootOrder: 2
+--- !u!4 &476352
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0179999992, y: -.0450000018, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404096}
+  m_RootOrder: 1
 --- !u!50 &5000000
 Rigidbody2D:
   m_ObjectHideFlags: 1
@@ -545,6 +574,20 @@ MonoBehaviour:
   HUDLocation: {fileID: 424104}
   HUDPrefab: {fileID: 160078, guid: 0f14e54f3ebd5cf45acaf1c66e85a46f, type: 2}
   HideTime: 2
+--- !u!114 &11476352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1016923c87844762aa617ba7c21d18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPrefab: {fileID: 100000, guid: 47f60b15b1b5040f69e57d4583b6e04f, type: 2}
+  Parented: 1
+  GenerateInAwake: 0
 --- !u!114 &11491468
 MonoBehaviour:
   m_ObjectHideFlags: 1

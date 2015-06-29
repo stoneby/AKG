@@ -7,16 +7,18 @@ public class HurtState : MonoBehaviour
     private CharacterHealth health;
 
     private Animator anim;
+	private DynamicSpawner hurtSpawner;
+	private OneShotEffectController hurtEffectController;
 
     void OnEnable()
     {
-        //hudController.HpValue = health.NormalizedHealth;
-        //hudController.Show(true);
-    }
+		hurtEffectController.gameObject.SetActive(true);
+		hurtEffectController.Play();
+	}
 
-	void FixedUpdate()
+	void OnDisable()
 	{
-
+		hurtEffectController.gameObject.SetActive(false);
 	}
    
     /// <summary>
@@ -37,6 +39,11 @@ public class HurtState : MonoBehaviour
         health = GetComponent<CharacterHealth>();
 
         anim = GetComponent<Animator>();
+
+		hurtSpawner = transform.Find("Effect/Hurt").GetComponent<DynamicSpawner>();
+		hurtSpawner.Generate();
+
+		hurtEffectController = hurtSpawner.SpawnInstance.GetComponent<OneShotEffectController>();
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
     }
