@@ -13,7 +13,7 @@ public class TowerAttackState : MonoBehaviour
 
     private Transform attackLocation;
     private AttackEffectController attackEffectController;
-    private Animation powerAnimation;
+    private Animator powerAnimator;
 
     /// <summary>
     /// Attack right place occurs.
@@ -42,8 +42,7 @@ public class TowerAttackState : MonoBehaviour
 
     void PrepareToShoot()
     {
-		powerAnimation.Stop();
-		powerAnimation.Play();
+		powerAnimator.SetTrigger("Power");
     }
 
     void OnEnable()
@@ -56,6 +55,19 @@ public class TowerAttackState : MonoBehaviour
         CancelInvoke("PrepareToShoot");
     }
 
+	void FixedUpdate()
+	{	
+		if (monsterCommon.FacingRight && player.transform.position.x < monsterCommon.transform.position.x)
+		{
+			monsterCommon.Flip();
+		}
+		
+		if (!monsterCommon.FacingRight && player.transform.position.x > monsterCommon.transform.position.x)
+		{
+			monsterCommon.Flip();
+		}
+	}
+
     void Awake()
     {
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
@@ -67,6 +79,6 @@ public class TowerAttackState : MonoBehaviour
         attackLocation = transform.Find("Effect/Attack");
 
         PowerEffectController.OnShoot += OnShoot;
-        powerAnimation = PowerEffectController.animation;
+        powerAnimator = PowerEffectController.GetComponent<Animator>();
     }
 }

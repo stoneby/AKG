@@ -66,6 +66,16 @@ TextureImporter:
     21300122: Attack2-6
     21300124: Attack2-7
     21300126: Attack2-8
+    21300128: Power-1
+    21300130: Power-10
+    21300132: Power-2
+    21300134: Power-3
+    21300136: Power-4
+    21300138: Power-5
+    21300140: Power-6
+    21300142: Power-7
+    21300144: Power-8
+    21300146: Power-9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -111,7 +121,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 3
+        y: 87
         width: 309
         height: 167
       alignment: 0
@@ -120,8 +130,8 @@ TextureImporter:
     - name: Attack-2
       rect:
         serializedVersion: 2
-        x: 313
-        y: 85
+        x: 567
+        y: 3
         width: 329
         height: 85
       alignment: 0
@@ -130,8 +140,8 @@ TextureImporter:
     - name: Attack-3
       rect:
         serializedVersion: 2
-        x: 644
-        y: 103
+        x: 89
+        y: 18
         width: 362
         height: 67
       alignment: 0
@@ -140,8 +150,8 @@ TextureImporter:
     - name: Hit-1
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 148
+        x: 453
+        y: 6
         width: 103
         height: 22
       alignment: 9
@@ -150,8 +160,8 @@ TextureImporter:
     - name: Hit-2
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 128
+        x: 313
+        y: 96
         width: 134
         height: 42
       alignment: 9
@@ -160,8 +170,8 @@ TextureImporter:
     - name: Hit-3
       rect:
         serializedVersion: 2
-        x: 1249
-        y: 71
+        x: 668
+        y: 155
         width: 96
         height: 99
       alignment: 9
@@ -170,8 +180,8 @@ TextureImporter:
     - name: Hit-4
       rect:
         serializedVersion: 2
-        x: 1347
-        y: 60
+        x: 425
+        y: 144
         width: 126
         height: 110
       alignment: 9
@@ -180,8 +190,8 @@ TextureImporter:
     - name: Hit-5
       rect:
         serializedVersion: 2
-        x: 1475
-        y: 93
+        x: 2
+        y: 8
         width: 85
         height: 77
       alignment: 9
@@ -190,8 +200,8 @@ TextureImporter:
     - name: Hit-6
       rect:
         serializedVersion: 2
-        x: 1562
-        y: 77
+        x: 766
+        y: 161
         width: 108
         height: 93
       alignment: 9
@@ -200,8 +210,8 @@ TextureImporter:
     - name: Hit-7
       rect:
         serializedVersion: 2
-        x: 1672
-        y: 63
+        x: 553
+        y: 147
         width: 113
         height: 107
       alignment: 9
@@ -210,12 +220,112 @@ TextureImporter:
     - name: Hit-8
       rect:
         serializedVersion: 2
-        x: 1787
-        y: 56
+        x: 313
+        y: 140
         width: 110
         height: 114
       alignment: 9
       pivot: {x: .459090918, y: .513157904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 87
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 30
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 87
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 30
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 90
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 90
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 98
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-7
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 98
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-8
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 104
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-9
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 104
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

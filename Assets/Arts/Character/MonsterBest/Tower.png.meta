@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 7a257ced50a66495aa07cfee8a4fae00
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Die-(1)
+    21300002: Die-(10)
+    21300004: Die-(11)
+    21300006: Die-(12)
+    21300008: Die-(13)
+    21300010: Die-(14)
+    21300012: Die-(2)
+    21300014: Die-(3)
+    21300016: Die-(4)
+    21300018: Die-(5)
+    21300020: Die-(6)
+    21300022: Die-(7)
+    21300024: Die-(8)
+    21300026: Die-(9)
+    21300028: Idle-0_1
+    21300030: Idle-0_10
+    21300032: Idle-0_11
+    21300034: Idle-0_12
+    21300036: Idle-0_13
+    21300038: Idle-0_14
+    21300040: Idle-0_2
+    21300042: Idle-0_3
+    21300044: Idle-0_4
+    21300046: Idle-0_5
+    21300048: Idle-0_6
+    21300050: Idle-0_7
+    21300052: Idle-0_8
+    21300054: Idle-0_9
+    21300056: Idle-(1)
+    21300058: Idle-(10)
+    21300060: Idle-(11)
+    21300062: Idle-(12)
+    21300064: Idle-(13)
+    21300066: Idle-(14)
+    21300068: Idle-(2)
+    21300070: Idle-(3)
+    21300072: Idle-(4)
+    21300074: Idle-(5)
+    21300076: Idle-(6)
+    21300078: Idle-(7)
+    21300080: Idle-(8)
+    21300082: Idle-(9)
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Die-(1)
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 153
+        width: 257
+        height: 254
+      alignment: 9
+      pivot: {x: .554474711, y: .63188976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(10)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 590
+        width: 248
+        height: 391
+      alignment: 9
+      pivot: {x: .558467746, y: .410485923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(11)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 217
+        width: 253
+        height: 371
+      alignment: 9
+      pivot: {x: .555335939, y: .432614565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(12)
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1370
+        width: 255
+        height: 315
+      alignment: 9
+      pivot: {x: .535294116, y: .484126985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(13)
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 409
+        width: 250
+        height: 281
+      alignment: 9
+      pivot: {x: .477999985, y: .371886134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(14)
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1308
+        width: 250
+        height: 363
+      alignment: 9
+      pivot: {x: .477999985, y: .287878782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(2)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 983
+        width: 464
+        height: 302
+      alignment: 9
+      pivot: {x: .516163766, y: .697019875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(3)
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1673
+        width: 474
+        height: 309
+      alignment: 9
+      pivot: {x: .505274236, y: .697411001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(4)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1632
+        width: 479
+        height: 350
+      alignment: 9
+      pivot: {x: .5, y: .627142847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(5)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1287
+        width: 479
+        height: 343
+      alignment: 9
+      pivot: {x: .5, y: .639941692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(6)
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1107
+        width: 283
+        height: 261
+      alignment: 9
+      pivot: {x: .545936406, y: .614942551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(7)
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1687
+        width: 269
+        height: 295
+      alignment: 9
+      pivot: {x: .55204463, y: .5440678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(8)
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 692
+        width: 261
+        height: 289
+      alignment: 9
+      pivot: {x: .545976996, y: .555363297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(9)
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1300
+        width: 257
+        height: 371
+      alignment: 9
+      pivot: {x: .538910508, y: .432614565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(1)
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1044
+        width: 257
+        height: 254
+      alignment: 9
+      pivot: {x: .554474711, y: .63188976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(10)
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1054
+        width: 250
+        height: 252
+      alignment: 9
+      pivot: {x: .55400002, y: .636904776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(11)
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 3
+        width: 257
+        height: 254
+      alignment: 9
+      pivot: {x: .554474711, y: .63188976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(12)
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 532
+        width: 269
+        height: 257
+      alignment: 9
+      pivot: {x: .55204463, y: .624513626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(13)
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 781
+        width: 283
+        height: 261
+      alignment: 9
+      pivot: {x: .545936406, y: .614942551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(14)
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 343
+        width: 257
+        height: 254
+      alignment: 9
+      pivot: {x: .554474711, y: .63188976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(2)
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 853
+        width: 250
+        height: 252
+      alignment: 9
+      pivot: {x: .55400002, y: .636904776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(3)
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 87
+        width: 257
+        height: 254
+      alignment: 9
+      pivot: {x: .554474711, y: .63188976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(4)
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 259
+        width: 269
+        height: 257
+      alignment: 9
+      pivot: {x: .55204463, y: .624513626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(5)
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 791
+        width: 283
+        height: 261
+      alignment: 9
+      pivot: {x: .545936406, y: .614942551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(6)
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 518
+        width: 283
+        height: 261
+      alignment: 9
+      pivot: {x: .545936406, y: .614942551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(7)
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 273
+        width: 269
+        height: 257
+      alignment: 9
+      pivot: {x: .55204463, y: .624513626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(8)
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 3
+        width: 257
+        height: 254
+      alignment: 9
+      pivot: {x: .554474711, y: .63188976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(9)
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 599
+        width: 250
+        height: 252
+      alignment: 9
+      pivot: {x: .55400002, y: .636904776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
