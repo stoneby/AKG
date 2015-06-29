@@ -72,7 +72,7 @@ GameObject:
   - 114: {fileID: 11499018}
   - 50: {fileID: 5043150}
   m_Layer: 10
-  m_Name: Tower
+  m_Name: Tower_old
   m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &139254
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -289,6 +289,7 @@ Transform:
   - {fileID: 439676}
   - {fileID: 439674}
   - {fileID: 439256}
+  - {fileID: 439254}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &439254
@@ -298,11 +299,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.134000063, y: -.0230000019, z: 0}
+  m_LocalPosition: {x: 1.08599997, y: -.523000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 439256}
-  m_RootOrder: 0
+  m_Father: {fileID: 432142}
+  m_RootOrder: 9
 --- !u!4 &439256
 Transform:
   m_ObjectHideFlags: 1
@@ -312,8 +313,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.22000003, y: -.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 439254}
+  m_Children: []
   m_Father: {fileID: 432142}
   m_RootOrder: 8
 --- !u!4 &439258
@@ -409,7 +409,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.160999998, y: -1.46500003, z: 0}
+  m_LocalPosition: {x: 1.54299998, y: -1.12699997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 432142}
@@ -438,8 +438,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .792208433, y: 1.2477901}
-  m_Center: {x: -.117795944, y: -.737422347}
+  m_Size: {x: .862395287, y: 1.11427999}
+  m_Center: {x: -.0265536308, y: -.726816297}
 --- !u!61 &6139260
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -449,8 +449,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 4.64012146, y: 1.15154552}
-  m_Center: {x: -1.67993641, y: -.129015207}
+  m_Size: {x: 3.91958141, y: 1.28405571}
+  m_Center: {x: -2.04020643, y: .142027617}
 --- !u!95 &9532138
 Animator:
   serializedVersion: 3
@@ -734,7 +734,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 3515710187
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300056, guid: 7a257ced50a66495aa07cfee8a4fae00, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a257ced50a66495aa07cfee8a4fae00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21247416
 SpriteRenderer:

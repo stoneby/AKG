@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/MonsterBest/MonsterAnimations.png</filename>
+        <filename>../../Assets/Arts/Character/MonsterBest/Tower.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -102,7 +102,7 @@
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
-            <enum type="AlgorithmSettings::AlgorithmId">Basic</enum>
+            <enum type="AlgorithmSettings::AlgorithmId">MaxRects</enum>
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
@@ -119,7 +119,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -145,7 +145,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/MonsterBest/MonsterAnimations.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/MonsterBest/Tower.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -188,7 +188,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Monster800600</filename>
+            <filename>../Fine Arts/Tower</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
