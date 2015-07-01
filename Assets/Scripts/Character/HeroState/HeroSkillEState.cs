@@ -8,7 +8,7 @@ public class HeroSkillEState : MonoBehaviour
     {
     }
 
-	public void CheckAttack()
+	public void CheckAttackE()
 	{
 		checker.Check();
 	}
