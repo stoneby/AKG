@@ -6,8 +6,12 @@ public class HeroSkillEState : MonoBehaviour
 
     void OnEnable()
     {
-		checker.Check();
     }
+
+	public void CheckAttack()
+	{
+		checker.Check();
+	}
 
     void Awake()
     {
