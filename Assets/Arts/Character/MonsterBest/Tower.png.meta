@@ -88,8 +88,8 @@ TextureImporter:
     - name: Die-(1)
       rect:
         serializedVersion: 2
-        x: 257
-        y: 153
+        x: 758
+        y: 944
         width: 257
         height: 254
       alignment: 9
@@ -98,58 +98,18 @@ TextureImporter:
     - name: Die-(10)
       rect:
         serializedVersion: 2
-        x: 2
-        y: 590
+        x: 1794
+        y: 807
         width: 248
         height: 391
       alignment: 9
       pivot: {x: .558467746, y: .410485923}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-(11)
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 217
-        width: 253
-        height: 371
-      alignment: 9
-      pivot: {x: .555335939, y: .432614565}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-(12)
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 1370
-        width: 255
-        height: 315
-      alignment: 9
-      pivot: {x: .535294116, y: .484126985}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-(13)
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 409
-        width: 250
-        height: 281
-      alignment: 9
-      pivot: {x: .477999985, y: .371886134}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-(14)
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 1308
-        width: 250
-        height: 363
-      alignment: 9
-      pivot: {x: .477999985, y: .287878782}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Die-(2)
       rect:
         serializedVersion: 2
-        x: 2
-        y: 983
+        x: 1106
+        y: 377
         width: 464
         height: 302
       alignment: 9
@@ -158,8 +118,8 @@ TextureImporter:
     - name: Die-(3)
       rect:
         serializedVersion: 2
-        x: 483
-        y: 1673
+        x: 2
+        y: 111
         width: 474
         height: 309
       alignment: 9
@@ -168,8 +128,8 @@ TextureImporter:
     - name: Die-(4)
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1632
+        x: 959
+        y: 25
         width: 479
         height: 350
       alignment: 9
@@ -178,8 +138,8 @@ TextureImporter:
     - name: Die-(5)
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1287
+        x: 478
+        y: 43
         width: 479
         height: 343
       alignment: 9
@@ -188,8 +148,8 @@ TextureImporter:
     - name: Die-(6)
       rect:
         serializedVersion: 2
-        x: 994
-        y: 1107
+        x: 1333
+        y: 681
         width: 283
         height: 261
       alignment: 9
@@ -198,8 +158,8 @@ TextureImporter:
     - name: Die-(7)
       rect:
         serializedVersion: 2
-        x: 959
-        y: 1687
+        x: 835
+        y: 388
         width: 269
         height: 295
       alignment: 9
@@ -208,8 +168,8 @@ TextureImporter:
     - name: Die-(8)
       rect:
         serializedVersion: 2
-        x: 252
-        y: 692
+        x: 572
+        y: 394
         width: 261
         height: 289
       alignment: 9
@@ -218,8 +178,8 @@ TextureImporter:
     - name: Die-(9)
       rect:
         serializedVersion: 2
-        x: 483
-        y: 1300
+        x: 1572
+        y: 171
         width: 257
         height: 371
       alignment: 9
@@ -228,8 +188,8 @@ TextureImporter:
     - name: Idle-(1)
       rect:
         serializedVersion: 2
-        x: 483
-        y: 1044
+        x: 1017
+        y: 944
         width: 257
         height: 254
       alignment: 9
@@ -238,8 +198,8 @@ TextureImporter:
     - name: Idle-(10)
       rect:
         serializedVersion: 2
-        x: 742
-        y: 1054
+        x: 2
+        y: 946
         width: 250
         height: 252
       alignment: 9
@@ -248,8 +208,8 @@ TextureImporter:
     - name: Idle-(11)
       rect:
         serializedVersion: 2
-        x: 516
-        y: 3
+        x: 1276
+        y: 944
         width: 257
         height: 254
       alignment: 9
@@ -258,8 +218,8 @@ TextureImporter:
     - name: Idle-(12)
       rect:
         serializedVersion: 2
-        x: 800
-        y: 532
+        x: 520
+        y: 685
         width: 269
         height: 257
       alignment: 9
@@ -268,8 +228,8 @@ TextureImporter:
     - name: Idle-(13)
       rect:
         serializedVersion: 2
-        x: 515
-        y: 781
+        x: 1618
+        y: 544
         width: 283
         height: 261
       alignment: 9
@@ -278,8 +238,8 @@ TextureImporter:
     - name: Idle-(14)
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 343
+        x: 1535
+        y: 944
         width: 257
         height: 254
       alignment: 9
@@ -288,8 +248,8 @@ TextureImporter:
     - name: Idle-(2)
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 853
+        x: 254
+        y: 946
         width: 250
         height: 252
       alignment: 9
@@ -298,8 +258,8 @@ TextureImporter:
     - name: Idle-(3)
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 87
+        x: 2
+        y: 690
         width: 257
         height: 254
       alignment: 9
@@ -308,8 +268,8 @@ TextureImporter:
     - name: Idle-(4)
       rect:
         serializedVersion: 2
-        x: 516
-        y: 259
+        x: 791
+        y: 685
         width: 269
         height: 257
       alignment: 9
@@ -318,8 +278,8 @@ TextureImporter:
     - name: Idle-(5)
       rect:
         serializedVersion: 2
-        x: 800
-        y: 791
+        x: 2
+        y: 427
         width: 283
         height: 261
       alignment: 9
@@ -328,8 +288,8 @@ TextureImporter:
     - name: Idle-(6)
       rect:
         serializedVersion: 2
-        x: 515
-        y: 518
+        x: 287
+        y: 422
         width: 283
         height: 261
       alignment: 9
@@ -338,8 +298,8 @@ TextureImporter:
     - name: Idle-(7)
       rect:
         serializedVersion: 2
-        x: 800
-        y: 273
+        x: 1062
+        y: 685
         width: 269
         height: 257
       alignment: 9
@@ -348,8 +308,8 @@ TextureImporter:
     - name: Idle-(8)
       rect:
         serializedVersion: 2
-        x: 775
-        y: 3
+        x: 261
+        y: 690
         width: 257
         height: 254
       alignment: 9
@@ -358,8 +318,8 @@ TextureImporter:
     - name: Idle-(9)
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 599
+        x: 506
+        y: 946
         width: 250
         height: 252
       alignment: 9
