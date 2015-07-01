@@ -280,10 +280,6 @@ Transition:
     m_ConditionEvent: SkillQ
     m_EventTreshold: 0
     m_ExitTime: 1
-  - m_ConditionMode: 5
-    m_ConditionEvent: SkillE
-    m_EventTreshold: 0
-    m_ExitTime: .899999976
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
