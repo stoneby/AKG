@@ -88,7 +88,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 404612}
   m_Layer: 10
-  m_Name: HurtIcon
+  m_Name: DamageInforIcon
   m_TagString: Untagged
   m_Icon: {fileID: -1077886335, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -541,9 +541,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01b6dc85102f545b4bbeab9cb45eaecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
+  DamageInforPrefab: {fileID: 189998, guid: 142fc8d0477df46f1857c97c70ecbdb4, type: 2}
+  Damage: 0
   ShowTime: .5
-  HurtLocation: {fileID: 0}
+  DamageLocation: {fileID: 0}
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1

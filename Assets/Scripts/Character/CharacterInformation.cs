@@ -2,35 +2,40 @@
 
 public class CharacterInformation : MonoBehaviour 
 {
-	public GameObject HurtPrefab;
+	public GameObject DamageInforPrefab;
+	public int Damage;
 
 	public float ShowTime;
 
 	[HideInInspector]
-	public Transform HurtLocation;
-	private GameObject hurtObject;
+	public Transform DamageLocation;
+	private DamageInforHUDController damageHUDController;
 
 	public void Show(bool flag)
 	{
-		hurtObject.SetActive(flag);
 		if(flag)
 		{
+			damageHUDController.Damage = Damage;
+
 			CancelInvoke("Hide");
 			Invoke("Hide", ShowTime);
 		}
+		damageHUDController.Show(flag);
 	}
+
 
 	private void Hide()
 	{
-		hurtObject.SetActive(false);
+		damageHUDController.Show(false);
 	}
 
 	void Awake()
 	{
-		HurtLocation = transform.Find("HurtIcon");
-		hurtObject = Instantiate(HurtPrefab, HurtLocation.position, HurtLocation.rotation) as GameObject;
-		hurtObject.transform.parent = HurtLocation.transform;
+		DamageLocation = transform.Find("DamageInforIcon");
+		var damageObject = Instantiate(DamageInforPrefab, DamageLocation.position, DamageLocation.rotation) as GameObject;
+		damageHUDController = damageObject.GetComponent<DamageInforHUDController>();
+		damageHUDController.transform.parent = DamageLocation.transform;
 
-		Show(false);
+		damageHUDController.Show(false);
 	}
 }

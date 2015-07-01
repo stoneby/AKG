@@ -11,6 +11,7 @@ public class PlayerAttackChecker : MonoBehaviour
 
     public float CheckerDistance;
 	public SideMode Side;
+	public int HurtHealth;
 
     private PlayerControl player;
     private CharacterCommon characterCommon;
@@ -50,6 +51,7 @@ public class PlayerAttackChecker : MonoBehaviour
 		}
 
 		// health update.
+		monsterHealth.HurtHealth = HurtHealth;
 		monsterHealth.Hurt();
 
         // monster ui update.
@@ -58,6 +60,7 @@ public class PlayerAttackChecker : MonoBehaviour
 
         // player ui update.
         var playerInfor = player.GetComponent<CharacterInformation>();
+		playerInfor.Damage = HurtHealth;
         playerInfor.Show(true);
     }
 

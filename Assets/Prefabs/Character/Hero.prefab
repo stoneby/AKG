@@ -100,7 +100,7 @@ GameObject:
   - 50: {fileID: 5000002}
   - 114: {fileID: 11400010}
   m_Layer: 0
-  m_Name: Attack_Deprecated
+  m_Name: __Attack_Deprecated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,6 +153,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &120708
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 420708}
+  - 114: {fileID: 11420708}
+  - 61: {fileID: 6120708}
+  m_Layer: 0
+  m_Name: SkillEAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &126076
 GameObject:
   m_ObjectHideFlags: 1
@@ -178,7 +195,7 @@ GameObject:
   - 4: {fileID: 430052}
   - 114: {fileID: 11430052}
   m_Layer: 0
-  m_Name: SkillQAttack
+  m_Name: SkillQNormalAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,7 +272,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 456122}
   m_Layer: 0
-  m_Name: HurtIcon
+  m_Name: DamageInforIcon
   m_TagString: Untagged
   m_Icon: {fileID: -1077886335, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -286,8 +303,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 489014}
   - 114: {fileID: 11489014}
+  - 61: {fileID: 6120710}
   m_Layer: 0
-  m_Name: SkillEAttack
+  m_Name: SkillQPowerAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,6 +437,7 @@ Transform:
   - {fileID: 489012}
   - {fileID: 430052}
   - {fileID: 489014}
+  - {fileID: 420708}
   m_Father: {fileID: 400000}
   m_RootOrder: 2
 --- !u!4 &400012
@@ -444,6 +463,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 430904}
+  m_RootOrder: 4
+--- !u!4 &420708
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
   m_RootOrder: 4
 --- !u!4 &426076
 Transform:
@@ -649,6 +680,28 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 3.4000001, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!61 &6120708
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120708}
+  m_Enabled: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 3.4000001, y: 1}
+  m_Center: {x: 0, y: 0}
+--- !u!61 &6120710
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189014}
+  m_Enabled: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 3.9000001, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -734,9 +787,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01b6dc85102f545b4bbeab9cb45eaecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HurtPrefab: {fileID: 143958, guid: f240f4c8ba325b549b4336d965f87f01, type: 2}
+  DamageInforPrefab: {fileID: 189998, guid: 142fc8d0477df46f1857c97c70ecbdb4, type: 2}
+  Damage: 0
   ShowTime: .5
-  HurtLocation: {fileID: 0}
+  DamageLocation: {fileID: 0}
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -846,6 +900,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DuangSpeed: 3
+--- !u!114 &11420708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckerDistance: 1.70000005
+  Side: 1
+  HurtHealth: 15
 --- !u!114 &11430052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -857,8 +925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CheckerDistance: 1.70000005
+  CheckerDistance: 1.20000005
   Side: 0
+  HurtHealth: 8
 --- !u!114 &11443916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1089,6 +1158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CheckerDistance: 1.70000005
   Side: 0
+  HurtHealth: 10
 --- !u!114 &11489014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1100,8 +1170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CheckerDistance: 1.70000005
-  Side: 1
+  CheckerDistance: 1.95000005
+  Side: 0
+  HurtHealth: 20
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
