@@ -13,11 +13,13 @@ public class MonsterGroupInitializer : MonoBehaviour
 
 	private Transform monsterBornTrans;
 	private Transform towerBornTrans;
+	private Transform mudMasterBornTrans;
 
     void Awake()
     {
 		monsterBornTrans = transform.Find("Monster");
-		towerBornTrans = transform.Find("Tower");
+		towerBornTrans = transform.Find("Tower");		
+		mudMasterBornTrans = transform.Find("MudMaster");
 
         GetIdleRange();
     }
@@ -39,9 +41,12 @@ public class MonsterGroupInitializer : MonoBehaviour
         }
 
 		var towerHealthList = towerBornTrans.GetComponentsInChildren<CharacterHealth>();
+		var mudMasterHealthList = mudMasterBornTrans.GetComponentsInChildren<CharacterHealth>();
 
 		HealthList.AddRange(monsterHealthList);
 		HealthList.AddRange(towerHealthList);
+		HealthList.AddRange(mudMasterHealthList);
+
         HealthList.ForEach(item => item.MessageListener = PresentData.Instance.LevelEndChecker.gameObject);
         GameData.Instance.MonsterCount = HealthList.Count;
     }

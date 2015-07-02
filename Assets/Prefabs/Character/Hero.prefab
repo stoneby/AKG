@@ -33,7 +33,7 @@ GameObject:
   - 114: {fileID: 11489010}
   - 114: {fileID: 11467696}
   - 114: {fileID: 11443916}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hero
   m_TagString: Player
   m_Icon: {fileID: 120240766, guid: 0000000000000000d000000000000000, type: 0}
@@ -48,7 +48,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400002}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
@@ -65,7 +65,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 212: {fileID: 21200002}
   - 114: {fileID: 11400000}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 114: {fileID: 11400018}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HurtFrontLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - 61: {fileID: 6100002}
   - 50: {fileID: 5000002}
   - 114: {fileID: 11400010}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: __Attack_Deprecated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400010}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sensors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400012}
   - 114: {fileID: 11400020}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HurtBackLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400014}
   - 114: {fileID: 11400022}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HeatLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - 4: {fileID: 420708}
   - 114: {fileID: 11420708}
   - 61: {fileID: 6120708}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SkillEAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 426076}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HitLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 430052}
   - 114: {fileID: 11430052}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SkillQNormalAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 430904}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 430906}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RunLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 453702}
   - 114: {fileID: 11453702}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: attack4Move
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 453704}
   - 114: {fileID: 11453704}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: attack3Move
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 456122}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DamageInforIcon
   m_TagString: Untagged
   m_Icon: {fileID: -1077886335, guid: 0000000000000000d000000000000000, type: 0}
@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 489012}
   - 114: {fileID: 11489012}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: NormalAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   - 4: {fileID: 489014}
   - 114: {fileID: 11489014}
   - 61: {fileID: 6120710}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SkillQPowerAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497382}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BorderRihgt
   m_TagString: Untagged
   m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
@@ -334,7 +334,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497384}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BorderLeft
   m_TagString: Untagged
   m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
@@ -349,7 +349,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497386}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Checkers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
