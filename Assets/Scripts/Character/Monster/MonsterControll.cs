@@ -5,15 +5,16 @@ public class MonsterControll : MonoBehaviour
     private Animator animator;
 	private CharacterInformation characterInfor;
 	private PlayerControl player;
+	private CharacterCommon characterCommon;
 
     public void Attack(bool flag)
     {
-        animator.SetBool("Attack", flag);
+		characterCommon.Attack(flag);
     }
 
     public void Hurt()
     {
-        animator.SetTrigger("Hurt");
+		characterCommon.Hurt();
     }
 
     public void LookAround(bool flag)
@@ -26,5 +27,6 @@ public class MonsterControll : MonoBehaviour
         animator = GetComponent<Animator>();
 		characterInfor = GetComponent<CharacterInformation>();
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+		characterCommon = GetComponent<CharacterCommon>();
     }
 }

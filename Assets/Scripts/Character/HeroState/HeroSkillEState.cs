@@ -2,7 +2,7 @@
 
 public class HeroSkillEState : MonoBehaviour
 {
-	private PlayerAttackChecker checker;
+	private CharacterAttackChecker checker;
 
     void OnEnable()
     {
@@ -15,6 +15,6 @@ public class HeroSkillEState : MonoBehaviour
 
     void Awake()
     {
-		checker = transform.Find("Sensors/SkillEAttack").GetComponent<PlayerAttackChecker>();
+		checker = transform.Find("Sensors/SkillEAttack").GetComponent<CharacterAttackChecker>();
 	}
 }

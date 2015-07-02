@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class HeroAttack1State : MonoBehaviour
 {
-    private PlayerAttackChecker checker;
+    private CharacterAttackChecker checker;
 
 	void OnEnable()
 	{
@@ -11,6 +11,6 @@ public class HeroAttack1State : MonoBehaviour
 	
 	void Awake()
 	{
-	    checker = transform.Find("Sensors/NormalAttack").GetComponent<PlayerAttackChecker>();
+	    checker = transform.Find("Sensors/NormalAttack").GetComponent<CharacterAttackChecker>();
 	}
 }

@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: ed88652500afc4cfd8ae62098334c89d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Die-01
+    21300002: Die-02
+    21300004: Die-03
+    21300006: Die-04
+    21300008: Idle-(1)
+    21300010: Idle-(2)
+    21300012: Idle-(3)
+    21300014: Idle-(4)
+    21300016: Idle-(5)
+    21300018: Idle-(6)
+    21300020: Idle-(7)
+    21300022: Idle-(8)
+    21300024: Idle-(9)
+    21300026: Skill-(1)
+    21300028: Skill-(2)
+    21300030: Skill-(3)
+    21300032: Skill-(4)
+    21300034: Skill-(5)
+    21300036: Skill-(6)
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Die-01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 53
+        height: 96
+      alignment: 9
+      pivot: {x: .754716992, y: .375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 23
+        width: 80
+        height: 88
+      alignment: 9
+      pivot: {x: .887499988, y: .113636367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-03
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 25
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: .703703701, y: .441860467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-04
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 72
+        width: 143
+        height: 51
+      alignment: 9
+      pivot: {x: .727272749, y: .882352948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(1)
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 273
+        width: 138
+        height: 133
+      alignment: 9
+      pivot: {x: .492753625, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(2)
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 3
+        width: 138
+        height: 133
+      alignment: 9
+      pivot: {x: .492753625, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(3)
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 3
+        width: 138
+        height: 133
+      alignment: 9
+      pivot: {x: .492753625, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(4)
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 138
+        width: 138
+        height: 133
+      alignment: 9
+      pivot: {x: .492753625, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(5)
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 4
+        width: 138
+        height: 132
+      alignment: 9
+      pivot: {x: .492753625, y: .575757563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(6)
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 274
+        width: 137
+        height: 132
+      alignment: 9
+      pivot: {x: .489051104, y: .575757563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(7)
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 273
+        width: 138
+        height: 133
+      alignment: 9
+      pivot: {x: .492753625, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(8)
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 140
+        width: 137
+        height: 132
+      alignment: 9
+      pivot: {x: .489051104, y: .575757563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-(9)
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 139
+        width: 138
+        height: 132
+      alignment: 9
+      pivot: {x: .492753625, y: .575757563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-(1)
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 138
+        width: 143
+        height: 133
+      alignment: 9
+      pivot: {x: .496503502, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-(2)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 113
+        width: 173
+        height: 145
+      alignment: 9
+      pivot: {x: .387283236, y: .524137914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-(3)
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 10
+        width: 175
+        height: 127
+      alignment: 9
+      pivot: {x: .600000024, y: .59842521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-(4)
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 273
+        width: 204
+        height: 133
+      alignment: 9
+      pivot: {x: .656862736, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-(5)
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 125
+        width: 222
+        height: 133
+      alignment: 9
+      pivot: {x: .684684694, y: .571428597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skill-(6)
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 260
+        width: 233
+        height: 146
+      alignment: 9
+      pivot: {x: .699570835, y: .520547926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

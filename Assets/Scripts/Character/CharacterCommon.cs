@@ -12,6 +12,7 @@ public class CharacterCommon : MonoBehaviour
     public bool Dead { get { return health.Dead; } }
 
 	private CharacterHealth health;
+	private Animator animator;
 
 	public void Flip()
 	{
@@ -35,10 +36,18 @@ public class CharacterCommon : MonoBehaviour
 	{
 		health.HurtHealth = HurtHealth;
 		health.Hurt();
+
+		animator.SetTrigger("Hurt");
+	}
+
+	public void Attack(bool flag)
+	{
+		animator.SetBool("Attack", flag);
 	}
 
 	void Awake()
 	{
 		health = GetComponent<CharacterHealth>();
+		animator = GetComponent<Animator>();
 	}
 }

@@ -18,7 +18,6 @@ public class CharacterHealth : MonoBehaviour
     public void Hurt()
     {
         CurrentHealth -= HurtHealth;
-        animator.SetTrigger("Hurt");
 
         SendMessage("UpdateHealth", NormalizedHealth, SendMessageOptions.DontRequireReceiver);
 

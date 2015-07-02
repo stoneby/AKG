@@ -4,8 +4,8 @@ public class HeroSkillQState : MonoBehaviour
 {
 	public float AttackSpeed;
 
-	private PlayerAttackChecker normalChecker;
-	private PlayerAttackChecker powerChecker;
+	private CharacterAttackChecker normalChecker;
+	private CharacterAttackChecker powerChecker;
 	private CharacterCommon characterCommon;
 	private Rigidbody2D rigid2D;
 
@@ -30,8 +30,8 @@ public class HeroSkillQState : MonoBehaviour
 	
 	void Awake()
 	{
-		normalChecker = transform.Find("Sensors/SkillQNormalAttack").GetComponent<PlayerAttackChecker>();
-		powerChecker = transform.Find("Sensors/SkillQPowerAttack").GetComponent<PlayerAttackChecker>();
+		normalChecker = transform.Find("Sensors/SkillQNormalAttack").GetComponent<CharacterAttackChecker>();
+		powerChecker = transform.Find("Sensors/SkillQPowerAttack").GetComponent<CharacterAttackChecker>();
 		characterCommon = GetComponent<CharacterCommon>();
 		rigid2D = GetComponent<Rigidbody2D>();
 	}

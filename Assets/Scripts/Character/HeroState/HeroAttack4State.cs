@@ -1,11 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class HeroAttack4State : MonoBehaviour
 {
 	public HeroAttackMove AttackMove;
 
 	private PlayerControl player;
-	private PlayerAttackChecker checker;
+	private CharacterAttackChecker checker;
 
     void OnEnable()
     {
@@ -37,6 +37,6 @@ public class HeroAttack4State : MonoBehaviour
 	void Awake()
 	{
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
-		checker = transform.Find("Sensors/NormalAttack").GetComponent<PlayerAttackChecker>();
+		checker = transform.Find("Sensors/NormalAttack").GetComponent<CharacterAttackChecker>();
 	}
 }

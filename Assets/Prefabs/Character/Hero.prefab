@@ -766,7 +766,7 @@ MonoBehaviour:
   SkillQ: 0
   SkillW: 0
   SkillE: 0
-  inputDevice: 1
+  inputDevice: 0
   inputManager: {fileID: 0}
   horizontalSpeed: 4
   horizontalSpeedAttack: .800000012
@@ -911,6 +911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SourceCharacter: {fileID: 100000}
+  TargetLayer: Monster
   CheckerDistance: 1.70000005
   Side: 1
   HurtHealth: 15
@@ -925,6 +927,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SourceCharacter: {fileID: 100000}
+  TargetLayer: Monster
   CheckerDistance: 1.20000005
   Side: 0
   HurtHealth: 8
@@ -1156,6 +1160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SourceCharacter: {fileID: 100000}
+  TargetLayer: Monster
   CheckerDistance: 1.70000005
   Side: 0
   HurtHealth: 10
@@ -1170,6 +1176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685f98052a925a47bb4a3fdc56f21a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SourceCharacter: {fileID: 100000}
+  TargetLayer: Monster
   CheckerDistance: 1.95000005
   Side: 0
   HurtHealth: 20

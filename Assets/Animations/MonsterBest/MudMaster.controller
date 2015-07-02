@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Tower
+  m_Name: MudMaster
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: Hurt
@@ -201,7 +201,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 9bbed4269766a4ecd990f6ea3c553257, type: 2}
+  - {fileID: 7400000, guid: a3336d5de4b734177b50aea82b9bc154, type: 2}
   m_ParentStateMachine: {fileID: 110766824}
   m_Position: {x: -204, y: 108, z: 0}
   m_IKOnFeet: 0
@@ -216,7 +216,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 9935d0f21fc9d4c57bf9b66336abe532, type: 2}
+  - {fileID: 7400000, guid: 5a5dfa33a2cc645e1b38e675a153e0e3, type: 2}
   m_ParentStateMachine: {fileID: 110766824}
   m_Position: {x: 132, y: 180, z: 0}
   m_IKOnFeet: 0
@@ -231,7 +231,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 9bbed4269766a4ecd990f6ea3c553257, type: 2}
+  - {fileID: 7400000, guid: 7ff6d1692895b45d495f35952fd8218d, type: 2}
   m_ParentStateMachine: {fileID: 110766824}
   m_Position: {x: -48, y: -12, z: 0}
   m_IKOnFeet: 0
@@ -246,7 +246,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 9bbed4269766a4ecd990f6ea3c553257, type: 2}
+  - {fileID: 7400000, guid: 7ff6d1692895b45d495f35952fd8218d, type: 2}
   m_ParentStateMachine: {fileID: 110766824}
   m_Position: {x: 132, y: 108, z: 0}
   m_IKOnFeet: 0
@@ -272,18 +272,18 @@ StateMachine:
       first: {fileID: 0}
       second: []
     data:
-      first: {fileID: 110225804}
-      second:
-      - {fileID: 110159392}
-      - {fileID: 110166400}
-    data:
-      first: {fileID: 110240456}
-      second: []
-    data:
       first: {fileID: 110266824}
       second:
       - {fileID: 110192942}
       - {fileID: 110138674}
+    data:
+      first: {fileID: 110240456}
+      second: []
+    data:
+      first: {fileID: 110225804}
+      second:
+      - {fileID: 110159392}
+      - {fileID: 110166400}
     data:
       first: {fileID: 110290382}
       second:
