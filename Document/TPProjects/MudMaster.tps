@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/MonsterBest/Tower.png</filename>
+        <filename>../../Assets/Arts/Character/MonsterBest/MudMaster.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -147,7 +147,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/MonsterBest/Tower.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/MonsterBest/MudMaster.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -190,7 +190,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Tower</filename>
+            <filename>../Fine Arts/MudMaster</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

@@ -2,9 +2,9 @@
 
 public class MenuController : SSController
 {
-    public void Play()
+    public void GoBattleMenu()
     {
-        SSSceneManager.Instance.Screen("DemoBattle");
+        SSSceneManager.Instance.Screen("BattleMenu");
     }
 
     public void Exit()

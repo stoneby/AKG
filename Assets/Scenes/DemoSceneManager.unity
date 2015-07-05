@@ -117,8 +117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UIType: 0
   m_LoadingSceneName: DemoLoading
-  m_FirstSceneName: Menu
-  m_HomeSceneName: Menu
+  m_FirstSceneName: MainMenu
+  m_HomeSceneName: MainMenu
   m_DefaultShieldColor: {r: .784313738, g: .784313738, b: .784313738, a: .501960814}
   m_SceneDistance: 0
   m_IsLoadAsync: 1

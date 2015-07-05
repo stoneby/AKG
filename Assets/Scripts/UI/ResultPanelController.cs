@@ -16,7 +16,7 @@ public class ResultPanelController : MonoBehaviour
 
 	public void OnRestartClicked()
 	{
-		SSSceneManager.Instance.Screen("Menu");
+		SSSceneManager.Instance.Screen("MainMenu");
 		gameObject.SetActive(false);
 	}
 

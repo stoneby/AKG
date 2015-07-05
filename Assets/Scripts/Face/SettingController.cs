@@ -4,7 +4,7 @@ public class SettingController : MonoBehaviour
 {
     public void OnExit()
     {
-        SSSceneManager.Instance.PopUp("DemoPopup", new DemoPopupData("Are you sure to quit?", DemoPopupType.YES_NO),
+        SSSceneManager.Instance.PopUp("Popup", new DemoPopupData("Are you sure to quit?", DemoPopupType.YES_NO),
             (ctrl) =>
             {
                 var popup = (DemoPopup) ctrl;
@@ -19,6 +19,6 @@ public class SettingController : MonoBehaviour
 
     private void OnYesButtonTap()
     {
-        SSSceneManager.Instance.Screen("Menu");
+        SSSceneManager.Instance.Screen("MainMenu");
     }
 }
