@@ -1,0 +1,3 @@
+- Hud monster die animation with tower one.
+- Camera move smoothly.
+- Texture quality on ios. UI is good, but not characters.
