@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &3738169
 GameObject:
@@ -1217,8 +1218,8 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreReversedGraphics: 1
-  blockingObjects: 0
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3563,10 +3564,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b30f3726face4574a5835cae1e9b6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMargin: 2
-  yMargin: 2
-  xSmooth: 2
-  ySmooth: 2
+  xMargin: 1
+  yMargin: 1
+  xSmooth: 1.5
+  ySmooth: 1.5
   maxXAndY: {x: 618, y: 0}
   minXAndY: {x: -6, y: 0}
 --- !u!111 &1204045210
