@@ -21,8 +21,15 @@ public class LevelEndChecker : MonoBehaviour
 
             var victory = (monsterDead) && (deadMonsterCount == GameData.Instance.MonsterCount);
             PanelController.Victory = victory;
-        }
+
+            Invoke("Pause", .5f);
+	    }
 	}
+
+    void Pause()
+    {
+        Pauser.Instance.Pause();
+    }
 
     public void Reset()
     {

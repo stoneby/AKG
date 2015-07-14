@@ -1,19 +1,26 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class Pauser : MonoBehaviour {
-	private bool paused = false;
-	
-	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyUp(KeyCode.P))
-		{
-			paused = !paused;
-		}
+public class Pauser : Singleton<Pauser>
+{
+    private bool paused;
 
-		if(paused)
-			Time.timeScale = 0;
-		else
-			Time.timeScale = 1;
-	}
+    public void Pause()
+    {
+        paused = true;
+    }
+
+    public void Resume()
+    {
+        paused = false;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.P))
+        {
+            paused = !paused;
+        }
+
+        Time.timeScale = paused ? 0 : 1;
+    }
 }
