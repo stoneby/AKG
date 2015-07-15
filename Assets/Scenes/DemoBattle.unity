@@ -3567,10 +3567,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b30f3726face4574a5835cae1e9b6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMargin: 1
-  yMargin: 1
-  xSmooth: 1.5
-  ySmooth: 1.5
+  xMargin: 2
+  yMargin: 2
+  xSmooth: 2
+  ySmooth: 2
   maxXAndY: {x: 618, y: 0}
   minXAndY: {x: -6, y: 0}
 --- !u!111 &1204045210

@@ -5,6 +5,7 @@ public class LevelEndChecker : MonoBehaviour
 	public ResultPanelController PanelController;
 
     private int deadMonsterCount;
+    private PlayerControl player;
 
 	void Dead(GameObject go)
 	{
@@ -22,14 +23,9 @@ public class LevelEndChecker : MonoBehaviour
             var victory = (monsterDead) && (deadMonsterCount == GameData.Instance.MonsterCount);
             PanelController.Victory = victory;
 
-            Invoke("Pause", .5f);
+	        player.enabled = false;
 	    }
 	}
-
-    void Pause()
-    {
-        Pauser.Instance.Pause();
-    }
 
     public void Reset()
     {
@@ -39,5 +35,6 @@ public class LevelEndChecker : MonoBehaviour
     void Awake()
     {
         enabled = false;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
     }
 }

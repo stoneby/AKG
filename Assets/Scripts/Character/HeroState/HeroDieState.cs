@@ -1,15 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class HeroDieState : MonoBehaviour {
+public class HeroDieState : MonoBehaviour
+{
+    void Start()
+    {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    }
 }

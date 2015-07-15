@@ -58,6 +58,7 @@ public class PlayerControl : MonoBehaviour
     private Animator anim;					// Reference to the player's animator component.
 
     private CharacterCommon characterCommon;
+    private CharacterHealth characterHealth;
 
     void Awake()
     {
@@ -68,6 +69,7 @@ public class PlayerControl : MonoBehaviour
 		anim.enabled = false;
 
 		characterCommon = GetComponent<CharacterCommon>();
+        characterHealth = GetComponent<CharacterHealth>();
 
         if (inputDevice == InputDevice.HUD)
         {
@@ -191,8 +193,6 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //Debug.LogWarning("On trigger enter." + other.name);
-
         if (other.tag.Equals("AttackSensor"))
         {
             var monster = other.attachedRigidbody.GetComponent<MonsterControll>();
@@ -210,10 +210,9 @@ public class PlayerControl : MonoBehaviour
             var attackEffectController = other.attachedRigidbody.GetComponent<AttackEffectController>();
             attackEffectController.Hit();
 
-            characterCommon.Hurt();
+            HurtFront = (characterCommon.FacingRight != attackEffectController.FacingRight);
 
-			var monsterCommon = attackEffectController.Owner.GetComponent<CharacterCommon>();
-			HurtFront = (characterCommon.FacingRight != monsterCommon.FacingRight);
+            characterCommon.Hurt();
         }
 
 		if (other.tag.Equals("CaveEnd"))
@@ -231,8 +230,6 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        //Debug.LogWarning("On trigger exit." + other.name);
-
         if (other.tag.Equals("Borders"))
         {
         }
@@ -252,6 +249,11 @@ public class PlayerControl : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.collider.tag.Equals("DeathBorder"))
+        {
+            characterCommon.HurtHealth = characterHealth.CurrentHealth;
+            characterCommon.Hurt();
+        }
     }
 
     void OnCollisionExit2D(Collision2D other)

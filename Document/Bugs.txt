@@ -1,4 +1,5 @@
-- Hud monster die animation with tower one.
+- Hud monster die animation with tower one. (done)
 - Camera move smoothly. (done)
 - Texture quality on ios. UI is good, but not characters.
 - Hero Die when drop. (done)
+- Make stone flowing.

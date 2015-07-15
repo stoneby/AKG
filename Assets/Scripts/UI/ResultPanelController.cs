@@ -17,9 +17,6 @@ public class ResultPanelController : MonoBehaviour
 	{
 		SSSceneManager.Instance.Screen("MainMenu");
 		gameObject.SetActive(false);
-
-        // resume the game.
-        Pauser.Instance.Resume();
     }
 
 	void Awake()

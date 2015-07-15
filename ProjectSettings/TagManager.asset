@@ -12,6 +12,7 @@ TagManager:
   - Borders
   - HeroBornLocation
   - CaveEnd
+  - DeathBorder
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
