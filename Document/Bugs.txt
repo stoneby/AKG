@@ -2,4 +2,4 @@
 - Camera move smoothly. (done)
 - Texture quality on ios. UI is good, but not characters.
 - Hero Die when drop. (done)
-- Make stone flowing.
+- Make stone flowing. (done)

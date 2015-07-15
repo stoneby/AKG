@@ -5,13 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: stone
+  m_Name: FS01
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
-    m_StateMachine: {fileID: 110772534}
+    m_StateMachine: {fileID: 110717080}
     m_Mask: {fileID: 0}
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
@@ -20,34 +20,34 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &110272534
+--- !u!1102 &110217080
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FlowStoneBig
+  m_Name: FS01
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 36e7614b0b9fe496383424e6a5e01ce9, type: 2}
-  m_ParentStateMachine: {fileID: 110772534}
-  m_Position: {x: 50, y: 50, z: 0}
+  - {fileID: 7400000, guid: 786c74278810048d8b6ebc89d58fc8d5, type: 2}
+  m_ParentStateMachine: {fileID: 110717080}
+  m_Position: {x: 84, y: 84, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1107 &110772534
+--- !u!1107 &110717080
 StateMachine:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110272534}
+  m_DefaultState: {fileID: 110217080}
   m_States:
-  - {fileID: 110272534}
+  - {fileID: 110217080}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: 48, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
