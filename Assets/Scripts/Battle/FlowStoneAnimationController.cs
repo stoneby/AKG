@@ -6,7 +6,7 @@ public class FlowStoneAnimationController : MonoBehaviour
 
     private Animator animator;
 
-    void Flowting()
+    void Flowing()
     {
         animator.enabled = true;
     }
@@ -19,6 +19,6 @@ public class FlowStoneAnimationController : MonoBehaviour
 
     void Start()
     {
-        Invoke("Flowting", StartTime);
+        Invoke("Flowing", StartTime);
     }
 }
