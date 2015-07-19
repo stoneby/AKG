@@ -13,6 +13,12 @@ public class MonsterInit : MonoBehaviour
             rigidbody2D.isKinematic = true;
             collider2D.isTrigger = true;
             enabled = false;
+
+			if (hit.collider.tag.Equals("FlowStone"))
+			{
+				Debug.LogWarning("Monster hits on the flow stone.");
+				transform.parent = hit.collider.transform;
+			}
         }
     }
 
