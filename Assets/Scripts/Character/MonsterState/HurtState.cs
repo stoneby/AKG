@@ -27,10 +27,14 @@ public class HurtState : MonoBehaviour
     /// <remarks>To idle state or duang state.</remarks>
     public void OnDecision()
     {
-        if (player.LastAttack || health.Dead)
-        {
-            anim.SetTrigger("Duang");
-        }
+		if (health.Dead)
+		{
+			anim.SetTrigger("DuangDie");
+		}
+		else if (player.LastAttack)
+		{
+			anim.SetTrigger("Duang");
+		}
     }
 
     void Awake()

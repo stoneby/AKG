@@ -3,3 +3,8 @@
 - Texture quality on ios. UI is good, but not characters.
 - Hero Die when drop. (done)
 - Make stone flowing. (done)
+- states , like duang die and die refactor.
+- tower on the flow stone. (done)
+
+Feature:
+- state machine improve. reuse state controller with state data.

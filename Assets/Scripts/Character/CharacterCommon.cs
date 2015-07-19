@@ -34,10 +34,10 @@ public class CharacterCommon : MonoBehaviour
 	
 	public void Hurt()
 	{
+		animator.SetTrigger("Hurt");
+
 		health.HurtHealth = HurtHealth;
 		health.Hurt();
-
-		animator.SetTrigger("Hurt");
 	}
 
 	public void Attack(bool flag)

@@ -21,6 +21,16 @@ TextureImporter:
     21300032: Skill-(4)
     21300034: Skill-(5)
     21300036: Skill-(6)
+    21300038: Die-(1)
+    21300040: Die-(10)
+    21300042: Die-(2)
+    21300044: Die-(3)
+    21300046: Die-(4)
+    21300048: Die-(5)
+    21300050: Die-(6)
+    21300052: Die-(7)
+    21300054: Die-(8)
+    21300056: Die-(9)
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -66,51 +76,111 @@ TextureImporter:
     compressionQuality: 100
   spriteSheet:
     sprites:
-    - name: Die-01
+    - name: Die-(1)
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 57
+        width: 143
+        height: 179
+      alignment: 9
+      pivot: {x: .496503502, y: .424580991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(10)
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 140
+        width: 167
+        height: 370
+      alignment: 9
+      pivot: {x: .401197612, y: .189189196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(2)
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 308
+        width: 173
+        height: 202
+      alignment: 9
+      pivot: {x: .387283236, y: .376237631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(3)
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 308
+        width: 172
+        height: 202
+      alignment: 9
+      pivot: {x: .389534891, y: .376237631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(4)
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 271
+        width: 185
+        height: 239
+      alignment: 9
+      pivot: {x: .432432443, y: .317991644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(5)
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 238
+        width: 230
+        height: 272
+      alignment: 9
+      pivot: {x: .465217382, y: .279411763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(6)
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 253
+        width: 235
+        height: 257
+      alignment: 9
+      pivot: {x: .459574461, y: .287937731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-(7)
       rect:
         serializedVersion: 2
         x: 2
-        y: 15
-        width: 53
-        height: 96
+        y: 172
+        width: 235
+        height: 338
       alignment: 9
-      pivot: {x: .754716992, y: .375}
+      pivot: {x: .459574461, y: .233727813}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-02
+    - name: Die-(8)
       rect:
         serializedVersion: 2
-        x: 57
-        y: 23
-        width: 80
-        height: 88
+        x: 576
+        y: 137
+        width: 165
+        height: 373
       alignment: 9
-      pivot: {x: .887499988, y: .113636367}
+      pivot: {x: .387878776, y: .19571045}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-03
+    - name: Die-(9)
       rect:
         serializedVersion: 2
-        x: 139
-        y: 25
-        width: 108
-        height: 86
+        x: 408
+        y: 138
+        width: 166
+        height: 372
       alignment: 9
-      pivot: {x: .703703701, y: .441860467}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-04
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 72
-        width: 143
-        height: 51
-      alignment: 9
-      pivot: {x: .727272749, y: .882352948}
+      pivot: {x: .391566277, y: .193548381}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle-(1)
       rect:
         serializedVersion: 2
-        x: 443
-        y: 273
+        x: 1748
+        y: 377
         width: 138
         height: 133
       alignment: 9
@@ -119,8 +189,8 @@ TextureImporter:
     - name: Idle-(2)
       rect:
         serializedVersion: 2
-        x: 401
-        y: 3
+        x: 1751
+        y: 242
         width: 138
         height: 133
       alignment: 9
@@ -129,8 +199,8 @@ TextureImporter:
     - name: Idle-(3)
       rect:
         serializedVersion: 2
-        x: 541
-        y: 3
+        x: 1751
+        y: 107
         width: 138
         height: 133
       alignment: 9
@@ -139,8 +209,8 @@ TextureImporter:
     - name: Idle-(4)
       rect:
         serializedVersion: 2
-        x: 546
-        y: 138
+        x: 1212
+        y: 136
         width: 138
         height: 133
       alignment: 9
@@ -149,8 +219,8 @@ TextureImporter:
     - name: Idle-(5)
       rect:
         serializedVersion: 2
-        x: 681
-        y: 4
+        x: 957
+        y: 2
         width: 138
         height: 132
       alignment: 9
@@ -159,8 +229,8 @@ TextureImporter:
     - name: Idle-(6)
       rect:
         serializedVersion: 2
-        x: 723
-        y: 274
+        x: 1237
+        y: 2
         width: 137
         height: 132
       alignment: 9
@@ -169,8 +239,8 @@ TextureImporter:
     - name: Idle-(7)
       rect:
         serializedVersion: 2
-        x: 583
-        y: 273
+        x: 1376
+        y: 44
         width: 138
         height: 133
       alignment: 9
@@ -179,8 +249,8 @@ TextureImporter:
     - name: Idle-(8)
       rect:
         serializedVersion: 2
-        x: 826
-        y: 140
+        x: 1516
+        y: 27
         width: 137
         height: 132
       alignment: 9
@@ -189,8 +259,8 @@ TextureImporter:
     - name: Idle-(9)
       rect:
         serializedVersion: 2
-        x: 686
-        y: 139
+        x: 1097
+        y: 2
         width: 138
         height: 132
       alignment: 9
@@ -199,8 +269,8 @@ TextureImporter:
     - name: Skill-(1)
       rect:
         serializedVersion: 2
-        x: 401
-        y: 138
+        x: 667
+        y: 2
         width: 143
         height: 133
       alignment: 9
@@ -209,8 +279,8 @@ TextureImporter:
     - name: Skill-(2)
       rect:
         serializedVersion: 2
-        x: 2
-        y: 113
+        x: 1576
+        y: 161
         width: 173
         height: 145
       alignment: 9
@@ -219,8 +289,8 @@ TextureImporter:
     - name: Skill-(3)
       rect:
         serializedVersion: 2
-        x: 821
-        y: 10
+        x: 1399
+        y: 179
         width: 175
         height: 127
       alignment: 9
@@ -229,8 +299,8 @@ TextureImporter:
     - name: Skill-(4)
       rect:
         serializedVersion: 2
-        x: 237
-        y: 273
+        x: 461
+        y: 2
         width: 204
         height: 133
       alignment: 9
@@ -239,8 +309,8 @@ TextureImporter:
     - name: Skill-(5)
       rect:
         serializedVersion: 2
-        x: 177
-        y: 125
+        x: 237
+        y: 2
         width: 222
         height: 133
       alignment: 9
@@ -250,7 +320,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 260
+        y: 24
         width: 233
         height: 146
       alignment: 9

@@ -29,6 +29,14 @@ TextureImporter:
     21300048: Standup-01
     21300050: Standup-02
     21300052: Standup-03
+    21300054: Die-01_1
+    21300056: Die-01_2
+    21300058: Die-01_3
+    21300060: Die-01_4
+    21300062: Die-01_5
+    21300064: Die-01_6
+    21300066: Die-01_7
+    21300068: Die-01_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,51 +82,91 @@ TextureImporter:
     compressionQuality: 100
   spriteSheet:
     sprites:
-    - name: Die-01
+    - name: Die-01_1
       rect:
         serializedVersion: 2
         x: 2
-        y: 102
-        width: 53
-        height: 96
+        y: 311
+        width: 70
+        height: 139
       alignment: 9
-      pivot: {x: .754716992, y: .375}
+      pivot: {x: .571428597, y: .258992791}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-02
+    - name: Die-01_2
       rect:
         serializedVersion: 2
-        x: 57
-        y: 110
-        width: 80
-        height: 88
+        x: 74
+        y: 314
+        width: 125
+        height: 136
       alignment: 9
-      pivot: {x: .887499988, y: .113636367}
+      pivot: {x: .568000019, y: .0735294148}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-03
+    - name: Die-01_3
       rect:
         serializedVersion: 2
-        x: 139
+        x: 201
+        y: 209
+        width: 230
+        height: 241
+      alignment: 9
+      pivot: {x: .465217382, y: .186721995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-01_4
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 222
+        width: 235
+        height: 228
+      alignment: 9
+      pivot: {x: .459574461, y: .197368428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-01_5
+      rect:
+        serializedVersion: 2
+        x: 670
         y: 112
-        width: 108
-        height: 86
+        width: 235
+        height: 338
       alignment: 9
-      pivot: {x: .703703701, y: .441860467}
+      pivot: {x: .459574461, y: .233727813}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Die-04
+    - name: Die-01_6
       rect:
         serializedVersion: 2
-        x: 249
-        y: 147
-        width: 143
-        height: 51
+        x: 907
+        y: 105
+        width: 185
+        height: 345
       alignment: 9
-      pivot: {x: .727272749, y: .882352948}
+      pivot: {x: .562162161, y: .130434781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-01_7
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 105
+        width: 184
+        height: 345
+      alignment: 9
+      pivot: {x: .565217376, y: .130434781}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-01_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 105
+        width: 160
+        height: 345
+      alignment: 9
+      pivot: {x: .649999976, y: .130434781}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Duang-01
       rect:
         serializedVersion: 2
-        x: 394
-        y: 102
+        x: 1442
+        y: 354
         width: 53
         height: 96
       alignment: 9
@@ -127,8 +175,8 @@ TextureImporter:
     - name: Duang-02
       rect:
         serializedVersion: 2
-        x: 449
-        y: 110
+        x: 1497
+        y: 362
         width: 80
         height: 88
       alignment: 9
@@ -137,8 +185,8 @@ TextureImporter:
     - name: Duang-03
       rect:
         serializedVersion: 2
-        x: 531
-        y: 112
+        x: 1579
+        y: 364
         width: 108
         height: 86
       alignment: 9
@@ -147,8 +195,8 @@ TextureImporter:
     - name: Duang-04
       rect:
         serializedVersion: 2
-        x: 249
-        y: 147
+        x: 1689
+        y: 399
         width: 143
         height: 51
       alignment: 9
@@ -157,8 +205,8 @@ TextureImporter:
     - name: Run-01
       rect:
         serializedVersion: 2
-        x: 641
-        y: 108
+        x: 2
+        y: 13
         width: 81
         height: 90
       alignment: 9
@@ -167,8 +215,8 @@ TextureImporter:
     - name: Run-02
       rect:
         serializedVersion: 2
-        x: 724
-        y: 110
+        x: 85
+        y: 15
         width: 92
         height: 88
       alignment: 9
@@ -177,8 +225,8 @@ TextureImporter:
     - name: Run-03
       rect:
         serializedVersion: 2
-        x: 818
-        y: 111
+        x: 179
+        y: 16
         width: 97
         height: 87
       alignment: 9
@@ -187,8 +235,8 @@ TextureImporter:
     - name: Run-04
       rect:
         serializedVersion: 2
-        x: 917
-        y: 110
+        x: 278
+        y: 15
         width: 94
         height: 88
       alignment: 9
@@ -197,8 +245,8 @@ TextureImporter:
     - name: Run-05
       rect:
         serializedVersion: 2
-        x: 1013
-        y: 109
+        x: 374
+        y: 14
         width: 91
         height: 89
       alignment: 9
@@ -207,8 +255,8 @@ TextureImporter:
     - name: Run-06
       rect:
         serializedVersion: 2
-        x: 1106
-        y: 109
+        x: 467
+        y: 14
         width: 91
         height: 89
       alignment: 9
@@ -217,8 +265,8 @@ TextureImporter:
     - name: Run-07
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 109
+        x: 560
+        y: 14
         width: 93
         height: 89
       alignment: 9
@@ -227,8 +275,8 @@ TextureImporter:
     - name: Run-08
       rect:
         serializedVersion: 2
-        x: 2
-        y: 11
+        x: 655
+        y: 14
         width: 92
         height: 89
       alignment: 9
@@ -237,8 +285,8 @@ TextureImporter:
     - name: Skill-01
       rect:
         serializedVersion: 2
-        x: 96
-        y: 7
+        x: 749
+        y: 10
         width: 90
         height: 93
       alignment: 9
@@ -247,8 +295,8 @@ TextureImporter:
     - name: Skill-02
       rect:
         serializedVersion: 2
-        x: 188
-        y: 5
+        x: 841
+        y: 8
         width: 86
         height: 95
       alignment: 9
@@ -257,8 +305,8 @@ TextureImporter:
     - name: Skill-03
       rect:
         serializedVersion: 2
-        x: 276
-        y: 2
+        x: 929
+        y: 5
         width: 78
         height: 98
       alignment: 9
@@ -267,8 +315,8 @@ TextureImporter:
     - name: Skill-04
       rect:
         serializedVersion: 2
-        x: 356
-        y: 5
+        x: 1009
+        y: 8
         width: 83
         height: 95
       alignment: 9
@@ -277,8 +325,8 @@ TextureImporter:
     - name: Skill-05
       rect:
         serializedVersion: 2
-        x: 441
-        y: 20
+        x: 1094
+        y: 23
         width: 126
         height: 80
       alignment: 9
@@ -287,8 +335,8 @@ TextureImporter:
     - name: Skill-06
       rect:
         serializedVersion: 2
-        x: 569
-        y: 20
+        x: 1222
+        y: 23
         width: 125
         height: 80
       alignment: 9
@@ -297,8 +345,8 @@ TextureImporter:
     - name: Skill-07
       rect:
         serializedVersion: 2
-        x: 696
-        y: 19
+        x: 1349
+        y: 22
         width: 127
         height: 81
       alignment: 9
@@ -307,8 +355,8 @@ TextureImporter:
     - name: Skill-08
       rect:
         serializedVersion: 2
-        x: 825
-        y: 16
+        x: 1478
+        y: 19
         width: 109
         height: 84
       alignment: 9
@@ -317,8 +365,8 @@ TextureImporter:
     - name: Standup-01
       rect:
         serializedVersion: 2
-        x: 936
-        y: 6
+        x: 1589
+        y: 9
         width: 93
         height: 94
       alignment: 9
@@ -327,8 +375,8 @@ TextureImporter:
     - name: Standup-02
       rect:
         serializedVersion: 2
-        x: 1031
-        y: 20
+        x: 1684
+        y: 23
         width: 90
         height: 80
       alignment: 9
@@ -337,8 +385,8 @@ TextureImporter:
     - name: Standup-03
       rect:
         serializedVersion: 2
-        x: 1123
-        y: 8
+        x: 1776
+        y: 11
         width: 95
         height: 92
       alignment: 9

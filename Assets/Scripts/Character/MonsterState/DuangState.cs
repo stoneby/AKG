@@ -8,7 +8,7 @@ public class DuangState : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rigid2D;
 
-    private CharacterCommon playerCommon;
+    private CharacterCommon characterCommon;
 
     private bool onTheGround;
 
@@ -19,7 +19,7 @@ public class DuangState : MonoBehaviour
 
     void FixedUpdate()
     {
-        rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(playerCommon.FacingRight ? DuangSpeed : -DuangSpeed, 0);
+        rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(characterCommon.FacingRight ? -DuangSpeed : DuangSpeed, 0);
     }
 
     /// <summary>
@@ -40,7 +40,6 @@ public class DuangState : MonoBehaviour
         health = GetComponent<CharacterHealth>();
         animator = GetComponent<Animator>();
         rigid2D = GetComponent<Rigidbody2D>();
-
-        playerCommon = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterCommon>();
+		characterCommon = GetComponent<CharacterCommon>();
     }
 }
