@@ -16,14 +16,12 @@ public class DuangDieState : MonoBehaviour
 	
 	void OnEnable()
 	{
-		Debug.Log("DuangDie on enable.");
 		onTheGround = false;
 	}
 	
 	void FixedUpdate()
 	{
 		rigid2D.velocity = (onTheGround) ? Vector2.zero : new Vector2(characterCommon.FacingRight ? -DuangSpeed : DuangSpeed, 0);
-		Debug.Log("-------------velocity: " + rigid2D.velocity);
 	}
 	
 	/// <summary>

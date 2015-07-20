@@ -36,8 +36,8 @@ public class HeroHurtState : MonoBehaviour
 		playerAnimator = GetComponent<Animator>();
 		player = GetComponent<PlayerControl>();
 
-		hurtFrontSpawner = transform.Find("Effect/HurtFrontLocation").GetComponent<DynamicSpawner>();
-		hurtBackSpawner = transform.Find("Effect/HurtBackLocation").GetComponent<DynamicSpawner>();
+        hurtFrontSpawner = transform.parent.parent.Find("Effect/HurtFrontLocation").GetComponent<DynamicSpawner>();
+        hurtBackSpawner = transform.parent.parent.Find("Effect/HurtBackLocation").GetComponent<DynamicSpawner>();
 
 		hurtFrontSpawner.Generate();
 		hurtBackSpawner.Generate();

@@ -2,7 +2,7 @@
 
 public class TowerIdleState : MonoBehaviour
 {
-    void Awake()
+    void Start()
     {
     }
 }

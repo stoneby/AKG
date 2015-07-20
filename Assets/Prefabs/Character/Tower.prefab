@@ -12,10 +12,6 @@ GameObject:
   - 212: {fileID: 21232142}
   - 61: {fileID: 6139258}
   - 114: {fileID: 11448130}
-  - 114: {fileID: 11495006}
-  - 114: {fileID: 11495010}
-  - 114: {fileID: 11495012}
-  - 114: {fileID: 11487982}
   - 114: {fileID: 11439674}
   - 114: {fileID: 11447484}
   - 114: {fileID: 11447482}
@@ -169,6 +165,69 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &180844
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 480844}
+  - 114: {fileID: 11480846}
+  m_Layer: 11
+  m_Name: AttackState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &180846
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 480846}
+  - 114: {fileID: 11480848}
+  m_Layer: 11
+  m_Name: DieState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &180848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 480848}
+  m_Layer: 11
+  m_Name: States
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &180850
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 480850}
+  - 114: {fileID: 11480850}
+  m_Layer: 11
+  m_Name: HurtState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &199018
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +259,7 @@ Transform:
   - {fileID: 439676}
   - {fileID: 439674}
   - {fileID: 439256}
+  - {fileID: 480848}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &439254
@@ -314,6 +374,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 440046}
   m_RootOrder: 0
+--- !u!4 &480844
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 480848}
+  m_RootOrder: 0
+--- !u!4 &480846
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 480848}
+  m_RootOrder: 2
+--- !u!4 &480848
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.72399998, y: .470999897, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480844}
+  - {fileID: 480850}
+  - {fileID: 480846}
+  m_Father: {fileID: 432142}
+  m_RootOrder: 6
+--- !u!4 &480850
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 480848}
+  m_RootOrder: 1
 --- !u!4 &499018
 Transform:
   m_ObjectHideFlags: 1
@@ -464,7 +575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 9532138}
   stateBehaviours:
-  - state: Idle
+  - state: Die
     layer: Base Layer
     behaviours: []
   - state: Attack
@@ -473,9 +584,7 @@ MonoBehaviour:
   - state: Hurt
     layer: Base Layer
     behaviours: []
-  - state: Die
-    layer: Base Layer
-    behaviours: []
+  StateRoot: {fileID: 480848}
 --- !u!114 &11448484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -501,23 +610,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc6597c0497d01409489f5e64204708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11487982
+--- !u!114 &11480846
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132142}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88c9761c6a84f9c428c6233b0e20a520, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11495006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132142}
+  m_GameObject: {fileID: 180844}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b57e24eb7c0fd2d41a61202e1dd15dc1, type: 3}
@@ -527,26 +625,26 @@ MonoBehaviour:
   AttackPrefab: {fileID: 170402, guid: 1100c6fa46aeb9a4792270388760bc2f, type: 2}
   ShootBeginTime: .5
   ShootInterval: 1
---- !u!114 &11495010
+--- !u!114 &11480848
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132142}
+  m_GameObject: {fileID: 180846}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c9761c6a84f9c428c6233b0e20a520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11480850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180850}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 653f640e01524ec44b2d6bd32f364c60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11495012
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0293fbe89d81f0a47a457631ff55f204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11499018

@@ -29,7 +29,7 @@ public class HeroAttack3State : MonoBehaviour
 
     void Awake()
     {
-		checker = transform.Find("Sensors/NormalAttack").GetComponent<CharacterAttackChecker>();
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+        checker = transform.parent.parent.Find("Sensors/NormalAttack").GetComponent<CharacterAttackChecker>();
+        player = transform.parent.parent.GetComponent<PlayerControl>();
     }
 }

@@ -19,7 +19,7 @@ public class HeroSkillWState : MonoBehaviour
 	
 	void Awake()
 	{
-		spawner = transform.Find("Effect/HeatLocation").GetComponent<DynamicSpawner>();
+		spawner = transform.parent.parent.Find("Effect/HeatLocation").GetComponent<DynamicSpawner>();
 		spawner.Generate();
 		
 		heatEffect = spawner.SpawnInstance.GetComponent<OneShotEffectController>();

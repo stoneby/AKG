@@ -20,7 +20,7 @@ public class HeroRunState : MonoBehaviour
 
     void Awake()
     {
-        runLocation = transform.Find("Effect/RunLocation");
+        runLocation = transform.parent.parent.Find("Effect/RunLocation");
 
         var runEffect = Instantiate(RunEffect, runLocation.position, runLocation.rotation) as GameObject;
         runEffect.transform.parent = runLocation;
