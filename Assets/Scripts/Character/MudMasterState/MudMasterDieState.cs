@@ -2,15 +2,12 @@
 
 public class MudMasterDieState : MonoBehaviour 
 {
-	private MonsterControll monster;
-
 	public void OnDie()
 	{
 		Destroy(gameObject);
 	}
 
-	void Awake()
+	void Start()
 	{
-		monster = GetComponent<MonsterControll>();
 	}
 }

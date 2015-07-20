@@ -18,7 +18,6 @@ GameObject:
   - 114: {fileID: 11447480}
   - 114: {fileID: 11499018}
   - 50: {fileID: 5043150}
-  - 114: {fileID: 11400242}
   - 114: {fileID: 11400240}
   - 114: {fileID: 11400238}
   - 114: {fileID: 11400236}
@@ -298,7 +297,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132142}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbd1a05d467c34473a471afcc0d48184, type: 3}
   m_Name: 
@@ -323,17 +322,6 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91899a2aa08ec4baab02163ca3486ae1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400242
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dfa569a0c6954b099e14a6c7a94ae38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11410958
@@ -423,16 +411,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 9532138}
   stateBehaviours:
-  - state: Idle
+  - state: Die
     layer: Base Layer
     behaviours: []
   - state: Attack
     layer: Base Layer
     behaviours: []
   - state: Hurt
-    layer: Base Layer
-    behaviours: []
-  - state: Die
     layer: Base Layer
     behaviours: []
 --- !u!114 &11448484
