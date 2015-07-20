@@ -7,8 +7,8 @@ public class IdleState : MonoBehaviour
 
     public float Speed;
 
+    private MonsterControll monsterControll;
 	private CharacterCommon characterCommon;
-    private Rigidbody2D rigid2D;
 
     void FixedUpdate()
     {
@@ -32,14 +32,12 @@ public class IdleState : MonoBehaviour
 
     private void Moving()
     {
-        rigid2D.velocity = new Vector2(Speed * (characterCommon.FacingRight ? 1 : -1), 0);
+		rigidbody2D.velocity = new Vector2(Speed * (characterCommon.FacingRight ? 1 : -1), 0);
     }
 
     void Awake()
     {
-        var root = transform.parent.parent;
-
-        characterCommon = root.GetComponent<CharacterCommon>();
-        rigid2D = root.GetComponent<Rigidbody2D>();
+        monsterControll = GetComponent<MonsterControll>();
+		characterCommon = GetComponent<CharacterCommon>();
     }
 }

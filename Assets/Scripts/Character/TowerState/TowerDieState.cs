@@ -2,12 +2,15 @@
 
 public class TowerDieState : MonoBehaviour 
 {
+	private MonsterControll monster;
+
 	public void OnDie()
 	{
 		Destroy(gameObject);
 	}
 
-	void Start()
+	void Awake()
 	{
+		monster = GetComponent<MonsterControll>();
 	}
 }

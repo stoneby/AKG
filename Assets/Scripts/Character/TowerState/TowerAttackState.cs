@@ -70,12 +70,13 @@ public class TowerAttackState : MonoBehaviour
 
     void Awake()
     {
-        var root = transform.parent.parent;
-
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+		player.GetComponent<CharacterCommon>();
+		GetComponent<MonsterControll>();
+		monsterCommon = GetComponent<CharacterCommon>();
+		GetComponent<CharacterInformation>();
 
-        monsterCommon = root.GetComponent<CharacterCommon>();
-        attackLocation = root.Find("Effect/Attack");
+        attackLocation = transform.Find("Effect/Attack");
 
         PowerEffectController.OnShoot += OnShoot;
         powerAnimator = PowerEffectController.GetComponent<Animator>();

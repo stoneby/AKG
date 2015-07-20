@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MudMasterHurtState : MonoBehaviour
+public class TowerHurtState : MonoBehaviour
 {
 	private DynamicSpawner hurtSpawner;
 	private OneShotEffectController hurtEffectController;
@@ -18,9 +18,7 @@ public class MudMasterHurtState : MonoBehaviour
 
 	void Awake()
 	{
-        var root = transform.parent.parent;
-
-        hurtSpawner = root.Find("Effect/Hurt").GetComponent<DynamicSpawner>();
+		hurtSpawner = transform.Find("Effect/Hurt").GetComponent<DynamicSpawner>();
 		hurtSpawner.Generate();
 		
 		hurtEffectController = hurtSpawner.SpawnInstance.GetComponent<OneShotEffectController>();

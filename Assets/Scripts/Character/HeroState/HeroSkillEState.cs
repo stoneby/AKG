@@ -15,6 +15,6 @@ public class HeroSkillEState : MonoBehaviour
 
     void Awake()
     {
-        checker = transform.parent.parent.Find("Sensors/SkillEAttack").GetComponent<CharacterAttackChecker>();
+		checker = transform.Find("Sensors/SkillEAttack").GetComponent<CharacterAttackChecker>();
 	}
 }

@@ -7,8 +7,6 @@ public class MecanimWrapper : MonoBehaviour
     public Animator animator;
     public StateBehaviour[] stateBehaviours;
 
-    public Transform StateRoot;
-
     static readonly int CurrentStateTimeHash = Animator.StringToHash("currentStateTime");
     Dictionary<int, Behaviour[]> behaviourCache;
     int currentState;
@@ -29,17 +27,13 @@ public class MecanimWrapper : MonoBehaviour
 
     void Start()
     {
-        var stateRoot = StateRoot ?? transform;
-
-        Debug.Log("State root is: " + stateRoot.name);
-
         behaviourCache = new Dictionary<int, Behaviour[]>();
         foreach (StateBehaviour item in stateBehaviours)
         {
-            var nameHash = Animator.StringToHash(item.layer + "." + item.state);
+            int nameHash = Animator.StringToHash(item.layer + "." + item.state);
             item.behaviours = item.behaviours.Any()
                 ? item.behaviours
-                : stateRoot.GetComponentsInChildren<Behaviour>().Where(behaviour => behaviour.GetType().Name.Contains(item.state)).ToArray();
+                : GetComponents<Behaviour>().Where(behaviour => behaviour.GetType().Name.Contains(item.state)).ToArray();
             behaviourCache.Add(nameHash, item.behaviours);
             SetBehavioursEnabled(item.behaviours, false);
         }

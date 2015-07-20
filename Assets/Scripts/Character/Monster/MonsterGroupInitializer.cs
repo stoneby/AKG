@@ -27,6 +27,8 @@ public class MonsterGroupInitializer : MonoBehaviour
     void Start()
     {
         idleStateList = monsterBornTrans.GetComponentsInChildren<IdleState>().ToList();
+        var monsterHealthList = idleStateList.Select(item => item.GetComponent<CharacterHealth>()).ToList();
+
         if (IdleLeftRange.Count != IdleRightRange.Count || IdleLeftRange.Count != idleStateList.Count)
         {
             Debug.LogError("Make sure the counting are equals among left range, right range, and state list, and monster count.");
@@ -38,8 +40,7 @@ public class MonsterGroupInitializer : MonoBehaviour
             idleStateList[i].Right = IdleRightRange[i];
         }
 
-        var monsterHealthList = monsterBornTrans.GetComponentsInChildren<CharacterHealth>().ToList();
-        var towerHealthList = towerBornTrans.GetComponentsInChildren<CharacterHealth>();
+		var towerHealthList = towerBornTrans.GetComponentsInChildren<CharacterHealth>();
 		var mudMasterHealthList = mudMasterBornTrans.GetComponentsInChildren<CharacterHealth>();
 
 		HealthList.AddRange(monsterHealthList);

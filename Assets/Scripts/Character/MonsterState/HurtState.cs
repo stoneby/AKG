@@ -44,7 +44,7 @@ public class HurtState : MonoBehaviour
 
         anim = GetComponent<Animator>();
 
-		hurtSpawner = transform.parent.parent.Find("Effect/Hurt").GetComponent<DynamicSpawner>();
+		hurtSpawner = transform.Find("Effect/Hurt").GetComponent<DynamicSpawner>();
 		hurtSpawner.Generate();
 
 		hurtEffectController = hurtSpawner.SpawnInstance.GetComponent<OneShotEffectController>();

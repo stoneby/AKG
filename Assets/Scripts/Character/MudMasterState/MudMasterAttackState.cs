@@ -35,8 +35,7 @@ public class MudMasterAttackState : MonoBehaviour
 
     void Awake()
     {
-        var root = transform.parent.parent;
-        attackChecker = root.Find("Sensors/Attack").GetComponent<CharacterAttackChecker>();
+		attackChecker = transform.Find("Sensors/Attack").GetComponent<CharacterAttackChecker>();
 
 		playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
 		monsterCommon = GetComponent<CharacterCommon>();
