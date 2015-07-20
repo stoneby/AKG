@@ -1,10 +1,13 @@
 - Hud monster die animation with tower one. (done)
 - Camera move smoothly. (done)
-- Texture quality on ios. UI is good, but not characters.
 - Hero Die when drop. (done)
 - Make stone flowing. (done)
-- states , like duang die and die refactor.
 - tower on the flow stone. (done)
+- states , like duang die and die refactor. (done)
+! make it common state.
+
+- Texture quality on ios. UI is good, but not characters.
 
 Feature:
-- state machine improve. reuse state controller with state data.
+- state machine improve. reuse state controller with state data. (delete)
+! Maynot good when we need animate event with the same hiarachy as the root.
