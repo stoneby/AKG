@@ -2,6 +2,7 @@
 
 public class HeroRunState : MonoBehaviour
 {
+	public AudioClip Clip;
     public GameObject RunEffect;
 
     private Transform runLocation;
@@ -9,8 +10,8 @@ public class HeroRunState : MonoBehaviour
 
     void OnEnable()
     {
-        //runAnimator.gameObject.SetActive(true);
-        //runAnimator.Play("Run");
+		audio.clip = Clip;
+		audio.Play();
     }
 
     void OnDisable()

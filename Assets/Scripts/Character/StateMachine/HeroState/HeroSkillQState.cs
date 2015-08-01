@@ -2,6 +2,7 @@
 
 public class HeroSkillQState : MonoBehaviour
 {
+	public AudioClip Clip;
 	public float AttackSpeed;
 
 	private CharacterAttackChecker normalChecker;
@@ -11,6 +12,8 @@ public class HeroSkillQState : MonoBehaviour
 
 	void OnEnable()
 	{
+		audio.clip = Clip;
+		audio.Play();
 	}
 
 	void FixedUpdate()

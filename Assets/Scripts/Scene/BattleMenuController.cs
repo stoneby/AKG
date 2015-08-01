@@ -6,4 +6,19 @@ public class BattleMenuController : SSController
     {
         SSSceneManager.Instance.Screen("DemoBattle");
     }
+
+	public void GoMainPage()
+	{
+		SSSceneManager.Instance.Screen("MainMenu");
+	}
+
+	void OnEnable()
+	{
+		audio.Play();
+	}
+
+	void OnDisable()
+	{
+		audio.Stop();
+	}
 }

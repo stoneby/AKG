@@ -2,6 +2,8 @@
 
 public class MudMasterAttackState : MonoBehaviour
 {
+	public AudioClip Clip;
+
 	private CharacterAttackChecker attackChecker;
 
 	private Transform playerTrans;
@@ -14,7 +16,9 @@ public class MudMasterAttackState : MonoBehaviour
 
     void OnEnable()
     {
-    }
+		audio.clip = Clip;
+		audio.Play();
+	}
 
     void OnDisable()
     {

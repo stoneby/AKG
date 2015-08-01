@@ -2,6 +2,8 @@
 
 public class DuangDieState : MonoBehaviour
 {
+	public AudioClip Clip;
+
 	public float DuangSpeed;
 
 	public bool Destory;
@@ -16,6 +18,9 @@ public class DuangDieState : MonoBehaviour
 	
 	void OnEnable()
 	{
+		audio.clip = Clip;
+		audio.Play();
+
 		Debug.Log("DuangDie on enable.");
 		onTheGround = false;
 	}

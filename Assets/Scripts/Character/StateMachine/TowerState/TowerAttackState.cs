@@ -2,6 +2,8 @@
 
 public class TowerAttackState : MonoBehaviour
 {
+	public AudioClip Clip;
+
     public PowerEffectController PowerEffectController;
     public GameObject AttackPrefab;
 
@@ -21,7 +23,10 @@ public class TowerAttackState : MonoBehaviour
     /// <remarks>Refers to attack animation right place.</remarks>
     public void OnShoot(GameObject go)
     {
-        GenerateEffect();
+		audio.clip = Clip;
+		audio.Play();
+
+		GenerateEffect();
 
         attackEffectController.FacingRight = monsterCommon.FacingRight;
         attackEffectController.Play();

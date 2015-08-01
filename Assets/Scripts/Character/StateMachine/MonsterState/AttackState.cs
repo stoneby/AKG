@@ -2,6 +2,8 @@
 
 public class AttackState : MonoBehaviour
 {
+	public AudioClip Clip;
+
     public GameObject AttackPrefab;
 
     private MonsterControll monster;
@@ -15,8 +17,8 @@ public class AttackState : MonoBehaviour
 
     void OnEnable()
     {
-		//playerCommon.Hurt();
-		//monsterInfor.Show(true);
+		audio.clip = Clip;
+		audio.Play();
     }
 
     void FixedUpdate()

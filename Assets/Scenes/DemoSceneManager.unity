@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &457548934
 GameObject:
@@ -84,6 +85,7 @@ GameObject:
   - 4: {fileID: 457548935}
   - 114: {fileID: 457548936}
   - 114: {fileID: 457548937}
+  - 81: {fileID: 457548938}
   m_Layer: 0
   m_Name: uGUIDemoSceneManager
   m_TagString: Untagged
@@ -136,3 +138,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0cf648606d3473099f89ffb169622f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!81 &457548938
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457548934}
+  m_Enabled: 1

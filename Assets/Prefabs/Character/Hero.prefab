@@ -33,6 +33,7 @@ GameObject:
   - 114: {fileID: 11489010}
   - 114: {fileID: 11467696}
   - 114: {fileID: 11443916}
+  - 82: {fileID: 8208972}
   m_Layer: 11
   m_Name: Hero
   m_TagString: Player
@@ -702,6 +703,64 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 3.9000001, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!82 &8208972
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -766,7 +825,7 @@ MonoBehaviour:
   SkillQ: 0
   SkillW: 0
   SkillE: 0
-  inputDevice: 1
+  inputDevice: 0
   inputManager: {fileID: 0}
   horizontalSpeed: 4
   horizontalSpeedAttack: .800000012
@@ -845,6 +904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28f543687febc4aa09cd2f7557b63f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: f2120f4f7db6d4c118459d8b5e55cd7a, type: 3}
   Speed: 1
 --- !u!114 &11400018
 MonoBehaviour:
@@ -943,6 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 065c1a71c82184111bae5b5de08069bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c36d1f32943df4995880aa5ccee0aceb, type: 3}
 --- !u!114 &11453702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -978,6 +1039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6ad034852ca4a0ab37630423e6a71e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a66c07bf0a64c43418e5ae7f814ae71f, type: 3}
 --- !u!114 &11475600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1044,6 +1106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb7229b31bceee64784743d7dc22ecb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: cc5c86a3443e640d4b6cdf21464b4c4b, type: 3}
   RunEffect: {fileID: 178472, guid: cdd5a3c435d28a74eadfa7315ee12e00, type: 2}
 --- !u!114 &11475604
 MonoBehaviour:
@@ -1056,6 +1119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7ef0ca330efa640b0f3e23edda3281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ClipList:
+  - {fileID: 8300000, guid: f18f7c031d86b47daa6a7ac6bce75321, type: 3}
+  - {fileID: 8300000, guid: 211141831448c41dab6ef087b13b3bb7, type: 3}
+  - {fileID: 8300000, guid: 46656525907504eb5b306d5e04effc54, type: 3}
 --- !u!114 &11475606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1078,6 +1145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ba71d3a5a5bf04599faf308efd820f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: f2120f4f7db6d4c118459d8b5e55cd7a, type: 3}
 --- !u!114 &11475612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1089,6 +1157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 751570fb991971d46bb885632b51f674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c3493d4ddb1e041cfbb7b9ac1a0e1cf7, type: 3}
   AttackMove: {fileID: 11453702}
 --- !u!114 &11475614
 MonoBehaviour:
@@ -1101,6 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2b47860084e04448ff1b087471d812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c3493d4ddb1e041cfbb7b9ac1a0e1cf7, type: 3}
   AttackMove: {fileID: 11453704}
 --- !u!114 &11475616
 MonoBehaviour:
@@ -1113,6 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cae33e678ebbbfb42baceda6b058400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c3493d4ddb1e041cfbb7b9ac1a0e1cf7, type: 3}
 --- !u!114 &11475618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1124,6 +1195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cda6de4dde98ea459759e4e0a75558b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c3493d4ddb1e041cfbb7b9ac1a0e1cf7, type: 3}
 --- !u!114 &11481716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1135,6 +1207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b8af304446b453f867d3982fc7d924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 419075fc7b24a46e48db88bec40289b2, type: 3}
   DisappearTime: 2
   Destory: 0
 --- !u!114 &11489010
@@ -1148,6 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28834d2594ac44a51a7fd8acf250719f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: d5ee1b7d2238e4c47bbc462d55ab1862, type: 3}
   AttackSpeed: 4
 --- !u!114 &11489012
 MonoBehaviour:

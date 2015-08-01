@@ -2,6 +2,8 @@
 
 public class HeroHurtState : MonoBehaviour
 {
+	public AudioClip Clip;
+
 	private Animator playerAnimator;
 	private PlayerControl player;
 
@@ -13,6 +15,9 @@ public class HeroHurtState : MonoBehaviour
 
     void OnEnable()
     {
+		audio.clip = Clip;
+		audio.Play();
+
 		if (player.HurtFront)
 		{
 			hurtFrontEffect.gameObject.SetActive(true);

@@ -21,6 +21,7 @@ GameObject:
   - 114: {fileID: 11400240}
   - 114: {fileID: 11400238}
   - 114: {fileID: 11400236}
+  - 82: {fileID: 8269400}
   m_Layer: 10
   m_Name: MudMaster
   m_TagString: Monster
@@ -276,6 +277,64 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 3, y: 1.20000005}
   m_Center: {x: 0, y: 0}
+--- !u!82 &8269400
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132142}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9532138
 Animator:
   serializedVersion: 3
@@ -302,6 +361,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbd1a05d467c34473a471afcc0d48184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ClipList:
+  - {fileID: 8300000, guid: 8110d8d024b124e72bbcdac44e2de059, type: 3}
+  - {fileID: 8300000, guid: 787ef928a2f04407190793737f44f953, type: 3}
+  - {fileID: 8300000, guid: bda89cf948121475888d67d3150c9e07, type: 3}
 --- !u!114 &11400238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,6 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91899a2aa08ec4baab02163ca3486ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: aad0a761cbfc84bbf83641db490ade81, type: 3}
 --- !u!114 &11410958
 MonoBehaviour:
   m_ObjectHideFlags: 1

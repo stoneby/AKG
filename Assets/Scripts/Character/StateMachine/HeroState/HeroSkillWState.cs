@@ -2,12 +2,16 @@
 
 public class HeroSkillWState : MonoBehaviour
 {
+	public AudioClip Clip;
+
 	private DynamicSpawner spawner;
 	private OneShotEffectController heatEffect;
-
-
+	
 	void OnEnable()
 	{
+		audio.clip = Clip;
+		audio.Play();
+
 		heatEffect.gameObject.SetActive(true);
 		heatEffect.Play();
 	}

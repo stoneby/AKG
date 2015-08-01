@@ -2,6 +2,8 @@
 
 public class HurtState : MonoBehaviour
 {
+	public AudioClip Clip;
+
     private PlayerControl player;
     private MonsterHUDController hudController;
     private CharacterHealth health;
@@ -12,6 +14,9 @@ public class HurtState : MonoBehaviour
 
     void OnEnable()
     {
+		audio.clip = Clip;
+		audio.Play();
+
 		hurtEffectController.gameObject.SetActive(true);
 		hurtEffectController.Play();
 	}

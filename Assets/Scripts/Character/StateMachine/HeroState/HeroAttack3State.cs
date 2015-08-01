@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class HeroAttack3State : MonoBehaviour
 {
+	public AudioClip Clip;
 	public HeroAttackMove AttackMove;
 
     private PlayerControl player;
@@ -9,6 +10,9 @@ public class HeroAttack3State : MonoBehaviour
 
     void OnEnable()
     {
+		audio.clip = Clip;
+		audio.Play();
+
 		checker.Check();
     }
 

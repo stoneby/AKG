@@ -2,12 +2,17 @@
 
 public class DieState : MonoBehaviour 
 {
+	public AudioClip Clip;
+
 	public float DisappearTime;
 
     public bool Destory;
 
 	void OnEnable()
 	{
+		audio.clip = Clip;
+		audio.Play();
+
 		rigidbody2D.velocity = Vector2.zero;
 
         Invoke("OnDie", DisappearTime);
