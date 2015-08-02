@@ -76,6 +76,12 @@ TextureImporter:
     21300142: Power-7
     21300144: Power-8
     21300146: Power-9
+    21300148: Frisbee-1704-1
+    21300150: Frisbee-1704-2
+    21300152: Frisbee-1704-3
+    21300154: Frisbee-1704-4
+    21300156: Frisbee-1704-5
+    21300158: Frisbee-1704-6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -125,7 +131,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 87
+        y: 83
         width: 309
         height: 167
       alignment: 0
@@ -135,7 +141,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 567
-        y: 3
+        y: 4
         width: 329
         height: 85
       alignment: 0
@@ -145,9 +151,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 89
-        y: 18
+        y: 14
         width: 362
         height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frisbee-1704-1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 96
+        width: 105
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frisbee-1704-2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 87
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frisbee-1704-3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 114
+        width: 104
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frisbee-1704-4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 87
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frisbee-1704-5
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 161
+        width: 105
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frisbee-1704-6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 91
+        width: 100
+        height: 47
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +230,8 @@ TextureImporter:
     - name: Hit-2
       rect:
         serializedVersion: 2
-        x: 313
-        y: 96
+        x: 933
+        y: 208
         width: 134
         height: 42
       alignment: 9
@@ -175,7 +241,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 668
-        y: 155
+        y: 151
         width: 96
         height: 99
       alignment: 9
@@ -185,7 +251,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 425
-        y: 144
+        y: 140
         width: 126
         height: 110
       alignment: 9
@@ -195,7 +261,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 8
+        y: 4
         width: 85
         height: 77
       alignment: 9
@@ -205,7 +271,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 766
-        y: 161
+        y: 157
         width: 108
         height: 93
       alignment: 9
@@ -215,7 +281,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 553
-        y: 147
+        y: 143
         width: 113
         height: 107
       alignment: 9
@@ -225,23 +291,13 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 313
-        y: 140
+        y: 136
         width: 110
         height: 114
       alignment: 9
       pivot: {x: .459090918, y: .513157904}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Power-1
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 87
-        width: 55
-        height: 55
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Power-10
       rect:
         serializedVersion: 2
         x: 453
@@ -251,17 +307,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Power-2
-      rect:
-        serializedVersion: 2
-        x: 506
-        y: 87
-        width: 55
-        height: 55
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Power-3
+    - name: Power-10
       rect:
         serializedVersion: 2
         x: 510
@@ -271,11 +317,31 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-2
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 94
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Power-3
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 100
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Power-4
       rect:
         serializedVersion: 2
-        x: 563
-        y: 90
+        x: 841
+        y: 100
         width: 55
         height: 55
       alignment: 0
@@ -284,8 +350,8 @@ TextureImporter:
     - name: Power-5
       rect:
         serializedVersion: 2
-        x: 620
-        y: 90
+        x: 876
+        y: 195
         width: 55
         height: 55
       alignment: 0
@@ -294,8 +360,8 @@ TextureImporter:
     - name: Power-6
       rect:
         serializedVersion: 2
-        x: 677
-        y: 98
+        x: 1004
+        y: 104
         width: 55
         height: 55
       alignment: 0
@@ -304,8 +370,8 @@ TextureImporter:
     - name: Power-7
       rect:
         serializedVersion: 2
-        x: 734
-        y: 98
+        x: 898
+        y: 47
         width: 55
         height: 55
       alignment: 0
@@ -314,8 +380,8 @@ TextureImporter:
     - name: Power-8
       rect:
         serializedVersion: 2
-        x: 791
-        y: 104
+        x: 955
+        y: 47
         width: 55
         height: 55
       alignment: 0
@@ -324,8 +390,8 @@ TextureImporter:
     - name: Power-9
       rect:
         serializedVersion: 2
-        x: 848
-        y: 104
+        x: 1012
+        y: 47
         width: 55
         height: 55
       alignment: 0

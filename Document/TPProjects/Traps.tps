@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>3.9.1</string>
         <key>fileName</key>
-        <string>/Users/cuixiaoliang/Desktop/GitHub/AKG/Document/TPProjects/DemaAnimations.tps</string>
+        <string>/Users/cuixiaoliang/Desktop/GitHub/AKG/Document/TPProjects/Traps.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/DemaBest/DemaAnimations.png</filename>
+        <filename>../../Assets/Arts/Character/Trap/Traps.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -147,7 +147,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/DemaBest/DemaAnimations.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/Trap/Traps.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -190,7 +190,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Dema800600</filename>
+            <filename>../Fine Arts/Traps</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Traps.png (128 x 900)
+# $TexturePacker:SmartUpdate:0c08aa5e33ff0b0a7b1c26d883f67115:9a424d4cad2f5aa7996d81c17a247b70:0e3c3b1c1dae33e5748bcdd2522f55c1$
+#
+
+Steel/1490-1;2;4;54;28;0.5;0.5
+Steel/1490-2;44;117;63;60;0.5;0.5
+Steel/1490-3;2;34;76;71;0.5;0.5
+Steel/1490-4;2;659;82;76;0.5;0.5
+Steel/1490-5;2;818;89;80;0.5;0.5
+Steel/1490-6;2;737;89;79;0.5;0.5
+Steel/1490-7;80;77;43;38;0.5;0.5
+Sting/1765-10;2;517;40;140;0.5;0.5
+Sting/1765-11;44;517;40;140;0.5;0.5
+Sting/1765-12;86;594;40;141;0.5;0.5
+Sting/1765-2;2;107;40;132;0.5;0.5
+Sting/1765-3;86;179;40;133;0.5;0.5
+Sting/1765-4;2;241;40;133;0.5;0.5
+Sting/1765-5;44;240;40;135;0.5;0.5
+Sting/1765-6;86;314;40;136;0.5;0.5
+Sting/1765-7;44;377;40;138;0.5;0.5
+Sting/1765-8;2;376;40;139;0.5;0.5
+Sting/1765-9;86;452;40;140;0.5;0.5

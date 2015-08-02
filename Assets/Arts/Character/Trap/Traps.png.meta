@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 8c7f6c7fc28684cc998628876d14ce0e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Steel-1490-1
+    21300002: Steel-1490-2
+    21300004: Steel-1490-3
+    21300006: Steel-1490-4
+    21300008: Steel-1490-5
+    21300010: Steel-1490-6
+    21300012: Steel-1490-7
+    21300014: Sting-1765-1
+    21300016: Sting-1765-10
+    21300018: Sting-1765-11
+    21300020: Sting-1765-12
+    21300022: Sting-1765-2
+    21300024: Sting-1765-3
+    21300026: Sting-1765-4
+    21300028: Sting-1765-5
+    21300030: Sting-1765-6
+    21300032: Sting-1765-7
+    21300034: Sting-1765-8
+    21300036: Sting-1765-9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Steel-1490-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Steel-1490-2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 117
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Steel-1490-3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Steel-1490-4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 659
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Steel-1490-5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 818
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Steel-1490-6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 737
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Steel-1490-7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 77
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 517
+        width: 40
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 517
+        width: 40
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 594
+        width: 40
+        height: 141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 107
+        width: 40
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 179
+        width: 40
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 241
+        width: 40
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 240
+        width: 40
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 314
+        width: 40
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 377
+        width: 40
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 376
+        width: 40
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sting-1765-9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 452
+        width: 40
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

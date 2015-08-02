@@ -1166,7 +1166,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Hurt 0
+  m_Name: Hurt0
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
@@ -1368,13 +1368,13 @@ StateMachine:
       second:
       - {fileID: 110159444}
     data:
-      first: {fileID: 110270622}
-      second:
-      - {fileID: 110146430}
-    data:
       first: {fileID: 110234772}
       second:
       - {fileID: 110113592}
+    data:
+      first: {fileID: 110270622}
+      second:
+      - {fileID: 110146430}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 252, y: -72, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

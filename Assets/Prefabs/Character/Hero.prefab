@@ -31,6 +31,7 @@ GameObject:
   - 114: {fileID: 11416858}
   - 114: {fileID: 11481716}
   - 114: {fileID: 11489010}
+  - 114: {fileID: 11420180}
   - 114: {fileID: 11467696}
   - 114: {fileID: 11443916}
   - 82: {fileID: 8208972}
@@ -825,7 +826,7 @@ MonoBehaviour:
   SkillQ: 0
   SkillW: 0
   SkillE: 0
-  inputDevice: 0
+  inputDevice: 1
   inputManager: {fileID: 0}
   horizontalSpeed: 4
   horizontalSpeedAttack: .800000012
@@ -960,6 +961,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DuangSpeed: 3
+--- !u!114 &11420180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537c3b638386f4c528e1b45ef02d9cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: f2120f4f7db6d4c118459d8b5e55cd7a, type: 3}
 --- !u!114 &11420708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1093,6 +1106,9 @@ MonoBehaviour:
     layer: Base Layer
     behaviours: []
   - state: SkillW
+    layer: Base Layer
+    behaviours: []
+  - state: Hurt0
     layer: Base Layer
     behaviours: []
 --- !u!114 &11475602

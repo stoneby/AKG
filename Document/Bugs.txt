@@ -5,9 +5,12 @@
 - tower on the flow stone. (done)
 - states , like duang die and die refactor. (done)
 ! make it common state.
-
-- Texture quality on ios. UI is good, but not characters.
+- Texture quality on ios. UI is good, but not characters. (done)
+! override for iPhone, compressed with best.
+- Trap item in.
+- Flying attack item collider region should be smaller than before.
 
 Feature:
-- state machine improve. reuse state controller with state data. (delete)
+- state machine improve. reuse state controller with state data.
 ! Maynot good when we need animate event with the same hiarachy as the root.
+- UI generic maker. (Time consume.)
