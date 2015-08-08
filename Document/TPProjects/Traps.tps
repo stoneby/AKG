@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.9.1</string>
+        <string>3.9.2</string>
         <key>fileName</key>
         <string>/Users/cuixiaoliang/Desktop/GitHub/AKG/Document/TPProjects/Traps.tps</string>
         <key>autoSDSettings</key>

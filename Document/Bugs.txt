@@ -7,10 +7,20 @@
 ! make it common state.
 - Texture quality on ios. UI is good, but not characters. (done)
 ! override for iPhone, compressed with best.
-- Trap item in.
-- Flying attack item collider region should be smaller than before.
+- Trap item in.(done).
+- Flying attack item collider region should be smaller than before. (done)
+
+- hero die animation get wrong.
+- monster cannot be killed sometimes with same type monster.
+- frisbee fly with only one frame, need animation.
 
 Feature:
 - state machine improve. reuse state controller with state data.
 ! Maynot good when we need animate event with the same hiarachy as the root.
 - UI generic maker. (Time consume.)
+
+- Battle UI progress bar.
+
+- make hero twice bigger style.
+- make double jump or jump and flowing.
+- scale up or move camera far and near with multi touch.

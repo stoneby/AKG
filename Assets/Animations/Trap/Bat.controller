@@ -5,13 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StingTrap
+  m_Name: Bat
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
-    m_StateMachine: {fileID: 110702102}
+    m_StateMachine: {fileID: 110701654}
     m_Mask: {fileID: 0}
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
@@ -20,31 +20,31 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &110202102
+--- !u!1102 &110201654
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StingTrap
+  m_Name: Bat
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 65dcf3a7c499b40a4bb55b32875d35ba, type: 2}
-  m_ParentStateMachine: {fileID: 110702102}
-  m_Position: {x: 84, y: 96, z: 0}
+  - {fileID: 7400000, guid: 7ab78ee3c790346c993e0fdd9e59dd14, type: 2}
+  m_ParentStateMachine: {fileID: 110701654}
+  m_Position: {x: 72, y: 96, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1107 &110702102
+--- !u!1107 &110701654
 StateMachine:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110202102}
+  m_DefaultState: {fileID: 110201654}
   m_States:
-  - {fileID: 110202102}
+  - {fileID: 110201654}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}

@@ -6,6 +6,8 @@ public class AttackEffectController : MonoBehaviour
     public float Speed;
     public bool FacingRight;
 
+	public string AttackStateName;
+
 	/// <summary>
 	/// Owner game object that send attack effect.
 	/// </summary>
@@ -21,7 +23,7 @@ public class AttackEffectController : MonoBehaviour
 
     public void Play()
     {
-        animator.Play("Attack");
+		animator.Play(AttackStateName);
 
         Destroy(gameObject, LifeTime);
     }

@@ -581,7 +581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: 86fb2761971c04059bea6d8409b6eee7, type: 3}
   PowerEffectController: {fileID: 11468392}
-  AttackPrefab: {fileID: 170402, guid: 1100c6fa46aeb9a4792270388760bc2f, type: 2}
+  AttackPrefab: {fileID: 195290, guid: e16ed57b8a94142a587b234465a87ca3, type: 2}
   ShootBeginTime: .5
   ShootInterval: 1
 --- !u!114 &11495010
@@ -595,7 +595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653f640e01524ec44b2d6bd32f364c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Clip: {fileID: 8300000, guid: 89f27b02e949342bbac54c242f2cd689, type: 3}
 --- !u!114 &11499018
 MonoBehaviour:
   m_ObjectHideFlags: 1

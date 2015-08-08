@@ -5,13 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StingTrap
+  m_Name: Frisbee
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
-    m_StateMachine: {fileID: 110702102}
+    m_StateMachine: {fileID: 110751742}
     m_Mask: {fileID: 0}
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
@@ -20,34 +20,50 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &110202102
+--- !u!1102 &110200000
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StingTrap
+  m_Name: Boom
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 65dcf3a7c499b40a4bb55b32875d35ba, type: 2}
-  m_ParentStateMachine: {fileID: 110702102}
-  m_Position: {x: 84, y: 96, z: 0}
+  - {fileID: 7400000, guid: 8abb3e30930b54b68bb5e66d027acc6d, type: 2}
+  m_ParentStateMachine: {fileID: 110751742}
+  m_Position: {x: 24, y: 48, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1107 &110702102
+--- !u!1102 &110251742
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Frisbee
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 159edfd2eb699458e9279e0b8249b031, type: 2}
+  m_ParentStateMachine: {fileID: 110751742}
+  m_Position: {x: -48, y: -24, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1107 &110751742
 StateMachine:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110202102}
+  m_DefaultState: {fileID: 110251742}
   m_States:
-  - {fileID: 110202102}
+  - {fileID: 110251742}
+  - {fileID: 110200000}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: -48, y: -84, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

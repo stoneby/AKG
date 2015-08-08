@@ -130,6 +130,7 @@ MonoBehaviour:
   LifeTime: 3
   Speed: 8
   FacingRight: 0
+  AttackStateName: Attack
 --- !u!212 &21270402
 SpriteRenderer:
   m_ObjectHideFlags: 1
