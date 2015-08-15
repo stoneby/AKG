@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: b69235b5acda84bab86a683726097a24
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cup-Cup
+    21300002: Diamand-DIamand
+    21300004: Diamand-Idle-0250001
+    21300006: Diamand-Idle-0250002
+    21300008: Diamand-Idle-0250003
+    21300010: Diamand-Idle-0250004
+    21300012: Diamand-Idle-0250005
+    21300014: Diamand-Idle-0250006
+    21300016: Diamand-Idle-0250007
+    21300018: Diamand-Idle-0250008
+    21300020: Diamand-Idle-0250009
+    21300022: Diamand-Idle-0250010
+    21300024: Diamand-Idle-0250011
+    21300026: Diamand-Idle-0250012
+    21300028: Diamand-Idle-0250013
+    21300030: Diamand-Idle-0250014
+    21300032: Diamand-Idle-0250015
+    21300034: Diamand-Idle-0250016
+    21300036: Diamand-Idle-0250017
+    21300038: Diamand-Idle-0250018
+    21300040: Diamand-Idle-0250019
+    21300042: Diamand-Idle-0250020
+    21300044: Diamand-Idle-0250021
+    21300046: Gold-Gold
+    21300048: Heart-Heart
+    21300050: TNT-TNT
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cup-Cup
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 123
+        width: 56
+        height: 61
+      alignment: 9
+      pivot: {x: .5, y: .491803288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-DIamand
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 386
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250001
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 125
+        height: 167
+      alignment: 9
+      pivot: {x: .463999987, y: .520958066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 170
+        width: 125
+        height: 169
+      alignment: 9
+      pivot: {x: .463999987, y: .508875728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250003
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 170
+        width: 125
+        height: 169
+      alignment: 9
+      pivot: {x: .463999987, y: .497041434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250004
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 171
+        width: 123
+        height: 170
+      alignment: 9
+      pivot: {x: .463414639, y: .488235295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250005
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 173
+        width: 125
+        height: 169
+      alignment: 9
+      pivot: {x: .472000003, y: .485207111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250006
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 341
+        width: 126
+        height: 169
+      alignment: 9
+      pivot: {x: .476190478, y: .485207111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250007
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 176
+        width: 125
+        height: 167
+      alignment: 9
+      pivot: {x: .488000005, y: .491017967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250008
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 176
+        width: 124
+        height: 165
+      alignment: 9
+      pivot: {x: .491935492, y: .4969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250009
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 177
+        width: 125
+        height: 164
+      alignment: 9
+      pivot: {x: .495999992, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250010
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 11
+        width: 125
+        height: 164
+      alignment: 9
+      pivot: {x: .488000005, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250011
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 125
+        height: 166
+      alignment: 9
+      pivot: {x: .479999989, y: .493975908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250012
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4
+        width: 124
+        height: 167
+      alignment: 9
+      pivot: {x: .467741936, y: .491017967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250013
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 343
+        width: 126
+        height: 167
+      alignment: 9
+      pivot: {x: .484126985, y: .491017967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250014
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 343
+        width: 128
+        height: 167
+      alignment: 9
+      pivot: {x: .4921875, y: .491017967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250015
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 345
+        width: 129
+        height: 165
+      alignment: 9
+      pivot: {x: .511627913, y: .4969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250016
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 345
+        width: 128
+        height: 165
+      alignment: 9
+      pivot: {x: .515625, y: .4969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250017
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 344
+        width: 129
+        height: 166
+      alignment: 9
+      pivot: {x: .519379854, y: .493975908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250018
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 343
+        width: 127
+        height: 167
+      alignment: 9
+      pivot: {x: .51968503, y: .502994001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250019
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 127
+        height: 166
+      alignment: 9
+      pivot: {x: .51968503, y: .518072307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250020
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 8
+        width: 125
+        height: 166
+      alignment: 9
+      pivot: {x: .512000024, y: .518072307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Diamand-Idle-0250021
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 9
+        width: 122
+        height: 165
+      alignment: 9
+      pivot: {x: .508196712, y: .521212101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gold-Gold
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 254
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Heart-Heart
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 186
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TNT-TNT
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 446
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

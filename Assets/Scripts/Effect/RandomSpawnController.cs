@@ -3,6 +3,7 @@ using System.Collections;
 
 public class RandomSpawnController : MonoBehaviour 
 {
+	public bool UseRandom;
 	public float SleepTime;
 
 	private Animator animator;
@@ -15,6 +16,8 @@ public class RandomSpawnController : MonoBehaviour
 	void Awake()
 	{
 		animator = GetComponent<Animator>();
+
+		SleepTime = (UseRandom) ? Random.Range(0, 1f) : SleepTime;
 		Invoke("WakeUp", SleepTime);
 	}
 }
