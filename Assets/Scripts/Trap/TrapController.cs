@@ -5,7 +5,7 @@ public class TrapController : MonoBehaviour
 {
 	void OnTriggerEnter2D(Collider2D collider)
 	{
-		Debug.Log("Trap Trigger enter: " + collider.name);
+		//Debug.Log("Trap Trigger enter: " + collider.name);
 
 		if (collider.tag.Equals("Player"))
 		{
@@ -19,7 +19,7 @@ public class TrapController : MonoBehaviour
 
 	void OnTriggerExit2D(Collider2D collider)
 	{
-		Debug.Log("Trap Trigger exit: " + collider.name);
+		//sDebug.Log("Trap Trigger exit: " + collider.name);
 
 		if (collider.tag.Equals("Player"))
 		{
