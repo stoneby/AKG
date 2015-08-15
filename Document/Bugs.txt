@@ -24,3 +24,6 @@ Feature:
 - make hero twice bigger style.
 - make double jump or jump and flowing.
 - scale up or move camera far and near with multi touch.
+
+Thoughts：
+－ Skeloton Hero with special skills.
