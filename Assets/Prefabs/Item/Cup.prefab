@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0212b6a085fa04930b555fda09c33a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UseRandom: 0
   SleepTime: .699999988
 --- !u!114 &11483370
 MonoBehaviour:
@@ -184,7 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0212b6a085fa04930b555fda09c33a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SleepTime: .400000006
+  UseRandom: 1
+  SleepTime: 0
 --- !u!114 &11489260
 MonoBehaviour:
   m_ObjectHideFlags: 1

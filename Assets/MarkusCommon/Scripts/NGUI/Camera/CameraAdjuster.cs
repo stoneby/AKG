@@ -58,7 +58,7 @@ public class CameraAdjuster : MonoBehaviour
         var deviceAspect = deviceWidth / deviceHeight;
         if(deviceAspect < standardAspect)
         {
-            camera.orthographicSize = standardAspect / deviceAspect;
+            GetComponent<Camera>().orthographicSize = standardAspect / deviceAspect;
         }
 
         CameraScale = deviceWidth / StandardWidth;

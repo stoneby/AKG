@@ -9,8 +9,8 @@ public class HeroShortState : MonoBehaviour
 	
 	void OnEnable()
 	{
-		audio.clip = Clip;
-		audio.Play();
+		GetComponent<AudioSource>().clip = Clip;
+		GetComponent<AudioSource>().Play();
 	}
 
 	void FixedUpdate()

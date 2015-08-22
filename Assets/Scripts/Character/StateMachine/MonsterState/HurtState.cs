@@ -14,8 +14,8 @@ public class HurtState : MonoBehaviour
 
     void OnEnable()
     {
-		audio.clip = Clip;
-		audio.Play();
+		GetComponent<AudioSource>().clip = Clip;
+		GetComponent<AudioSource>().Play();
 
 		hurtEffectController.gameObject.SetActive(true);
 		hurtEffectController.Play();

@@ -3,11 +3,11 @@ public class DemoBattleController : SSController
 {
 	void OnEnable()
 	{
-		audio.Play();
+		GetComponent<UnityEngine.AudioSource>().Play();
 	}
 
 	void OnDisable()
 	{
-		audio.Stop();
+		GetComponent<UnityEngine.AudioSource>().Stop();
 	}
 }

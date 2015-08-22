@@ -58,8 +58,8 @@ public class PlayerAttackController : MonoBehaviour
 
             // not in the same side and not overlap borders.
             var facingRight = (other.transform.position.x > player.transform.position.x);
-            var playerBorder = player.collider2D.bounds;
-            var monsterBorder = monsterCommon.collider2D.bounds;
+            var playerBorder = player.GetComponent<Collider2D>().bounds;
+            var monsterBorder = monsterCommon.GetComponent<Collider2D>().bounds;
             if (characterCommon.FacingRight != facingRight && !playerBorder.Intersects(monsterBorder))
             {
                 continue;

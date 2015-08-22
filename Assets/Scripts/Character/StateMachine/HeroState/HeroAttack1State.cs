@@ -8,8 +8,8 @@ public class HeroAttack1State : MonoBehaviour
 
 	void OnEnable()
 	{
-		audio.clip = Clip;
-		audio.Play();
+		GetComponent<AudioSource>().clip = Clip;
+		GetComponent<AudioSource>().Play();
 
         checker.Check();
 	}
