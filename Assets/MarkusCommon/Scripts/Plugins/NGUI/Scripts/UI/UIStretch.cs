@@ -84,7 +84,7 @@ public class UIStretch : MonoBehaviour
 
 	void Awake ()
 	{
-		mAnim = GetComponent<Animation>();
+		mAnim = animation;
 		mRect = new Rect();
 		mTrans = transform;
 		mWidget = GetComponent<UIWidget>();

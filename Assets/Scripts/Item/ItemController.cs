@@ -3,11 +3,7 @@ using System.Collections;
 
 public class ItemController : MonoBehaviour 
 {
-	public delegate void OnActivateCallback(Item item);
-	public OnActivateCallback OnActivate;
-
 	private Animator animator;
-	private Item item;
 
 	void OnTriggerEnter2D(Collider2D collider)
 	{	
@@ -20,11 +16,6 @@ public class ItemController : MonoBehaviour
 			
 			var characterCommon = player.GetComponent<CharacterCommon>();
 			//characterCommon.Hurt();
-
-			if (OnActivate != null)
-			{
-				OnActivate(item);
-			}
 
 			animator.SetTrigger("Die");
 		}
@@ -41,6 +32,5 @@ public class ItemController : MonoBehaviour
 	void Awake()
 	{
 		animator = GetComponent<Animator>();
-		item = GetComponent<Item>();
 	}
 }

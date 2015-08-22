@@ -164,37 +164,37 @@ public class SSAnimation : SSMotion
             return;
         }
 
-        if (GetComponent<Animation>() == null)
+        if (animation == null)
         {
             gameObject.AddComponent<Animation>();
-            GetComponent<Animation>().playAutomatically = false;
-            GetComponent<Animation>().cullingType = AnimationCullingType.AlwaysAnimate;
+            animation.playAutomatically = false;
+            animation.cullingType = AnimationCullingType.AlwaysAnimate;
         }
 
-        if (GetComponent<Animation>().GetClip(anim.name) == null)
+        if (animation.GetClip(anim.name) == null)
         {
-            GetComponent<Animation>().AddClip(anim, anim.name);
+            animation.AddClip(anim, anim.name);
         }
 
-        GetComponent<Animation>().clip = anim;
+        animation.clip = anim;
     }
 
 	private void Play(AnimationClip anim)
 	{
         PlayPrepare(anim);
 
-        GetComponent<Animation>().Stop();
+        animation.Stop();
 
-		PlayAnimation (GetComponent<Animation>(), anim.name);
+		PlayAnimation (animation, anim.name);
 	}
 
     private void PlayOnlyZeroFrame(AnimationClip anim)
     {
         PlayPrepare(anim);
 
-        GetComponent<Animation>().Play();
-        GetComponent<Animation>()[anim.name].time = 0;
-        GetComponent<Animation>().Sample();
+        animation.Play();
+        animation[anim.name].time = 0;
+        animation.Sample();
     }
 
 	private void AnimationUpdate()

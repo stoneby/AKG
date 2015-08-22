@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>unity-texture2d</string>
         <key>textureFileName</key>
-        <filename>../../Assets/Arts/Character/Item/Item.png</filename>
+        <filename>../../Assets/Arts/Character/Trap/Traps.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -147,7 +147,7 @@
             <key>datafile</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Assets/Arts/Character/Item/Item.tpsheet</filename>
+                <filename>../../Assets/Arts/Character/Trap/Traps.tpsheet</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -190,7 +190,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../Fine Arts/Item</filename>
+            <filename>../Fine Arts/Traps</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

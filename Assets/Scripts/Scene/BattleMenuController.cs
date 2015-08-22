@@ -14,11 +14,11 @@ public class BattleMenuController : SSController
 
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().Play();
+		audio.Play();
 	}
 
 	void OnDisable()
 	{
-		GetComponent<AudioSource>().Stop();
+		audio.Stop();
 	}
 }

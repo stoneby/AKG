@@ -9,8 +9,8 @@ public class HeroSkillWState : MonoBehaviour
 	
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 
 		heatEffect.gameObject.SetActive(true);
 		heatEffect.Play();

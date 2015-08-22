@@ -413,7 +413,7 @@ public class UIPrefabTool : EditorWindow
 		{
 			// Render textures only work in Unity Pro
 			string path = "Assets/NGUI/Editor/Preview/" + item.prefab.name + ".png";
-			item.tex = File.Exists(path) ? (Texture2D)AssetDatabase.LoadAssetAtPath(path, typeof(Texture2D)) : null;
+			item.tex = File.Exists(path) ? (Texture2D)Resources.LoadAssetAtPath(path, typeof(Texture2D)) : null;
 			item.dynamicTex = false;
 			return;
 		}
@@ -438,10 +438,10 @@ public class UIPrefabTool : EditorWindow
 		root.layer = item.prefab.layer;
 
 		// Set up the camera
-		Camera cam = camGO.GetComponent<Camera>();
+		Camera cam = camGO.camera;
 		cam.renderingPath = RenderingPath.Forward;
 		cam.clearFlags = CameraClearFlags.Skybox;
-		cam.orthographic = true;
+		cam.isOrthoGraphic = true;
 		cam.backgroundColor = new Color(0f, 0f, 0f, 0f);
 		cam.targetTexture = (item.tex as RenderTexture);
 		cam.enabled = false;
@@ -529,7 +529,7 @@ public class UIPrefabTool : EditorWindow
 
 		// Set the camera's properties
 		cam.cullingMask = mask;
-		cam.orthographic = true;
+		cam.isOrthoGraphic = true;
 		cam.transform.position = bounds.center;
 		cam.transform.rotation = Quaternion.LookRotation(camDir);
 
@@ -570,7 +570,7 @@ public class UIPrefabTool : EditorWindow
 
 		cam.transform.position = pos;
 		cam.transform.rotation = rot;
-		cam.orthographic = point.isOrthographic;
+		cam.isOrthoGraphic = point.isOrthographic;
 		cam.nearClipPlane = point.nearClip;
 		cam.farClipPlane = point.farClip;
 		cam.orthographicSize = point.orthoSize;
@@ -615,7 +615,7 @@ public class UIPrefabTool : EditorWindow
 			float.TryParse(parts[1], out far);
 			float.TryParse(parts[2], out fov);
 
-			cam.orthographic = false;
+			cam.isOrthoGraphic = false;
 			cam.nearClipPlane = near;
 			cam.farClipPlane = far;
 			cam.fieldOfView = fov;

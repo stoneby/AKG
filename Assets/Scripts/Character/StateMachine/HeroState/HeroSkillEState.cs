@@ -11,8 +11,8 @@ public class HeroSkillEState : MonoBehaviour
 
 	public void CheckAttackE()
 	{
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 
 		checker.Check();
 	}

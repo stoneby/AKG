@@ -76,7 +76,7 @@ public class UIAnchor : MonoBehaviour
 	void Awake ()
 	{
 		mTrans = transform;
-		mAnim = GetComponent<Animation>();
+		mAnim = animation;
 		UICamera.onScreenResize += ScreenSizeChanged;
 	}
 

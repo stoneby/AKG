@@ -10,10 +10,10 @@ public class DieState : MonoBehaviour
 
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 
-		GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+		rigidbody2D.velocity = Vector2.zero;
 
         Invoke("OnDie", DisappearTime);
 	}

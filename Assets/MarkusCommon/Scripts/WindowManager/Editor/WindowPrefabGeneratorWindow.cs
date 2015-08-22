@@ -168,7 +168,7 @@ public class WindowPrefabGeneratorWindow : EditorWindow
             buttonPressed = false;
 
             var specificWindowName = string.Format("{0}Window", prefabName);
-            UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(generatedPrefab, "Assets/MarkusCommon/Scripts/WindowManager/Editor/WindowPrefabGeneratorWindow.cs (171,13)", specificWindowName);
+            generatedPrefab.AddComponent(specificWindowName);
         }
 
         EditorGUILayout.Space();
