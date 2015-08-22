@@ -21,11 +21,11 @@ public class HeroAttackMove : MonoBehaviour
 
 		if (stopped)
 		{
-			player.rigidbody2D.velocity = Vector2.zero;
+			player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 		}
 		else
 		{
-			player.rigidbody2D.velocity = new Vector2(SpeedRatio * player.horizontalSpeed * (characterCommon.FacingRight ? 1 : -1), player.rigidbody2D.velocity.y);
+			player.GetComponent<Rigidbody2D>().velocity = new Vector2(SpeedRatio * player.horizontalSpeed * (characterCommon.FacingRight ? 1 : -1), player.GetComponent<Rigidbody2D>().velocity.y);
 		}
 	}
 	

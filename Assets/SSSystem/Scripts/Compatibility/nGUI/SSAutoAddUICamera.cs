@@ -5,6 +5,6 @@ public class SSAutoAddUICamera : MonoBehaviour
 {
 	private void Awake()
 	{
-		gameObject.AddComponent("UICamera");
+		gameObject.AddComponent<UICamera>();
 	}
 }

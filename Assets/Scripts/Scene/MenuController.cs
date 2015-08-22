@@ -4,12 +4,12 @@ public class MenuController : SSController
 {
 	void OnEnable()
 	{
-		audio.Play();
+		GetComponent<AudioSource>().Play();
 	}
 
 	void OnDisable()
 	{
-		audio.Stop();
+		GetComponent<AudioSource>().Stop();
 	}
 
     public void GoBattleMenu()

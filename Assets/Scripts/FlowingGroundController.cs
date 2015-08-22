@@ -12,7 +12,7 @@ public class FlowingGroundController : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         Debug.LogWarning("On trigger exit");
-        collider2D.isTrigger = false;
+        GetComponent<Collider2D>().isTrigger = false;
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -21,10 +21,10 @@ public class FlowingGroundController : MonoBehaviour
 
         var rigid = other.rigidbody;
         var velocityUp = rigid.velocity.y > 0;
-        var center = collider2D.bounds.center;
-        var size = collider2D.bounds.size / 2;
-        var colliderCenter = rigid.collider2D.bounds.center;
-        var colliderSize = rigid.collider2D.bounds.size / 2;
+        var center = GetComponent<Collider2D>().bounds.center;
+        var size = GetComponent<Collider2D>().bounds.size / 2;
+        var colliderCenter = rigid.GetComponent<Collider2D>().bounds.center;
+        var colliderSize = rigid.GetComponent<Collider2D>().bounds.size / 2;
 
         //collider2D.isTrigger = true;
     }

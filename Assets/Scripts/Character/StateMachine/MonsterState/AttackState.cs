@@ -17,13 +17,13 @@ public class AttackState : MonoBehaviour
 
     void OnEnable()
     {
-		audio.clip = Clip;
-		audio.Play();
+		GetComponent<AudioSource>().clip = Clip;
+		GetComponent<AudioSource>().Play();
     }
 
     void FixedUpdate()
     {
-        rigidbody2D.velocity = Vector2.zero;
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 
 		if (monsterCommon.FacingRight && player.transform.position.x < monster.transform.position.x)
         {
