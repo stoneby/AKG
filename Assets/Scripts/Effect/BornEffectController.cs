@@ -14,7 +14,7 @@ public class BornEffectController : MonoBehaviour
 
     public void OnShake()
     {
-        mainCamera.animation.Play();
+        mainCamera.GetComponent<Animation>().Play();
     }
 
     void Awake()

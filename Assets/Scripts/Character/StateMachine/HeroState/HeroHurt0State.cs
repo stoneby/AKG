@@ -15,8 +15,8 @@ public class HeroHurt0State : MonoBehaviour
 
     void OnEnable()
     {
-		audio.clip = Clip;
-		audio.Play();
+		GetComponent<AudioSource>().clip = Clip;
+		GetComponent<AudioSource>().Play();
 
 		if (player.HurtFront)
 		{

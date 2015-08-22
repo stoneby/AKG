@@ -7,7 +7,7 @@ public class HeroJumpState : MonoBehaviour
 
 	void OnEnable()
 	{
-		audio.clip = ClipList[Random.Range(0, ClipList.Length - 1)];
-		audio.Play();
+		GetComponent<AudioSource>().clip = ClipList[Random.Range(0, ClipList.Length - 1)];
+		GetComponent<AudioSource>().Play();
 	}
 }

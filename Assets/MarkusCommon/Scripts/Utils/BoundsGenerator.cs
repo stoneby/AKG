@@ -23,7 +23,7 @@ public class BoundsGenerator : MonoBehaviour
             return;
         }
 
-        var bounds = transform.GetChild(0).collider.bounds;
+        var bounds = transform.GetChild(0).GetComponent<Collider>().bounds;
         for (var i = 1; i < transform.childCount; ++i)
         {
             var child = transform.GetChild(i);
@@ -31,7 +31,7 @@ public class BoundsGenerator : MonoBehaviour
             {
                 continue;
             }
-            bounds.Encapsulate(child.collider.bounds);
+            bounds.Encapsulate(child.GetComponent<Collider>().bounds);
         }
         var boxCollider = GetComponent<BoxCollider>();
         if (boxCollider == null)

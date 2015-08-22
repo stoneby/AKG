@@ -10,6 +10,8 @@
 - Trap item in.(done).
 - Flying attack item collider region should be smaller than before. (done)
 
+- unity 5.1.2 upgrade (done).
+
 - hero die animation get wrong.
 - monster cannot be killed sometimes with same type monster.
 - frisbee fly with only one frame, need animation.
@@ -19,7 +21,9 @@ Feature:
 ! Maynot good when we need animate event with the same hiarachy as the root.
 - UI generic maker. (Time consume.)
 
-- Battle UI progress bar.
+- Battle UI distance progress bar.
+- battle timer added.
+- Sparkle to specific ui place when item is activated.
 
 - make hero twice bigger style.
 - make double jump or jump and flowing.

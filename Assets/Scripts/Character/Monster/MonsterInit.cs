@@ -10,8 +10,8 @@ public class MonsterInit : MonoBehaviour
         var grounded = (hit.collider != null);
         if (grounded)
         {
-            rigidbody2D.isKinematic = true;
-            collider2D.isTrigger = true;
+            GetComponent<Rigidbody2D>().isKinematic = true;
+            GetComponent<Collider2D>().isTrigger = true;
             enabled = false;
 
 			if (hit.collider.tag.Equals("FlowStone"))
