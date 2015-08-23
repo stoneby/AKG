@@ -951,7 +951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelManager: {fileID: 1395930490}
   InputManager: {fileID: 0}
-  inputDevice: 1
+  inputDevice: 0
 --- !u!4 &1395930489
 Transform:
   m_ObjectHideFlags: 0
