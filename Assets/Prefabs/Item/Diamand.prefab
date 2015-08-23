@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  Duration: .300000012
+  Duration: .100000001
   EaseType: 0
 --- !u!114 &11455324
 MonoBehaviour:
@@ -319,7 +319,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: Duration
-      value: .300000012
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

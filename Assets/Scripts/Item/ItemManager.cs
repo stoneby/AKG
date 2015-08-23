@@ -40,8 +40,7 @@ public class ItemManager : MonoBehaviour
 
 	void OnDiamondActivate(Item item)
 	{
-		OnHeartActivate(item);
-		//OnGoldActivate(item);
+		OnGoldActivate(item);
 	}
 
 	void OnCupActivate(Item item)

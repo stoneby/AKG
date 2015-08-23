@@ -12,9 +12,10 @@
 
 - unity 5.1.2 upgrade (done).
 
-- hero die animation get wrong.
-- monster cannot be killed sometimes with same type monster.
-- frisbee fly with only one frame, need animation.
+- hero die animation get wrong. (to be test)
+- monster cannot be killed sometimes with same type monster. (to be test)
+- frisbee fly with only one frame, need animation. (done)
+- remove hero hurt and short hurt sub state. (done).
 
 Feature:
 - state machine improve. reuse state controller with state data.
