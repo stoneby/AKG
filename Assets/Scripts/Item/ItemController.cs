@@ -15,12 +15,6 @@ public class ItemController : MonoBehaviour
 		{
 			//Debug.Log("Item Trigger enter: " + collider.name);
 
-			var player = collider.transform.GetComponent<PlayerControl>();
-			//player.HurtFront = true;
-			
-			var characterCommon = player.GetComponent<CharacterCommon>();
-			//characterCommon.Hurt();
-
 			if (OnActivate != null)
 			{
 				OnActivate(item);
