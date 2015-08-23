@@ -28,7 +28,7 @@ public class Singleton<T> : MonoBehaviour
                 {
                     Logger.LogError("[Singleton] Something went really wrong " +
                         " - there should never be more than 1 singleton!" +
-                        " Reopenning the scene might fix it.");
+                        " Reopenning the scene might fix it. " +instance.name);
                     return instance;
                 }
 
