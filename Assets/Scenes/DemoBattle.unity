@@ -516,6 +516,10 @@ Prefab:
       propertyPath: PlayerUI
       value: 
       objectReference: {fileID: 62563955}
+    - target: {fileID: 8208972, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
   m_IsPrefabParent: 0
@@ -637,7 +641,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 791acedddef5a41bf8c7924f53c9b0c1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: .635999978
+  m_Volume: .400000006
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -866,6 +870,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
+  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
