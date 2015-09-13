@@ -13,15 +13,6 @@ public class PlayerControl : MonoBehaviour
 
     public float h { get; set; }
 
-    public enum InputDevice
-    {
-        HUD,
-        Keyboard,
-    };
-
-    public InputDevice inputDevice;
-    public AbstractInput inputManager;
-
     public float horizontalSpeed = 5f;		// The fastest the player can travel in the x axis when running.
     public float horizontalSpeedAttack;     // The fastest the player can travel in the x axis when attacking.
     public float verticalSpeed = 5f;
@@ -56,8 +47,9 @@ public class PlayerControl : MonoBehaviour
 
     private CharacterCommon characterCommon;
     private CharacterHealth characterHealth;
+	private AbstractInput inputManager;
 
-    void Awake()
+	void Awake()
     {
         // Setting up references.
         groundChecker = transform.Find("Checkers/Ground");
@@ -67,20 +59,12 @@ public class PlayerControl : MonoBehaviour
 
 		characterCommon = GetComponent<CharacterCommon>();
         characterHealth = GetComponent<CharacterHealth>();
-
-        if (inputDevice == InputDevice.HUD)
-        {
-            inputManager = GetComponent<HUDInput>();
-        }
-        else
-        {
-            inputManager = GetComponent<VirtualInput>();
-        }
     }
 
 	void Start()
 	{
 		PresentData.Instance.LevelInit.OnLoadComplete += OnLoadComplete;
+		inputManager = GameData.Instance.InputManager;
 	}
 
 	private void OnLoadComplete()

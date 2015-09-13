@@ -23,28 +23,36 @@ public class ItemManager : MonoBehaviour
 	{
 		characterHealth.AddHealth(item.Amount);
 
-		var itemMover = item.GetComponent<ItemMover>();
-		itemMover.Target = InterfaceController.Instance.HeroContainer;
-		itemMover.Move();
+		Move(item, InterfaceController.Instance.HeroContainer);
 	}
 
 	void OnTNTActivate(Item item)
 	{
 		characterData.SkillQ += item.Amount;
+
+		Move(item, InterfaceController.Instance.SkillQContainer);
 	}
 
 	void OnGoldActivate(Item item)
 	{
+		Move(item, InterfaceController.Instance.GoldContainer);
 	}
 
 	void OnDiamondActivate(Item item)
 	{
-		// test heart.
-		OnHeartActivate(item);
+		OnGoldActivate(item);
 	}
 
 	void OnCupActivate(Item item)
 	{
+		OnHeartActivate(item);
+	}
+
+	void Move(Item item, Transform target)
+	{
+		var itemMover = item.GetComponent<ItemMover>();
+		itemMover.Target = target;
+		itemMover.Move();
 	}
 
 	void Awake()

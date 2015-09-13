@@ -55,6 +55,7 @@ public class CharacterAttackChecker : MonoBehaviour
 
         // character target update.
 		var characterCommon = other.GetComponent<CharacterCommon>();
+		characterCommon.HurtHealth = HurtHealth;
 		characterCommon.Hurt();
 
         // character source ui update.
