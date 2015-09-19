@@ -21,7 +21,7 @@ public class SetRenderQueue : MonoBehaviour
     {
         foreach (var psSystem in particleSystemList)
         {
-            var ren = psSystem.gameObject.GetComponent<Renderer>() ?? psSystem.GetComponent<Renderer>();
+            var ren = psSystem.gameObject.renderer ?? psSystem.renderer;
             ReplaceMaterial(ren);
         }
 

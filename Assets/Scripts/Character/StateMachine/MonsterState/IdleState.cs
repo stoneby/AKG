@@ -32,7 +32,7 @@ public class IdleState : MonoBehaviour
 
     private void Moving()
     {
-		GetComponent<Rigidbody2D>().velocity = new Vector2(Speed * (characterCommon.FacingRight ? 1 : -1), 0);
+		rigidbody2D.velocity = new Vector2(Speed * (characterCommon.FacingRight ? 1 : -1), 0);
     }
 
     void Awake()

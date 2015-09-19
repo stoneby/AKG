@@ -23,7 +23,7 @@ public class UIViewport : MonoBehaviour
 
 	void Start ()
 	{
-		mCam = GetComponent<Camera>();
+		mCam = camera;
 		if (sourceCamera == null) sourceCamera = Camera.main;
 	}
 

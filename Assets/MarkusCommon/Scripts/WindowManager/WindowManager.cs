@@ -324,7 +324,7 @@ public class WindowManager : Singleton<WindowManager>
         prefab.SetActive(false);
         var child = NGUITools.AddChild(root, prefab);
         var windowName = Utils.PrefabNameToWindow(Utils.GetNameFromPath(path));
-        var component = child.GetComponent(windowName) ?? UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(child, "Assets/MarkusCommon/Scripts/WindowManager/WindowManager.cs (327,59)", windowName);
+        var component = child.GetComponent(windowName) ?? child.AddComponent(windowName);
         var window = component.GetComponent<Window>();
         window.Path = path;
         window.WindowGroup = groupType;

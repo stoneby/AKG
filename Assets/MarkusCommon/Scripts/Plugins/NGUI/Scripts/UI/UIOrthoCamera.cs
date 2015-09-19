@@ -22,7 +22,7 @@ public class UIOrthoCamera : MonoBehaviour
 
 	void Start ()
 	{
-		mCam = GetComponent<Camera>();
+		mCam = camera;
 		mTrans = transform;
 		mCam.orthographic = true;
 	}

@@ -15,14 +15,6 @@ public class CharacterHealth : MonoBehaviour
 
     private Animator animator;
 
-	public void AddHealth(int health)
-	{
-		CurrentHealth = (CurrentHealth + health);
-		CurrentHealth = (CurrentHealth > TotalHealth) ? TotalHealth : CurrentHealth;
-
-		SendMessage("UpdateHealth", NormalizedHealth, SendMessageOptions.DontRequireReceiver);
-	}
-
     public void Hurt()
     {
         CurrentHealth -= HurtHealth;

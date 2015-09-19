@@ -30,7 +30,7 @@ public class TweenColor : UITweener
 		mSr = GetComponent<SpriteRenderer>();
 		if (mSr != null) return;
 
-		Renderer ren = GetComponent<Renderer>();
+		Renderer ren = renderer;
 
 		if (ren != null)
 		{
@@ -38,7 +38,7 @@ public class TweenColor : UITweener
 			return;
 		}
 
-		mLight = GetComponent<Light>();
+		mLight = light;
 		if (mLight == null) mWidget = GetComponentInChildren<UIWidget>();
 	}
 

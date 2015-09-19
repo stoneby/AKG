@@ -6,8 +6,8 @@ public class TowerDieState : MonoBehaviour
 
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 	}
 
 	public void OnDie()

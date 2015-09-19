@@ -32,6 +32,9 @@ public class PlayerControl : MonoBehaviour
 
 	public PlayerUIController PlayerUI;
 
+    public float DownSpeed;
+    public float UpSpeed;
+
     /// <summary>
     /// Flag indicates whether this attack is booming.
     /// </summary>
@@ -134,7 +137,7 @@ public class PlayerControl : MonoBehaviour
 
         h = Mathf.Clamp(h, -1, 1);
         var x = (fire) ? horizontalSpeedAttack : horizontalSpeed;
-        GetComponent<Rigidbody2D>().velocity = new Vector2(x * h, GetComponent<Rigidbody2D>().velocity.y);
+        rigidbody2D.velocity = new Vector2(x * h, rigidbody2D.velocity.y);
 
         //rigidbody2D.AddForce(new Vector2(x *h, 0));
 
@@ -157,7 +160,7 @@ public class PlayerControl : MonoBehaviour
             // Set the Jump animator trigger parameter.
             anim.SetTrigger("Jump");
 
-            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, verticalSpeed);
+            rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, verticalSpeed);
 
             // Play a random jump audio clip.
             //int i = Random.Range(0, jumpClips.Length);
@@ -219,7 +222,7 @@ public class PlayerControl : MonoBehaviour
 			{
                 levelManager.Reset();
             }
-            GetComponent<Rigidbody2D>().isKinematic = true;
+            rigidbody2D.isKinematic = true;
             var levelInit = PresentData.Instance.LevelInit;
             levelInit.Load();
         }

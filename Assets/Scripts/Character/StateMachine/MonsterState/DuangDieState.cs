@@ -18,8 +18,8 @@ public class DuangDieState : MonoBehaviour
 	
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 
 		Debug.Log("DuangDie on enable.");
 		onTheGround = false;

@@ -55,7 +55,7 @@ public class InvEquipment : MonoBehaviour
 
 					if (baseItem != null && go != null)
 					{
-						Renderer ren = go.GetComponent<Renderer>();
+						Renderer ren = go.renderer;
 						if (ren != null) ren.material.color = baseItem.color;
 					}
 				}

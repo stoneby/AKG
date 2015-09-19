@@ -33,7 +33,7 @@ public class TweenVolume : UITweener
 		{
 			if (mSource == null)
 			{
-				mSource = GetComponent<AudioSource>();
+				mSource = audio;
 				
 				if (mSource == null)
 				{

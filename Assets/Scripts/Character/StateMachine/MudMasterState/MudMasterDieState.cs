@@ -6,8 +6,8 @@ public class MudMasterDieState : MonoBehaviour
 
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().clip = ClipList[Random.Range(0, ClipList.Length - 1)];
-		GetComponent<AudioSource>().Play();
+		audio.clip = ClipList[Random.Range(0, ClipList.Length - 1)];
+		audio.Play();
 	}
 
 	public void OnDie()

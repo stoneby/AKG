@@ -23,8 +23,8 @@ public class TowerAttackState : MonoBehaviour
     /// <remarks>Refers to attack animation right place.</remarks>
     public void OnShoot(GameObject go)
     {
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 
 		GenerateEffect();
 

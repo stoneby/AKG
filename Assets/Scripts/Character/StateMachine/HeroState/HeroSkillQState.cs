@@ -12,8 +12,8 @@ public class HeroSkillQState : MonoBehaviour
 
 	void OnEnable()
 	{
-		GetComponent<AudioSource>().clip = Clip;
-		GetComponent<AudioSource>().Play();
+		audio.clip = Clip;
+		audio.Play();
 	}
 
 	void FixedUpdate()
