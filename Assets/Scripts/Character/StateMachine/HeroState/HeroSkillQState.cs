@@ -30,6 +30,11 @@ public class HeroSkillQState : MonoBehaviour
 	{
 		powerChecker.Check();
 	}
+
+    public void Jump()
+    {
+        
+    }
 	
 	void Awake()
 	{
