@@ -854,7 +854,6 @@ MonoBehaviour:
   horizontalSpeedAttack: .800000012
   verticalSpeed: 9
   fireStopTime: .200000003
-  jumpClips: []
   PlayerUI: {fileID: 0}
 --- !u!114 &11400008
 MonoBehaviour:
@@ -1274,6 +1273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: d5ee1b7d2238e4c47bbc462d55ab1862, type: 3}
   AttackSpeed: 4
+  JumpSpeed: 7
 --- !u!114 &11489012
 MonoBehaviour:
   m_ObjectHideFlags: 1

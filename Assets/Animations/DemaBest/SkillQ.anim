@@ -101,6 +101,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: .13333334
+    functionName: Jump
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: .200000003
     functionName: CheckAttackQ
     data: 
@@ -108,15 +115,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: .333333343
-    functionName: 
+  - time: .400000006
+    functionName: CheckAttackQ
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: .400000006
-    functionName: CheckAttackQ
+  - time: .533333361
+    functionName: JumpEnd
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -7,10 +7,11 @@ public class MecanimWrapper : MonoBehaviour
     public Animator animator;
     public StateBehaviour[] stateBehaviours;
 
-    static readonly int CurrentStateTimeHash = Animator.StringToHash("currentStateTime");
-    Dictionary<int, Behaviour[]> behaviourCache;
-    int currentState;
-    float currentStateTime;
+    private static readonly int CurrentStateTimeHash = Animator.StringToHash("currentStateTime");
+    private Dictionary<int, Behaviour[]> behaviourCache;
+    private Dictionary<int, string> nameCache; 
+    private int currentState;
+    private float currentStateTime;
 
     float CurrentStateTime
     {
@@ -28,9 +29,12 @@ public class MecanimWrapper : MonoBehaviour
     void Start()
     {
         behaviourCache = new Dictionary<int, Behaviour[]>();
-        foreach (StateBehaviour item in stateBehaviours)
+        nameCache = new Dictionary<int, string>();
+
+        foreach (var item in stateBehaviours)
         {
-            int nameHash = Animator.StringToHash(item.layer + "." + item.state);
+            var nameHash = Animator.StringToHash(item.layer + "." + item.state);
+            nameCache.Add(nameHash, item.state);
             item.behaviours = item.behaviours.Any()
                 ? item.behaviours
                 : GetComponents<Behaviour>().Where(behaviour => behaviour.GetType().Name.Contains(item.state)).ToArray();
@@ -42,7 +46,7 @@ public class MecanimWrapper : MonoBehaviour
     void Update()
     {
         CurrentStateTime += Time.deltaTime;
-        int state = animator.GetCurrentAnimatorStateInfo(0).nameHash;
+        var state = animator.GetCurrentAnimatorStateInfo(0).fullPathHash;
         if (state != currentState)
         {
             ChangeState(state);

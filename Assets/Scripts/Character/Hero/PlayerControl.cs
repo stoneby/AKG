@@ -7,9 +7,9 @@ public class PlayerControl : MonoBehaviour
     [HideInInspector]
     public bool fire = false;
 
-	public bool SkillQ;
-	public bool SkillW;
-	public bool SkillE;
+    public bool SkillQ;
+    public bool SkillW;
+    public bool SkillE;
 
     public float h { get; set; }
 
@@ -18,60 +18,61 @@ public class PlayerControl : MonoBehaviour
     public float verticalSpeed = 5f;
 
     public float fireStopTime;              // Continue firing util not any fire key pressed during the time.
-	
-    public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
 
-	public PlayerUIController PlayerUI;
+    public PlayerUIController PlayerUI;
 
     /// <summary>
     /// Flag indicates whether this attack is booming.
     /// </summary>
     public bool BoomFight { get; set; }
 
-	/// <summary>
-	/// Flag indicates if the attack is final attack, eg, attack4.
-	/// </summary>
-	/// <value><c>true</c> if last attack; otherwise, <c>false</c>.</value>
-	public bool LastAttack { get; set; }
+    /// <summary>
+    /// Flag indicates if the attack is final attack, eg, attack4.
+    /// </summary>
+    /// <value><c>true</c> if last attack; otherwise, <c>false</c>.</value>
+    public bool LastAttack { get; set; }
 
-	public bool Running { get { return h > 0f; } }
+    public bool Running { get { return h > 0f; } }
 
-	/// <summary>
-	/// Flag indicates if player is hurt front or back.
-	/// </summary>
-	/// <value><c>true</c> if hurt front; otherwise, <c>false</c>.</value>
-	public bool HurtFront { get; set; }
+    /// <summary>
+    /// Flag indicates if player is hurt front or back.
+    /// </summary>
+    /// <value><c>true</c> if hurt front; otherwise, <c>false</c>.</value>
+    public bool HurtFront { get; set; }
 
     private Transform groundChecker;			// A position marking where to check if the player is grounded.
     private Animator anim;					// Reference to the player's animator component.
 
     private CharacterCommon characterCommon;
     private CharacterHealth characterHealth;
-	private AbstractInput inputManager;
+    private AbstractInput inputManager;
+    private Rigidbody2D rigid2D;
 
-	void Awake()
+    void Awake()
     {
         // Setting up references.
         groundChecker = transform.Find("Checkers/Ground");
 
         anim = GetComponent<Animator>();
-		anim.enabled = false;
+        anim.enabled = false;
 
-		characterCommon = GetComponent<CharacterCommon>();
+        rigid2D = GetComponent<Rigidbody2D>();
+
+        characterCommon = GetComponent<CharacterCommon>();
         characterHealth = GetComponent<CharacterHealth>();
     }
 
-	void Start()
-	{
-		PresentData.Instance.LevelInit.OnLoadComplete += OnLoadComplete;
-		inputManager = GameData.Instance.InputManager;
-	}
+    void Start()
+    {
+        PresentData.Instance.LevelInit.OnLoadComplete += OnLoadComplete;
+        inputManager = GameData.Instance.InputManager;
+    }
 
-	private void OnLoadComplete()
-	{
-		PresentData.Instance.LevelInit.OnLoadComplete -= OnLoadComplete;
-		anim.enabled = true;
-	}
+    private void OnLoadComplete()
+    {
+        PresentData.Instance.LevelInit.OnLoadComplete -= OnLoadComplete;
+        anim.enabled = true;
+    }
 
     void Update()
     {
@@ -83,7 +84,7 @@ public class PlayerControl : MonoBehaviour
         {
             jump = true;
         }
-         
+
         if (inputManager.DoesFire() && grounded)
         {
             fire = true;
@@ -92,20 +93,20 @@ public class PlayerControl : MonoBehaviour
             Invoke("StopFiring", fireStopTime);
         }
 
-		if (inputManager.DoesSkillE() && grounded)
-		{
-			SkillE = true;
-		}
+        if (inputManager.DoesSkillE() && grounded)
+        {
+            SkillE = true;
+        }
 
-		if (inputManager.DoesSkillQ() && grounded)
-		{
-			SkillQ = true;
-		}
+        if (inputManager.DoesSkillQ() && grounded)
+        {
+            SkillQ = true;
+        }
 
-		if (inputManager.DoesSkillW() && grounded)
-		{
-			SkillW = true;
-		}
+        if (inputManager.DoesSkillW() && grounded)
+        {
+            SkillW = true;
+        }
     }
 
     void FixedUpdate()
@@ -118,56 +119,54 @@ public class PlayerControl : MonoBehaviour
 
         h = Mathf.Clamp(h, -1, 1);
         var x = (fire) ? horizontalSpeedAttack : horizontalSpeed;
-        GetComponent<Rigidbody2D>().velocity = new Vector2(x * h, GetComponent<Rigidbody2D>().velocity.y);
-
-        //rigidbody2D.AddForce(new Vector2(x *h, 0));
+        rigid2D.velocity = new Vector2(x * h, rigid2D.velocity.y);
 
         // If the input is moving the player right and the player is facing left...
-		if (h > 0 && !characterCommon.FacingRight)
-		{
+        if (h > 0 && !characterCommon.FacingRight)
+        {
             // ... flip the player.
-			characterCommon.Flip();
-		}
-		// Otherwise if the input is moving the player left and the player is facing right...
-		else if (h < 0 && characterCommon.FacingRight)
-		{
+            characterCommon.Flip();
+        }
+        // Otherwise if the input is moving the player left and the player is facing right...
+        else if (h < 0 && characterCommon.FacingRight)
+        {
             // ... flip the player.
-			characterCommon.Flip();
-		}
+            characterCommon.Flip();
+        }
 
         // If the player should jump...
         if (jump)
         {
-            // Set the Jump animator trigger parameter.
-            anim.SetTrigger("Jump");
+            if (CouldJumpState())
+            {
+                Debug.Log("---------------------------- can jump.");
+                // Set the Jump animator trigger parameter.
+                anim.SetTrigger("Jump");
+            }
 
-            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, verticalSpeed);
-
-            // Play a random jump audio clip.
-            //int i = Random.Range(0, jumpClips.Length);
-            //AudioSource.PlayClipAtPoint(jumpClips[i], transform.position);
+            rigid2D.velocity = new Vector2(rigid2D.velocity.x, verticalSpeed);
 
             // Make sure the player can't jump again until the jump conditions from Update are satisfied.
             jump = false;
         }
 
-		if (SkillE)
-		{
-			anim.SetTrigger("SkillE");
-			SkillE = false;
-		}
+        if (SkillE)
+        {
+            anim.SetTrigger("SkillE");
+            SkillE = false;
+        }
 
-		if (SkillQ)
-		{
-			anim.SetTrigger("SkillQ");
-			SkillQ = false;
-		}
+        if (SkillQ)
+        {
+            anim.SetTrigger("SkillQ");
+            SkillQ = false;
+        }
 
-		if (SkillW)
-		{
-			anim.SetTrigger("SkillW");
-			SkillW = false;
-		}
+        if (SkillW)
+        {
+            anim.SetTrigger("SkillW");
+            SkillW = false;
+        }
 
         anim.SetBool("Attack", fire);
     }
@@ -196,14 +195,14 @@ public class PlayerControl : MonoBehaviour
             characterCommon.Hurt();
         }
 
-		if (other.tag.Equals("CaveEnd"))
-		{
-			var levelManager = GameData.Instance.LevelManager;
+        if (other.tag.Equals("CaveEnd"))
+        {
+            var levelManager = GameData.Instance.LevelManager;
             if (levelManager.IsLastLevel)
-			{
+            {
                 levelManager.Reset();
             }
-            GetComponent<Rigidbody2D>().isKinematic = true;
+            rigid2D.isKinematic = true;
             var levelInit = PresentData.Instance.LevelInit;
             levelInit.Load();
         }
@@ -237,17 +236,16 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    void OnCollisionExit2D(Collision2D other)
-    {
-    }
-
     void StopFiring()
     {
         fire = false;
     }
 
-	void UpdateHealth(float value)
-	{
-		PlayerUI.UpdateSlider(value);
-	}
+    private bool CouldJumpState()
+    {
+        var idleState = anim.GetCurrentAnimatorStateInfo(0)
+            .fullPathHash.Equals(Animator.StringToHash("Base Layer.Idle"));
+        var runState = anim.GetCurrentAnimatorStateInfo(0).fullPathHash.Equals(Animator.StringToHash("Base Layer.Run"));
+        return (idleState) || (runState);
+    }
 }

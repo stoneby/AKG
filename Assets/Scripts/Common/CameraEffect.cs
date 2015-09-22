@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 
-public class CameraEffect : MonoBehaviour
+public class CameraEffect : Singleton<CameraEffect>
 {
+    public string EarthQuakeEffect;
+    public string UpAndDownEffect;
+
     private Animation anim;
 
     public void EarthQuake()
     {
-        anim.Play("EarthQuake");
+        anim.Play(EarthQuakeEffect);
     }
 
     public void UpAndDown()
     {
-        anim.Play("UpAndDown");
+        anim.Play(UpAndDownEffect);
     }
 
     void Awake()

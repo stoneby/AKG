@@ -508,18 +508,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 11400012, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
-      propertyPath: MessageListener
-      value: 
-      objectReference: {fileID: 66073548}
     - target: {fileID: 11400006, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
       propertyPath: PlayerUI
       value: 
       objectReference: {fileID: 62563955}
-    - target: {fileID: 8208972, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
+      propertyPath: MessageListener
+      value: 
+      objectReference: {fileID: 66073548}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
   m_IsPrefabParent: 0
@@ -814,6 +810,7 @@ GameObject:
   - 81: {fileID: 1204045204}
   - 114: {fileID: 1204045209}
   - 111: {fileID: 1204045210}
+  - 114: {fileID: 1204045211}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -870,7 +867,6 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -916,10 +912,24 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 2b4e21f25c440b2468470ae18850f09f, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 2b4e21f25c440b2468470ae18850f09f, type: 2}
+  - {fileID: 7400000, guid: c836dac844e3e1049a4a5ce1234c05b0, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1204045211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204045203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbdb7c024d376b24586e8333779a202c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EarthQuakeEffect: EarthQuake
+  UpAndDownEffect: UpAndDown
 --- !u!114 &1264956893 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400004, guid: bfa1c5146086e4e93848fc6f483f7816,
@@ -956,7 +966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelManager: {fileID: 1395930490}
   InputManager: {fileID: 0}
-  inputDevice: 0
+  inputDevice: 1
 --- !u!4 &1395930489
 Transform:
   m_ObjectHideFlags: 0
