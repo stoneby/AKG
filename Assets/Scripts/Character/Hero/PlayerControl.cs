@@ -7,19 +7,40 @@ public class PlayerControl : MonoBehaviour
     [HideInInspector]
     public bool fire = false;
 
+	[HideInInspector]
     public bool SkillQ;
+	[HideInInspector]
     public bool SkillW;
+	[HideInInspector]
     public bool SkillE;
 
-    public float h { get; set; }
+	/// <summary>
+	/// Flag indicates if jump in skill Q.
+	/// </summary>
+	[HideInInspector]
+	public bool SkillQJump;
+	/// <summary>
+	/// Flag indicates if jump end in skill Q.
+	/// </summary>
+	[HideInInspector]
+	public bool SkillQJumpEnd;
 
     public float horizontalSpeed = 5f;		// The fastest the player can travel in the x axis when running.
     public float horizontalSpeedAttack;     // The fastest the player can travel in the x axis when attacking.
     public float verticalSpeed = 5f;
 
+	public float SkillQAttackSpeed;
+	public float SkillQJumpSpeed;
+
     public float fireStopTime;              // Continue firing util not any fire key pressed during the time.
 
     public PlayerUIController PlayerUI;
+
+	/// <summary>
+	/// Horizontal movement.
+	/// </summary>
+	/// <value>The h.</value>
+	public float h { get; set; }
 
     /// <summary>
     /// Flag indicates whether this attack is booming.
@@ -150,6 +171,23 @@ public class PlayerControl : MonoBehaviour
             jump = false;
         }
 
+		if (IsSkillQState())
+		{
+			rigid2D.velocity += new Vector2(characterCommon.FacingRight ? SkillQAttackSpeed : -SkillQAttackSpeed, 0);
+		}
+
+		if (SkillQJump)
+		{
+			rigid2D.velocity += new Vector2(0, SkillQJumpSpeed);
+			SkillQJump = false;
+		}
+
+		if (SkillQJumpEnd)
+		{
+			rigid2D.velocity += new Vector2(0, -SkillQJumpSpeed);
+			SkillQJumpEnd = false;
+		}
+
         if (SkillE)
         {
             anim.SetTrigger("SkillE");
@@ -240,6 +278,13 @@ public class PlayerControl : MonoBehaviour
     {
         fire = false;
     }
+
+	private bool IsSkillQState()
+	{
+		var result = anim.GetCurrentAnimatorStateInfo(0)
+			.fullPathHash.Equals(Animator.StringToHash("Base Layer.SkillQ"));
+		return result;
+	}
 
     private bool CouldJumpState()
     {

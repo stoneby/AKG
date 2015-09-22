@@ -19,6 +19,6 @@ public class CameraEffect : Singleton<CameraEffect>
 
     void Awake()
     {
-        anim = GetComponent<Animation>();
+        anim = transform.parent.GetComponent<Animation>();
     }
 }

@@ -850,9 +850,13 @@ MonoBehaviour:
   SkillQ: 0
   SkillW: 0
   SkillE: 0
+  SkillQJump: 0
+  SkillQJumpEnd: 0
   horizontalSpeed: 4
   horizontalSpeedAttack: .800000012
   verticalSpeed: 9
+  SkillQAttackSpeed: 4
+  SkillQJumpSpeed: 7
   fireStopTime: .200000003
   PlayerUI: {fileID: 0}
 --- !u!114 &11400008
