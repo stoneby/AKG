@@ -101,7 +101,7 @@ public class PlayerControl : MonoBehaviour
         var grounded = Physics2D.Linecast(transform.position, groundChecker.position, LayerMask.GetMask("Ground"));
 
         // If the jump button is pressed and the player is grounded then the player should jump.
-        if (inputManager.DoesJump() && grounded && !fire)
+        if (inputManager.DoesJump() && !fire && (grounded || IsJumpState()))
         {
             jump = true;
         }
@@ -160,7 +160,11 @@ public class PlayerControl : MonoBehaviour
         {
             if (CouldJumpState())
             {
-                Debug.Log("---------------------------- can jump.");
+				var hash = anim.GetCurrentAnimatorStateInfo(0).fullPathHash;
+				var jumpHash = Animator.StringToHash("Base Layer.Jump");
+				var jump2Hash = Animator.StringToHash("Base Layer.Jump 1");
+				Debug.Log("------------Could jump. old " + hash + ", jump: " + jumpHash + ", jump 1;" + jump2Hash);
+
                 // Set the Jump animator trigger parameter.
                 anim.SetTrigger("Jump");
             }
@@ -281,16 +285,23 @@ public class PlayerControl : MonoBehaviour
 
 	private bool IsSkillQState()
 	{
-		var result = anim.GetCurrentAnimatorStateInfo(0)
-			.fullPathHash.Equals(Animator.StringToHash("Base Layer.SkillQ"));
-		return result;
+		return IsState("Base Layer.SkillQ");
+	}
+
+	private bool IsJumpState()
+	{
+		return IsState("Base Layer.Jump") || IsState("Base Layer.Jump 1");
 	}
 
     private bool CouldJumpState()
     {
-        var idleState = anim.GetCurrentAnimatorStateInfo(0)
-            .fullPathHash.Equals(Animator.StringToHash("Base Layer.Idle"));
-        var runState = anim.GetCurrentAnimatorStateInfo(0).fullPathHash.Equals(Animator.StringToHash("Base Layer.Run"));
-        return (idleState) || (runState);
+		return (IsState("Base Layer.Idle")) || (IsState("Base Layer.Run")) || (IsState("Base Layer.Jump"));
     }
+
+	private bool IsState(string state)
+	{
+		var result = anim.GetCurrentAnimatorStateInfo(0)
+			.fullPathHash.Equals(Animator.StringToHash(state));
+		return result;
+	}
 }
