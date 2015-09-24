@@ -1,0 +1,1507 @@
+fileFormatVersion: 2
+guid: 1fd79b977bedfe642a09afbd19218eed
+timeCreated: 1443069912
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attack1-10000
+    21300002: Attack1-10001
+    21300004: Attack1-10002
+    21300006: Attack1-10003
+    21300008: Attack1-10004
+    21300010: Attack1-10005
+    21300012: Attack1-10006
+    21300014: Attack1-10007
+    21300016: Attack1-10008
+    21300018: Attack1-10009
+    21300020: Attack2-10000
+    21300022: Attack2-10001
+    21300024: Attack2-10002
+    21300026: Attack2-10003
+    21300028: Attack2-10004
+    21300030: Attack2-10005
+    21300032: Attack2-10006
+    21300034: Attack2-10007
+    21300036: Attack2-10008
+    21300038: Attack2-10009
+    21300040: Die-10000
+    21300042: Die-10001
+    21300044: Die-10002
+    21300046: Die-10003
+    21300048: Die-10004
+    21300050: Die-10005
+    21300052: Hurt-10000
+    21300054: Hurt-10001
+    21300056: Hurt-10002
+    21300058: Hurt-10003
+    21300060: Hurt-10004
+    21300062: Hurt-10005
+    21300064: Idle-10000
+    21300066: Idle-10001
+    21300068: Idle-10002
+    21300070: Idle-10003
+    21300072: Idle-10004
+    21300074: Idle-10005
+    21300076: Idle-10006
+    21300078: Idle-10007
+    21300080: Idle-10008
+    21300082: Jump-10000
+    21300084: Jump-10001
+    21300086: Jump-10002
+    21300088: Jump-10003
+    21300090: Jump-10004
+    21300092: Jump-10005
+    21300094: Jump-10006
+    21300096: Run-10000
+    21300098: Run-10001
+    21300100: Run-10002
+    21300102: Run-10003
+    21300104: Run-10004
+    21300106: Run-10005
+    21300108: Run-10006
+    21300110: SkillE-10000
+    21300112: SkillE-10001
+    21300114: SkillE-10002
+    21300116: SkillE-10003
+    21300118: SkillE-10004
+    21300120: SkillE-10005
+    21300122: SkillE-10006
+    21300124: SkillE-10007
+    21300126: SkillE-10008
+    21300128: SkillE-10009
+    21300130: SkillE-10010
+    21300132: SkillE-10011
+    21300134: SkillE-10012
+    21300136: SkillE-10013
+    21300138: SkillE-10014
+    21300140: SkillE-10015
+    21300142: SkillE-10016
+    21300144: SkillE-10017
+    21300146: SkillE-10018
+    21300148: SkillE-10019
+    21300150: SkillE-10020
+    21300152: SkillE-10021
+    21300154: SkillE-10022
+    21300156: SkillE-10023
+    21300158: SkillE-10024
+    21300160: SkillE-10025
+    21300162: SkillE-10026
+    21300164: SkillE-10027
+    21300166: SkillE-10028
+    21300168: SkillE-10029
+    21300170: SkillQ-10000
+    21300172: SkillQ-10001
+    21300174: SkillQ-10002
+    21300176: SkillQ-10003
+    21300178: SkillQ-10004
+    21300180: SkillQ-10005
+    21300182: SkillQ-10006
+    21300184: SkillQ-10007
+    21300186: SkillQ-10008
+    21300188: SkillQ-10009
+    21300190: SkillQ-10010
+    21300192: SkillQ-10011
+    21300194: SkillQ-10012
+    21300196: SkillQ-10013
+    21300198: SkillQ-10014
+    21300200: SkillQ-10015
+    21300202: SkillQ-10016
+    21300204: SkillQ-10017
+    21300206: SkillQ-10018
+    21300208: SkillQ-10019
+    21300210: SkillW-10000
+    21300212: SkillW-10001
+    21300214: SkillW-10002
+    21300216: SkillW-10003
+    21300218: SkillW-10004
+    21300220: SkillW-10005
+    21300222: SkillW-10006
+    21300224: SkillW-10007
+    21300226: SkillW-10008
+    21300228: SkillW-10009
+    21300230: SkillW-10010
+    21300232: SkillW-10011
+    21300234: SkillW-10012
+    21300236: SkillW-10013
+    21300238: SkillW-10014
+    21300240: SkillW-10015
+    21300242: SkillW-10016
+    21300244: SkillW-10017
+    21300246: SkillW-10018
+    21300248: SkillW-10019
+    21300250: SkillW-10020
+    21300252: SkillW-10021
+    21300254: SkillW-10022
+    21300256: SkillW-10023
+    21300258: SkillW-10024
+    21300260: SkillW-10025
+    21300262: SkillW-10026
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Attack1-10000
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 871
+        width: 130
+        height: 151
+      alignment: 9
+      pivot: {x: .36153847, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10001
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 573
+        width: 123
+        height: 158
+      alignment: 9
+      pivot: {x: .528455257, y: .202531651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10002
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 239
+        width: 120
+        height: 161
+      alignment: 9
+      pivot: {x: .658333361, y: .217391297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10003
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 721
+        width: 120
+        height: 149
+      alignment: 9
+      pivot: {x: .649999976, y: .194630876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10004
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 308
+        width: 121
+        height: 144
+      alignment: 9
+      pivot: {x: .644628108, y: .208333328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10005
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 621
+        width: 125
+        height: 137
+      alignment: 9
+      pivot: {x: .656000018, y: .197080299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10006
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 738
+        width: 142
+        height: 131
+      alignment: 9
+      pivot: {x: .514084518, y: .167938933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10007
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 737
+        width: 139
+        height: 141
+      alignment: 9
+      pivot: {x: .496402889, y: .148936167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10008
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 733
+        width: 136
+        height: 142
+      alignment: 9
+      pivot: {x: .375, y: .140845075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack1-10009
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 589
+        width: 144
+        height: 149
+      alignment: 9
+      pivot: {x: .375, y: .147651002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10000
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 278
+        width: 129
+        height: 150
+      alignment: 9
+      pivot: {x: .441860467, y: .140000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10001
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 94
+        width: 148
+        height: 100
+      alignment: 9
+      pivot: {x: .398648649, y: .200000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10002
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2
+        width: 142
+        height: 120
+      alignment: 9
+      pivot: {x: .415492952, y: .216666669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10003
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 877
+        width: 155
+        height: 145
+      alignment: 9
+      pivot: {x: .49032259, y: .0137931034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10004
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 272
+        width: 137
+        height: 151
+      alignment: 9
+      pivot: {x: .459854007, y: -.205298007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10005
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 5
+        width: 186
+        height: 117
+      alignment: 9
+      pivot: {x: .263440847, y: .188034192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10006
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2
+        width: 147
+        height: 123
+      alignment: 9
+      pivot: {x: .326530606, y: .235772356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10007
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 735
+        width: 107
+        height: 133
+      alignment: 9
+      pivot: {x: .401869148, y: .300751865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10008
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 589
+        width: 140
+        height: 130
+      alignment: 9
+      pivot: {x: .285714298, y: .223076925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack2-10009
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 586
+        width: 109
+        height: 150
+      alignment: 9
+      pivot: {x: .422018349, y: .153333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10000
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 432
+        width: 129
+        height: 150
+      alignment: 9
+      pivot: {x: .441860467, y: .140000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10001
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 144
+        width: 127
+        height: 147
+      alignment: 9
+      pivot: {x: .574803174, y: .115646258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10002
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 2
+        width: 165
+        height: 138
+      alignment: 9
+      pivot: {x: .466666669, y: .0869565234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10003
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 7
+        width: 149
+        height: 109
+      alignment: 9
+      pivot: {x: .536912739, y: .137614682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10004
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 12
+        width: 139
+        height: 105
+      alignment: 9
+      pivot: {x: .676258981, y: .590476215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Die-10005
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 10
+        width: 143
+        height: 91
+      alignment: 9
+      pivot: {x: .67832166, y: .527472556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-10000
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 237
+        width: 121
+        height: 163
+      alignment: 9
+      pivot: {x: .363636374, y: .134969324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-10001
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 882
+        width: 109
+        height: 140
+      alignment: 9
+      pivot: {x: .688073397, y: .157142863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-10002
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 601
+        width: 125
+        height: 127
+      alignment: 9
+      pivot: {x: .736000001, y: .22047244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-10003
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 591
+        width: 154
+        height: 129
+      alignment: 9
+      pivot: {x: .616883099, y: .232558146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-10004
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 736
+        width: 156
+        height: 132
+      alignment: 9
+      pivot: {x: .525641024, y: .166666672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt-10005
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 276
+        width: 128
+        height: 151
+      alignment: 9
+      pivot: {x: .3984375, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10000
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 584
+        width: 124
+        height: 151
+      alignment: 9
+      pivot: {x: .379032254, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10001
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 871
+        width: 121
+        height: 151
+      alignment: 9
+      pivot: {x: .380165279, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10002
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 582
+        width: 117
+        height: 152
+      alignment: 9
+      pivot: {x: .376068383, y: .144736841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10003
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 870
+        width: 115
+        height: 152
+      alignment: 9
+      pivot: {x: .382608682, y: .144736841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10004
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 260
+        width: 114
+        height: 154
+      alignment: 9
+      pivot: {x: .394736856, y: .155844152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10005
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 869
+        width: 116
+        height: 153
+      alignment: 9
+      pivot: {x: .396551728, y: .150326803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10006
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 869
+        width: 120
+        height: 153
+      alignment: 9
+      pivot: {x: .400000006, y: .143790856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10007
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 261
+        width: 123
+        height: 153
+      alignment: 9
+      pivot: {x: .398373991, y: .143790856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle-10008
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 430
+        width: 125
+        height: 151
+      alignment: 9
+      pivot: {x: .384000003, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10000
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 472
+        width: 168
+        height: 137
+      alignment: 9
+      pivot: {x: .386904776, y: .153284669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10001
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2
+        width: 156
+        height: 141
+      alignment: 9
+      pivot: {x: .429487169, y: -.120567374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10002
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 454
+        width: 157
+        height: 144
+      alignment: 9
+      pivot: {x: .458598733, y: -.416666657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10003
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 284
+        width: 164
+        height: 149
+      alignment: 9
+      pivot: {x: .469512194, y: -.456375837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10004
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2
+        width: 168
+        height: 141
+      alignment: 9
+      pivot: {x: .47023809, y: -.53191489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10005
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 73
+        width: 167
+        height: 162
+      alignment: 9
+      pivot: {x: .455089808, y: -.19135803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump-10006
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 729
+        width: 167
+        height: 145
+      alignment: 9
+      pivot: {x: .407185614, y: .144827589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10000
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 334
+        width: 168
+        height: 136
+      alignment: 9
+      pivot: {x: .386904776, y: .14705883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10001
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 594
+        width: 165
+        height: 128
+      alignment: 9
+      pivot: {x: .369696975, y: .09375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10002
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 590
+        width: 161
+        height: 129
+      alignment: 9
+      pivot: {x: .347826093, y: .100775197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10003
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 740
+        width: 161
+        height: 130
+      alignment: 9
+      pivot: {x: .341614902, y: .169230774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10004
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 600
+        width: 163
+        height: 127
+      alignment: 9
+      pivot: {x: .349693239, y: .0944881886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10005
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 733
+        width: 167
+        height: 134
+      alignment: 9
+      pivot: {x: .371257484, y: .0970149264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Run-10006
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 196
+        width: 168
+        height: 136
+      alignment: 9
+      pivot: {x: .386904776, y: .14705883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10000
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 402
+        width: 193
+        height: 304
+      alignment: 9
+      pivot: {x: .243523315, y: .0723684207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 395
+        width: 210
+        height: 311
+      alignment: 9
+      pivot: {x: .247619048, y: .0964630246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 708
+        width: 239
+        height: 314
+      alignment: 9
+      pivot: {x: .234309629, y: .13694267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10003
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 733
+        width: 264
+        height: 289
+      alignment: 9
+      pivot: {x: .231060609, y: .16955018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10004
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 83
+        width: 280
+        height: 310
+      alignment: 9
+      pivot: {x: .18928571, y: .293548375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10005
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 872
+        width: 433
+        height: 150
+      alignment: 9
+      pivot: {x: .108545035, y: .25999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10006
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 579
+        width: 424
+        height: 152
+      alignment: 9
+      pivot: {x: .11084906, y: .256578952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10007
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 416
+        width: 423
+        height: 155
+      alignment: 9
+      pivot: {x: .113475174, y: .251612902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10008
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 103
+        width: 420
+        height: 154
+      alignment: 9
+      pivot: {x: .10952381, y: .253246754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10009
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 870
+        width: 415
+        height: 152
+      alignment: 9
+      pivot: {x: .103614457, y: .256578952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10010
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 442
+        width: 412
+        height: 147
+      alignment: 9
+      pivot: {x: .0995145664, y: .265306115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10011
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 435
+        width: 414
+        height: 149
+      alignment: 9
+      pivot: {x: .0990338176, y: .261744976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10012
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 150
+        width: 405
+        height: 146
+      alignment: 9
+      pivot: {x: .1037037, y: .267123282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10013
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 875
+        width: 416
+        height: 147
+      alignment: 9
+      pivot: {x: .11057692, y: .265306115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10014
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 727
+        width: 403
+        height: 146
+      alignment: 9
+      pivot: {x: .0992555842, y: .267123282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10015
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 291
+        width: 415
+        height: 147
+      alignment: 9
+      pivot: {x: .110843375, y: .265306115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10016
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 293
+        width: 404
+        height: 147
+      alignment: 9
+      pivot: {x: .101485148, y: .265306115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10017
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 145
+        width: 413
+        height: 146
+      alignment: 9
+      pivot: {x: .106537528, y: .267123282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10018
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 2
+        width: 405
+        height: 146
+      alignment: 9
+      pivot: {x: .1037037, y: .267123282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10019
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 142
+        width: 412
+        height: 147
+      alignment: 9
+      pivot: {x: .104368933, y: .265306115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10020
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 446
+        width: 408
+        height: 146
+      alignment: 9
+      pivot: {x: .110294119, y: .267123282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10021
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 724
+        width: 415
+        height: 148
+      alignment: 9
+      pivot: {x: .110843375, y: .263513505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10022
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 298
+        width: 407
+        height: 146
+      alignment: 9
+      pivot: {x: .108108111, y: .267123282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10023
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 127
+        width: 422
+        height: 149
+      alignment: 9
+      pivot: {x: .106635071, y: .261744976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10024
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 281
+        width: 422
+        height: 149
+      alignment: 9
+      pivot: {x: .106635071, y: .261744976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10025
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 130
+        width: 422
+        height: 149
+      alignment: 9
+      pivot: {x: .106635071, y: .261744976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10026
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 722
+        width: 422
+        height: 148
+      alignment: 9
+      pivot: {x: .106635071, y: .263513505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10027
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 874
+        width: 422
+        height: 148
+      alignment: 9
+      pivot: {x: .106635071, y: .263513505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10028
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 440
+        width: 422
+        height: 148
+      alignment: 9
+      pivot: {x: .106635071, y: .263513505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillE-10029
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 440
+        width: 422
+        height: 148
+      alignment: 9
+      pivot: {x: .106635071, y: .263513505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10000
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 259
+        width: 141
+        height: 155
+      alignment: 9
+      pivot: {x: .411347508, y: .167741939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10001
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 78
+        width: 121
+        height: 159
+      alignment: 9
+      pivot: {x: .429752052, y: .207547173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10002
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 721
+        width: 121
+        height: 149
+      alignment: 9
+      pivot: {x: .487603307, y: .147651002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10003
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 730
+        width: 131
+        height: 145
+      alignment: 9
+      pivot: {x: .58015269, y: .151724145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10004
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 886
+        width: 139
+        height: 136
+      alignment: 9
+      pivot: {x: .633093536, y: .161764711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10005
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 591
+        width: 141
+        height: 129
+      alignment: 9
+      pivot: {x: .666666687, y: .209302321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10006
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 2
+        width: 139
+        height: 126
+      alignment: 9
+      pivot: {x: .726618707, y: .206349209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10007
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 737
+        width: 148
+        height: 131
+      alignment: 9
+      pivot: {x: .662162185, y: .167938933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10008
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 2
+        width: 151
+        height: 138
+      alignment: 9
+      pivot: {x: .649006605, y: .166666672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10009
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 597
+        width: 144
+        height: 128
+      alignment: 9
+      pivot: {x: .694444418, y: .171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10010
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 323
+        width: 146
+        height: 138
+      alignment: 9
+      pivot: {x: .643835604, y: .173913047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10011
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 760
+        width: 135
+        height: 124
+      alignment: 9
+      pivot: {x: .629629612, y: .17741935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10012
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 594
+        width: 165
+        height: 128
+      alignment: 9
+      pivot: {x: .551515162, y: .15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10013
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 604
+        width: 158
+        height: 124
+      alignment: 9
+      pivot: {x: .537974656, y: .17741935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10014
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 2
+        width: 163
+        height: 140
+      alignment: 9
+      pivot: {x: .404907972, y: .142857149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10015
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 876
+        width: 159
+        height: 146
+      alignment: 9
+      pivot: {x: .32704404, y: .150684938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10016
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 874
+        width: 123
+        height: 148
+      alignment: 9
+      pivot: {x: .373983741, y: .148648649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10017
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 874
+        width: 132
+        height: 148
+      alignment: 9
+      pivot: {x: .431818187, y: .148648649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10018
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 118
+        width: 140
+        height: 151
+      alignment: 9
+      pivot: {x: .414285719, y: .152317882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillQ-10019
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 425
+        width: 141
+        height: 152
+      alignment: 9
+      pivot: {x: .411347508, y: .157894731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10000
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 119
+        width: 130
+        height: 151
+      alignment: 9
+      pivot: {x: .36153847, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10001
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 271
+        width: 142
+        height: 152
+      alignment: 9
+      pivot: {x: .387323946, y: .157894731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10002
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 425
+        width: 154
+        height: 152
+      alignment: 9
+      pivot: {x: .435064942, y: .184210524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10003
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 124
+        width: 163
+        height: 150
+      alignment: 9
+      pivot: {x: .472392648, y: .200000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10004
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 429
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: .462121218, y: .158940405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10005
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 578
+        width: 106
+        height: 153
+      alignment: 9
+      pivot: {x: .471698105, y: .189542487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10006
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 304
+        width: 159
+        height: 144
+      alignment: 9
+      pivot: {x: .490566045, y: .201388896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10007
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 880
+        width: 118
+        height: 142
+      alignment: 9
+      pivot: {x: .542372882, y: .183098584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10008
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 881
+        width: 120
+        height: 141
+      alignment: 9
+      pivot: {x: .608333349, y: .170212761}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10009
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 174
+        width: 123
+        height: 139
+      alignment: 9
+      pivot: {x: .626016259, y: .158273384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10010
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 463
+        width: 125
+        height: 139
+      alignment: 9
+      pivot: {x: .648000002, y: .158273384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10011
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 315
+        width: 126
+        height: 139
+      alignment: 9
+      pivot: {x: .682539701, y: .158273384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10012
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 35
+        width: 125
+        height: 137
+      alignment: 9
+      pivot: {x: .720000029, y: .160583943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10013
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 734
+        width: 123
+        height: 133
+      alignment: 9
+      pivot: {x: .756097555, y: .165413529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10014
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 597
+        width: 123
+        height: 128
+      alignment: 9
+      pivot: {x: .780487776, y: .1796875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10015
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 2
+        width: 124
+        height: 123
+      alignment: 9
+      pivot: {x: .790322602, y: .203252032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10016
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 611
+        width: 128
+        height: 124
+      alignment: 9
+      pivot: {x: .8046875, y: .225806445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10017
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2
+        width: 134
+        height: 126
+      alignment: 9
+      pivot: {x: .820895493, y: .246031746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10018
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 597
+        width: 138
+        height: 128
+      alignment: 9
+      pivot: {x: .833333313, y: .265625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10019
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 2
+        width: 142
+        height: 126
+      alignment: 9
+      pivot: {x: .795774639, y: .261904776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10020
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 736
+        width: 175
+        height: 132
+      alignment: 9
+      pivot: {x: .451428562, y: .151515156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10021
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 591
+        width: 146
+        height: 129
+      alignment: 9
+      pivot: {x: .493150681, y: .170542642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10022
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 2
+        width: 147
+        height: 138
+      alignment: 9
+      pivot: {x: .46938777, y: .173913047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10023
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 456
+        width: 143
+        height: 143
+      alignment: 9
+      pivot: {x: .447552443, y: .188811183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10024
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 450
+        width: 138
+        height: 145
+      alignment: 9
+      pivot: {x: .427536219, y: .172413796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10025
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 877
+        width: 130
+        height: 145
+      alignment: 9
+      pivot: {x: .400000006, y: .151724145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkillW-10026
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 583
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: .371212125, y: .145695359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
