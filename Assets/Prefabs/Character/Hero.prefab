@@ -859,6 +859,8 @@ MonoBehaviour:
   SkillQJumpSpeed: 7
   fireStopTime: .200000003
   PlayerUI: {fileID: 0}
+  Hash: {fileID: 0}
+  MaxJumpStep: 3
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1276,8 +1278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: d5ee1b7d2238e4c47bbc462d55ab1862, type: 3}
-  AttackSpeed: 4
-  JumpSpeed: 7
 --- !u!114 &11489012
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -372,19 +372,19 @@ Prefab:
       objectReference: {fileID: 1264956893}
     - target: {fileID: 22463356, guid: 60453adbd4a5d5b4f84770b0a5dde2dd, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22463356, guid: 60453adbd4a5d5b4f84770b0a5dde2dd, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22463408, guid: 60453adbd4a5d5b4f84770b0a5dde2dd, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22463408, guid: 60453adbd4a5d5b4f84770b0a5dde2dd, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11482068, guid: 60453adbd4a5d5b4f84770b0a5dde2dd, type: 2}
@@ -508,14 +508,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 11400012, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
-      propertyPath: MessageListener
-      value: 
-      objectReference: {fileID: 66073548}
     - target: {fileID: 11400006, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
       propertyPath: PlayerUI
       value: 
       objectReference: {fileID: 62563955}
+    - target: {fileID: 11400006, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
+      propertyPath: Hash
+      value: 
+      objectReference: {fileID: 1395930491}
+    - target: {fileID: 11400012, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
+      propertyPath: MessageListener
+      value: 
+      objectReference: {fileID: 66073548}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfa1c5146086e4e93848fc6f483f7816, type: 2}
   m_IsPrefabParent: 0
@@ -974,6 +978,7 @@ GameObject:
   - 4: {fileID: 1395930489}
   - 114: {fileID: 1395930488}
   - 114: {fileID: 1395930490}
+  - 114: {fileID: 1395930491}
   m_Layer: 0
   m_Name: GameData
   m_TagString: Untagged
@@ -1021,6 +1026,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentIndex: 0
   TotalCount: 1
+--- !u!114 &1395930491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395930487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50a69e9574a79140993a2ef98c0d828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IdleState: 0
+  RunState: 0
+  BornState: 0
+  JumpState: 0
+  Jump1State: 0
+  AttackState: 0
+  AttackStayState: 0
+  Attack1State: 0
+  Attack2State: 0
+  Attack3State: 0
+  Attack4State: 0
+  SkillQState: 0
+  SkillEState: 0
+  HurtState: 0
+  ShortState: 0
+  DuangState: 0
+  DuangeDieState: 0
+  DieState: 0
+  DoesJump: 0
+  Speed: 0
+  IsDie: 0
+  DoesAttack: 0
+  DoesHurt: 0
+  CurrentStateTime: 0
+  IsDuang: 0
+  IsDuangeDie: 0
+  IsSkillQ: 0
+  IsSkillW: 0
+  IsSkillE: 0
 --- !u!1 &1691112978
 GameObject:
   m_ObjectHideFlags: 0

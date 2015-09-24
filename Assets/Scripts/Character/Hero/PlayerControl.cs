@@ -36,6 +36,10 @@ public class PlayerControl : MonoBehaviour
 
     public PlayerUIController PlayerUI;
 
+    public HashIDs Hash;
+
+    public int MaxJumpStep;
+
 	/// <summary>
 	/// Horizontal movement.
 	/// </summary>
@@ -68,6 +72,7 @@ public class PlayerControl : MonoBehaviour
     private CharacterHealth characterHealth;
     private AbstractInput inputManager;
     private Rigidbody2D rigid2D;
+    private int jumpCounter;
 
     void Awake()
     {
@@ -100,10 +105,16 @@ public class PlayerControl : MonoBehaviour
         // The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
         var grounded = Physics2D.Linecast(transform.position, groundChecker.position, LayerMask.GetMask("Ground"));
 
+        if (grounded)
+        {
+            jumpCounter = 0;
+        }
+
         // If the jump button is pressed and the player is grounded then the player should jump.
-        if (inputManager.DoesJump() && !fire && (grounded || IsJumpState()))
+        if (inputManager.DoesJump() && !fire && (jumpCounter < MaxJumpStep))
         {
             jump = true;
+            ++jumpCounter;
         }
 
         if (inputManager.DoesFire() && grounded)
@@ -160,11 +171,6 @@ public class PlayerControl : MonoBehaviour
         {
             if (CouldJumpState())
             {
-				var hash = anim.GetCurrentAnimatorStateInfo(0).fullPathHash;
-				var jumpHash = Animator.StringToHash("Base Layer.Jump");
-				var jump2Hash = Animator.StringToHash("Base Layer.Jump 1");
-				Debug.Log("------------Could jump. old " + hash + ", jump: " + jumpHash + ", jump 1;" + jump2Hash);
-
                 // Set the Jump animator trigger parameter.
                 anim.SetTrigger("Jump");
             }
@@ -285,23 +291,23 @@ public class PlayerControl : MonoBehaviour
 
 	private bool IsSkillQState()
 	{
-		return IsState("Base Layer.SkillQ");
+		return IsState(Hash.SkillQState);
 	}
 
 	private bool IsJumpState()
 	{
-		return IsState("Base Layer.Jump") || IsState("Base Layer.Jump 1");
+		return IsState(Hash.JumpState);
 	}
 
     private bool CouldJumpState()
     {
-		return (IsState("Base Layer.Idle")) || (IsState("Base Layer.Run")) || (IsState("Base Layer.Jump"));
+        return (IsState(Hash.IdleState)) || (IsState(Hash.RunState)) || (IsState(Hash.JumpState));
     }
 
-	private bool IsState(string state)
+	private bool IsState(int hash)
 	{
 		var result = anim.GetCurrentAnimatorStateInfo(0)
-			.fullPathHash.Equals(Animator.StringToHash(state));
+			.fullPathHash.Equals(hash);
 		return result;
 	}
 }
