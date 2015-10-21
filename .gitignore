@@ -64,3 +64,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/ProjectVersion.txt
