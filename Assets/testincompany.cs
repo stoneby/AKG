@@ -10,6 +10,7 @@ public class testincompany : MonoBehaviour
         ;
         ;
         ;
+        ;
     }
 
     // Update is called once per frame
