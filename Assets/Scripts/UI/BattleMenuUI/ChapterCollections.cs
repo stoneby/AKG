@@ -6,16 +6,22 @@ using UnityEngine.UI;
 
 public class ChapterCollections : MonoBehaviour
 {
-    public List<ChapterController> ChapterControllerList;
+    public List<ChapterController> m_ChapterControllerList;
     public RectTransform m_RectTransform;
     public HorizontalLayoutGroup m_Grid;
+    public ContentSizeFitter m_Fitter;
 
     public float MovingDistance
     {
-        get { return ChapterControllerList.First().GetComponent<RectTransform>().rect.width * 3; }
+        get { return m_ChapterControllerList.First().GetComponent<RectTransform>().rect.width * 3; }
     }
 
     public static bool IsChapterOpen = false;
+
+    public void UpdateFitter()
+    {
+        m_Fitter.SetLayoutHorizontal();
+    }
 
     void Awake()
     {
@@ -27,6 +33,11 @@ public class ChapterCollections : MonoBehaviour
         if (m_Grid == null)
         {
             m_Grid = GetComponent<HorizontalLayoutGroup>();
+        }
+
+        if (m_Fitter == null)
+        {
+            m_Fitter = GetComponent<ContentSizeFitter>();
         }
     }
 }

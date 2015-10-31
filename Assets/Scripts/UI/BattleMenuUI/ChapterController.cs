@@ -22,10 +22,10 @@ public class ChapterController : MonoBehaviour
             m_ChapterCollections.m_Grid.enabled = false;
             TollsRect.gameObject.SetActive(true);
 
-            m_ChapterCollections.ChapterControllerList.Where(item => item != this).ToList().ForEach(item =>
-            {
-                item.MoveToOpen();
-            });
+            m_ChapterCollections.m_ChapterControllerList.Where(item => item.ChapterID > ChapterID).ToList().ForEach(item =>
+              {
+                  item.MoveToOpen();
+              });
         }
         else
         {
@@ -33,7 +33,7 @@ public class ChapterController : MonoBehaviour
 
             TollsRect.gameObject.SetActive(false);
 
-            m_ChapterCollections.ChapterControllerList.Where(item => item != this).ToList().ForEach(item =>
+            m_ChapterCollections.m_ChapterControllerList.Where(item => item.ChapterID > ChapterID).ToList().ForEach(item =>
             {
                 item.MoveToClose();
             });
@@ -53,7 +53,7 @@ public class ChapterController : MonoBehaviour
 
     public void OnOpenComplete()
     {
-
+        m_ChapterCollections.UpdateFitter();
     }
 
     public void MoveToClose()
@@ -70,6 +70,7 @@ public class ChapterController : MonoBehaviour
     public void OnCloseComplete()
     {
         m_ChapterCollections.m_Grid.enabled = true;
+        m_ChapterCollections.UpdateFitter();
     }
 
     void OnDestroy()
