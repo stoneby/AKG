@@ -11,7 +11,7 @@ Shader "Unlit/Transparent Colored"
 
 		Tags
 		{
-			"Queue" = "Transparent"
+			"Queue" = "Transparent+200"
 			"IgnoreProjector" = "True"
 			"RenderType" = "Transparent"
 		}

@@ -6,12 +6,13 @@ public class LevelInitializer : MonoBehaviour
 	
 	public GameObject HeroPrefab;
 
+	public Vector3 heroHideLocation = new Vector3(-15, 15, 0);
+
 	public delegate void LoadComplete();
 	public LoadComplete OnLoadComplete;
 
 	private GameObject hero;
 	private Vector3 heroBornLocation;
-	private Vector3 heroHideLocation = new Vector3(-15, 15, 0);
 
 	public void Load()
 	{
